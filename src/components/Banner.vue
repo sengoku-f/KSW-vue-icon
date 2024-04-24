@@ -17,7 +17,7 @@
         <h3>引用</h3>
         <div class="code-block">
           <div class="code-line">
-            <code>import { IconHome } from 'ksw-vue-icon'</code>
+            <code>import { IconName } from 'ksw-vue-icon'</code>
           </div>
           <div class="code-line">
             <span class="code-comment">// 引入样式 （整个项目只需1次）</span>
@@ -31,13 +31,13 @@
         <h3>使用</h3>
         <div class="code-block">
           <div class="code-line">
-            <code>&lt;IconHome :size="36" color="#009C22" /&gt;</code>
+            <code>&lt;IconName :size="24" color="#333" /&gt;</code>
           </div>
           <div class="code-line">
             <span class="code-comment">// 设置 spin 为 true 使图标旋转</span>
           </div>
           <div class="code-line">
-            <code>&lt;IconLoading :size="36" color="#009C22" :spin="true" /&gt;</code>
+            <code>&lt;IconLoading :size="24" color="#333" :spin="true" /&gt;</code>
           </div>
         </div>
       </div>

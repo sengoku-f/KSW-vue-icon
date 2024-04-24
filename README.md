@@ -26,13 +26,13 @@ yarn add ksw-vue-icon
 ### 引用
 
 ```
-import { IconHome } from 'ksw-vue-icon'
+import { IconName } from 'ksw-vue-icon'
 ```
 
 ### 用法
 
 ```
-<IconImage :size="36" color="#009C22" />
+<IconImage :size="24" color="#333" />
 ```
 
 ## 展示页配置
