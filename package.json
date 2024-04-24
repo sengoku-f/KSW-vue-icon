@@ -1,6 +1,6 @@
 {
   "name": "ksw-vue-next-icon",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "type": "commonjs",
   "main": "packages/index.es.js",
