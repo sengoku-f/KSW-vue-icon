@@ -47,6 +47,7 @@ export default {
         document.execCommand("copy");
       }
       document.body.removeChild(input);
+      this.$message.success('This is a success message')
       this.$message.success("复制成功");
     },
   },

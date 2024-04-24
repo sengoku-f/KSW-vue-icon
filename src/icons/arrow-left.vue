@@ -2,7 +2,7 @@
   <template>
     <span :class="iconClasses">
       <svg
-        xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" aria-hidden="true" v-on="$listeners" :fill="color"
+        xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" aria-hidden="true" v-bind="$attrs" :fill="color"
       >
         <defs><clipPath id="master_svg0_3069_6492"><rect x="0" y="0" width="24" height="24" rx="0"></rect></clipPath><clipPath id="master_svg1_3105_3981"><rect x="0" y="0" width="24" height="24" rx="0"></rect></clipPath></defs><g clip-path="url(#master_svg0_3069_6492)"><g clip-path="url(#master_svg1_3105_3981)"></g><g transform="matrix(0,1,-1,0,18,-10)"><g><g><path d="M22,10.523399999999999L15.02422,4.159531C14.911577,4.0567654,14.766101,4,14.615385,4C14.275517,4,14,4.282768,14,4.631579C14,4.811982,14.0751679,4.983774,14.206545,5.10363L21.591160000000002,11.84047C21.82432,12.05318,22.17568,12.05318,22.408839999999998,11.84047L29.7929,5.10416L29.7929,5.10416C29.924799999999998,4.983774,30,4.811982,30,4.631579C30,4.282768,29.7245,4,29.3846,4C29.2339,4,29.0884,4.0567654,28.9758,4.159531L28.9758,4.159531L22,10.523399999999999Z" fill-rule="evenodd" fill-opacity="1"></path></g></g></g></g>
       </svg>
