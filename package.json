@@ -1,0 +1,30 @@
+{
+  "name": "my-vue3-app",
+  "version": "0.0.0",
+  "private": true,
+  "type": "commonjs",
+  "main": "bundle/index.common.js",
+  "files": [
+    "es",
+    "styles"
+  ],
+  "scripts": {
+    "generate": "sudo rm -rf src/icons && node bin/build.js",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-bundle": "vite build",
+    "lint": "vue-cli-service lint",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "svgo": "1.3.2",
+    "uppercamelcase": "^3.0.0",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.8"
+  }
+}

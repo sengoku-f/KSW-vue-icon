@@ -1,0 +1,39 @@
+.item div {
+  width: 100%;
+  white-space: nowrap; /* 不换行 */
+  overflow: hidden; /* 超出部分隐藏 */
+  text-overflow: ellipsis; /* 使用省略符号 */
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+.ksw-icon {
+  display: inline-block;
+  color: inherit;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ksw-icon-spin svg {
+  animation: ksw-icon-spin 1s infinite linear;
+}
+.ksw-icon-rtl {
+  transform: scaleX(-1);
+}
+@keyframes ksw-icon-spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes ksw-icon-spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
