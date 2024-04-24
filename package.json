@@ -1,20 +1,20 @@
 {
-  "name": "ksw-vue-next-icon",
-  "version": "0.0.1",
-  "private": true,
+  "name": "ksw-vue-icon",
+  "version": "2.0.0",
+  "description": "Vue Icon",
   "type": "commonjs",
   "main": "packages/index.es.js",
   "files": [
     "styles"
   ],
-  "repository": "https://github.com/sengoku-f/KSW-vue-next-icon",
+  "repository": "https://github.com/sengoku-f/KSW-vue-icon",
   "scripts": {
     "generate": "sudo rm -rf src/icons && node bin/build.js",
     "dev": "vite",
     "build": "vite build",
     "build-packages": "BUILD=packages vite build",
     "preview": "vite preview",
-    "lint": "vue-cli-service lint"
+    "lint": "vite lint"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
