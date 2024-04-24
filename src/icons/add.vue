@@ -1,0 +1,38 @@
+
+  <template>
+    <span :class="iconClasses">
+      <svg
+        xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" aria-hidden="true" v-on="$listeners" :fill="color"
+      >
+        <defs><clipPath id="master_svg0_234_18041"><rect x="0" y="0" width="24" height="24" rx="0"></rect></clipPath><clipPath id="master_svg1_3105_3539"><rect x="0" y="0" width="24" height="24" rx="0"></rect></clipPath></defs><g clip-path="url(#master_svg0_234_18041)"><g clip-path="url(#master_svg1_3105_3539)"></g><g transform="matrix(0,1,-1,0,16,-10)"><path d="M29.875,3L14.125,3C13.50368,3,13,3.447715,13,4C13,4.55228,13.50368,5,14.125,5L29.875,5C30.4963,5,31,4.55228,31,4C31,3.447715,30.4963,3,29.875,3Z" fill-rule="evenodd" fill-opacity="1"></path></g><g><path d="M19.875,11L4.125,11C3.50368,11,3,11.447715,3,12C3,12.55228,3.50368,13,4.125,13L19.875,13C20.4963,13,21,12.55228,21,12C21,11.447715,20.4963,11,19.875,11Z" fill-rule="evenodd" fill-opacity="1"></path></g></g>
+      </svg>
+    </span>
+  </template>
+  <script>
+    export default {
+      name: 'IconAdd',
+      props: {
+        size: {
+          type: [Number, String],
+          default: '1em'
+        },
+        color: {
+          type: String,
+          default: 'currentColor'
+        },
+        spin: {
+          type: Boolean,
+          default: false
+        }
+      },
+      computed: {
+        iconClasses() {
+          return [
+            'ksw' + '-icon',
+            'ksw' + '-icon-' + this.$options.name.toLowerCase(),
+            { ['ksw' + '-icon-spin']: this.spin }
+          ];
+        }
+      }
+    };
+  </script>

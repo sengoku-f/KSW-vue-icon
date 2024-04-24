@@ -1,4 +1,4 @@
-const Svgo = require('svgo');
+const { optimize: svgoOptimize } = require('svgo');
 const cheerio = require('cheerio')
 const framework = process.env.npm_package_config_framework || 'react'
 
@@ -21,20 +21,22 @@ function optimize(svg, style) {
   // 如果 style 是 'color'，则不移除任何属性；
   // 如果 style 是其他值，则移除 'fill' 和 'stroke.*'。
   const removeAttrs = style === 'color' ? '' : '(fill|stroke.*)';
+  console.log(removeAttrs);
 
-  const svgo = new Svgo({
+  const config = {
     plugins: [
-      { convertShapeToPath: false },
-      { mergePaths: false },
-      { removeAttrs: { attrs: removeAttrs } },
-      { removeTitle: true },
+      { name: 'convertShapeToPath', active: false },
+      { name: 'mergePaths', active: false },
+      { name: 'removeAttrs', params: { attrs: removeAttrs } },
+      { name: 'removeTitle' },
     ],
-  });
+  };
+  
 
-  return new Promise(resolve => {
-    svgo.optimize(svg).then(({ data }) => resolve(data));
-  });
+  const { data } = svgoOptimize(svg, config);
+  return data;
 }
+
 
 /**
  * 移除 SVG 元素
@@ -53,19 +55,16 @@ function removeSVGElement(svg) {
  * @returns {Promise<string>} - 处理后的 SVG 字符串
  */
 async function processSvg(svg, style) {
-  const optimized = await optimize(svg, style)
-    // 移除由 prettier 插入的分号
-    // 因为 prettier 认为它正在格式化 JSX 而不是 HTML
-    .then(svg => svg.replace(/;/g, ''))
-    .then(removeSVGElement)
-    .then(svg =>
-      framework==='react' ?
-      // 如果框架是 react，将属性名转换为驼峰形式
-      svg.replace(/([a-z]+)-([a-z]+)=/g, (_, a, b) => `${a}${CamelCase(b)}=`) :
-      // 如果框架不是 react，不做任何修改
-      svg
-    )
-  return optimized;
+  const optimizedSvg = optimize(svg, style);
+  let result = optimizedSvg.replace(/;/g, ''); // 移除由 prettier 插入的分号
+  result = removeSVGElement(result);
+  result = framework==='react' ?
+    // 如果框架是 react，将属性名转换为驼峰形式
+    result.replace(/([a-z]+)-([a-z]+)=/g, (_, a, b) => `${a}${CamelCase(b)}=`) :
+    // 如果框架不是 react，不做任何修改
+    result;
+  return result;
 }
+
 
 module.exports = processSvg;

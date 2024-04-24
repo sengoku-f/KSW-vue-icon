@@ -1,48 +1,99 @@
-<script setup>
-import '../styles/icon.css';
-import {IconAdd, IconArrowBottom, IconArrowLeft} from '../dist/my-library.es.js'
-</script>
-
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-    </div>
-  </header>
-
-  <main>
-    <IconAdd :size="36" color="#009C22" />
-  </main>
-  <IconArrowBottom :size="36" color="#009C22" />
-  <IconArrowLeft :size="36" color="#009C22" :spin="true" />
+  <div class="container">
+    <Banner/>
+    <!-- 分割线 -->
+    <div style="margin: 20px 0; border-top: 1px solid #e8e8e8;"></div>
+    <ul class="wrapper">
+      <li
+        class="item"
+        v-for="iconComponentName in iconNames"
+        :key="iconComponentName"
+        :title="iconComponentName"
+        @click="copyName(iconComponentName)"
+      >
+        <component
+          :is="iconComponentName"
+          :size="36"
+        />
+        <div>{{iconComponentName}}</div>
+      </li>
+    </ul>
+  </div>
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-}
+<script>
+import "../styles/icon.css";
+import Banner from "./components/Banner.vue";
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
+export default {
+  name: "App",
+  components: {
+    Banner,
+  },
+  data() {
+    return {
+      iconNames: this.ICON_NAMES,
+    };
+  },
+  methods: {
+    copyName(name) {
+      const input = document.createElement("input");
+      input.setAttribute("readonly", "readonly");
+      input.setAttribute("value", name);
+      document.body.appendChild(input);
+      input.setSelectionRange(0, 9999);
+      input.select();
+      if (document.execCommand("copy")) {
+        document.execCommand("copy");
+      }
+      document.body.removeChild(input);
+      this.$message.success("复制成功");
+    },
+  },
+};
+</script>
 
-@media (min-width: 1024px) {
-  header {
+<style lang="css">
+  *{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  body{
+    font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+  }
+  .container {
+    font-family: "Avenir", Helvetica, Arial, sans-serif;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  .wrapper {
+    list-style: none;
     display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+    flex-flow: wrap;
+    margin: 0;
+    padding: 15px 0;
+    gap: 1rem;
+    justify-content: center;
   }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
+  .item {
     display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
+    gap: 0.75rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 160px;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #333333;
+    transition: background-color 0.2s;
   }
-}
+  .item:hover{
+    background-color: rgb(242, 243, 245);
+  }
 </style>
+
