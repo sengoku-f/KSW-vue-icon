@@ -18,6 +18,7 @@ const baseConfig = {
 const siteConfig = {
   ...baseConfig,
   build: {
+    base: '/KSW-vue-icon/',
     outDir: 'dist',
     emptyOutDir: true,
   }
