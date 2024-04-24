@@ -8,6 +8,7 @@ const baseConfig = {
   plugins: [
     vue(),
   ],
+  base: './',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
@@ -18,7 +19,6 @@ const baseConfig = {
 const siteConfig = {
   ...baseConfig,
   build: {
-    base: '/KSW-vue-icon/',
     outDir: 'dist',
     emptyOutDir: true,
   }
