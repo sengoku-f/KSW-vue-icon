@@ -1,6 +1,6 @@
 {
   "name": "ksw-vue-icon",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Vue Icon",
   "type": "commonjs",
   "main": "packages/index.es.js",

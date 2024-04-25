@@ -1,6 +1,6 @@
-const { optimize: svgoOptimize } = require('svgo');
-const cheerio = require('cheerio')
-const framework = process.env.npm_package_config_framework || 'react'
+const { optimize: svgoOptimize } = require("svgo");
+const cheerio = require("cheerio");
+const framework = process.env.npm_package_config_framework || "react";
 
 /**
  * 将字符串转换为驼峰形式
@@ -8,7 +8,7 @@ const framework = process.env.npm_package_config_framework || 'react'
  * @returns {string} - 驼峰形式的字符串
  */
 function CamelCase(str) {
-  return str.replace(/(^|-)([a-z])/g, (_, __, c) => c.toUpperCase())
+  return str.replace(/(^|-)([a-z])/g, (_, __, c) => c.toUpperCase());
 }
 
 /**
@@ -20,23 +20,26 @@ function CamelCase(str) {
 function optimize(svg, style) {
   // 如果 style 是 'color'，则不移除任何属性；
   // 如果 style 是其他值，则移除 'fill' 和 'stroke.*'。
-  const removeAttrs = style === 'color' ? '' : '(fill|stroke.*)';
+  const removeAttrs = style === "color" ? "" : "(fill|stroke.*)";
   console.log(removeAttrs);
 
   const config = {
     plugins: [
-      { name: 'convertShapeToPath', active: false },
-      { name: 'mergePaths', active: false },
-      { name: 'removeAttrs', params: { attrs: removeAttrs } },
-      { name: 'removeTitle' },
+      {
+        name: "convertShapeToPath",
+        active: false,
+        params: { convertArcs: true },
+      },
+      { name: "mergePaths", active: false },
+      { name: "removeAttrs", params: { attrs: removeAttrs } },
+      { name: "removeTitle" },
+      { name: "cleanupIds" },
     ],
   };
-  
 
   const { data } = svgoOptimize(svg, config);
   return data;
 }
-
 
 /**
  * 移除 SVG 元素
@@ -45,7 +48,7 @@ function optimize(svg, style) {
  */
 function removeSVGElement(svg) {
   const $ = cheerio.load(svg);
-  return $('body').children().html();
+  return $("body").children().html();
 }
 
 /**
@@ -56,15 +59,17 @@ function removeSVGElement(svg) {
  */
 async function processSvg(svg, style) {
   const optimizedSvg = optimize(svg, style);
-  let result = optimizedSvg.replace(/;/g, ''); // 移除由 prettier 插入的分号
-  result = removeSVGElement(result);
-  result = framework==='react' ?
-    // 如果框架是 react，将属性名转换为驼峰形式
-    result.replace(/([a-z]+)-([a-z]+)=/g, (_, a, b) => `${a}${CamelCase(b)}=`) :
-    // 如果框架不是 react，不做任何修改
-    result;
+  result = removeSVGElement(optimizedSvg);
+  result =
+    framework === "react"
+      ? // 如果框架是 react，将属性名转换为驼峰形式
+        result.replace(
+          /([a-z]+)-([a-z]+)=/g,
+          (_, a, b) => `${a}${CamelCase(b)}=`
+        )
+      : // 如果框架不是 react，不做任何修改
+        result;
   return result;
 }
-
 
 module.exports = processSvg;

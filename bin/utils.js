@@ -7,8 +7,8 @@ const upperCamelCase = require('uppercamelcase')
  * @returns {Object} 包含解析后的名称、组件名称和样式的对象
  */
 const parseName = (name, defaultStyle) => {
-  // 将名称中的所有 '/' 替换为 '-'
-  const cleanedName = name.replace(/\//g, '-')
+  // 将名称中的所有 '/' '_' ' ' 替换为 '-'
+  const cleanedName = name.replaceAll('/', '-').replaceAll('_', '-').replaceAll(' ', '-')
   // 将处理后的名称按 '-' 切分为数组
   const nameSlices = cleanedName.split('-')
   // 取数组的最后一个元素作为样式
