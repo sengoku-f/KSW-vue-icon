@@ -20,20 +20,31 @@ function CamelCase(str) {
 function optimize(svg, style) {
   // 如果 style 是 'color'，则不移除任何属性；
   // 如果 style 是其他值，则移除 'fill' 和 'stroke.*'。
-  const removeAttrs = style === "color" ? "" : "(fill|stroke.*)";
+  // 匹配所有元素的 fill 和 stroke 属性, 排除 url 开头的值
+  const removeAttrs = style === "color" ? "" : "*:(fill|stroke.*):^(?!url).*";
   console.log(removeAttrs);
 
   const config = {
     plugins: [
       {
-        name: "convertShapeToPath",
-        active: false,
-        params: { convertArcs: true },
+        name: "preset-default",
+        params: {
+          overrides: {
+            convertShapeToPath: false,
+            mergePaths: false,
+            // inlineStyles: {
+            //   applyTransformsStroked: false,
+            // },
+          },
+        },
       },
-      { name: "mergePaths", active: false },
-      { name: "removeAttrs", params: { attrs: removeAttrs } },
-      { name: "removeTitle" },
-      { name: "cleanupIds" },
+      // 删除属性
+      {
+        name: "removeAttrs",
+        params: {
+          attrs: removeAttrs,
+        },
+      },
     ],
   };
 
