@@ -1,3 +1,30 @@
+<script setup>
+import "../styles/icon.css";
+import Banner from "./components/Banner.vue";
+import { ref, inject } from 'vue';
+
+const iconNames = ref(inject('ICON_NAMES'));
+const Message = inject('$message')
+
+function copyName(name) {
+  // 构建包含名称的 Vue 组件字符串
+  // const vueComponent = `<${name} />`;
+  // 创建一个包含组件字符串的文本输入框
+  const input = document.createElement("input");
+  input.setAttribute("readonly", "readonly");
+  input.value = name;
+  // 添加输入框到 DOM 中
+  document.body.appendChild(input);
+  // 选择并复制输入框的值到剪贴板
+  input.select();
+  document.execCommand("copy");
+  // 从 DOM 中移除输入框
+  document.body.removeChild(input);
+  // 显示复制成功消息
+  Message.success("复制成功: " + name, { duration: 3000 });
+}
+</script>
+
 <template>
   <div class="container">
     <Banner />
@@ -18,48 +45,7 @@
   </div>
 </template>
 
-<script>
-import "../styles/icon.css";
-import Banner from "./components/Banner.vue";
-
-export default {
-  name: "App",
-  components: {
-    Banner,
-  },
-  data() {
-    return {
-      iconNames: this.ICON_NAMES,
-    };
-  },
-  methods: {
-    copyName(name) {
-      // 构建包含名称的 Vue 组件字符串
-      const vueComponent = `<${name} :size="24" color="#333" />`;
-
-      // 创建一个包含组件字符串的文本输入框
-      const input = document.createElement("input");
-      input.setAttribute("readonly", "readonly");
-      input.value = vueComponent;
-
-      // 添加输入框到 DOM 中
-      document.body.appendChild(input);
-
-      // 选择并复制输入框的值到剪贴板
-      input.select();
-      document.execCommand("copy");
-
-      // 从 DOM 中移除输入框
-      document.body.removeChild(input);
-
-      // 显示复制成功消息
-      this.$message.success("复制成功: " + vueComponent, { duration: 3000 });
-    },
-  },
-};
-</script>
-
-<style lang="css">
+<style scoped>
 * {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;

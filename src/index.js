@@ -16,6 +16,7 @@ export { default as IconSystemTypeInterchangerColor } from './icons/SystemType-i
 export { default as IconSystemTypeLinuxColor } from './icons/SystemType-linux-color.vue';
 export { default as IconSystemTypeRouterColor } from './icons/SystemType-router-color.vue';
 export { default as IconSystemTypeWindowsColor } from './icons/SystemType-windows-color.vue';
+export { default as IconATest } from './icons/a-test.vue';
 export { default as IconAdd } from './icons/add.vue';
 export { default as IconArrowBottom } from './icons/arrow-bottom.vue';
 export { default as IconArrowLeft } from './icons/arrow-left.vue';

@@ -13,8 +13,8 @@ for (const name in icons) {
   iconNames.push(name);
 }
 
-app.config.globalProperties.$message = Message
-app.config.globalProperties.ICON_NAMES = iconNames
+app.provide('$message', Message)
+app.provide('ICON_NAMES', iconNames)
 
 app.mount("#app");
 
