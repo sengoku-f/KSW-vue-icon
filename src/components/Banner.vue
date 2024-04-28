@@ -9,6 +9,9 @@
             <code>npm install ksw-vue-icon --save</code>
           </div>
           <div class="code-line">
+            <span class="code-comment">or</span>
+          </div>
+          <div class="code-line">
             <code>yarn add ksw-vue-icon</code>
           </div>
         </div>

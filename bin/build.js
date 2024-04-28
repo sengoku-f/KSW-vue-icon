@@ -4,8 +4,8 @@ const path = require('path')
 const fs = require('fs')
 const processSvg = require('./processSvg')
 const { parseName } = require('./utils')
-// 获取默认样式，如果没有设置则为 'stroke'
-const defaultStyle = process.env.npm_package_config_style || 'stroke'
+// 获取默认样式，如果没有设置则为 'fill'
+const defaultStyle = process.env.npm_package_config_style || 'fill'
 const { getAttrs, getElementCode } = require('./template')
 
 // 定义项目的根目录

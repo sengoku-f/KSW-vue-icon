@@ -1,6 +1,5 @@
 const { optimize: svgoOptimize } = require("svgo");
 const cheerio = require("cheerio");
-const framework = process.env.npm_package_config_framework || "react";
 
 /**
  * 将字符串转换为驼峰形式
@@ -11,12 +10,45 @@ function CamelCase(str) {
   return str.replace(/(^|-)([a-z])/g, (_, __, c) => c.toUpperCase());
 }
 
+// 生成唯一id
 function genID() {
   // 生成一串 UUID 字符串
   const uuid = crypto.randomUUID().toString().replaceAll("-", "");
   // 从 UUID 字符串中随机截取 8 个字符
   const start = Math.floor(Math.random() * (uuid.length - 8));
   return uuid.substr(start, 8);
+}
+
+// 自定义插件-处理没有转换的路径
+function convertStroke(node) {
+  // 定义需要查找的元素名称的正则表达式
+  const namePattern = new RegExp("rect|line|circle|ellipse");
+
+  // 定义递归函数来遍历节点及其子节点
+  function traverse(node) {
+    // 如果当前节点名称匹配要查找的元素名称,并且存在stroke
+    if (namePattern.test(node.name) && node.attributes["stroke"]) {
+      // 判断填充是否有颜色,有则删除 fill
+      if (new RegExp("#(?:[0-9a-fA-F]{3,4}){1,2}|(?:rgb|hsl)a?\([^\)]*\)").test(node.attributes["fill"])) {
+        delete node.attributes["fill"]
+      }
+      // 对匹配到的节点执行处理逻辑
+      Object.assign(node.attributes, {
+        "stroke": "currentColor",
+        "stroke-width": node.attributes["stroke-width"],
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+      });
+    }
+
+    // 如果当前节点有子节点，则继续遍历子节点
+    if (node.children) {
+      node.children.forEach((child) => traverse(child));
+    }
+  }
+
+  // 调用递归函数，从根节点开始遍历整个节点树
+  traverse(node);
 }
 
 /**
@@ -29,11 +61,7 @@ function optimize(svg, style) {
   // 如果 style 是 'color'，则不移除任何属性；
   // 如果 style 是其他值，则移除 'fill' 和 'stroke.*'。
   // 排除 rect|line|circle|ellipse 元素的 fill 和 stroke 属性, 排除 url 开头的值
-  const removeAttrs =
-    style === "color"
-      ? ""
-      : "^(?!rect|line|circle|ellipse).*:(fill|stroke.*):^(?!url).*";
-  console.log(removeAttrs);
+  const removeAttrs = style === "color" ? "" : "*:(fill):^(?!url).*";
 
   const config = {
     plugins: [
@@ -51,12 +79,25 @@ function optimize(svg, style) {
           attrs: "clip-path",
         },
       },
+      // 自定义插件
+      {
+        name: "convertStrokeToFill",
+        fn: () => {
+          return {
+            element: {
+              enter(node) {
+                convertStroke(node);
+              },
+            },
+          };
+        },
+      },
       //运行默认优化设置
       {
         name: "preset-default",
         params: {
           overrides: {
-            convertShapeToPath: true,
+            convertShapeToPath: false,
             // mergePaths: false,
             inlineStyles: {},
           },
@@ -96,15 +137,6 @@ function removeSVGElement(svg) {
 async function processSvg(svg, style) {
   const optimizedSvg = optimize(svg, style);
   result = removeSVGElement(optimizedSvg);
-  result =
-    framework === "react"
-      ? // 如果框架是 react，将属性名转换为驼峰形式
-        result.replace(
-          /([a-z]+)-([a-z]+)=/g,
-          (_, a, b) => `${a}${CamelCase(b)}=`
-        )
-      : // 如果框架不是 react，不做任何修改
-        result;
   return result;
 }
 

@@ -1,12 +1,3 @@
-.item div {
-  width: 100%;
-  white-space: nowrap; /* 不换行 */
-  overflow: hidden; /* 超出部分隐藏 */
-  text-overflow: ellipsis; /* 使用省略符号 */
-  text-align: center;
-  font-size: 0.875rem;
-}
-
 .ksw-icon {
   display: inline-block;
   color: inherit;

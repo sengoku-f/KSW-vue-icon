@@ -1,28 +1,24 @@
 <script setup>
 import "../styles/icon.css";
 import Banner from "./components/Banner.vue";
-import { ref, inject } from 'vue';
+import { ref, inject } from "vue";
+import useClipboard from "vue-clipboard3";
+import Message from 'vue-m-message'
 
-const iconNames = ref(inject('ICON_NAMES'));
-const Message = inject('$message')
+const iconNames = ref(inject("ICON_NAMES"));
+const { toClipboard } = useClipboard();
 
-function copyName(name) {
-  // 构建包含名称的 Vue 组件字符串
-  // const vueComponent = `<${name} />`;
-  // 创建一个包含组件字符串的文本输入框
-  const input = document.createElement("input");
-  input.setAttribute("readonly", "readonly");
-  input.value = name;
-  // 添加输入框到 DOM 中
-  document.body.appendChild(input);
-  // 选择并复制输入框的值到剪贴板
-  input.select();
-  document.execCommand("copy");
-  // 从 DOM 中移除输入框
-  document.body.removeChild(input);
-  // 显示复制成功消息
-  Message.success("复制成功: " + name, { duration: 3000 });
-}
+const copyName = async (name) => {
+  try {
+    // 构建包含名称的 Vue 组件字符串
+    // const vueComponent = `<${name} />`;
+    await toClipboard(name);
+    // 显示复制成功消息
+    Message.success("复制成功: " + name, { duration: 3000 });
+  } catch (error) {
+    console.error("复制失败:", error);
+  }
+};
 </script>
 
 <template>
@@ -38,7 +34,7 @@ function copyName(name) {
         :title="iconComponentName"
         @click="copyName(iconComponentName)"
       >
-        <component :is="iconComponentName" :size="36" />
+        <component :is="iconComponentName" />
         <div>{{ iconComponentName }}</div>
       </li>
     </ul>
@@ -78,13 +74,22 @@ body {
   align-items: center;
   width: 160px;
   height: 160px;
+  font-size: 2rem;
   padding: 10px;
   border-radius: 6px;
   cursor: pointer;
-  color: #333333;
+  color: #333;
   transition: background-color 0.2s;
 }
 .item:hover {
   background-color: rgb(242, 243, 245);
+}
+.item div {
+  width: 100%;
+  white-space: nowrap; /* 不换行 */
+  overflow: hidden; /* 超出部分隐藏 */
+  text-overflow: ellipsis; /* 使用省略符号 */
+  text-align: center;
+  font-size: 0.875rem;
 }
 </style>
