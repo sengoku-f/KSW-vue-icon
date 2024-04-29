@@ -1,14 +1,6 @@
 const { optimize: svgoOptimize } = require("svgo");
 const cheerio = require("cheerio");
 
-/**
- * 将字符串转换为驼峰形式
- * @param {string} str - 输入的字符串
- * @returns {string} - 驼峰形式的字符串
- */
-function CamelCase(str) {
-  return str.replace(/(^|-)([a-z])/g, (_, __, c) => c.toUpperCase());
-}
 
 // 生成唯一id
 function genID() {
