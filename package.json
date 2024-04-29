@@ -1,6 +1,8 @@
 {
   "name": "ksw-vue-icon",
   "version": "2.0.7",
+  "author" : "Dongxingjian <email@example.com>",
+  "license": "ISC",
   "description": "Vue Icon",
   "type": "commonjs",
   "main": "packages/index.es.js",
@@ -17,14 +19,14 @@
     "lint": "vite lint"
   },
   "dependencies": {
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
     "cheerio": "^1.0.0-rc.12",
     "svgo": "^3.2.0",
     "uppercamelcase": "^3.0.0",
-    "vue": "^3.4.21",
     "vue-clipboard3": "^2.0.0",
-    "vue-m-message": "^4.0.2"
-  },
-  "devDependencies": {
+    "vue-m-message": "^4.0.2",
     "@vitejs/plugin-vue": "^5.0.4",
     "vite": "^5.2.8"
   },
