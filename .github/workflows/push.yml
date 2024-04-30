@@ -26,6 +26,8 @@ jobs:
       with:
         folder: dist
         ssh-key: ${{ secrets.GH_TOKEN }}
+        git-config-name: GitHubActions
+        git-config-email: GitHubActions@github.com
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
     
