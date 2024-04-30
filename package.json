@@ -40,6 +40,7 @@
     "packageManager": "yarn"
   },
   "config": {
-    "style": "fill"
+    "style": "fill",
+    "size": "24"
   }
 }

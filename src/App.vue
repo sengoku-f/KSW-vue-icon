@@ -34,7 +34,7 @@ const copyName = async (name) => {
         :title="iconComponentName"
         @click="copyName(iconComponentName)"
       >
-        <component :is="iconComponentName" />
+        <component :is="iconComponentName" :spin="iconComponentName.includes('Loading')" />
         <div>{{ iconComponentName }}</div>
       </li>
     </ul>

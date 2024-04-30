@@ -1,6 +1,7 @@
 const { optimize: svgoOptimize } = require("svgo");
 const cheerio = require("cheerio");
-
+// 获取默认size大小，如果没有设置则为 '24'
+const defaultSize = process.env.npm_package_config_size || 24
 
 // 生成唯一id
 function genID() {
@@ -9,6 +10,32 @@ function genID() {
   // 从 UUID 字符串中随机截取 8 个字符
   const start = Math.floor(Math.random() * (uuid.length - 8));
   return uuid.substr(start, 8);
+}
+
+// 自定义插件-处理大小超过 24 的图标
+function transformSize(node) {
+  // 获取最大值
+  const maxNumber = Math.max(node.attributes["width"], node.attributes["height"]);
+  // 将最大值用默认尺寸整除
+  const result = parseInt(defaultSize) / maxNumber;
+  // 定义需要查找的元素名称的正则表达式
+  const namePattern = new RegExp("rect|line|circle|ellipse|path");
+
+  if (node.name == "svg" && node.attributes["viewBox"] != `0 0 ${defaultSize} ${defaultSize}`) {
+    traverse(node, result); // 调用递归函数遍历子节点
+  }
+  
+  // 定义递归函数来遍历节点及其子节点
+  function traverse(node, result) {
+    // 判断当前节点是否需要进行缩放操作
+    if (namePattern.test(node.name)) {
+      node.attributes["transform"] = `scale(${result})`
+    }
+    // 如果当前节点有子节点，则继续遍历子节点
+    if (node.children) {
+      node.children.forEach((child) => traverse(child, result));
+    }
+  }
 }
 
 // 自定义插件-处理没有转换的路径
@@ -73,12 +100,13 @@ function optimize(svg, style) {
       },
       // 自定义插件
       {
-        name: "convertStrokeToFill",
+        name: "customPlugin",
         fn: () => {
           return {
             element: {
               enter(node) {
                 convertStroke(node);
+                transformSize(node);
               },
             },
           };
