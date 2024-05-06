@@ -12,7 +12,7 @@ function genID() {
   return uuid.substr(start, 8);
 }
 
-// 自定义插件-处理大小超过 24 的图标
+// 自定义插件-处理大小不等于 24 的图标
 function transformSize(node) {
   // 获取最大值
   const maxNumber = Math.max(node.attributes["width"], node.attributes["height"]);
