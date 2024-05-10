@@ -78,6 +78,7 @@ export { default as IconPlugInNetColor2 } from './icons/plug-in-Net-color-2.vue'
 export { default as IconPlugInNetColor } from './icons/plug-in-Net-color.vue';
 export { default as IconPlugInOcrColor } from './icons/plug-in-OCR-color.vue';
 export { default as IconPlugInSslColor } from './icons/plug-in-SSL-color.vue';
+export { default as IconPlugInExcelColor } from './icons/plug-in-excel-color.vue';
 export { default as IconPlugInImageColor } from './icons/plug-in-image-color.vue';
 export { default as IconPlugInJavaColor } from './icons/plug-in-java-color.vue';
 export { default as IconPlugInPdfColor } from './icons/plug-in-pdf-color.vue';
