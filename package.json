@@ -1,6 +1,6 @@
 {
   "name": "ksw-vue-icon",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "author": "Dongxingjian <email@example.com>",
   "license": "ISC",
   "description": "Vue Icon",
@@ -20,6 +20,7 @@
     "clean-publish": "clean-publish"
   },
   "dependencies": {
+    "gsap": "^3.12.5",
     "vue": "^3.4.21"
   },
   "devDependencies": {

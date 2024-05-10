@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div class="box" id="box1" ref="box">box</div>
     <h1 class="banner">KSW Vue Icon</h1>
     <div class="docx-grid-block">
       <div>
@@ -48,10 +49,7 @@
   </div>
 </template>
 
-<script>
-  export default {
-    name: "Banner"
-  };
+<script setup>
 </script>
 
 <style lang="css">

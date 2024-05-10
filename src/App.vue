@@ -8,6 +8,8 @@ import Message from 'vue-m-message'
 const iconNames = ref(inject("ICON_NAMES"));
 const { toClipboard } = useClipboard();
 
+const total = iconNames.value.length;
+
 const copyName = async (name) => {
   try {
     // 构建包含名称的 Vue 组件字符串
@@ -26,6 +28,7 @@ const copyName = async (name) => {
     <Banner />
     <!-- 分割线 -->
     <div style="margin: 20px 0; border-top: 1px solid #e8e8e8"></div>
+    <div style="text-align: center;">总计图标: <span style="background-color: #2882FF; color: #fff; border-radius: 4px; display: inline-flex; padding: 0 8px;">{{ total }}</span></div>
     <ul class="wrapper">
       <li
         class="item"
