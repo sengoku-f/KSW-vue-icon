@@ -1,6 +1,6 @@
 {
   "name": "ksw-vue-icon",
-  "version": "2.0.10",
+  "version": "2.0.11",
   "author": "Dongxingjian <email@example.com>",
   "license": "ISC",
   "description": "Vue Icon",
@@ -17,10 +17,12 @@
     "build-packages": "BUILD=packages vite build",
     "preview": "vite preview",
     "lint": "vite lint",
-    "clean-publish": "clean-publish"
+    "clean-publish": "clean-publish",
+    "upv": "node ./gitHooks/updateVersion.js && git add . && node ./gitHooks/updateCommit.js && git push"
   },
   "dependencies": {
     "gsap": "^3.12.5",
+    "npm-run-all": "^4.1.5",
     "vue": "^3.4.21"
   },
   "devDependencies": {
