@@ -1,7 +1,6 @@
 {
   "name": "ksw-vue-icon",
-  "version": "2.0.13",
-  "author": "Dongxingjian <email@example.com>",
+  "version": "2.0.14",
   "license": "ISC",
   "description": "Vue Icon",
   "type": "commonjs",
@@ -22,13 +21,13 @@
   },
   "dependencies": {
     "gsap": "^3.12.5",
-    "npm-run-all": "^4.1.5",
     "vue": "^3.4.21"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
     "cheerio": "^1.0.0-rc.12",
     "clean-publish": "^4.4.0",
+    "npm-run-all": "^4.1.5",
     "svgo": "^3.2.0",
     "uppercamelcase": "^3.0.0",
     "vite": "^5.2.8",
