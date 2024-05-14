@@ -36,6 +36,7 @@ export { default as IconCTypeVbsColor } from './icons/c-type-vbs-color.vue';
 export { default as IconCard } from './icons/card.vue';
 export { default as IconCheck } from './icons/check.vue';
 export { default as IconClear } from './icons/clear.vue';
+export { default as IconClearDate } from './icons/clearDate.vue';
 export { default as IconClose } from './icons/close.vue';
 export { default as IconDate } from './icons/date.vue';
 export { default as IconDelete } from './icons/delete.vue';
