@@ -44,7 +44,14 @@ const getAttrs = (style) => {
   }
 }
 
-const getElementCode = (ComponentName, attrs, svgCode) => `
+// 定义用于检查 ComponentName 是否包含 "loading" 的正则表达式
+const LOADING_ICON_REGEX = /loading/i;
+
+const getElementCode = (ComponentName, attrs, svgCode) => {
+  // 如果图标名称包含 "loading"，则将 spin 的默认值设为 true
+  const spinDefault = LOADING_ICON_REGEX.test(ComponentName) ? true : DEFAULT_ICON_CONFIGS.spin;
+
+  return `
   <template>
     <span :class="iconClasses">
       <svg
@@ -68,7 +75,7 @@ const getElementCode = (ComponentName, attrs, svgCode) => `
         },
         spin: {
           type: Boolean,
-          default: ${DEFAULT_ICON_CONFIGS.spin}
+          default: ${spinDefault}
         }
       },
       computed: {
@@ -82,7 +89,8 @@ const getElementCode = (ComponentName, attrs, svgCode) => `
       }
     };
   </script>
-`
+  `;
+};
 
 
 module.exports = { getAttrs, getElementCode }
