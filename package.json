@@ -1,13 +1,14 @@
 {
   "name": "ksw-vue-icon",
-  "version": "2.0.16",
+  "version": "2.0.17",
   "license": "ISC",
   "description": "Vue Icon",
   "type": "module",
   "main": "packages/index.cjs.js",
   "module": "packages/index.es.js",
   "files": [
-    "styles"
+    "styles",
+    "index.*.js"
   ],
   "repository": "https://github.com/sengoku-f/KSW-vue-icon",
   "scripts": {
@@ -21,7 +22,6 @@
     "upv": "node ./gitHooks/updateVersion.js && git add . && node ./gitHooks/updateCommit.js && git push"
   },
   "dependencies": {
-    "gsap": "^3.12.5",
     "vue": "^3.4.21"
   },
   "devDependencies": {
