@@ -30,8 +30,10 @@ const packagesConfig = {
     lib: {
       entry: path.resolve(__dirname, './src/index.js'),
       name: 'index',
+      formats: ['es', 'cjs'],
       fileName: (format) => `index.${format}.js`
     },
+    sourcemap: true,
     rollupOptions: {
       external: ['vue'],
       output: {

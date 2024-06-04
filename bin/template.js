@@ -93,4 +93,4 @@ const getElementCode = (ComponentName, attrs, svgCode) => {
 };
 
 
-module.exports = { getAttrs, getElementCode }
+export { getAttrs, getElementCode };

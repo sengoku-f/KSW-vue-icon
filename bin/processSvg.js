@@ -1,5 +1,5 @@
-const { optimize: svgoOptimize } = require("svgo");
-const cheerio = require("cheerio");
+import { optimize as svgoOptimize } from 'svgo';
+import cheerio from 'cheerio';
 // 获取默认size大小，如果没有设置则为 '24'
 const defaultSize = process.env.npm_package_config_size || 24
 
@@ -156,8 +156,8 @@ function removeSVGElement(svg) {
  */
 async function processSvg(svg, style) {
   const optimizedSvg = optimize(svg, style);
-  result = removeSVGElement(optimizedSvg);
+  const result = removeSVGElement(optimizedSvg);
   return result;
 }
 
-module.exports = processSvg;
+export { processSvg };

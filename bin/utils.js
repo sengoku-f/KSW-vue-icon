@@ -1,4 +1,4 @@
-const upperCamelCase = require('uppercamelcase')
+import upperCamelCase from 'uppercamelcase';
 
 /**
  * 解析名称
@@ -31,6 +31,4 @@ const parseName = (name, defaultStyle) => {
   }
 }
 
-module.exports = {
-  parseName
-};
+export default parseName;

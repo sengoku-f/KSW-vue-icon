@@ -1,13 +1,18 @@
 /* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable prefer-template */
-const path = require('path')
-const fs = require('fs')
-const processSvg = require('./processSvg')
-const { parseName } = require('./utils')
+import path from 'path';
+import fs from 'fs';
+import { fileURLToPath } from 'url';
+import { processSvg } from './processSvg.js';
+import parseName from './utils.js';
+import { getAttrs, getElementCode } from './template.js';
 // 获取默认样式，如果没有设置则为 'fill'
 const defaultStyle = process.env.npm_package_config_style || 'fill'
-const { getAttrs, getElementCode } = require('./template')
 
+// 获取当前模块文件的 URL (ES模块)
+const __filename = fileURLToPath(import.meta.url);
+// 获取当前模块目录的路径
+const __dirname = path.dirname(__filename);
 // 定义项目的根目录
 const rootDir = path.join(__dirname, '..')
 
