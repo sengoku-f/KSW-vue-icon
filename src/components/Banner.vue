@@ -20,13 +20,25 @@
         <h3>引用</h3>
         <div class="code-block">
           <div class="code-line">
-            <code>import { IconName } from 'ksw-vue-icon'</code>
-          </div>
-          <div class="code-line">
             <span class="code-comment">// 引入样式 （整个项目只需1次）</span>
           </div>
           <div class="code-line">
             <code>import 'ksw-vue-icon/styles/icon.css';</code>
+          </div>
+          <div class="code-line">
+            <span class="code-comment">// 引用</span>
+          </div>
+          <div class="code-line">
+            <code>import { IconName } from 'ksw-vue-icon'</code>
+          </div>
+          <div class="code-line">
+            <span class="code-comment">// 全局引用</span>
+          </div>
+          <div class="code-line">
+            <code>import KswIcon from 'ksw-vue-icon'</code>
+          </div>
+          <div class="code-line">
+            <code>Vue.use(KswIcon)</code>
           </div>
         </div>
       </div>

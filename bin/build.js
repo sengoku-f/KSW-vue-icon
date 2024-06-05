@@ -31,8 +31,8 @@ const generateIndex = () => {
     fs.mkdirSync(iconsDir)
   }
 
-  // 创建一个空的 index.js 文件
-  fs.writeFileSync(path.join(rootDir, 'src', 'index.js'), '', 'utf-8');
+  // 创建一个空的 map.js 文件
+  fs.writeFileSync(path.join(rootDir, 'src', 'map.js'), '', 'utf-8');
 }
 
 // 生成属性代码
@@ -67,11 +67,11 @@ const generateIconCode = async (name) => {
   return {ComponentName, name: names.name}
 }
 
-// 将导出代码追加到 index.js
+// 将导出代码追加到 map.js
 const appendToIndex = ({ComponentName, name}) => {
   const exportString = `export { default as Icon${ComponentName} } from './icons/${name}.vue';\r\n`;
   fs.appendFileSync(
-    path.join(rootDir, 'src', 'index.js'),
+    path.join(rootDir, 'src', 'map.js'),
     exportString,
     'utf-8',
   );
@@ -97,7 +97,7 @@ fs.readdir(svgDir, (err, files) => {
       // 生成图标代码
       generateIconCode(name)
         .then(({ComponentName, name}) => {
-          // 将图标代码追加到 index.js
+          // 将图标代码追加到 map.js
           appendToIndex({ComponentName, name})
         })
     }

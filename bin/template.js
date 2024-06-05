@@ -15,8 +15,7 @@ const getAttrs = (style) => {
     ':width': 'size',
     ':height': 'size',
     'viewBox': '0 0 24 24',
-    'aria-hidden': 'true',
-    'v-bind': '$attrs'
+    'aria-hidden': 'true'
   }
   const fillAttrs = {
     ':fill': 'color'
@@ -53,7 +52,7 @@ const getElementCode = (ComponentName, attrs, svgCode) => {
 
   return `
   <template>
-    <span :class="iconClasses">
+    <span :class="iconClasses" v-bind="$attrs">
       <svg
         ${attrs}
       >
