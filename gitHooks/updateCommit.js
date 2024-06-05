@@ -1,4 +1,6 @@
-const fs = require('fs');
+// const fs = require('fs');
+import fs from 'fs'
+import {execSync} from 'child_process'
 const packageJsonPath = './package.json';
 
 // // 读取 package.json 文件
@@ -8,5 +10,5 @@ const packageJson = JSON.parse(fs.readFileSync(packageJsonPath));
 const currentVersion = packageJson.version;
 
 // 运行 git commit -m "Bump version to ${packageJson.version}" 命令
-const { execSync } = require('child_process'); 
+// const { execSync } = require('child_process'); 
 execSync(`git commit -m "Bump version to ${packageJson.version}"`);
