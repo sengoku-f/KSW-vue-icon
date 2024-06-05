@@ -66,6 +66,8 @@ export { default as IconLoading } from './icons/loading.vue';
 export { default as IconMedal1 } from './icons/medal-1.vue';
 export { default as IconMedal2 } from './icons/medal-2.vue';
 export { default as IconMedal3 } from './icons/medal-3.vue';
+export { default as IconMenuCollect } from './icons/menu-collect.vue';
+export { default as IconMenuCollected } from './icons/menu-collected.vue';
 export { default as IconMenuDefColor } from './icons/menu-def-color.vue';
 export { default as IconMore } from './icons/more.vue';
 export { default as IconOrganization } from './icons/organization.vue';

@@ -10,3 +10,5 @@ const KswIcon = {
 };
 
 export default KswIcon;
+// 同时导出所有图标组件，以支持按需导入
+export * from './map.js';
