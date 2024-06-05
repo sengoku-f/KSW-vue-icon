@@ -29,7 +29,7 @@ const args = process.argv.slice(2)
 execSync(`git add .`);
 
 // 运行 git commit -m "Bump version to ${packageJson.version}" 命令
-execSync(`git commit -m "${args}, Bump, version to ${packageJson.version}"`);
+execSync(`git commit -m "${args} ==> version to ${packageJson.version}"`);
 
 execSync('git push origin main', (error, stdout, stderr) => {
   if (error) {
