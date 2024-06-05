@@ -16,7 +16,7 @@ const currentVersion = packageJson.version;
 // const { execSync } = require('child_process'); 
 execSync(`git commit -m "${args}Bump, version to ${packageJson.version}"`);
 
-execSync('git push', (error, stdout, stderr) => {
+execSync('git push origin main', (error, stdout, stderr) => {
   if (error) {
     console.error(`exec error: ${error}`);
     return;

@@ -1,6 +1,6 @@
 {
   "name": "ksw-vue-icon",
-  "version": "2.0.28",
+  "version": "2.0.29",
   "license": "ISC",
   "description": "Vue Icon",
   "type": "module",
@@ -19,7 +19,7 @@
     "preview": "vite preview",
     "lint": "vite lint",
     "clean-publish": "clean-publish",
-    "upv": "node ./gitHooks/updateVersion.js && git add . && node ./gitHooks/updateCommit.js && git push"
+    "upv": "node ./gitHooks/updateVersion.js && git add . && node ./gitHooks/updateCommit.js"
   },
   "dependencies": {
     "vue": "^3.4.21"
