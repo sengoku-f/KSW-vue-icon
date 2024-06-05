@@ -93,3 +93,11 @@ yarn lint
 | size | 图标的大小，宽高相同 | number &#124; string |  '1em' |
 | spin |  给图标加旋转效果 | boolean | false |
 | color |  图标的颜色，默认为当前颜色 | string &#124; string[]|  'currentColor' |
+
+
+## 项目更新指令
+
+使用 `upv` 命令, `commit信息` 自定义, 示例如下:
+```
+    npm run upv commit信息
+```
