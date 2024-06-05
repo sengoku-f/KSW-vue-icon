@@ -28,7 +28,7 @@ yarn add ksw-vue-icon
 ```
 import { IconName } from 'ksw-vue-icon'
 // or
-import KswIcon from 'ksw-vue-icon'
+import { KswIcon } from 'ksw-vue-icon'
 Vue.use(KswIcon)
 ```
 

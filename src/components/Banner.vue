@@ -35,7 +35,7 @@
             <span class="code-comment">// 全局引用</span>
           </div>
           <div class="code-line">
-            <code>import KswIcon from 'ksw-vue-icon'</code>
+            <code>import { KswIcon } from 'ksw-vue-icon'</code>
           </div>
           <div class="code-line">
             <code>Vue.use(KswIcon)</code>
