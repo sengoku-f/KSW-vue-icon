@@ -1,6 +1,7 @@
 // const fs = require('fs');
 import fs from 'fs'
 import {execSync} from 'child_process'
+
 const packageJsonPath = './package.json';
 
 const args = process.argv.slice(2)
@@ -13,4 +14,12 @@ const currentVersion = packageJson.version;
 
 // 运行 git commit -m "Bump version to ${packageJson.version}" 命令
 // const { execSync } = require('child_process'); 
-execSync(`git commit -m "${args}Bump version to ${packageJson.version}"`);
+execSync(`git commit -m "${args}Bump, version to ${packageJson.version}"`);
+
+execSync('git push', (error, stdout, stderr) => {
+  if (error) {
+    console.error(`exec error: ${error}`);
+    return;
+  }
+  console.log(`stdout: ${stdout}`);
+});
