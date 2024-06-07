@@ -1,15 +1,15 @@
 <script setup>
 import { ref } from "vue";
-import * as Icons from './map.js'; // 引入所有图标组件
+// import * as Icons from './map.js'; // 引入所有图标组件
 import "../styles/icon.css";
 import Banner from "./components/Banner.vue";
 import useClipboard from "vue-clipboard3";
 import Message from 'vue-m-message'
 
-const iconNames = ref(Object.keys(Icons));
-const { toClipboard } = useClipboard();
+// const iconNames = ref(Object.keys(Icons));
+// const total = iconNames.value.length;
 
-const total = iconNames.value.length;
+const { toClipboard } = useClipboard();
 
 const copyName = async (name) => {
   try {
@@ -27,6 +27,7 @@ const copyName = async (name) => {
 <template>
   <div class="container">
     <Banner />
+    <IconAdd :size="24" color="red" :spin="true"/>
     <!-- 分割线 -->
     <div style="margin: 20px 0; border-top: 1px solid #e8e8e8"></div>
     <div style="text-align: center;">总计图标: <span style="background-color: #2882FF; color: #fff; border-radius: 4px; display: inline-flex; padding: 0 8px;">{{ total }}</span></div>

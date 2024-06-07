@@ -12,16 +12,15 @@ const DEFAULT_ICON_CONFIGS = {
 const getAttrs = (style) => {
   const baseAttrs = {
     'xmlns': 'http://www.w3.org/2000/svg',
-    ':width': 'size',
-    ':height': 'size',
+    'width': 'props.size',
+    'height': 'props.size',
     'viewBox': '0 0 24 24',
-    'aria-hidden': 'true'
   }
   const fillAttrs = {
-    ':fill': 'color'
+    'fill': 'props.color'
   }
   const strokeAttrs = {
-    ':stroke': 'color',
+    'stroke': 'props.color',
     'fill': 'none',
     'stroke-width': DEFAULT_ICON_CONFIGS.strokeWidth,
     'stroke-linecap': DEFAULT_ICON_CONFIGS.strokeLinecap,
@@ -29,7 +28,7 @@ const getAttrs = (style) => {
   }
   const colorAttrs = {
     // 添加适用于 'color' 样式的属性
-    ':fill': 'color'
+    'fill': 'props.color'
   }
   if (style === 'fill') {
     return Object.assign({}, baseAttrs, fillAttrs);
@@ -43,53 +42,36 @@ const getAttrs = (style) => {
   }
 }
 
+// 生成属性代码
+const attrsToString = (attrs) => {
+  return Object.entries(attrs).map(([key, value]) =>{
+    // 如果属性名是 "width" "height" "fill"，那么为属性值添加引号
+    if (key === 'width' || key === 'height' || key === 'fill') {
+      return `"${key}": ${value}`;
+    } else {
+      return `"${key}": "${value}"`;  // 不添加引号
+    }
+  }).join(",\n");
+}
+
 // 定义用于检查 ComponentName 是否包含 "loading" 的正则表达式
 const LOADING_ICON_REGEX = /loading/i;
 
-const getElementCode = (ComponentName, attrs, svgCode) => {
+const getElementCode = (ComponentName, style, svgCode) => {
   // 如果图标名称包含 "loading"，则将 spin 的默认值设为 true
   const spinDefault = LOADING_ICON_REGEX.test(ComponentName) ? true : DEFAULT_ICON_CONFIGS.spin;
-
+  const attrsString = attrsToString(getAttrs(style));
   return `
-  <template>
-    <span :class="iconClasses" v-bind="$attrs">
-      <svg
-        ${attrs}
-      >
-        ${svgCode}
-      </svg>
-    </span>
-  </template>
-  <script>
-    export default {
-      name: 'Icon${ComponentName}',
-      props: {
-        size: {
-          type: [Number, String],
-          default: '${DEFAULT_ICON_CONFIGS.size}'
-        },
-        color: {
-          type: String,
-          default: '${DEFAULT_ICON_CONFIGS.color}'
-        },
-        spin: {
-          type: Boolean,
-          default: ${spinDefault}
-        }
-      },
-      computed: {
-        iconClasses() {
-          return [
-            '${DEFAULT_ICON_CONFIGS.prefix}' + '-icon',
-            '${DEFAULT_ICON_CONFIGS.prefix}' + '-icon-' + this.$options.name.toLowerCase(),
-            { ['${DEFAULT_ICON_CONFIGS.prefix}' + '-icon-spin']: this.spin }
-          ];
-        }
-      }
-    };
-  </script>
+import { createVNode as _createVNode } from "vue";
+import { IconWrapper } from '../runtime';
+
+export default IconWrapper('${ComponentName}', ${spinDefault}, function (props) {
+  return _createVNode("svg", {
+    ${attrsString}
+  }, [${svgCode}
+  ]);
+});
   `;
 };
-
 
 export { getAttrs, getElementCode };

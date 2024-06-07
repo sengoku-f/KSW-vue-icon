@@ -6,8 +6,6 @@ import { fileURLToPath } from 'url';
 import { processSvg } from './processSvg.js';
 import parseName from './utils.js';
 import { getAttrs, getElementCode } from './template.js';
-// 获取默认样式，如果没有设置则为 'fill'
-const defaultStyle = process.env.npm_package_config_style || 'fill'
 
 // 获取当前模块文件的 URL (ES模块)
 const __filename = fileURLToPath(import.meta.url);
@@ -49,16 +47,16 @@ const attrsToString = (attrs, style) => {
 
 // 分别生成图标代码
 const generateIconCode = async (name) => {
-  const names = parseName(name, defaultStyle)
+  const names = parseName(name)
   const location = path.join(rootDir, 'src/svg', `${names.name}.svg`)
-  const destination = path.join(rootDir, 'src/icons', `${names.name}.vue`)
+  const destination = path.join(rootDir, 'src/icons', `${names.name}.js`)
   // 读取 SVG 文件
   const code = fs.readFileSync(location)
   // 处理 SVG 文件
   const svgCode = await processSvg(code, names.style) // 将样式传递给 processSvg
   const ComponentName = names.componentName
   // 获取组件代码
-  const component = getElementCode(ComponentName, attrsToString(getAttrs(names.style), names.style), svgCode)
+  const component = getElementCode(ComponentName, names.style, svgCode)
 
   // 写入组件代码
   fs.writeFileSync(destination, component, 'utf-8');
@@ -69,7 +67,7 @@ const generateIconCode = async (name) => {
 
 // 将导出代码追加到 map.js
 const appendToIndex = ({ComponentName, name}) => {
-  const exportString = `export { default as Icon${ComponentName} } from './icons/${name}.vue';\r\n`;
+  const exportString = `export { default as Icon${ComponentName} } from './icons/${name}';\r\n`;
   fs.appendFileSync(
     path.join(rootDir, 'src', 'map.js'),
     exportString,
