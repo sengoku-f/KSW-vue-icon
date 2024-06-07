@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import { KswIcon } from './index.js'
+import { KswIcon } from '/packages/index.js'
 import 'vue-m-message/dist/style.css'
 
 

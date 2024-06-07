@@ -24,19 +24,46 @@ const siteConfig = {
   }
 }
 
+// const packagesConfig = {
+//   ...baseConfig,
+//   build: {
+//     lib: {
+//       entry: path.resolve(__dirname, './src/index.js'),
+//       name: 'index',
+//       formats: ['es', 'cjs'],
+//       fileName: (format) => `index.${format}.js`
+//     },
+//     sourcemap: true,
+//     rollupOptions: {
+//       external: ['vue'],
+//       output: {
+//         preserveModules: true,
+//         globals: {
+//           vue: 'Vue'
+//         }
+//       }
+//     },
+//     outDir: 'packages',
+//     emptyOutDir: true,
+//   }
+// }
+
 const packagesConfig = {
   ...baseConfig,
   build: {
-    lib: {
-      entry: path.resolve(__dirname, './src/index.js'),
-      name: 'index',
-      formats: ['es', 'cjs'],
-      fileName: (format) => `index.${format}.js`
-    },
-    sourcemap: true,
+    // sourcemap: true,
     rollupOptions: {
+      input: {
+        index: path.resolve(__dirname, './src/index.js'),
+        map: path.resolve(__dirname, './src/map.js'),
+        runtime: path.resolve(__dirname, './src/runtime/index.js'),
+      },
       external: ['vue'],
+      preserveEntrySignatures: 'allow-extension',
       output: {
+        dir: 'packages',
+        entryFileNames: '[name].js',
+        preserveModules: true,
         globals: {
           vue: 'Vue'
         }

@@ -1,13 +1,13 @@
 <script setup>
 import { ref } from "vue";
-// import * as Icons from './map.js'; // 引入所有图标组件
+import * as Icons from '/packages/map.js'; // 引入所有图标组件
 import "../styles/icon.css";
 import Banner from "./components/Banner.vue";
 import useClipboard from "vue-clipboard3";
 import Message from 'vue-m-message'
 
-// const iconNames = ref(Object.keys(Icons));
-// const total = iconNames.value.length;
+const iconNames = ref(Object.keys(Icons));
+const total = iconNames.value.length;
 
 const { toClipboard } = useClipboard();
 
