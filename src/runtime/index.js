@@ -1,4 +1,3 @@
-// runtime/IconWrapper.js
 import { createVNode as _createVNode } from "vue";
 
 const DEFAULT_ICON_CONFIGS = {

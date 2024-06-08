@@ -1,4 +1,4 @@
-import * as Icons from './map.js'; // 引入所有图标组件
+import * as Icons from './map'; // 引入所有图标组件
 
 export const KswIcon = {
   install(Vue) {
@@ -10,4 +10,4 @@ export const KswIcon = {
 };
 
 // 同时导出所有图标组件，以支持按需导入
-export * from './map.js';
+export * from './map';
