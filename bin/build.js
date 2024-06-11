@@ -17,6 +17,9 @@ const rootDir = path.join(__dirname, '..')
 // 定义源代码和图标代码的目录
 const srcDir = path.join(rootDir, 'src')
 const iconsDir = path.join(rootDir, 'src/icons')
+const jsonOutputFile = path.join(iconsDir, 'iconsData.json');
+
+const iconDataList = [];
 
 // 生成 index 和 d.ts 文件
 const generateIndex = () => {
@@ -56,10 +59,17 @@ const generateIconCode = async (name) => {
   const svgCode = await processSvg(code, names.style) // 将样式传递给 processSvg
   const ComponentName = names.componentName
   // 获取组件代码
-  const component = getElementCode(ComponentName, names.style, svgCode)
+  const component = await getElementCode(ComponentName, names.style, svgCode)
 
   // 写入组件代码
   fs.writeFileSync(destination, component, 'utf-8');
+
+  // 获取文件的修改日期
+  const stats = fs.statSync(location);
+  iconDataList.push({
+    name: `Icon${ComponentName}`,
+    modifiedTime: stats.mtime
+  });
 
   console.log('成功构建', ComponentName);
   return {ComponentName, name: names.name}
@@ -85,19 +95,23 @@ fs.readdir(svgDir, (err, files) => {
     console.error('Could not list the directory.', err);
     process.exit(1);
   }
-
-  // 遍历所有文件
-  files.forEach((file) => {
-    // 如果文件是 SVG 文件
-    if (path.extname(file) === '.svg') {
-      // 获取文件名（不含扩展名）
-      const name = path.basename(file, '.svg')
-      // 生成图标代码
-      generateIconCode(name)
-        .then(({ComponentName, name}) => {
-          // 将图标代码追加到 map.js
-          appendToIndex({ComponentName, name})
-        })
-    }
+  // 过滤出所有的 SVG 文件
+  const svgFiles = files.filter(file => path.extname(file) === '.svg');
+  // 遍历所有 SVG 文件，生成图标代码并记录数据
+  const promises = svgFiles.map(file => {
+    const name = path.basename(file, '.svg');
+    return generateIconCode(name)
+      .then(({ ComponentName, name }) => {
+        // 将图标代码追加到 map.js
+        appendToIndex({ ComponentName, name });
+      });
   });
-})
+  // 等待所有的图标代码生成完毕
+  Promise.all(promises).then(() => {
+    // 将 iconDataList 写入 JSON 文件
+    fs.writeFileSync(jsonOutputFile, JSON.stringify(iconDataList, null, 2), 'utf-8');
+    console.log('成功生成 JSON 文件:', jsonOutputFile);
+  }).catch(err => {
+    console.error('Error generating icon codes:', err);
+  });
+});

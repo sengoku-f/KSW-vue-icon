@@ -1,3 +1,5 @@
+import prettier from 'prettier'
+
 // 定义默认的图标属性
 const DEFAULT_ICON_CONFIGS = {
   size: '1em',
@@ -5,8 +7,6 @@ const DEFAULT_ICON_CONFIGS = {
   strokeWidth: 2,
   strokeLinecap: 'round',
   strokeLinejoin: 'round',
-  spin: false,
-  prefix: 'ksw',
 };
 
 const getAttrs = (style) => {
@@ -55,23 +55,24 @@ const attrsToString = (attrs) => {
 }
 
 // 定义用于检查 ComponentName 是否包含 "loading" 的正则表达式
-const LOADING_ICON_REGEX = /loading/i;
+const SPIN_ICON_REGEX = /loading/i;
 
-const getElementCode = (ComponentName, style, svgCode) => {
-  // 如果图标名称包含 "loading"，则将 spin 的默认值设为 true
-  const spinDefault = LOADING_ICON_REGEX.test(ComponentName) ? true : DEFAULT_ICON_CONFIGS.spin;
+const getElementCode = async (ComponentName, style, svgCode) => {
+  // 如果图标名称包含 "loading"，则将 spin 设为 true
+  const spin = SPIN_ICON_REGEX.test(ComponentName) ? true : false;
   const attrsString = attrsToString(getAttrs(style));
-  return `
-import { createVNode as _createVNode } from "vue";
-import { IconWrapper } from '../runtime';
+  const code = `
+    import { createVNode as _createVNode } from "vue";
+    import { IconWrapper } from '../runtime';
 
-export default IconWrapper('${ComponentName}', ${spinDefault}, function (props) {
-  return _createVNode("svg", {
-    ${attrsString}
-  }, [${svgCode}
-  ]);
-});
+    export default IconWrapper('${ComponentName}', ${spin}, function (props) {
+      return _createVNode("svg", {
+        ${attrsString}
+      }, [${svgCode}
+      ]);
+    });
   `;
+  return await prettier.format(code, { parser: "babel" });
 };
 
 export { getAttrs, getElementCode };

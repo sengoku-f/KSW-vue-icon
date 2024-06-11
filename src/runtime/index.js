@@ -21,18 +21,13 @@ export function IconWrapper(name, spin, render) {
       },
       spin: {
         type: Boolean,
-        default: DEFAULT_ICON_CONFIGS.spin
+        default: spin || DEFAULT_ICON_CONFIGS.spin
       },
     },
-    setup(props) {
+    setup(props, { attrs }) {
       return () => {
-        const { size, color } = props;
-        console.log(props);
-        const svgProps = {
-          size,
-          color,
-          spin
-        };
+        const { spin } = props;
+
         const cls = [`${DEFAULT_ICON_CONFIGS.prefix}-icon`, `${DEFAULT_ICON_CONFIGS.prefix}-icon-${name}`];
 
         if (spin) {
@@ -40,8 +35,9 @@ export function IconWrapper(name, spin, render) {
         }
 
         return _createVNode("span", {
-          class: cls.join(' ')
-        }, [render(svgProps)]);
+          class: cls.join(' '),
+          ...attrs,
+        }, [render(props)]);
       };
     }
   };

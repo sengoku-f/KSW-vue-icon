@@ -1,10 +1,11 @@
 <script setup>
-import { ref } from "vue";
-import * as Icons from '/packages/map.js'; // 引入所有图标组件
+import { ref, onMounted } from "vue";
+import * as Icons from './map.js'; // 引入所有图标组件
 import "../styles/icon.css";
 import Banner from "./components/Banner.vue";
 import useClipboard from "vue-clipboard3";
 import Message from 'vue-m-message'
+import iconsData from './icons/iconsData.json'; // 导入 JSON 数据
 
 const iconNames = ref(Object.keys(Icons));
 const total = iconNames.value.length;
@@ -22,6 +23,12 @@ const copyName = async (name) => {
     console.error("复制失败:", error);
   }
 };
+onMounted(() => {
+  // 按修改日期排序
+  iconsData.sort((a, b) => new Date(b.modifiedTime) - new Date(a.modifiedTime));
+  // 更新 iconNames
+  iconNames.value = iconsData.map(icon => icon.name);
+});
 </script>
 
 <template>
