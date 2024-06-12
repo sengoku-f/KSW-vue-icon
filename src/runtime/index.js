@@ -1,4 +1,4 @@
-import { createVNode as _createVNode } from "vue";
+import { createVNode } from "vue";
 
 const DEFAULT_ICON_CONFIGS = {
   size: '1em',
@@ -34,7 +34,7 @@ export function IconWrapper(name, spin, render) {
           cls.push(`${DEFAULT_ICON_CONFIGS.prefix}-icon-spin`);
         }
 
-        return _createVNode("span", {
+        return createVNode("span", {
           class: cls.join(' '),
           ...attrs,
         }, [render(props)]);

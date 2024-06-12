@@ -151,7 +151,7 @@ function renderSVGElement(svg) {
     const attrs = JSON.stringify(node.attribs);
     const children = $(node).children().map((_, child) => processNode(child)).get();
     const childrenString = children.length ? `[${children.join(", ")}]` : "null";
-    return `_createVNode("${tagName}", ${attrs}, ${childrenString})`;
+    return `createVNode("${tagName}", ${attrs}, ${childrenString})`;
   }
 
   const createVNodeCalls = $('svg').children().map((_, child) => processNode(child)).get();
