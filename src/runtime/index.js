@@ -24,7 +24,7 @@ export function IconWrapper(name, spin, render) {
         default: spin || DEFAULT_ICON_CONFIGS.spin
       },
     },
-    setup(props, { attrs }) {
+    setup(props) {
       return () => {
         const { spin } = props;
 
@@ -36,7 +36,6 @@ export function IconWrapper(name, spin, render) {
 
         return createVNode("span", {
           class: cls.join(' '),
-          ...attrs,
         }, [render(props)]);
       };
     }
