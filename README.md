@@ -36,6 +36,8 @@ Vue.use(KswIcon)
 
 ```
 <IconImage :size="24" color="#333" />
+// 设置 spin 为 true 使图标旋转
+<IconLoading :size="24" color="#333" :spin="true" />
 ```
 
 ## 展示页配置

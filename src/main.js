@@ -1,8 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import { KswIcon } from './index.js'
-import 'vue-m-message/dist/style.css'
-
+import "/tailwind.css"
 
 const app = createApp(App)
 
