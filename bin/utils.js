@@ -6,7 +6,11 @@ import upperCamelCase from 'uppercamelcase';
  * @param {string} defaultStyle - 默认样式
  * @returns {Object} 包含解析后的名称、组件名称和样式的对象
  */
-const parseName = (name, defaultStyle) => {
+
+// 获取默认样式，如果没有设置则为 'fill'
+const defaultStyle = process.env.npm_package_config_style || 'fill'
+
+const parseName = (name) => {
   // 将名称中的所有 '/' '_' ' ' 替换为 '-'
   const cleanedName = name.replaceAll('/', '-').replaceAll('_', '-').replaceAll(' ', '-')
   // 将处理后的名称按 '-' 切分为数组

@@ -139,13 +139,23 @@ function optimize(svg, style) {
 }
 
 /**
- * 移除 SVG 元素
+ * 读取 SVG 元素
  * @param {string} svg - 输入的 SVG 字符串
- * @returns {string} - 移除 SVG 元素后的字符串
+ * @returns {string} - 遍历 SVG 元素后的字符串
  */
-function removeSVGElement(svg) {
-  const $ = cheerio.load(svg);
-  return $("body").children().html();
+function renderSVGElement(svg) {
+  const $ = cheerio.load(svg, { xmlMode: true });
+
+  function processNode(node) {
+    const tagName = node.tagName;
+    const attrs = JSON.stringify(node.attribs);
+    const children = $(node).children().map((_, child) => processNode(child)).get();
+    const childrenString = children.length ? `[${children.join(", ")}]` : "null";
+    return `createVNode("${tagName}", ${attrs}, ${childrenString})`;
+  }
+
+  const createVNodeCalls = $('svg').children().map((_, child) => processNode(child)).get();
+  return createVNodeCalls.join(",\n");
 }
 
 /**
@@ -156,7 +166,7 @@ function removeSVGElement(svg) {
  */
 async function processSvg(svg, style) {
   const optimizedSvg = optimize(svg, style);
-  const result = removeSVGElement(optimizedSvg);
+  const result = renderSVGElement(optimizedSvg);
   return result;
 }
 
