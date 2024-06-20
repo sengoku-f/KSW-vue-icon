@@ -71,7 +71,7 @@ const generateIconCode = async (name) => {
     modifiedTime: stats.mtime
   });
 
-  console.log('成功构建', ComponentName);
+  console.log('成功构建:', ComponentName, '修改日期:', stats.mtime);
   return {ComponentName, name: names.name}
 }
 
