@@ -1,0 +1,69 @@
+name: Deploy Icon Library
+on:
+  push:
+    branches:
+      - main
+    # 只有指定文件变化才运行
+    paths:
+      - package.json
+  # 允许你从 Actions 选项卡手动运行此工作流程
+  workflow_dispatch:
+
+# 设置 GITHUB_TOKEN 的权限，以允许部署到 GitHub Pages
+permissions:
+  contents: write
+
+jobs:
+  # 构建工作
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install dependencies and build
+        run: |
+          yarn install
+          yarn generate
+          yarn build
+          yarn build-packages
+
+      # 发布到 NPM
+      - name: Publish NPM
+        run: |
+          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_AUTH_TOKEN }}" > ~/.npmrc
+          yarn clean-publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+
+      # 部署 GitHub Pages
+      - name: Deploy GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist
+          git-config-name: GitHubActions
+          git-config-email: GitHubActions@github.com
+        continue-on-error: true  # 即使失败，也继续下一个步骤
+
+      # 部署到 Centos 服务器
+      - name: Deploy to Centos server
+        uses: easingthemes/ssh-deploy@main
+        with:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          ARGS: "-rlgoDzvc -i --delete"
+          SOURCE: "dist/"
+          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+          REMOTE_PORT: ${{ secrets.REMOTE_PORT }}
+          REMOTE_USER: ${{ secrets.REMOTE_USER }}
+          TARGET: ${{ secrets.REMOTE_TARGET }}
+          EXCLUDE: "/dist/, /node_modules/"
+          SCRIPT_BEFORE: |
+            whoami
+            ls -al
+          SCRIPT_AFTER: |
+            whoami
+            ls -al
+            echo $RSYNC_STDOUT
+        continue-on-error: true  # 即使失败，也继续下一个步骤
