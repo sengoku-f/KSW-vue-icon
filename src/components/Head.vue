@@ -5,9 +5,16 @@
       style="color: transparent; --darkreader-inline-color: transparent" data-darkreader-inline-color="" />
     <div class="absolute inset-0 shadow-[inset_0_-1px_0_rgba(22,27,59,0.04)]"></div>
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
-      <div class="flex items-center gap-4">
-        <img class="h-7" src="/klogo.svg" />
-        <span class="text-xl font-semibold">KSW Design</span>
+      <div class="relative z-10 flex items-center justify-between">
+        <div class="flex items-center gap-4">
+          <img class="h-7" src="/klogo.svg" />
+          <span class="text-xl font-semibold">KSW Design</span>
+        </div>
+        <a class="-mx-1.5 -my-1 flex items-center gap-1 rounded-lg px-1.5 py-1 text-[0.8125rem] font-medium leading-6 text-slate-900 transition hover:bg-slate-900/[0.03]"
+          href="https://ksw.design.donxj.com/components/icon">
+          <span>使用指南</span>
+          <IconArrowUpRight class="text-xs text-slate-500" />
+        </a>
       </div>
       <div class="flex justify-center text-center lg:pb-7 lg:pt-5 lg:text-left">
         <div class="flex max-w-[37rem] flex-col py-16 lg:pb-11 lg:pt-12">
