@@ -522,10 +522,10 @@ camelcase-css@^2.0.1:
   resolved "https://registry.yarnpkg.com/camelcase-css/-/camelcase-css-2.0.1.tgz#ee978f6947914cc30c6b44741b6ed1df7f043fd5"
   integrity sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==
 
-camelcase@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.npmjs.org/camelcase/-/camelcase-4.1.0.tgz"
-  integrity sha512-FxAv7HpHrXbh3aPo4o2qxHay2lkLY3x5Mw3KeE4KQE8ysVfziWeRZDwcjauvwBSGEC/nXUPzZy8zeh4HokqOnw==
+camelcase@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-8.0.0.tgz#c0d36d418753fb6ad9c5e0437579745c1c14a534"
+  integrity sha512-8WB3Jcas3swSvjIeA2yvCJ+Miyz5l1ZmB6HFb9R1317dt9LCQoswg/BGrmAmkWVEszSrrg4RwmO46qIm2OEnSA==
 
 caniuse-lite@^1.0.30001599, caniuse-lite@^1.0.30001629:
   version "1.0.30001632"
@@ -2118,13 +2118,6 @@ update-browserslist-db@^1.0.16:
   dependencies:
     escalade "^3.1.2"
     picocolors "^1.0.1"
-
-uppercamelcase@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmjs.org/uppercamelcase/-/uppercamelcase-3.0.0.tgz"
-  integrity sha512-zTWmRiOJACCdFGWjzye3L5cjSuVdZ/c8C0iHIwVbfORFD8IhGNAO6BOWkZ+fj+SI6/aFbdjGXE6gwPG780H4gQ==
-  dependencies:
-    camelcase "^4.1.0"
 
 util-deprecate@^1.0.2:
   version "1.0.2"

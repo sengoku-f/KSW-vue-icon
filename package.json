@@ -1,6 +1,6 @@
 {
   "name": "ksw-vue-icon",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "license": "ISC",
   "description": "Vue Icon",
   "type": "module",
@@ -28,6 +28,7 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
     "autoprefixer": "^10.4.19",
+    "camelcase": "^8.0.0",
     "cheerio": "^1.0.0-rc.12",
     "clean-publish": "^4.4.0",
     "glob": "^10.4.1",
@@ -36,7 +37,6 @@
     "prettier": "^3.3.2",
     "svgo": "^3.2.0",
     "tailwindcss": "^3.4.4",
-    "uppercamelcase": "^3.0.0",
     "vite": "^5.2.8",
     "vue-clipboard3": "^2.0.0",
     "vue-m-message": "^4.0.2"

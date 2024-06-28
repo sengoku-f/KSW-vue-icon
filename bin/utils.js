@@ -1,5 +1,4 @@
-import upperCamelCase from 'uppercamelcase';
-
+import camelCase from 'camelcase';
 /**
  * 解析名称
  * @param {string} name - 原始名称
@@ -29,7 +28,10 @@ const parseName = (name) => {
   return {
     name,
     // 将处理后的名称转换为驼峰形式作为组件名称
-    componentName: upperCamelCase(cleanedName),
+    componentName: camelCase(cleanedName, {
+      preserveConsecutiveUppercase: true,
+      pascalCase: true,
+    }),
     // 最终确定的样式
     style: finalStyle
   }
