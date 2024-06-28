@@ -1,0 +1,27 @@
+<svg enable-background="new 0 0 288 288" viewBox="0 0 288 288" xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <linearGradient id="a">
+    <stop offset="0" stop-color="#0f172a" stop-opacity="0" />
+    <stop offset=".258" stop-color="#0f172a" stop-opacity=".6" />
+    <stop offset=".521" stop-color="#0f172a" />
+    <stop offset=".784" stop-color="#0f172a" stop-opacity=".6" />
+    <stop offset="1" stop-color="#0f172a" stop-opacity="0" />
+  </linearGradient>
+  <linearGradient id="b" gradientTransform="matrix(1 0 0 -1 0 290)" gradientUnits="userSpaceOnUse" x1="376" x2="-69"
+    xlink:href="#a" y1="2.5" y2="2.5" />
+  <linearGradient id="c" gradientTransform="matrix(1 0 0 -1 0 290)" gradientUnits="userSpaceOnUse" x1="376" x2="-69"
+    xlink:href="#a" y1="290" y2="290" />
+  <linearGradient id="d" gradientTransform="matrix(1 0 0 -1 0 290)" gradientUnits="userSpaceOnUse" x1=".25" x2=".25"
+    xlink:href="#a" y1="380" y2="-65" />
+  <linearGradient id="e" gradientTransform="matrix(1 0 0 -1 0 290)" gradientUnits="userSpaceOnUse" x1="287.75"
+    x2="287.75" xlink:href="#a" y1="380" y2="-65" />
+  <g fill="none" stroke-width="1.5">
+    <path d="m-69 287.5h445" opacity=".1" stroke="url(#b)" />
+    <path d="m-69 0h445" opacity=".1" stroke="url(#c)" />
+    <path d="m.25 355v-445" opacity=".1" stroke="url(#d)" />
+    <path d="m287.75 355v-445" opacity=".1" stroke="url(#e)" />
+  </g>
+  <path
+    d="m222.51 179.27h-29.74v-70.539h29.74c23.843 0 43.24-19.398 43.24-43.241s-19.397-43.24-43.24-43.24-43.24 19.397-43.24 43.24v29.741h-70.539v-29.741c0-23.843-19.397-43.24-43.24-43.24s-43.241 19.397-43.241 43.24 19.398 43.241 43.241 43.241h29.741v70.539h-29.741c-23.843 0-43.241 19.397-43.241 43.24s19.398 43.24 43.241 43.24 43.24-19.397 43.24-43.24v-29.74h70.539v29.74c0 23.843 19.397 43.24 43.24 43.24s43.24-19.397 43.24-43.24-19.397-43.24-43.24-43.24zm-29.74-113.78c0-16.399 13.342-29.74 29.74-29.74s29.74 13.341 29.74 29.74-13.342 29.741-29.74 29.741h-29.74zm-97.539 29.741h-29.74c-16.399 0-29.741-13.342-29.741-29.741s13.342-29.74 29.741-29.74 29.74 13.341 29.74 29.74zm0 127.279c0 16.398-13.341 29.74-29.74 29.74s-29.741-13.342-29.741-29.74 13.342-29.74 29.741-29.74h29.74zm84.039-43.24h-70.538v-70.539h70.538zm43.24 72.98c-16.398 0-29.74-13.342-29.74-29.74v-29.74h29.74c16.398 0 29.74 13.342 29.74 29.74s-13.342 29.74-29.74 29.74z"
+    fill="#a78bfa" stroke="#8b5cf6" stroke-miterlimit="10" stroke-width="2" />
+</svg>
