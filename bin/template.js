@@ -32,7 +32,7 @@ const getAttrs = (style) => {
   }
   const colorAttrs = {
     // 添加适用于 'color' 样式的属性
-    'fill': 'props.color'
+    'fill': 'none'
   }
   if (style === 'fill') {
     return Object.assign({}, baseAttrs, fillAttrs);
@@ -48,15 +48,20 @@ const getAttrs = (style) => {
 
 // 生成属性代码
 const attrsToString = (attrs) => {
-  return Object.entries(attrs).map(([key, value]) =>{
-    // 如果属性名是 "width" "height" "fill"，那么属性值不添加引号
-    if (key === 'width' || key === 'height' || key === 'fill') {
+  // 判断 key 是否为变量
+  const isVariableOrBoolean = (value) => {
+    return (typeof value === 'string' && value.startsWith('props.')) || typeof value === 'boolean';
+  };
+
+  return Object.entries(attrs).map(([key, value]) => {
+    if (isVariableOrBoolean(value)) {
       return `"${key}": ${value}`;
     } else {
-      return `"${key}": "${value}"`;  // 属性值添加引号
+      // 属性值添加引号
+      return `"${key}": "${value}"`;
     }
   }).join(",\n");
-}
+};
 
 // 定义用于检查 ComponentName 是否包含 "loading" 的正则表达式
 const SPIN_ICON_REGEX = /loading/i;

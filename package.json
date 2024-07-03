@@ -1,6 +1,6 @@
 {
   "name": "ksw-vue-icon",
-  "version": "2.1.5",
+  "version": "2.1.6",
   "license": "ISC",
   "description": "Vue Icon",
   "type": "module",
@@ -8,6 +8,7 @@
   "module": "packages/es/index.js",
   "files": [
     "styles",
+    "icons.json",
     "packages/*/*.js",
     "packages/*/*/*.js"
   ],
@@ -45,6 +46,10 @@
     ".": {
       "import": "./packages/es/index.js",
       "require": "./packages/cjs/index.js"
+    },
+    "./icons.json": {
+      "import": "./icons.json",
+      "require": "./icons.json"
     },
     "./styles/*.css": {
       "import": "./styles/*.css",

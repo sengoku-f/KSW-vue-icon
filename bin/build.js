@@ -17,7 +17,7 @@ const rootDir = path.join(__dirname, '..')
 // 定义源代码和图标代码的目录
 const srcDir = path.join(rootDir, 'src')
 const iconsDir = path.join(rootDir, 'src/icons')
-const jsonOutputFile = path.join(iconsDir, 'iconsData.json');
+const jsonOutputFile = path.join(rootDir, 'icons.json');
 
 const iconDataList = [];
 

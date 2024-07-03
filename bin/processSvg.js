@@ -39,21 +39,22 @@ function transformSize(node) {
 }
 
 // 自定义插件-处理没有转换的路径
-function convertStroke(node) {
+function convertStroke(node, style) {
   // 定义需要查找的元素名称的正则表达式
   const namePattern = new RegExp("rect|line|circle|ellipse");
-
   // 定义递归函数来遍历节点及其子节点
   function traverse(node) {
     // 如果当前节点名称匹配要查找的元素名称,并且存在stroke
     if (namePattern.test(node.name) && node.attributes["stroke"]) {
-      // 判断填充是否有颜色,有则删除 fill
+      // 填充有颜色删除 fill
       if (new RegExp("#(?:[0-9a-fA-F]{3,4}){1,2}|(?:rgb|hsl)a?\([^\)]*\)").test(node.attributes["fill"])) {
         delete node.attributes["fill"]
       }
+      // 如果 style 为 color 则使得 stroke 为当前颜色 否则为 currentColor
+      const strokeColor = style === "color" ? node.attributes["stroke"] : "currentColor";
       // 对匹配到的节点执行处理逻辑
       Object.assign(node.attributes, {
-        "stroke": "currentColor",
+        "stroke": strokeColor,
         "stroke-width": node.attributes["stroke-width"],
         "stroke-linecap": "round",
         "stroke-linejoin": "round",
@@ -105,7 +106,7 @@ function optimize(svg, style) {
           return {
             element: {
               enter(node) {
-                convertStroke(node);
+                convertStroke(node, style);
                 transformSize(node);
               },
             },
@@ -117,9 +118,11 @@ function optimize(svg, style) {
         name: "preset-default",
         params: {
           overrides: {
-            convertShapeToPath: false,
+            // convertShapeToPath: false,
             // mergePaths: false,
-            inlineStyles: {},
+            // removeUnknownsAndDefaults: {
+            //   uselessOverrides: false,
+            // },
           },
         },
       },

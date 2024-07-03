@@ -1,11 +1,12 @@
 <script setup>
 import { ref, computed, onMounted } from "vue";
+import "~/styles/icon.css";
 import * as Icons from "@/map.js"; // 引入所有图标组件
-import "../../styles/icon.css";
+import { IconSearch, IconTriangleBottom  } from '@/index.js'
+import iconsData from "~/icons.json"; // 导入 JSON 数据
 import useClipboard from "vue-clipboard3";
 import "vue-m-message/dist/style.css";
 import Message from "vue-m-message";
-import iconsData from "@/icons/iconsData.json"; // 导入 JSON 数据
 
 const { toClipboard } = useClipboard();
 const copyName = async (name) => {
@@ -75,9 +76,9 @@ const commonButtonClass = [
   "rounded-md",
   "transition-all",
 ];
-const allButtonClass = computed(() => {
+const getButtonClass = (isColor) => {
   let buttonClass = [...commonButtonClass];
-  if (!showColorIcons.value) {
+  if (isColor) {
     buttonClass.push("text-slate-900", "bg-slate-100");
   } else {
     buttonClass.push(
@@ -87,20 +88,9 @@ const allButtonClass = computed(() => {
     );
   }
   return buttonClass;
-});
-const colorButtonClass = computed(() => {
-  let buttonClass = [...commonButtonClass];
-  if (showColorIcons.value) {
-    buttonClass.push("text-slate-900", "bg-slate-100");
-  } else {
-    buttonClass.push(
-      "text-slate-500",
-      "hover:text-slate-900",
-      "hover:bg-slate-50"
-    );
-  }
-  return buttonClass;
-});
+};
+const allButtonClass = computed(() => getButtonClass(!showColorIcons.value));
+const colorButtonClass = computed(() => getButtonClass(showColorIcons.value));
 </script>
 
 <template>
@@ -174,7 +164,7 @@ const colorButtonClass = computed(() => {
     <ul class="wrapper">
       <li class="group item cursor-pointer" v-for="iconComponentName in filteredIconNames" :key="iconComponentName"
         :title="iconComponentName" @click="copyName(iconComponentName)">
-        <component :is="iconComponentName" />
+        <component :is="Icons[iconComponentName]" />
         <div
           class="text-xs antialiased text-center truncate text-slate-500 text-wrap w-full h-4 group-hover:overflow-visible group-hover:break-words">
           {{ iconComponentName }}

@@ -1,3 +1,11 @@
+<script setup>
+import { IconArrowUpRight  } from '@/index.js'
+import iconsData from "~/icons.json";
+import packageData from "/package.json";
+const iconNumber = iconsData.length;
+  const version = packageData.version;
+</script>
+
 <template>
   <div class="relative overflow-hidden bg-slate-50 pt-6">
     <img alt="" src="/banner-bg.jpg" width="2556" height="630" decoding="async" data-nimg="future"
@@ -221,10 +229,3 @@
     </div>
   </div>
 </template>
-
-<script setup>
-import iconsData from "@/icons/iconsData.json";
-import packageData from "/package.json";
-const iconNumber = iconsData.length;
-const version = packageData.version;
-</script>
