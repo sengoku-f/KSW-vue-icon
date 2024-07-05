@@ -69,7 +69,8 @@ const SPIN_ICON_REGEX = /loading/i;
 const getElementCode = async (ComponentName, style, svgCode) => {
   // 如果图标名称包含 "loading"，则将 spin 设为 true
   const spin = SPIN_ICON_REGEX.test(ComponentName) ? true : false;
-  const attrsString = attrsToString(getAttrs(style));
+  // 合并自定义attrs 和 svg attrs
+  const attrsString = attrsToString({...svgCode.svgAttributes, ...getAttrs(style)});
   const code = `
     import { createVNode } from "vue";
     import { IconWrapper } from '../runtime';
@@ -77,7 +78,7 @@ const getElementCode = async (ComponentName, style, svgCode) => {
     export default IconWrapper('${ComponentName}', ${spin}, function (props) {
       return createVNode("svg", {
         ${attrsString}
-      }, [${svgCode}
+      }, [${svgCode.svgChildren}
       ]);
     });
   `;

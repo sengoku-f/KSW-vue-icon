@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1" width="24"
+  height="24" viewBox="0 0 24 24" onload="init()">
+  <defs>
+    <clipPath id="master_svg0_732_92815">
+      <rect x="0" y="0" width="24" height="24" rx="0" />
+    </clipPath>
+    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="master_svg1_732_94332">
+      <stop offset="0%" stop-color="#FCFCFB" stop-opacity="1" />
+      <stop offset="100%" stop-color="#F0EEE7" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#master_svg0_732_92815)">
+    <g>
+      <path
+        d="M2 5C2 3.34314575050762 3.34314575050762 2 5 2L19 2C20.65685424949238 2 22 3.34314575050762 22 5L22 8C22 8 22 8 22 8L2 8C2 8 2 8 2 8Z"
+        fill="#F53F3F" fill-opacity="1" />
+    </g>
+    <g>
+      <path
+        d="M2 8C2 8 2 8 2 8L22 8C22 8 22 8 22 8L22 18.000000953674316C22 20.20913995299749 20.209138999323173 22.000000953674316 18 22.000000953674316L6 22.000000953674316C3.7908610006768266 22.000000953674316 2 20.20913995299749 2 18.000000953674316Z"
+        fill="url(#master_svg1_732_94332)" fill-opacity="1" />
+    </g>
+  </g>
+  <script type="text/javascript">
+    function init() {
+      try {
+          var time = new Date();
+          var locale = "zh-cn";
+          
+          var DD = time.getDate();
+          var MMM = time.toLocaleString(locale, { month: "short" }).toUpperCase();
+          
+          document.querySelectorAll("[data-id-feda7348='day']").forEach(function(elem) {
+              elem.textContent = DD;
+          });
+          document.querySelectorAll("[data-id-feda7348='month']").forEach(function(elem) {
+              elem.textContent = MMM;
+          });
+      } catch (error) {
+          console.error("An error occurred:", error);
+      }
+    }
+  </script>
+  <style>
+      .month {
+          font-size: 4px;
+          font-weight: 600;
+          fill: #FFFFFF;
+          text-anchor: middle;
+      }
+      .day {
+          font-size: 12px;
+          fill: #262626;
+          text-anchor: middle;
+          dominant-baseline: middle;
+      }
+  </style>
+  <text x="50%" y="6.75" data-id-feda7348="month" class="month">7月</text>
+  <text x="50%" y="15.5" data-id-feda7348="day" class="day">1</text>
+</svg>

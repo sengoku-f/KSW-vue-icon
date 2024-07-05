@@ -112,6 +112,8 @@ export { default as IconCTypePerlColor } from './icons/c-type-perl-color';
 export { default as IconCTypePowershellColor } from './icons/c-type-powershell-color';
 export { default as IconCTypePythonColor } from './icons/c-type-python-color';
 export { default as IconCTypeVbsColor } from './icons/c-type-vbs-color';
+export { default as IconCTypeYamlColor } from './icons/c-type-yaml-color';
+export { default as IconCalendarColor } from './icons/calendar-color';
 export { default as IconCard } from './icons/card';
 export { default as IconChartPieColor } from './icons/chart-pie-color';
 export { default as IconChartPie } from './icons/chart-pie';

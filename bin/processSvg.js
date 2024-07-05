@@ -1,7 +1,7 @@
 import { optimize as svgoOptimize } from 'svgo';
 import cheerio from 'cheerio';
 // 获取默认size大小，如果没有设置则为 '24'
-const defaultSize = process.env.npm_package_config_size || 24
+const defaultSize = parseFloat(process.env.npm_package_config_size) || 24
 
 // 生成唯一id
 function genID() {
@@ -14,12 +14,24 @@ function genID() {
 
 // 自定义插件-处理大小不等于 24 的图标
 function transformSize(node) {
-  // 获取最大值
-  const maxNumber = Math.max(node.attributes["width"], node.attributes["height"]);
-  // 将最大值用默认尺寸整除
-  const result = parseInt(defaultSize) / maxNumber;
+  let maxNumber;
+  // 1. 宽度和高度存在时：解析 width 和 height，并计算最大值（maxNumber）。
+  // 2. 仅存在 viewBox 时：解析 viewBox 的值，确定视区的宽度和高度，计算最大值（maxNumber）。
+  // 3. 都不存在时：使用默认尺寸（defaultSize）作为 maxNumber
+  if (node.attributes["width"] && node.attributes["height"]) {
+    maxNumber = Math.max(parseFloat(node.attributes["width"]), parseFloat(node.attributes["height"]));
+  } else if (node.attributes["viewBox"]) {
+    const viewBoxValues = node.attributes["viewBox"].split(' ').map(Number);
+    maxNumber = Math.max(viewBoxValues[2], viewBoxValues[3]);
+  } else {
+    // 如果都没有，设置 maxNumber 为默认尺寸
+    maxNumber = defaultSize;
+  }
+
+  const result = defaultSize / maxNumber;
+
   // 定义需要查找的元素名称的正则表达式
-  const namePattern = new RegExp("rect|line|circle|ellipse|path");
+  const namePattern = new RegExp("rect|line|circle|ellipse|path|text");
 
   if (node.name == "svg" && node.attributes["viewBox"] != `0 0 ${defaultSize} ${defaultSize}`) {
     traverse(node, result); // 调用递归函数遍历子节点
@@ -29,7 +41,10 @@ function transformSize(node) {
   function traverse(node, result) {
     // 判断当前节点是否需要进行缩放操作
     if (namePattern.test(node.name)) {
-      node.attributes["transform"] = `scale(${result})`
+        // 尝试获取节点中的 transform 属性值。如果节点尚未有 transform 属性，currentTransform 将被设置为空字符串
+        const currentTransform = node.attributes["transform"] || "";
+        // 将原有的 transform 属性值（如果有的话）与新的缩放变换（scale(${result})）结合起来，并重新赋值给节点的 transform 属性
+        node.attributes["transform"] = `${currentTransform} scale(${result})`;
     }
     // 如果当前节点有子节点，则继续遍历子节点
     if (node.children) {
@@ -152,13 +167,25 @@ function renderSVGElement(svg) {
   function processNode(node) {
     const tagName = node.tagName;
     const attrs = JSON.stringify(node.attribs);
+    // 过滤出节点的文本内容节点（类型为text或cdata）并且过滤多余的空白字符
+    const textContent = $(node).contents().filter(function() {
+      return this.type === 'text' || this.type === 'cdata';
+    }).text().trim();
+
     const children = $(node).children().map((_, child) => processNode(child)).get();
-    const childrenString = children.length ? `[${children.join(", ")}]` : "null";
-    return `createVNode("${tagName}", ${attrs}, ${childrenString})`;
+    const childrenOrText = children.length ? `[${children.join(", ")}]` : (textContent ? JSON.stringify(textContent) : "null");
+    return `createVNode("${tagName}", ${attrs}, ${childrenOrText})`;
   }
+  // 获取 svg 标签的属性
+  const svgElement = $('svg').get(0);
+  const svgAttributes = svgElement.attribs;
+  const svgAttrsString = Object.entries(svgAttributes).map(([key, value]) => `${JSON.stringify(key)}: ${JSON.stringify(value)}`).join(", ");
 
   const createVNodeCalls = $('svg').children().map((_, child) => processNode(child)).get();
-  return createVNodeCalls.join(",\n");
+  return {
+    svgAttributes: svgAttributes,
+    svgChildren: createVNodeCalls.join(",\n")
+  };
 }
 
 /**
