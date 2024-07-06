@@ -1,11 +1,9 @@
-/* eslint-disable import/no-extraneous-dependencies */
-/* eslint-disable prefer-template */
 import path from 'path';
 import fs from 'fs';
 import { fileURLToPath } from 'url';
 import { processSvg } from './processSvg.js';
 import parseName from './utils.js';
-import { getAttrs, getElementCode } from './template.js';
+import { getElementCode } from './template.js';
 
 // 获取当前模块文件的 URL (ES模块)
 const __filename = fileURLToPath(import.meta.url);
@@ -35,18 +33,6 @@ const generateIndex = () => {
   // 创建一个空的 map.js 文件
   fs.writeFileSync(path.join(rootDir, 'src', 'map.js'), '', 'utf-8');
 }
-
-// 生成属性代码
-const attrsToString = (attrs, style) => {
-  console.log(style)
-  return Object.keys(attrs).map((key) => {
-    // 应区分填充和描边
-    if (key === 'width' || key === 'height' || key === style) {
-      return key + '={' + attrs[key] + '}';
-    }
-    return key + '="' + attrs[key] + '"';
-  }).join(' ');
-};
 
 // 分别生成图标代码
 const generateIconCode = async (name) => {
@@ -92,7 +78,7 @@ generateIndex()
 const svgDir = path.join(rootDir, 'src/svg')
 fs.readdir(svgDir, (err, files) => {
   if (err) {
-    console.error('Could not list the directory.', err);
+    console.error('无法列出目录:', err);
     process.exit(1);
   }
   // 过滤出所有的 SVG 文件
@@ -112,6 +98,6 @@ fs.readdir(svgDir, (err, files) => {
     fs.writeFileSync(jsonOutputFile, JSON.stringify(iconDataList, null, 2), 'utf-8');
     console.log('成功生成 JSON 文件:', jsonOutputFile);
   }).catch(err => {
-    console.error('Error generating icon codes:', err);
+    console.error('生成图标代码时出错:', err);
   });
 });

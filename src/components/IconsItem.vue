@@ -2,8 +2,9 @@
 import { ref, computed, onMounted } from "vue";
 import "~/styles/icon.css";
 import * as Icons from "@/map.js"; // 引入所有图标组件
-import { IconSearch, IconTriangleBottom  } from '@/index.js'
 import iconsData from "~/icons.json"; // 导入 JSON 数据
+import IconSearch from './icon/Search.vue'
+import IconArrowDown from './icon/ArrowDown.vue'
 import useClipboard from "vue-clipboard3";
 import "vue-m-message/dist/style.css";
 import Message from "vue-m-message";
@@ -156,8 +157,7 @@ const colorButtonClass = computed(() => getButtonClass(showColorIcons.value));
             <option value="date">最新</option>
             <option value="name">默认</option>
           </select>
-          <IconTriangleBottom class="absolute right-2 top-1/2 transform -translate-y-1/2 pointer-events-none"
-            style="top: 14px" />
+          <IconArrowDown class="absolute right-3 top-1/2 transform -translate-y-1/2 pointer-events-none" />
         </div>
       </div>
     </div>

@@ -1,13 +1,11 @@
 <script setup>
 import Head from "./components/Head.vue";
-import Install from "./components/Install.vue";
 import IconsItem from "./components/IconsItem.vue";
 </script>
 
 <template>
   <Head />
   <IconsItem />
-  <!-- <Install /> -->
 </template>
 
 <style scoped>

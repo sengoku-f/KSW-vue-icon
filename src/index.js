@@ -3,8 +3,8 @@ import * as Icons from "./map"; // 引入所有图标组件
 export const KswIcon = {
   install(Vue) {
     // 遍历并注册所有图标组件
-    Object.keys(Icons).forEach((key) => {
-      Vue.component(key, Icons[key]);
+    Object.entries(Icons).forEach(([key, component]) => {
+      Vue.component(key, component);
     });
   },
 };

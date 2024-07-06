@@ -1,4 +1,12 @@
+import { readFileSync } from 'fs';
+import { resolve, dirname } from 'path';
+import { fileURLToPath } from 'url';
 import prettier from 'prettier'
+
+// 获取当前模块文件的 URL (ES模块)
+const __filename = fileURLToPath(import.meta.url);
+// 获取当前模块目录的路径
+const __dirname = dirname(__filename);
 
 // 获取默认size大小，如果没有设置则为 '24'
 const defaultSize = process.env.npm_package_config_size || 24
@@ -63,12 +71,39 @@ const attrsToString = (attrs) => {
   }).join(",\n");
 };
 
+// 定义用于检查需要插入 js 的日历图标的正则表达式
+const CALENDAR_ICON_REGEX = /(calendar|AomMenuRLPZ|AomMenuWHQGL|AomMenuJRLC)/i;
+// 读取 utilsCalendar 的代码
+const utilsCalendarPath = resolve(__dirname, './utilsCalendar.js');
+const calendarCode = readFileSync(utilsCalendarPath, 'utf-8');
+// 生成日历相关的代码，包括导入和获取日期信息
+const getCalendarCode = svgChildren => {
+  const modifiedSvgChildren = svgChildren.replace(/"DD"/g, 'DD').replace(/"MMM"/g, 'MMM');
+  return {
+    // calendarImport: `import { getCurrentDateInfo } from "../svg/calendarUtils";`,
+    // calendarCode: `const { DD, MMM } = getCurrentDateInfo();`,
+    calendarCode: calendarCode,
+    svgChildren: modifiedSvgChildren
+  };
+};
+
 // 定义用于检查 ComponentName 是否包含 "loading" 的正则表达式
 const SPIN_ICON_REGEX = /loading/i;
 
 const getElementCode = async (ComponentName, style, svgCode) => {
   // 如果图标名称包含 "loading"，则将 spin 设为 true
   const spin = SPIN_ICON_REGEX.test(ComponentName) ? true : false;
+
+  // 检查组件名是否匹配日历相关正则表达式
+  const isCalendar = CALENDAR_ICON_REGEX.test(ComponentName);
+  // 使用解构赋值，如果不是日历组件，则使用默认的空字符串
+  const { calendarCode: utilsCode, svgChildren } = isCalendar
+    ? getCalendarCode(svgCode.svgChildren)
+    : { calendarCode: '', svgChildren: svgCode.svgChildren };
+  
+  // 更新 svgCode.svgChildren
+  svgCode.svgChildren = svgChildren;
+
   // 合并自定义attrs 和 svg attrs
   const attrsString = attrsToString({...svgCode.svgAttributes, ...getAttrs(style)});
   const code = `
@@ -76,13 +111,15 @@ const getElementCode = async (ComponentName, style, svgCode) => {
     import { IconWrapper } from '../runtime';
 
     export default IconWrapper('${ComponentName}', ${spin}, function (props) {
+      ${utilsCode}
       return createVNode("svg", {
         ${attrsString}
-      }, [${svgCode.svgChildren}
+      }, [
+        ${svgCode.svgChildren}
       ]);
     });
   `;
   return await prettier.format(code, { parser: "babel" });
 };
 
-export { getAttrs, getElementCode };
+export { getElementCode };

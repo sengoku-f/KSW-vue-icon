@@ -1,5 +1,5 @@
 <script setup>
-import { IconArrowUpRight  } from '@/index.js'
+import IconArrowUpRight from './icon/ArrowUpRight.vue'
 import iconsData from "~/icons.json";
 import packageData from "/package.json";
 const iconNumber = iconsData.length;
