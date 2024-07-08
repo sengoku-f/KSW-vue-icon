@@ -96,7 +96,7 @@ yarn lint
 | ---------- | --- | --- | --- | --- |
 | size | 图标的大小，宽高相同 | number &#124; string |  '1em' |
 | color |  图标的颜色，默认为当前颜色 | string &#124; string[]|  'currentColor' |
-| round | 图标旋转角度（IE9 无效） | number | - |
+| rotate | 图标旋转角度（IE9 无效） | number | - |
 | spin |  给图标加旋转动画 | boolean | false |
 
 
