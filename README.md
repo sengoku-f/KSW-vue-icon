@@ -35,8 +35,10 @@ Vue.use(KswIcon)
 ### 用法
 
 ```
-<IconImage :size="24" color="#333" />
-// 设置 spin 为 true 使图标旋转
+<IconName :size="24" color="#333" />
+// 设置 rotate 使图标旋转
+<IconName :rotate="180" />
+// 设置 spin 为 true 使图标实现动画旋转效果
 <IconLoading :size="24" color="#333" :spin="true" />
 ```
 
@@ -93,13 +95,15 @@ yarn lint
 |    属性名称	 | 介绍  | 类型  | 默认值 | 注释 |
 | ---------- | --- | --- | --- | --- |
 | size | 图标的大小，宽高相同 | number &#124; string |  '1em' |
-| spin |  给图标加旋转效果 | boolean | false |
 | color |  图标的颜色，默认为当前颜色 | string &#124; string[]|  'currentColor' |
+| round | 图标旋转角度（IE9 无效） | number | - |
+| spin |  给图标加旋转动画 | boolean | false |
 
 
 ## 项目更新指令
 
 使用 `upv` 命令, `commit信息` 自定义, 示例如下:
+
 ```
-    npm run upv commit信息
+npm run upv commit信息
 ```

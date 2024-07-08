@@ -11,15 +11,7 @@ const __dirname = dirname(__filename);
 // 获取默认size大小，如果没有设置则为 '24'
 const defaultSize = process.env.npm_package_config_size || 24
 
-// 定义默认的图标属性
-const DEFAULT_ICON_CONFIGS = {
-  size: '1em',
-  color: 'currentColor',
-  strokeWidth: 2,
-  strokeLinecap: 'round',
-  strokeLinejoin: 'round',
-};
-
+// 合并属性
 const getAttrs = (style) => {
   const baseAttrs = {
     'xmlns': 'http://www.w3.org/2000/svg',
@@ -27,6 +19,7 @@ const getAttrs = (style) => {
     'height': 'props.size',
     'aria-hidden': true,
     'viewBox': `0 0 ${defaultSize} ${defaultSize}`,
+    'transform': 'props.rotate ? `rotate(${props.rotate})` : undefined'
   }
   const fillAttrs = {
     'fill': 'props.color'
@@ -34,9 +27,9 @@ const getAttrs = (style) => {
   const strokeAttrs = {
     'stroke': 'props.color',
     'fill': 'none',
-    'stroke-width': DEFAULT_ICON_CONFIGS.strokeWidth,
-    'stroke-linecap': DEFAULT_ICON_CONFIGS.strokeLinecap,
-    'stroke-linejoin': DEFAULT_ICON_CONFIGS.strokeLinejoin
+    'stroke-width': 2,
+    'stroke-linecap': 'round',
+    'stroke-linejoin': 'round'
   }
   const colorAttrs = {
     // 添加适用于 'color' 样式的属性

@@ -19,6 +19,9 @@ export function IconWrapper(name, spin, render) {
         type: String,
         default: DEFAULT_ICON_CONFIGS.color,
       },
+      rotate: {
+        type: Number,
+      },
       spin: {
         type: Boolean,
         default: spin || DEFAULT_ICON_CONFIGS.spin,
