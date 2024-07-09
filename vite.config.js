@@ -1,9 +1,9 @@
 import { fileURLToPath, URL } from "node:url";
 import { globSync } from "glob";
-import fs from "fs";
 import path from "node:path";
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
+import dts from "vite-plugin-dts";
 
 // https://vitejs.dev/config/
 const baseConfig = {
@@ -121,12 +121,22 @@ const packagesConfig = {
     },
   },
   publicDir: false,
+  plugins: [
+    // ES模块类型
+    dts({
+      outDir: "packages/es",
+    }),
+    // CommonJS类型
+    dts({
+      outDir: "packages/cjs",
+    }),
+  ],
 };
 
-export default () => {
+export default defineConfig(() => {
   if (process.env.BUILD === "packages") {
     return packagesConfig;
   } else {
     return siteConfig;
   }
-};
+});

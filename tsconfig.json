@@ -1,0 +1,16 @@
+{
+  "include": [
+    "src/index.js",
+    "src/map.js",
+    "src/runtime/*.js",
+    "src/icons/*.js"
+  ], // 包括需要编译的文件
+  "exclude": ["node_modules", "dist"], // 排除不需要编译的文件夹
+  "compilerOptions": {
+    "declaration": true, // 生成 d.ts 声明文件
+    "emitDeclarationOnly": true, // 仅生成声明文件
+    "allowJs": true, // 允许编译 JavaScript 文件
+    "checkJs": true, // 检查 JavaScript 文件中的错误
+    "outDir": "./dist" // 输出目录
+  }
+}
