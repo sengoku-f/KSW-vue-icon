@@ -1,9 +1,45 @@
 <script setup>
-import IconArrowUpRight from './icon/ArrowUpRight.vue'
+import { ref } from 'vue';
+import useClipboard from "vue-clipboard3";
+import IconCopy from './icon/Copy.vue'
 import iconsData from "~/icons.json";
 import packageData from "/package.json";
+
+const { toClipboard } = useClipboard();
+
 const iconNumber = iconsData.length;
-  const version = packageData.version;
+const version = packageData.version;
+const npmInstallCode = `npm i ksw-vue-icon@${version}`;
+
+const showCopiedMessage = ref(false);
+const opacityValue = ref(0);
+const isThrottled = ref(false);
+
+const displayCopiedMessage = () => {
+  showCopiedMessage.value = true;
+  requestAnimationFrame(() => {
+    opacityValue.value = 1;
+    setTimeout(() => {
+      opacityValue.value = 0;
+      setTimeout(() => {
+        showCopiedMessage.value = false;
+        isThrottled.value = false;
+      }, 500);
+    }, 1500);
+  });
+};
+
+const copyCode = async () => {
+  if (isThrottled.value) return;
+  isThrottled.value = true;
+  try {
+    await toClipboard(npmInstallCode);
+    displayCopiedMessage();
+  } catch (error) {
+    console.error('复制失败:', error);
+    isThrottled.value = false;
+  }
+};
 </script>
 
 <template>
@@ -18,11 +54,16 @@ const iconNumber = iconsData.length;
           <img class="h-7" src="/klogo.svg" />
           <span class="text-xl font-semibold">KSW Design</span>
         </div>
-        <a class="-mx-1.5 -my-1 flex items-center gap-1 rounded-lg px-1.5 py-1 text-[0.8125rem] font-medium leading-6 text-slate-900 transition hover:bg-slate-900/[0.03]"
-          href="https://ksw.design.donxj.com/components/icon">
-          <span>使用指南</span>
-          <IconArrowUpRight class="text-xs text-slate-500" />
-        </a>
+        <div class="flex justify-center gap-8 lg:justify-start">
+          <a class="-mx-1.5 -my-1 flex items-center gap-2 rounded-lg px-1.5 py-1 text-[0.8125rem] font-semibold leading-6 text-slate-900 transition hover:bg-slate-900/[0.03]"
+            href="https://github.com/sengoku-f/KSW-vue-icon">
+            <img class="size-6" src="/Github.svg" />
+            Github</a>
+          <a class="-mx-1.5 -my-1 flex items-center gap-2 rounded-lg px-1.5 py-1 text-[0.8125rem] font-semibold leading-6 text-slate-900 transition hover:bg-slate-900/[0.03]"
+            href="https://www.npmjs.com/package/ksw-vue-icon"><img class="size-6" src="/NPM.svg" />NPM Packages</a>
+          <a class="-mx-1.5 -my-1 flex items-center gap-2 rounded-lg px-1.5 py-1 text-[0.8125rem] font-semibold leading-6 text-slate-900 transition hover:bg-slate-900/[0.03]"
+            href="/"><img class="size-6" src="/Mastergo.svg" />Mastergo File</a>
+        </div>
       </div>
       <div class="flex justify-center text-center lg:pb-7 lg:pt-5 lg:text-left">
         <div class="flex max-w-[37rem] flex-col py-16 lg:pb-11 lg:pt-12">
@@ -42,14 +83,24 @@ const iconNumber = iconsData.length;
             Discover Ksw SVG Icons, Elevate Your UI with Effortless Integration.
           </h1>
           <div class="mt-10 flex justify-center gap-8 lg:justify-start">
-            <a class="-mx-1.5 -my-1 flex items-center gap-3 rounded-lg px-1.5 py-1 text-[0.8125rem] font-semibold leading-6 text-slate-900 transition hover:bg-slate-900/[0.03]"
-              href="https://github.com/sengoku-f/KSW-vue-icon">
-              <img class="size-6" src="/Github.svg" />
-              Github</a>
-            <a class="-mx-1.5 -my-1 flex items-center gap-3 rounded-lg px-1.5 py-1 text-[0.8125rem] font-semibold leading-6 text-slate-900 transition hover:bg-slate-900/[0.03]"
-              href="https://www.npmjs.com/package/ksw-vue-icon"><img class="size-6" src="/NPM.svg" />NPM Packages</a>
-            <a class="-mx-1.5 -my-1 flex items-center gap-3 rounded-lg px-1.5 py-1 text-[0.8125rem] font-semibold leading-6 text-slate-900 transition hover:bg-slate-900/[0.03]"
-              href="/"><img class="size-6" src="/Mastergo.svg" />Mastergo File</a>
+            <a class="-mx-1.5 -my-1 flex items-center gap-3 rounded-full px-4 py-2 text-base font-medium leading-6 text-white transition bg-blue-600 hover:bg-blue-800"
+              href="https://ksw.design.donxj.com/components/icon">
+              Get Started</a>
+            <button
+              class="relative overflow-hidden -mx-1.5 -my-1 flex items-center gap-3 rounded-full px-4 py-2 text-base font-medium leading-6 text-slate-900 transition border border-slate-300 hover:border-blue-600 hover:text-blue-600"
+              @click="copyCode()">
+              {{ npmInstallCode }}
+              <IconCopy />
+              <div v-if="showCopiedMessage"
+                class="absolute bg-white/[0.36] backdrop-blur-2xl top-0 left-0 w-full h-full flex items-center justify-center gap-2 transition duration-500"
+                :style="{ opacity: opacityValue }" will-change="auto;">
+                <svg width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                  stroke-width="2" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                </svg>
+                Copied!
+              </div>
+            </button>
           </div>
         </div>
         <div class="hidden lg:flex lg:flex-auto lg:justify-center">

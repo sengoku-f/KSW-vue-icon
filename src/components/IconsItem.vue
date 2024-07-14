@@ -6,8 +6,8 @@ import iconsData from "~/icons.json"; // 导入 JSON 数据
 import IconSearch from './icon/Search.vue'
 import IconArrowDown from './icon/ArrowDown.vue'
 import useClipboard from "vue-clipboard3";
-import "vue-m-message/dist/style.css";
 import Message from "vue-m-message";
+import "vue-m-message/dist/style.css";
 
 const { toClipboard } = useClipboard();
 const copyName = async (name) => {

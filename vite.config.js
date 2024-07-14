@@ -40,20 +40,21 @@ const siteConfig = {
     emptyOutDir: true,
     rollupOptions: {
       output: {
-        // manualChunks(id) {
-        //   if (id.includes('node_modules')) {
-        //     // 将 node_modules 中打包的库拆分成单独的 chunk
-        //     return id.toString().split('node_modules/')[1].split('/')[0].toString();
-        //   } else if (id.includes('src/icons')) {
-        //     const groups = getGroupedIconChunks();
-        //     for (const [group, files] of Object.entries(groups)) {
-        //       if (files.includes(id)) {
-        //         return group;
-        //       }
-        //     }
-        //     return null; //如果没有组匹配，则默认情况
-        //   }
-        // },
+        manualChunks(id) {
+          // if (id.includes('node_modules')) {
+          //   // 将 node_modules 中打包的库拆分成单独的 chunk
+          //   return id.toString().split('node_modules/')[1].split('/')[0].toString();
+          // }
+          if (id.includes('src/icons')) {
+            const groups = getGroupedIconChunks();
+            for (const [group, files] of Object.entries(groups)) {
+              if (files.includes(id)) {
+                return group;
+              }
+            }
+            return null; //如果没有组匹配，则默认情况
+          }
+        },
       },
     },
   },
