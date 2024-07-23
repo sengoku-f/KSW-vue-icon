@@ -26,10 +26,10 @@ export function IconWrapper(name, spin, render) {
         type: Boolean,
         default: spin || DEFAULT_ICON_CONFIGS.spin,
       },
-      grayscale:{
+      grayscale: {
         type: Boolean,
         default: false,
-      }
+      },
     },
     setup(props) {
       return () => {

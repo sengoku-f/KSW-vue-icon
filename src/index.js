@@ -1,4 +1,5 @@
 import * as Icons from "./map"; // 引入所有图标组件
+import "../styles/icon.css";
 
 export const KswIcon = {
   install(Vue) {
