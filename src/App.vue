@@ -5,7 +5,6 @@ import IconsItem from "./components/IconsItem.vue";
 
 <template>
   <Head />
-
   <IconsItem />
 </template>
 
