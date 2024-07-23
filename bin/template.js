@@ -19,7 +19,7 @@ const getAttrs = (style) => {
     'height': 'props.size',
     'aria-hidden': true,
     'viewBox': `0 0 ${defaultSize} ${defaultSize}`,
-    'transform': 'props.rotate ? `rotate(${props.rotate})` : undefined'
+    'transform': 'props.rotate ? `rotate(${props.rotate})` : undefined',
   }
   const fillAttrs = {
     'fill': 'props.color'

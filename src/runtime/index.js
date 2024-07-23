@@ -5,9 +5,10 @@ const DEFAULT_ICON_CONFIGS = {
   color: "currentColor",
   spin: false,
   prefix: "ksw",
+  grayscale: false,
 };
 
-export function IconWrapper(name, spin, render) {
+export function IconWrapper(name, spin, grayscale, render) {
   return {
     name: "Icon" + name,
     props: {
@@ -26,6 +27,10 @@ export function IconWrapper(name, spin, render) {
         type: Boolean,
         default: spin || DEFAULT_ICON_CONFIGS.spin,
       },
+      grayscale:{
+        type: Boolean,
+        default: grayscale || DEFAULT_ICON_CONFIGS.grayscale,
+      }
     },
     setup(props) {
       return () => {
@@ -38,6 +43,10 @@ export function IconWrapper(name, spin, render) {
 
         if (spin) {
           cls.push(`${DEFAULT_ICON_CONFIGS.prefix}-icon-spin`);
+        }
+
+        if (grayscale) {
+          cls.push(`${DEFAULT_ICON_CONFIGS.prefix}-icon-grayscale`);
         }
 
         return createVNode(

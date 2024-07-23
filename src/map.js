@@ -97,6 +97,7 @@ export { default as IconAomMenuZXLSColor } from './icons/aom-menu-ZXLS-color';
 export { default as IconAomMenuZYSJColor } from './icons/aom-menu-ZYSJ-color';
 export { default as IconAomMenuZZFWQColor } from './icons/aom-menu-ZZFWQ-color';
 export { default as IconAomMenuDefaultColor } from './icons/aom-menu-default-color';
+export { default as IconArgument } from './icons/argument';
 export { default as IconArrowBottom } from './icons/arrow-bottom';
 export { default as IconArrowLeft } from './icons/arrow-left';
 export { default as IconArrowRight } from './icons/arrow-right';
