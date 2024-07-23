@@ -98,6 +98,7 @@ yarn lint
 | color |  图标的颜色，默认为当前颜色 | string &#124; string[]|  'currentColor' |
 | rotate | 图标旋转角度（IE9 无效） | number | - |
 | spin |  给图标加旋转动画 | boolean | false |
+| grayscale |  灰度 | boolean | false |
 
 
 ## 项目更新指令

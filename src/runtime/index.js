@@ -5,10 +5,9 @@ const DEFAULT_ICON_CONFIGS = {
   color: "currentColor",
   spin: false,
   prefix: "ksw",
-  grayscale: false,
 };
 
-export function IconWrapper(name, spin, grayscale, render) {
+export function IconWrapper(name, spin, render) {
   return {
     name: "Icon" + name,
     props: {
@@ -29,12 +28,12 @@ export function IconWrapper(name, spin, grayscale, render) {
       },
       grayscale:{
         type: Boolean,
-        default: grayscale || DEFAULT_ICON_CONFIGS.grayscale,
+        default: false,
       }
     },
     setup(props) {
       return () => {
-        const { spin } = props;
+        const { spin, grayscale } = props;
 
         const cls = [
           `${DEFAULT_ICON_CONFIGS.prefix}-icon`,
