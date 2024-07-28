@@ -45,7 +45,7 @@ const generateIconCode = async (name) => {
   const svgCode = await processSvg(code, names.style) // 将样式传递给 processSvg
   const ComponentName = names.componentName
   // 获取组件代码
-  const component = await getElementCode(ComponentName, names.style, svgCode)
+  const component = await getElementCode(names, svgCode)
 
   // 写入组件代码
   fs.writeFileSync(destination, component, 'utf-8');

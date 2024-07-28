@@ -45,7 +45,7 @@ const siteConfig = {
           //   // 将 node_modules 中打包的库拆分成单独的 chunk
           //   return id.toString().split('node_modules/')[1].split('/')[0].toString();
           // }
-          if (id.includes('src/icons')) {
+          if (id.includes("src/icons")) {
             const groups = getGroupedIconChunks();
             for (const [group, files] of Object.entries(groups)) {
               if (files.includes(id)) {
@@ -108,6 +108,9 @@ const packagesConfig = {
           globals: {
             vue: "Vue",
           },
+          manualChunks: {
+            gsap: ["gsap"],
+          },
         },
         {
           format: "cjs",
@@ -116,6 +119,9 @@ const packagesConfig = {
           chunkFileNames: "[name].js",
           globals: {
             vue: "Vue",
+          },
+          manualChunks: {
+            gsap: ["gsap"],
           },
         },
       ],

@@ -147,6 +147,7 @@ function optimize(svg, style) {
         params: {
           prefix: genID(),
           delim: "_",
+          prefixClassNames: false,
         },
       },
     ],

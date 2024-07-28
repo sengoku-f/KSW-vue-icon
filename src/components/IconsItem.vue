@@ -27,6 +27,7 @@ const iconNames = ref(Object.keys(Icons));
 // 排序图标
 const sortBy = ref("date"); // 用于控制排序方式，默认为按时间排序
 const showColorIcons = ref(false); // 控制是否显示彩色图标
+const showAnimationIcons = ref(false); // 控制是否显示动画图标
 const searchQuery = ref(""); // 搜索框输入的值
 // 过滤和排序图标
 const sortIcons = () => {
@@ -44,6 +45,10 @@ const sortIcons = () => {
     // 过滤彩色图标
     sortedIcons = sortedIcons.filter((icon) => icon.name.includes("Color"));
   }
+  if (showAnimationIcons.value) {
+    // 过滤动画图标
+    sortedIcons = sortedIcons.filter((icon) => icon.name.includes("Animation"));
+  }
   iconNames.value = sortedIcons.map((icon) => icon.name);
 };
 onMounted(() => {
@@ -57,6 +62,11 @@ const handleSortChange = (event) => {
 // 切换是否显示彩色图标
 const filterColorIcons = (show) => {
   showColorIcons.value = show;
+  sortIcons();
+};
+// 切换是否显示动画图标
+const toggleAnimationIcons = () => {
+  showAnimationIcons.value = !showAnimationIcons.value;
   sortIcons();
 };
 // 计算属性，用于根据搜索框输入过滤图标列表
@@ -149,7 +159,11 @@ const colorButtonClass = computed(() => getButtonClass(showColorIcons.value));
       <button :class="colorButtonClass" @click="filterColorIcons(true)">
         彩色
       </button>
-      <div class="ml-auto grid-cols-1 grid-rows-1 text-sm sm:grid" role="none" aria-hidden="true">
+      <div class="ml-auto text-sm flex items-center gap-4" role="none" aria-hidden="true">
+        <label class="flex items-center gap-1 cursor-pointer select-none">
+          <input class="size-4" type="checkbox" v-model="showAnimationIcons" @change="sortIcons">
+          动画图标
+        </label>
         <div class="relative inline-block">
           <select
             class="appearance-none px-4 py-1 rounded-md border hover:bg-slate-50 border-slate-200 cursor-pointer focus-visible:outline-none pr-8"

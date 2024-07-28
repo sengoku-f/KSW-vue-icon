@@ -206,6 +206,7 @@ export { default as IconScan } from './icons/scan';
 export { default as IconScrip } from './icons/scrip';
 export { default as IconSeal } from './icons/seal';
 export { default as IconSearch } from './icons/search';
+export { default as IconSettingAnimation } from './icons/setting-animation';
 export { default as IconSettingFill } from './icons/setting-fill';
 export { default as IconSetting } from './icons/setting';
 export { default as IconShow } from './icons/show';
