@@ -61,7 +61,9 @@ const attrsToString = (attrs) => {
 
   return Object.entries(attrs)
     .map(([key, value]) => {
-      if (isVariableOrBoolean(value)) {
+      if (key === "ref") {
+        return `"${key}": ${value}`;
+      } else if (isVariableOrBoolean(value)) {
         return `"${key}": ${value}`;
       } else {
         // 属性值添加引号
@@ -100,14 +102,12 @@ const getAnimationCode = (name) => {
     import { gsap } from "gsap";
     `;
     const animationCode = readFileSync(animationFilePath, "utf-8");
-    const animationRef = `ref: svgRef,`;
     return {
       importAnimationVue: importAnimationVue,
       animationCode: animationCode,
-      animationRef: animationRef,
     };
   }
-  return { importAnimationVue: "", animationCode: "", animationRef: "" };
+  return { importAnimationVue: "", animationCode: "" };
 };
 
 // 定义用于检查 componentName 是否包含 "loading" 的正则表达式
@@ -121,7 +121,7 @@ const getElementCode = async (names, svgCode) => {
 
   // 检查组件名是否匹配动画相关正则表达式
   const isAnimation = ANIMATION_ICON_REGEX.test(name);
-  const { importAnimationVue, animationCode, animationRef } = getAnimationCode(isAnimation ? name : "");
+  const { importAnimationVue, animationCode } = getAnimationCode(isAnimation ? name : "");
   const importVue = importAnimationVue || `import { createVNode } from "vue";`;
 
   // 检查组件名是否匹配日历相关正则表达式
@@ -147,7 +147,6 @@ const getElementCode = async (names, svgCode) => {
       ${animationCode}
       ${utilsCode}
       return createVNode("svg", {
-        ${animationRef}
         ${attrsString}
       }, [
         ${svgCode.svgChildren}

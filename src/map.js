@@ -112,6 +112,7 @@ export { default as IconCTypeBatColor } from './icons/c-type-bat-color';
 export { default as IconCTypeCSharpColor } from './icons/c-type-c-sharp-color';
 export { default as IconCTypeCnColor } from './icons/c-type-cn-color';
 export { default as IconCTypeEnColor } from './icons/c-type-en-color';
+export { default as IconCTypeFnColor } from './icons/c-type-fn-color';
 export { default as IconCTypeLegoColor } from './icons/c-type-lego-color';
 export { default as IconCTypeLinuxshellColor } from './icons/c-type-linuxshell-color';
 export { default as IconCTypePerlColor } from './icons/c-type-perl-color';

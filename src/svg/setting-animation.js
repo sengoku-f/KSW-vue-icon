@@ -1,7 +1,8 @@
 const svgRef = ref(null);
+const animation = ref(null);
 const isAnimating = ref(false); // 动画进行中的标志
 nextTick(() => {
-  const animation = gsap.to(".animation", {
+  const gsapAnimation = gsap.to(animation.value, {
     rotation: 180,
     duration: 0.8,
     repeat: 0,
@@ -15,9 +16,9 @@ nextTick(() => {
   });
   // 鼠标移入事件处理函数
   const handleMouseEnter = () => {
-    if (animation && !isAnimating.value) {
+    if (gsapAnimation && !isAnimating.value) {
       isAnimating.value = true; // 标志设置为 true，表示动画正在进行
-      animation.restart(); // 重新开始动画
+      gsapAnimation.restart(); // 重新开始动画
     }
   };
   // 绑定鼠标移入事件

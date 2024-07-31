@@ -136,7 +136,7 @@ function optimize(svg, style) {
             // convertShapeToPath: false,
             // mergePaths: false,
             // removeUnknownsAndDefaults: {
-            //   uselessOverrides: false,
+            //   unknownAttrs: false,
             // },
           },
         },
@@ -157,35 +157,70 @@ function optimize(svg, style) {
   return data;
 }
 
+// 定义一个处理属性的函数，将 data-ref 改为 ref，并且值不用双引号
+function processAttributes(attributes) {
+  let processedAttrs = { ...attributes };
+  if (processedAttrs['data-ref']) {
+    processedAttrs['ref'] = processedAttrs['data-ref']; // 将 data-ref 改为 ref
+    delete processedAttrs['data-ref']; // 删除原有的 data-ref 属性
+  }
+  return processedAttrs; // 返回处理后的属性对象
+}
+
+// 将属性对象转换为字符串形式
+function attributesToString(attributes) {
+  const attrsString = Object.entries(attributes).map(([key, value]) => {
+    if (key === 'ref') {
+      return `${key}: ${value}`; // ref 属性值不用双引号
+    }
+    // 属性值添加引号
+    return `"${key}": "${value}"`;
+  }).join(", ");
+  return `{${attrsString}}`; // 返回包含花括号的属性字符串
+}
+
 /**
  * 读取 SVG 元素
  * @param {string} svg - 输入的 SVG 字符串
  * @returns {string} - 遍历 SVG 元素后的字符串
  */
+// 定义 renderSVGElement 函数，接收一个 SVG 字符串作为参数
 function renderSVGElement(svg) {
+  // 使用 cheerio 加载 SVG 字符串，启用 xmlMode 以便正确处理 SVG
   const $ = cheerio.load(svg, { xmlMode: true });
 
+  // 定义一个递归处理节点的辅助函数
   function processNode(node) {
-    const tagName = node.tagName;
-    const attrs = JSON.stringify(node.attribs);
-    // 过滤出节点的文本内容节点（类型为text或cdata）并且过滤多余的空白字符
+    const tagName = node.tagName; // 获取节点的标签名
+    // 使用 processAttributes 函数处理节点的属性
+    const attrsObject = processAttributes(node.attribs);
+    const attrsString = attributesToString(attrsObject);
+
+    // 过滤出节点的文本内容节点（类型为 text 或 cdata），并且过滤多余的空白字符
     const textContent = $(node).contents().filter(function() {
       return this.type === 'text' || this.type === 'cdata';
     }).text().trim();
 
+    // 递归处理子节点，生成子节点的 VNode 表示
     const children = $(node).children().map((_, child) => processNode(child)).get();
+    // 如果有子节点，则将子节点数组转换为字符串，否则使用文本内容或 null
     const childrenOrText = children.length ? `[${children.join(", ")}]` : (textContent ? JSON.stringify(textContent) : "null");
-    return `createVNode("${tagName}", ${attrs}, ${childrenOrText})`;
+
+    // 返回当前节点的 VNode 表示
+    return `createVNode("${tagName}", ${attrsString}, ${childrenOrText})`;
   }
+
   // 获取 svg 标签的属性
   const svgElement = $('svg').get(0);
-  const svgAttributes = svgElement.attribs;
-  const svgAttrsString = Object.entries(svgAttributes).map(([key, value]) => `${JSON.stringify(key)}: ${JSON.stringify(value)}`).join(", ");
+  const svgAttributes = processAttributes(svgElement.attribs); // 获取 svg 标签的属性
 
+  // 递归处理 svg 标签的子节点，生成子节点的 VNode 表示
   const createVNodeCalls = $('svg').children().map((_, child) => processNode(child)).get();
+
+  // 返回包含 svg 属性和子节点 VNode 表示的对象
   return {
-    svgAttributes: svgAttributes,
-    svgChildren: createVNodeCalls.join(",\n")
+    svgAttributes: svgAttributes, // svg 标签的属性
+    svgChildren: createVNodeCalls.join(",\n") // 子节点的 VNode 表示
   };
 }
 
