@@ -180,7 +180,7 @@ const colorButtonClass = computed(() => getButtonClass(showColorIcons.value));
         :title="iconComponentName" @click="copyName(iconComponentName)">
         <component :is="Icons[iconComponentName]" />
         <div
-          class="text-xs antialiased text-center truncate text-slate-500 text-wrap w-full h-4 group-hover:overflow-visible group-hover:break-words">
+          class="text-xs antialiased text-center truncate text-slate-500 text-wrap w-full h-4 group-hover:overflow-visible group-hover:break-words select-none">
           {{ iconComponentName }}
         </div>
       </li>
