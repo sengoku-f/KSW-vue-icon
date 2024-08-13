@@ -2,7 +2,7 @@
   "name": "ksw-vue-icon",
   "version": "2.2.14",
   "license": "ISC",
-  "description": "Vue Icon",
+  "description": "KSW ICON",
   "type": "module",
   "main": "packages/cjs/index.js",
   "module": "packages/es/index.js",
@@ -27,7 +27,7 @@
     "clean-publish": "clean-publish",
     "upv": "node ./gitHooks/updateVersion.js"
   },
-  "dependencies": {
+  "peerDependencies": {
     "vue": "^3.4.21"
   },
   "devDependencies": {
@@ -46,6 +46,7 @@
     "typescript": "^5.5.3",
     "vite": "^5.2.8",
     "vite-plugin-dts": "^3.9.1",
+    "vue": "^3.4.21",
     "vue-clipboard3": "^2.0.0",
     "vue-m-message": "^4.0.2"
   },
