@@ -18,28 +18,51 @@
 
 ### 安装 NPM 包
 
-```
-npm install ksw-vue-icon --save
-yarn add ksw-vue-icon
+```sh
+npm install ksw-vue-icon --save-dev
+yarn add ksw-vue-icon -D
 ```
 
-### 引用
+### 引入样式
 
+导入图标样式（整个项目只需1次）:
+
+```js
+import 'ksw-vue-icon/styles/icon.css';
 ```
+
+### 按需引用图标
+
+从组件顶部的 `ksw-vue-icon` 导入一个图标，然后在模板标签中使用它：
+
+```js
+// 引用
 import { IconName } from 'ksw-vue-icon'
-// or
+
+// 使用
+<IconName :size="24" color="#333" />
+```
+
+### 全局注册图标
+
+我们建议按需加载图标，因为这样可以大大减少编译代码量。但是在一些类似远程加载菜单的场景下，直接引用所有图标可以减少开发成本。
+
+```js
 import { KswIcon } from 'ksw-vue-icon'
 Vue.use(KswIcon)
 ```
 
-### 用法
+## 基本用法
+
+从组件顶部的 `ksw-vue-icon` 导入一个图标，然后在模板标签中使用它，也可以通过设置 spin 属性来实现动画旋转效果。
 
 ```
-<IconName :size="24" color="#333" />
-// 设置 rotate 使图标旋转
-<IconName :rotate="180" />
-// 设置 spin 为 true 使图标实现动画旋转效果
-<IconLoading :size="24" color="#333" :spin="true" />
+<IconSearch />
+<IconSettingFill color="#3491FA" />
+<IconArrowTop />
+<IconRefresh :spin="true" />
+<IconArrowTop :rotate="180" />
+<IconLoading />
 ```
 
 ## 展示页配置
