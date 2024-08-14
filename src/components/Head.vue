@@ -44,25 +44,25 @@ const copyCode = async () => {
 
 <template>
   <div class="relative overflow-hidden bg-slate-50 pt-6">
-    <img alt="" src="/banner-bg.jpg" width="2556" height="630" decoding="async" data-nimg="future"
+    <img alt="" src="@/assets/banner-bg.jpg" width="2556" height="630" decoding="async" data-nimg="future"
       class="absolute bottom-0 left-1/2 ml-[-639px] w-[1278px] max-w-none"
       style="color: transparent; --darkreader-inline-color: transparent" data-darkreader-inline-color="" />
     <div class="absolute inset-0 shadow-[inset_0_-1px_0_rgba(22,27,59,0.04)]"></div>
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
       <div class="relative z-10 flex items-center justify-between">
         <div class="flex items-center gap-4">
-          <img class="h-7" src="/klogo.svg" />
+          <img class="h-7" src="@/assets/klogo.svg" />
           <span class="text-xl font-semibold">KSW Design</span>
         </div>
         <div class="flex justify-center gap-8 lg:justify-start">
           <a class="-mx-1.5 -my-1 flex items-center gap-2 rounded-lg px-1.5 py-1 text-[0.8125rem] font-semibold leading-6 text-slate-900 transition hover:bg-slate-900/[0.03]"
             href="https://github.com/sengoku-f/KSW-vue-icon">
-            <img class="size-6" src="/Github.svg" />
+            <img class="size-6" src="@/assets/Github.svg" />
             Github</a>
           <a class="-mx-1.5 -my-1 flex items-center gap-2 rounded-lg px-1.5 py-1 text-[0.8125rem] font-semibold leading-6 text-slate-900 transition hover:bg-slate-900/[0.03]"
-            href="https://www.npmjs.com/package/ksw-vue-icon"><img class="size-6" src="/NPM.svg" />NPM Packages</a>
+            href="https://www.npmjs.com/package/ksw-vue-icon"><img class="size-6" src="@/assets/NPM.svg" />NPM Packages</a>
           <a class="-mx-1.5 -my-1 flex items-center gap-2 rounded-lg px-1.5 py-1 text-[0.8125rem] font-semibold leading-6 text-slate-900 transition hover:bg-slate-900/[0.03]"
-            href="/"><img class="size-6" src="/Mastergo.svg" />Mastergo File</a>
+            href="/"><img class="size-6" src="@/assets/Mastergo.svg" />Mastergo File</a>
         </div>
       </div>
       <div class="flex justify-center text-center lg:pb-7 lg:pt-5 lg:text-left">

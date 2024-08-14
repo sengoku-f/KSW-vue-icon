@@ -32,6 +32,14 @@
     "modifiedTime": "2024-05-06T07:09:39.864Z"
   },
   {
+    "name": "IconStepStatusFailure",
+    "modifiedTime": "2024-08-08T13:04:59.878Z"
+  },
+  {
+    "name": "IconStepStatusSuccess",
+    "modifiedTime": "2024-08-08T13:04:59.878Z"
+  },
+  {
     "name": "IconSupportCenter",
     "modifiedTime": "2024-05-06T07:09:39.864Z"
   },
@@ -262,6 +270,10 @@
   {
     "name": "IconAomMenuLCSTColor",
     "modifiedTime": "2024-07-04T08:23:48.000Z"
+  },
+  {
+    "name": "IconAomMenuLYCDLColor",
+    "modifiedTime": "2024-08-08T13:04:59.879Z"
   },
   {
     "name": "IconAomMenuMBCSColor",
@@ -552,6 +564,10 @@
     "modifiedTime": "2024-06-20T12:39:37.607Z"
   },
   {
+    "name": "IconDevColor",
+    "modifiedTime": "2024-08-08T13:04:59.879Z"
+  },
+  {
     "name": "IconDownC",
     "modifiedTime": "2024-06-25T08:53:15.484Z"
   },
@@ -566,6 +582,10 @@
   {
     "name": "IconFileAdd",
     "modifiedTime": "2024-05-06T07:09:39.871Z"
+  },
+  {
+    "name": "IconFileStarredColor",
+    "modifiedTime": "2024-08-13T08:16:01.135Z"
   },
   {
     "name": "IconFile",
@@ -824,6 +844,10 @@
     "modifiedTime": "2024-06-18T10:18:58.983Z"
   },
   {
+    "name": "IconScripColor",
+    "modifiedTime": "2024-08-13T08:16:01.135Z"
+  },
+  {
     "name": "IconScrip",
     "modifiedTime": "2024-06-18T10:18:58.983Z"
   },
@@ -904,6 +928,10 @@
     "modifiedTime": "2024-06-18T10:18:58.986Z"
   },
   {
+    "name": "IconStoreColor",
+    "modifiedTime": "2024-08-08T13:04:59.880Z"
+  },
+  {
     "name": "IconTableControlMore",
     "modifiedTime": "2024-05-06T07:09:39.880Z"
   },
@@ -922,6 +950,10 @@
   {
     "name": "IconTask",
     "modifiedTime": "2024-06-25T08:53:15.485Z"
+  },
+  {
+    "name": "IconTestColor",
+    "modifiedTime": "2024-08-08T13:04:59.880Z"
   },
   {
     "name": "IconTime",

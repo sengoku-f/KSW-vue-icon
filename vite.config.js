@@ -22,7 +22,7 @@ function getGroupedIconChunks() {
   const iconDirectory = path.resolve(__dirname, "src/icons");
   const iconFiles = globSync(`${iconDirectory}/*.js`);
   const chunks = {};
-  const groupSize = 200; //根据需要调整组大小
+  const groupSize = 150; //根据需要调整组大小
 
   for (let i = 0; i < iconFiles.length; i += groupSize) {
     const chunkName = `icons/group${i / groupSize}`;

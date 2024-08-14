@@ -17,10 +17,10 @@
   ],
   "repository": "https://github.com/sengoku-f/KSW-vue-icon",
   "scripts": {
-    "generate": "rm -rf src/icons && node bin/build.js",
+    "compiler:icons": "rm -rf src/icons && node bin/build.js",
     "dev": "vite",
     "build": "vite build",
-    "build-packages": "BUILD=packages vite build",
+    "build:packages": "BUILD=packages vite build",
     "build:types": "tsc --emitDeclarationOnly",
     "preview": "vite preview",
     "lint": "vite lint",
