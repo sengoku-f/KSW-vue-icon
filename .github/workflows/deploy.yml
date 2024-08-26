@@ -88,6 +88,12 @@ jobs:
             echo $RSYNC_STDOUT
         continue-on-error: true  # 即使失败，也继续下一个步骤
 
+      - name: Set short git commit SHA
+        id: vars
+        run: |
+          calculatedSha=$(git rev-parse --short ${{ github.sha }})
+          echo "COMMIT_SHORT_SHA=$calculatedSha" >> $GITHUB_ENV
+
       # 发送企业微信通知
       - name: WeChat Work notification
         if: steps.check.outputs.changed == 'true'
@@ -96,6 +102,15 @@ jobs:
           WECHAT_WORK_BOT_WEBHOOK: ${{secrets.WECHAT_WORK_BOT_WEBHOOK}}
         with:
           msgtype: markdown
-          content: "兄弟们，咱们的图标更新 ${{ steps.check.outputs.version }} 啦！\n
-          >更新:<font color=\"comment\">请使用 yarn upgrade ksw-vue-icon --latest 更新。</font>
-          >在线查看图标:<font color=\"comment\">https://sengoku-f.github.io/KSW-vue-icon/</font>"
+          content: "兄弟们，咱们的图标更新 <font color=\"warning\">${{ steps.check.outputs.version }}</font> 啦！\n
+          > 变更日志 [${{ env.COMMIT_SHORT_SHA }}](https://github.com/${{github.repository}}/commit/${{github.sha}})\n
+          > <font color=\"comment\">${{ github.event.head_commit.message }}</font>\n\n
+          [在线查看图标](https://sengoku-f.github.io/KSW-vue-icon/)"
+      - name: WeChat Work notification 2
+        if: steps.check.outputs.changed == 'true'
+        uses: chf007/action-wechat-work@master
+        env:
+          WECHAT_WORK_BOT_WEBHOOK: ${{secrets.WECHAT_WORK_BOT_WEBHOOK}}
+        with:
+          msgtype: text
+          content: "yarn upgrade ksw-vue-icon --latest"
