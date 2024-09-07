@@ -34,9 +34,9 @@ jobs:
       - name: Install dependencies and build
         run: |
           yarn install
-          yarn compiler:icons
-          yarn build
+          yarn build:icons
           yarn build:packages
+          yarn build
 
       # 检查版本
       - name: Check version changes

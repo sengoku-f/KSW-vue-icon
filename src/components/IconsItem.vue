@@ -39,17 +39,17 @@ const sortIcons = () => {
     );
   } else {
     // 按名称排序
-    sortedIcons.sort((a, b) => a.name.localeCompare(b.name));
+    sortedIcons.sort((a, b) => a.componentName.localeCompare(b.componentName));
   }
   if (showColorIcons.value) {
     // 过滤彩色图标
-    sortedIcons = sortedIcons.filter((icon) => icon.name.includes("Color"));
+    sortedIcons = sortedIcons.filter((icon) => icon.componentName.includes("Color"));
   }
   if (showAnimationIcons.value) {
     // 过滤动画图标
-    sortedIcons = sortedIcons.filter((icon) => icon.name.includes("Animation"));
+    sortedIcons = sortedIcons.filter((icon) => icon.componentName.includes("Animation"));
   }
-  iconNames.value = sortedIcons.map((icon) => icon.name);
+  iconNames.value = sortedIcons.map((icon) => icon.componentName);
 };
 onMounted(() => {
   sortIcons();
