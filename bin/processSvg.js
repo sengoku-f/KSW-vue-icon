@@ -66,7 +66,7 @@ function convertStroke(node, style) {
         delete node.attributes["fill"]
       }
       // 如果 style 为 color 则使得 stroke 为当前颜色 否则为 currentColor
-      const strokeColor = style === "color" ? node.attributes["stroke"] : "currentColor";
+      const strokeColor = style === "color" ? node.attributes["stroke"] : "props.color";
       // 对匹配到的节点执行处理逻辑
       Object.assign(node.attributes, {
         "stroke": strokeColor,
@@ -167,11 +167,14 @@ function processAttributes(attributes) {
   return processedAttrs; // 返回处理后的属性对象
 }
 
-// 将属性对象转换为字符串形式
+// 节点属性对象转换为字符串形式
 function attributesToString(attributes) {
   const attrsString = Object.entries(attributes).map(([key, value]) => {
     if (key === 'ref') {
       return `${key}: ${value}`; // ref 属性值不用双引号
+    }
+    if (key === 'stroke' && typeof value === 'string' && value.startsWith('props.')) {
+      return `"${key}": ${value}`; // stroke 属性值以 props. 开头不用双引号
     }
     // 属性值添加引号
     return `"${key}": "${value}"`;
