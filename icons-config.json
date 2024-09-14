@@ -1,10 +1,26 @@
 [
   {
-    "title": "添加",
     "name": " add",
+    "title": "添加",
     "category": "Character",
     "categoryCN": "符号标识",
     "author": "KSW",
     "tag": ["新建", "增加", "创建"]
+  },
+  {
+    "name": "aom-menu-AOMRZ-color",
+    "title": "AOM日志",
+    "category": "AOM Menu",
+    "categoryCN": "AOM 菜单",
+    "author": "KSW",
+    "tag": ["AOM", "日志"]
+  },
+  {
+    "name": "aom-menu-BBCX-color",
+    "title": "报表查询",
+    "category": "AOM Menu",
+    "categoryCN": "AOM 菜单",
+    "author": "KSW",
+    "tag": ["AOM", "报表"]
   }
 ]

@@ -7,7 +7,7 @@ import packageData from "/package.json";
 
 const { toClipboard } = useClipboard();
 
-const iconNumber = iconsData.length;
+const iconNumber = iconsData.at(-1).id;
 const version = packageData.version;
 const npmInstallCode = `npm i ksw-vue-icon@${version}`;
 

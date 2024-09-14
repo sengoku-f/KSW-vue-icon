@@ -89,12 +89,29 @@ function getIconExternals() {
   );
 }
 
+// 默认参数
+const baseOutputConfig = {
+  entryFileNames: "[name].js",
+  chunkFileNames: "[name].js",
+  globals: {
+    vue: "Vue",
+  },
+  manualChunks: {
+    gsap: ["gsap"],
+  },
+};
+
 const packagesConfig = {
   ...baseConfig,
+  // esbuild: {
+  //   minifySyntax: false,
+  //   minifyWhitespace: false,
+  //   minifyIdentifiers: false,
+  // },
   build: {
     outDir: "packages",
     emptyOutDir: true,
-    minify: true,
+    // minify: true,
     rollupOptions: {
       input: getFileInput(),
       external: ["vue", "./map", "../runtime", ...getIconExternals()],
@@ -103,26 +120,12 @@ const packagesConfig = {
         {
           format: "es",
           dir: "packages/es",
-          entryFileNames: "[name].js",
-          chunkFileNames: "[name].js",
-          globals: {
-            vue: "Vue",
-          },
-          manualChunks: {
-            gsap: ["gsap"],
-          },
+          ...baseOutputConfig
         },
         {
           format: "cjs",
           dir: "packages/cjs",
-          entryFileNames: "[name].js",
-          chunkFileNames: "[name].js",
-          globals: {
-            vue: "Vue",
-          },
-          manualChunks: {
-            gsap: ["gsap"],
-          },
+          ...baseOutputConfig
         },
       ],
     },
