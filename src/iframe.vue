@@ -1,5 +1,4 @@
 <script setup>
-import Head from "./components/Head.vue";
 import ToolBar from "./components/ToolBar.vue";
 import IconsItem from "./components/IconsItem.vue";
 import 'overlayscrollbars/styles/overlayscrollbars.css';
@@ -27,8 +26,13 @@ const [initialize, instance] = useOverlayScrollbars({
   options,
   events: {
     initialized: () => {
+      osInstance.value = osRef.value?.osInstance(); // 更新 osInstance
+      if (osInstance) {
+        // console.log('osInstance initialized', osInstance);
+      }
     },
     destroyed: () => {
+      // console.log('osInstance destroyed');
     },
   },
 });
@@ -42,7 +46,6 @@ onMounted(() => {
 
 <template>
   <OverlayScrollbarsComponent ref="osRef" :options="options" class="h-full" defer>
-    <Head />
     <IconsItem />
   </OverlayScrollbarsComponent>
 </template>

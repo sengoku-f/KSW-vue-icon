@@ -39,6 +39,10 @@ const siteConfig = {
     outDir: "dist",
     emptyOutDir: true,
     rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, 'index.html'),
+        iframe: path.resolve(__dirname, 'iframe.html'),
+      },
       output: {
         manualChunks(id) {
           // if (id.includes('node_modules')) {
@@ -103,11 +107,11 @@ const baseOutputConfig = {
 
 const packagesConfig = {
   ...baseConfig,
-  // esbuild: {
-  //   minifySyntax: false,
-  //   minifyWhitespace: false,
-  //   minifyIdentifiers: false,
-  // },
+  esbuild: {
+    minifySyntax: false,
+    minifyWhitespace: false,
+    minifyIdentifiers: false,
+  },
   build: {
     outDir: "packages",
     emptyOutDir: true,

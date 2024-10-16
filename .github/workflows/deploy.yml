@@ -35,7 +35,7 @@ jobs:
         run: |
           yarn install
           yarn build:icons
-          yarn build:packages
+          yarn build:code
           yarn build
 
       # 检查版本
