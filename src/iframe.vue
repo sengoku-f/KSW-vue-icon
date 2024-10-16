@@ -1,7 +1,6 @@
 <script setup>
-import Head from "./components/Head.vue";
-import ToolBar from "./components/new/ToolBar.vue";
-import IconsItem from "./components/new/IconsItem.vue";
+import ToolBar from "./components/ToolBar.vue";
+import IconsItem from "./components/IconsItem.vue";
 import 'overlayscrollbars/styles/overlayscrollbars.css';
 import { OverlayScrollbarsComponent,useOverlayScrollbars } from "overlayscrollbars-vue";
 import { OverlayScrollbars, ClickScrollPlugin } from 'overlayscrollbars';
@@ -48,7 +47,6 @@ onMounted(() => {
 
 <template>
   <OverlayScrollbarsComponent ref="osRef" :options="options" class="h-full" defer>
-    <Head />
     <IconsItem />
   </OverlayScrollbarsComponent>
 </template>

@@ -1,5 +1,5 @@
 import { createApp } from "vue";
-import App from "./test.vue";
+import App from "./iframe.vue";
 // import { KswIcon } from "./index.js";
 import "/tailwind.css";
 

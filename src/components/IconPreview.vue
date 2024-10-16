@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+  <!-- <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"> -->
     <ul class="wrapper">
       <li class="group item cursor-pointer" v-for="iconComponentName in filteredIconNames" :key="iconComponentName"
         :title="iconComponentName" @click="copyName(iconComponentName)">
@@ -10,7 +10,7 @@
         </div>
       </li>
     </ul>
-  </div>
+  <!-- </div> -->
 </template>
 
 <script setup>
@@ -41,10 +41,11 @@ const filteredIconNames = computed(() => {
   .wrapper {
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
     gap: 2rem;
     margin: 0;
-    padding: 3rem 0;
+    width: 100%;
+    padding-bottom: 3rem;
   }
   
   .item {
