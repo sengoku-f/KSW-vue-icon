@@ -28,12 +28,11 @@ const [initialize, instance] = useOverlayScrollbars({
     initialized: () => {
       osInstance.value = osRef.value?.osInstance(); // 更新 osInstance
       if (osInstance) {
-        console.log('osInstance initialized', osInstance);
-        console.log('osInstance initialized', osInstance.value.elements());
+        // console.log('osInstance initialized', osInstance);
       }
     },
     destroyed: () => {
-      console.log('osInstance destroyed');
+      // console.log('osInstance destroyed');
     },
   },
 });

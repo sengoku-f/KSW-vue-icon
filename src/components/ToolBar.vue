@@ -1,7 +1,7 @@
 <template>
   <div class="sticky top-0 w-full bg-white my-4" :class="{ 'border-b bg-white/50 backdrop-blur-xl shadow-sm': isSticky }">
-    <div aria-hidden="false" ref="targetDiv" :class="{ 'px-0': isSticky }" class="mx-auto max-w-7xl py-3 px-4 sm:px-6 lg:px-8 gap-3 transition-all hidden md:flex isolate items-baseline lg:gap-4" role="tablist" aria-orientation="horizontal">
-      <div class="relative flex-auto">
+    <div aria-hidden="false" ref="targetDiv" :class="{ 'px-0': isSticky }" class="mx-auto max-w-7xl py-3 px-4 sm:px-6 lg:px-8 gap-3 transition-all flex isolate items-baseline lg:gap-4" role="tablist" aria-orientation="horizontal">
+      <div class="relative">
         <IconSearch
           class="pointer-events-none absolute !flex justify-center items-center h-full w-9 transition" />
         <input type="search" v-model="searchQuery" aria-label="搜索所有图标" placeholder="搜索所有图标…"

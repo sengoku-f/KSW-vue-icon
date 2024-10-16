@@ -39,6 +39,10 @@ const siteConfig = {
     outDir: "dist",
     emptyOutDir: true,
     rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, 'index.html'),
+        iframe: path.resolve(__dirname, 'iframe.html'),
+      },
       output: {
         manualChunks(id) {
           // if (id.includes('node_modules')) {
