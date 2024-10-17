@@ -19,7 +19,6 @@
         </li>
       </ul>
     </aside>
-    <!-- <span class="border-r"></span> -->
     <IconPreview :iconNames="filteredIconNames" />
   </div>
 </template>
