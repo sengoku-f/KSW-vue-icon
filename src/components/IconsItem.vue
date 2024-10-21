@@ -1,5 +1,6 @@
 <template>
   <ToolBar
+    id="ToolBar"
     :showColorIcons="showColorIcons"
     :showAnimationIcons="showAnimationIcons"
     :sortBy="sortBy"
