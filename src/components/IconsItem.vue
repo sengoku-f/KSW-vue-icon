@@ -33,7 +33,7 @@ const iconNames = ref([]);
 
 // 状态和属性
 const sortBy = ref("date");
-const showColorIcons = ref(false);
+const showColorIcons = ref("all");
 const showAnimationIcons = ref(false); // 控制是否显示动画图标
 const searchQuery = ref("");
 const selectedCategory = ref("全部");
@@ -107,7 +107,7 @@ const filteredIconNames = computed(() => {
 </script>
 
 <style scoped>
-  .is-active {
-    @apply font-medium text-blue-600 bg-blue-50;
-  }
+.is-active {
+  @apply font-medium text-blue-600 bg-blue-50;
+}
 </style>

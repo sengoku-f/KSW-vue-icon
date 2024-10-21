@@ -7,7 +7,7 @@
         <input type="search" v-model="searchQuery" aria-label="搜索所有图标" placeholder="搜索所有图标…"
           class="appearance-none block w-56 rounded-lg border border-slate-200 text-sm transition py-2 pl-8 pr-4 focus:outline-none shadow-sm" />
       </div>
-      <div class="ml-auto flex items-center gap-4 text-sm" role="none" aria-hidden="true">
+      <div class="ml-auto flex items-center gap-4 text-sm" role="none">
         <label class="flex items-center gap-1 cursor-pointer select-none">
           <input class="size-4" type="checkbox" @change="toggleAnimationIcons">
           动画图标
@@ -42,7 +42,7 @@ import IconSearch from './icon/Search.vue'
 import IconArrowDown from './icon/ArrowDown.vue'
 
 const props = defineProps({
-  showColorIcons: Boolean,
+  showColorIcons: String,
   sortBy: String,
   searchQuery: String,
 });
@@ -83,7 +83,7 @@ const topOffset = ref(0);
 const handleScroll = () => {
   if (targetDiv.value) {
     const rect = targetDiv.value.getBoundingClientRect();
-    console.log(rect.top, topOffset.value);
+    // console.log(rect.top, topOffset.value);
     isSticky.value = rect.top <= topOffset.value;
   }
 };
@@ -95,20 +95,20 @@ function updateTopOffset() {
 }
 
 onMounted(() => {
-  const scrollContainer = document.querySelector("div[data-overlayscrollbars-contents]");
-  scrollContainer.addEventListener('scroll', handleScroll);
-  window.addEventListener('resize', updateTopOffset);
+  const scrollContainer = document?.querySelector("div[data-overlayscrollbars-contents]");
+  scrollContainer?.addEventListener('scroll', handleScroll);
+  window?.addEventListener('scroll', handleScroll);
+  window?.addEventListener('resize', updateTopOffset);
   updateTopOffset(); // 初始化时即检查一次
 
   //观察更改和更新偏移的窗口宽度
   const resizeObserver = new ResizeObserver(updateTopOffset);
-  resizeObserver.observe(document.body);
+  resizeObserver?.observe(document?.body);
 });
 
 onUnmounted(() => {
-  const scrollContainer = document.querySelector("div[data-overlayscrollbars-contents]");
-  window.removeEventListener('scroll', handleScroll);
-  window.removeEventListener('resize', updateTopOffset);
+  window?.removeEventListener('scroll', handleScroll);
+  window?.removeEventListener('resize', updateTopOffset);
 });
 </script>
 
