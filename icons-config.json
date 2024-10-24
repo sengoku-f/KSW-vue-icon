@@ -22,5 +22,45 @@
     "categoryCN": "AOM 菜单",
     "author": "KSW",
     "tag": ["AOM", "报表"]
+  },
+  {
+    "name": "gfaom-BGGK",
+    "title": "defaultTitle",
+    "category": "GF AOM",
+    "categoryCN": "广发 AOM",
+    "author": "KSW",
+    "tag": ["AOM"]
+  },
+  {
+    "name": "gfaom-BGGL",
+    "title": "defaultTitle",
+    "category": "Default",
+    "categoryCN": "广发 AOM",
+    "author": "KSW",
+    "tag": ["AOM"]
+  },
+  {
+    "name": "gfaom-CJDDGL",
+    "title": "defaultTitle",
+    "category": "Default",
+    "categoryCN": "广发 AOM",
+    "author": "KSW",
+    "tag": ["AOM"]
+  },
+  {
+    "name": "gfaom-GJGL",
+    "title": "defaultTitle",
+    "category": "Default",
+    "categoryCN": "广发 AOM",
+    "author": "KSW",
+    "tag": ["AOM"]
+  },
+  {
+    "name": "gfaom-SYKB",
+    "title": "defaultTitle",
+    "category": "Default",
+    "categoryCN": "广发 AOM",
+    "author": "KSW",
+    "tag": ["AOM"]
   }
 ]
