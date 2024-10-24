@@ -42,9 +42,9 @@ const createIconData = (config, id, ComponentName, name, stats) => ({
   name,
   componentName: `Icon${ComponentName}`,
   title: config?.title || "defaultTitle",
-  category: config?.category || "Default",
-  categoryCN: config?.categoryCN || "默认",
-  author: config?.author || "unknown",
+  category: config?.category || "Other",
+  categoryCN: config?.categoryCN || "其他",
+  author: config?.author || "KSW",
   modifiedTime: stats.mtime,
   tag: config?.tag || [],
 });

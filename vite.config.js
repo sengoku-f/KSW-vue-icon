@@ -107,11 +107,11 @@ const baseOutputConfig = {
 
 const packagesConfig = {
   ...baseConfig,
-  esbuild: {
-    minifySyntax: false,
-    minifyWhitespace: false,
-    minifyIdentifiers: false,
-  },
+  // esbuild: {
+  //   minifySyntax: false,
+  //   minifyWhitespace: false,
+  //   minifyIdentifiers: false,
+  // },
   build: {
     outDir: "packages",
     emptyOutDir: true,

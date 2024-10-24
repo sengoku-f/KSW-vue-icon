@@ -1,7 +1,6 @@
 import { nodeResolve } from "@rollup/plugin-node-resolve";
 import esbuild from "rollup-plugin-esbuild";
 import { minify } from "rollup-plugin-esbuild";
-import babel from "@rollup/plugin-babel";
 import { emptyDir } from "rollup-plugin-empty-dir";
 import del from 'rollup-plugin-delete'
 import cleanup from "rollup-plugin-cleanup";
@@ -63,10 +62,6 @@ export default [
     plugins: [
       del({ targets: 'packages/*' }),
       nodeResolve(),
-      // babel({
-      //   babelHelpers: "bundled",
-      //   exclude: "node_modules/**",
-      // }),
       // esbuild({
       //   minifySyntax: true,
       //   minifyWhitespace: false,
