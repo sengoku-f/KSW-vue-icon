@@ -25,42 +25,66 @@
   },
   {
     "name": "gfaom-BGGK",
-    "title": "defaultTitle",
+    "title": "广发 变更管控",
     "category": "GF AOM",
     "categoryCN": "广发 AOM",
     "author": "KSW",
-    "tag": ["AOM"]
+    "tag": ["GuangFa", "AOM", "变更"]
   },
   {
     "name": "gfaom-BGGL",
-    "title": "defaultTitle",
-    "category": "Default",
+    "title": "广发 变更管理",
+    "category": "GuangFa AOM",
     "categoryCN": "广发 AOM",
     "author": "KSW",
-    "tag": ["AOM"]
+    "tag": ["GuangFa", "AOM", "变更"]
   },
   {
     "name": "gfaom-CJDDGL",
-    "title": "defaultTitle",
-    "category": "Default",
+    "title": "广发 采集调度管理",
+    "category": "GuangFa AOM",
     "categoryCN": "广发 AOM",
     "author": "KSW",
-    "tag": ["AOM"]
+    "tag": ["GuangFa", "AOM", "采集", "调度"]
   },
   {
     "name": "gfaom-GJGL",
-    "title": "defaultTitle",
-    "category": "Default",
+    "title": "广发 工具管理",
+    "category": "GuangFa AOM",
     "categoryCN": "广发 AOM",
     "author": "KSW",
-    "tag": ["AOM"]
+    "tag": ["GuangFa", "AOM", "工具", "管理"]
   },
   {
     "name": "gfaom-SYKB",
-    "title": "defaultTitle",
-    "category": "Default",
+    "title": "广发 首页看板",
+    "category": "GuangFa AOM",
     "categoryCN": "广发 AOM",
     "author": "KSW",
-    "tag": ["AOM"]
+    "tag": ["GuangFa", "AOM", "看板"]
+  },
+  {
+    "name": "aom-menu-DPGL-color",
+    "title": "大屏管理",
+    "category": "AOM Menu",
+    "categoryCN": "AOM 菜单",
+    "author": "KSW",
+    "tag": ["AOM", "大屏", "管理"]
+  },
+  {
+    "name": "aom-menu-FPGL-color",
+    "title": "分屏管理",
+    "category": "AOM Menu",
+    "categoryCN": "AOM 菜单",
+    "author": "KSW",
+    "tag": ["AOM", "大屏", "分屏", "管理"]
+  },
+  {
+    "name": "aom-menu-DPYL-color",
+    "title": "大屏预览",
+    "category": "AOM Menu",
+    "categoryCN": "AOM 菜单",
+    "author": "KSW",
+    "tag": ["AOM", "大屏", "预览", "演示"]
   }
 ]
