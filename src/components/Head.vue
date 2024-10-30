@@ -84,7 +84,7 @@ const copyCode = async () => {
           </h1>
           <div class="mt-10 flex justify-center gap-8 lg:justify-start">
             <a class="-mx-1.5 -my-1 flex items-center gap-3 rounded-full px-4 py-2 text-base font-medium leading-6 text-white transition bg-blue-600 hover:bg-blue-800"
-              href="https://ksw.design.donxj.com/components/icon">
+              href="https://ksw.design.donxj.com/components/General/icon">
               Get Started</a>
             <button
               class="relative overflow-hidden -mx-1.5 -my-1 flex items-center gap-3 rounded-full px-4 py-2 text-base font-medium leading-6 text-slate-900 transition border border-slate-300 hover:border-blue-600 hover:text-blue-600"
