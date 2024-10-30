@@ -20,17 +20,18 @@
         </li>
       </ul>
     </aside>
-    <IconPreview :iconNames="filteredIconNames" />
+    <IconPreview :icons="filteredIcons" :iconComponents="Icons" />
   </div>
 </template>
 
 <script setup>
 import { ref, computed, onMounted } from "vue";
+import * as Icons from "@/map.js";
 import iconsData from "~/icons.json";
 import ToolBar from "./ToolBar.vue";
 import IconPreview from "./IconPreview.vue";
 
-const iconNames = ref([]);
+const icons = ref([]);
 
 // 状态和属性
 const sortBy = ref("date");
@@ -64,7 +65,7 @@ const sortIcons = () => {
   if (selectedCategory.value !== "全部") {
     sortedIcons = sortedIcons.filter(icon => icon.categoryCN === selectedCategory.value);
   }
-  iconNames.value = sortedIcons.map((icon) => icon.componentName);
+  icons.value = sortedIcons.map((icon) => ({ componentName: icon.componentName, title: icon.title }));
 };
 
 // 初始排序
@@ -102,8 +103,8 @@ const changeCategory = (category) => {
 };
 
 // 计算属性用于根据搜索框输入过滤图标列表
-const filteredIconNames = computed(() => {
-  return iconNames.value.filter((iconName) => iconName.toLowerCase().includes(searchQuery.value.toLowerCase()));
+const filteredIcons = computed(() => {
+  return icons.value.filter((icon) => icon.componentName.toLowerCase().includes(searchQuery.value.toLowerCase()));
 });
 </script>
 

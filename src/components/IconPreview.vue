@@ -3,25 +3,25 @@
   <ul class="wrapper">
     <li
       class="group item cursor-pointer"
-      v-for="iconComponentName in filteredIconNames"
-      :key="iconComponentName"
-      :title="iconComponentName"
-      @click="copyName(iconComponentName)"
-      @mouseenter="showElement(iconComponentName)" 
-      @mouseleave="hideElement(iconComponentName)"
+      v-for="icon in filteredIcons"
+      :key="icon.componentName"
+      :title="icon.title"
+      @click="copyName(icon.componentName)"
+      @mouseenter="showElement(icon.componentName)"
+      @mouseleave="hideElement(icon.componentName)"
     >
-      <component :is="Icons[iconComponentName]" />
-      <div class="icon-title">
-        {{ iconComponentName }}
+      <div class="icon-text icon-title" v-if="hoveredIcon === icon.componentName">
+        {{ icon.title }}
       </div>
-      <div 
-        class="icon-options"
-        v-if="hoveredIcon === iconComponentName"
-      >
-        <button @click.stop="copyName(iconComponentName)">
+      <component :is="iconComponents[icon.componentName]" />
+      <div class="icon-text">
+        {{ icon.componentName }}
+      </div>
+      <div class="icon-options" v-if="hoveredIcon === icon.componentName">
+        <button @click.stop="copyName(icon.componentName)">
           <IconCopy />
         </button>
-        <button @click.stop="copyVue(iconComponentName)">
+        <button @click.stop="copyVue(icon.componentName)">
           <IconCode />
         </button>
       </div>
@@ -32,7 +32,6 @@
 
 <script setup>
 import { ref, computed } from "vue";
-import * as Icons from "@/map.js";
 import useClipboard from "vue-clipboard3";
 import "vue-m-message/dist/style.css";
 import Message from "vue-m-message";
@@ -41,7 +40,8 @@ import IconCode from "./icon/Code.vue";
 
 // Props
 const props = defineProps({
-  iconNames: Array,
+  icons: Array,
+  iconComponents: Object,
 });
 
 // 复制逻辑
@@ -56,8 +56,8 @@ const copyVue = async (name) => {
 };
 
 // 计算
-const filteredIconNames = computed(() => {
-  return props.iconNames;
+const filteredIcons = computed(() => {
+  return props.icons;
 });
 
 // 用于跟踪悬停哪个图标的状态
@@ -113,13 +113,16 @@ const hideElement = () => {
     0 3.5px 6px rgba(0, 0, 0, 0.09);
   transform: scale3d(1.04, 1.04, 1.04) translateY(-0.5rem);
 }
-.icon-title {
+.icon-text {
   @apply items-center justify-center text-xs antialiased text-center truncate text-slate-500 text-wrap w-full h-4 group-hover:overflow-visible group-hover:break-words;
-  /* position: absolute;
+}
+
+.icon-title {
+  position: absolute;
   opacity: 0;
   top: 0;
-  translate: 0 10px;
-  animation: iconTitle 0.4s forwards; */
+  translate: 0 -6px;
+  animation: iconTitle 0.4s forwards;
 }
 
 .icon-options {
@@ -152,7 +155,7 @@ const hideElement = () => {
 @keyframes iconTitle {
   to {
     opacity: 1;
-    translate: 0 20px;
+    translate: 0 10px;
   }
 }
 </style>
