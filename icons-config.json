@@ -29,7 +29,7 @@
     "category": "GF AOM",
     "categoryCN": "广发 AOM",
     "author": "KSW",
-    "tag": ["GuangFa", "AOM", "变更"]
+    "tag": ["广发", "AOM", "变更"]
   },
   {
     "name": "gfaom-BGGL",
@@ -37,7 +37,7 @@
     "category": "GuangFa AOM",
     "categoryCN": "广发 AOM",
     "author": "KSW",
-    "tag": ["GuangFa", "AOM", "变更"]
+    "tag": ["广发", "AOM", "变更"]
   },
   {
     "name": "gfaom-CJDDGL",
@@ -45,7 +45,7 @@
     "category": "GuangFa AOM",
     "categoryCN": "广发 AOM",
     "author": "KSW",
-    "tag": ["GuangFa", "AOM", "采集", "调度"]
+    "tag": ["广发", "AOM", "采集", "调度"]
   },
   {
     "name": "gfaom-GJGL",
@@ -53,7 +53,7 @@
     "category": "GuangFa AOM",
     "categoryCN": "广发 AOM",
     "author": "KSW",
-    "tag": ["GuangFa", "AOM", "工具", "管理"]
+    "tag": ["广发", "AOM", "工具", "管理"]
   },
   {
     "name": "gfaom-SYKB",
@@ -61,7 +61,7 @@
     "category": "GuangFa AOM",
     "categoryCN": "广发 AOM",
     "author": "KSW",
-    "tag": ["GuangFa", "AOM", "看板"]
+    "tag": ["广发", "AOM", "看板"]
   },
   {
     "name": "aom-menu-DPGL-color",
@@ -86,5 +86,68 @@
     "categoryCN": "AOM 菜单",
     "author": "KSW",
     "tag": ["AOM", "大屏", "预览", "演示"]
+  },
+  {
+    "name": "GFAOM-YHGL",
+    "componentName": "IconGFAOMYHGL",
+    "title": "广发 用户管理",
+    "category": "GuangFa AOM",
+    "categoryCN": "广发 AOM",
+    "author": "KSW",
+    "tag": ["广发", "AOM", "用户", "管理"]
+  },
+  {
+    "name": "GFAOM-QXGL",
+    "componentName": "IconGFAOMQXGL",
+    "title": "广发 权限管理",
+    "category": "GuangFa AOM",
+    "categoryCN": "广发 AOM",
+    "author": "KSW",
+    "tag": ["广发", "AOM", "权限", "管理"]
+  },
+  {
+    "name": "list-search",
+    "componentName": "IconListSearch",
+    "title": "列表搜索",
+    "category": "Edit",
+    "categoryCN": "编辑",
+    "author": "KSW",
+    "tag": ["列表", "搜索", "查看"]
+  },
+  {
+    "name": "size-controls",
+    "componentName": "IconSizeControls",
+    "title": "大小控制",
+    "category": "Edit",
+    "categoryCN": "编辑",
+    "author": "KSW",
+    "tag": ["控制"]
+  },
+  {
+    "name": "user-filled",
+    "componentName": "IconUserFilled",
+    "title": "用户-填充",
+    "category": "User",
+    "categoryCN": "用户",
+    "author": "KSW",
+    "tag": ["用户", "人们"]
+  },
+  {
+    "name": "users-filled",
+    "componentName": "IconUsersFilled",
+    "title": "用户们-填充",
+    "category": "User",
+    "categoryCN": "用户",
+    "author": "KSW",
+    "tag": ["用户们", "人们"]
+  },
+  {
+    "name": "users",
+    "componentName": "IconUsers",
+    "title": "用户们",
+    "category": "User",
+    "categoryCN": "用户",
+    "author": "KSW",
+    "tag": ["用户们", "人们"]
   }
 ]
