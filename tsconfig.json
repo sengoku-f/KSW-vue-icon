@@ -1,9 +1,8 @@
 {
   "include": [
     "src/index.js",
-    "src/map.js",
     "src/runtime/*.js",
-    "src/icons/*.js"
+    "src/icons/*/*.js"
   ], // 包括需要编译的文件
   "exclude": ["node_modules", "dist"], // 排除不需要编译的文件夹
   "compilerOptions": {

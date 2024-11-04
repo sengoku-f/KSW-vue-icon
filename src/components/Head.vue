@@ -2,7 +2,7 @@
 import { ref } from 'vue';
 import useClipboard from "vue-clipboard3";
 import IconCopy from './icon/Copy.vue'
-import iconsData from "~/icons.json";
+import iconsData from "~/icons-base.json";
 import packageData from "/package.json";
 
 const { toClipboard } = useClipboard();

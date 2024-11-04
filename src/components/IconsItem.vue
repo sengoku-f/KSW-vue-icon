@@ -20,20 +20,26 @@
         </li>
       </ul>
     </aside>
-    <IconPreview :icons="filteredIcons" :iconComponents="Icons" />
+    <IconPreview :icons="filteredIcons" :iconComponents="iconSet" />
   </div>
 </template>
 
 <script setup>
 import { ref, computed, onMounted } from "vue";
-import * as Icons from "@/icons/base";
-import iconsData from "~/icons.json";
 import ToolBar from "./ToolBar.vue";
 import IconPreview from "./IconPreview.vue";
 
-const icons = ref([]);
+// 引入 icons 组件
+import * as baseIcons from "@/icons/base";
+import * as guangfaIcons from "@/icons/guangfa"
+import iconsDataBase from "~/icons-base.json";
+import iconsDataGuangfa from "~/icons-guangfa.json";
+
+const iconsData = [ ...iconsDataBase, ...iconsDataGuangfa ];
+const iconSet = { ...guangfaIcons, ...baseIcons }
 
 // 状态和属性
+const icons = ref([]);
 const sortBy = ref("date");
 const showColorIcons = ref("all");
 const showAnimationIcons = ref(false); // 控制是否显示动画图标

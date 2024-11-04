@@ -20,7 +20,7 @@ const baseConfig = {
 // 将图标分组为块的函数
 function getGroupedIconChunks() {
   const iconDirectory = path.resolve(__dirname, "src/icons");
-  const iconFiles = globSync(`${iconDirectory}/*.js`);
+  const iconFiles = globSync(`${iconDirectory}/*/*.js`);
   const chunks = {};
   const groupSize = 150; //根据需要调整组大小
 
@@ -68,9 +68,8 @@ const siteConfig = {
 function getFileInput() {
   const files = globSync([
     "src/index.js",
-    "src/map.js",
     "src/runtime/*.js",
-    "src/icons/*.js",
+    "src/icons/*/*.js",
   ]);
   return Object.fromEntries(
     files.map((file) => [
@@ -87,9 +86,9 @@ function getFileInput() {
 
 // 获取/icons文件夹下的所有图标名称
 function getIconExternals() {
-  const iconFiles = globSync(path.resolve(__dirname, "src/icons/*.js"));
+  const iconFiles = globSync("src/icons/*/*.js");
   return iconFiles.map(
-    (file) => `./icons/${path.basename(file, path.extname(file))}`
+    (file) => `./${path.parse(file).name}`
   );
 }
 
@@ -118,7 +117,7 @@ const packagesConfig = {
     // minify: true,
     rollupOptions: {
       input: getFileInput(),
-      external: ["vue", "./map", "../runtime", ...getIconExternals()],
+      external: ["vue", "./icons/base", "./icons/guangfa", "../../runtime", ...getIconExternals()],
       preserveEntrySignatures: "allow-extension",
       output: [
         {

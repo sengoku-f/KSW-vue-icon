@@ -16,9 +16,9 @@ const __dirname = path.dirname(__filename);
 
 // 获取/icons文件夹下的所有图标名称
 function getIconExternals() {
-  const iconFiles = globSync(path.resolve(__dirname, "src/icons/*.js"));
+  const iconFiles = globSync("src/icons/*/*.js");
   return iconFiles.map(
-    (file) => `./icons/${path.basename(file, path.extname(file))}`
+    (file) => `./${path.parse(file).name}`
   );
 }
 
@@ -26,10 +26,10 @@ function getIconExternals() {
 function getFileInput() {
   const files = globSync([
     "src/index.js",
-    "src/map.js",
     "src/runtime/*.js",
-    "src/icons/*.js",
+    "src/icons/*/*.js",
   ]);
+  // console.log("file:", JSON.stringify(files, null, 1));
   return Object.fromEntries(
     files.map((file) => [
       path.relative(
@@ -45,7 +45,7 @@ function getFileInput() {
 // 默认参数
 const baseOutputConfig = {
   // compact: true,
-  // entryFileNames: '[name].js',
+  entryFileNames: '[name].js',
   chunkFileNames: "[name].js",
   globals: {
     vue: "Vue",
@@ -54,11 +54,11 @@ const baseOutputConfig = {
     gsap: ["gsap"],
   },
 };
-console.log(typeof baseOutputConfig);
-export default [
+
+const config =  [
   {
     input: getFileInput(),
-    external: ["vue", "./map", "../runtime", ...getIconExternals()],
+    external: ["vue", "./icons/base", "./icons/guangfa", "../../runtime", ...getIconExternals()],
     plugins: [
       del({ targets: 'packages/*' }),
       nodeResolve(),
@@ -90,7 +90,7 @@ export default [
   },
   {
     input: getFileInput(),
-    external: ["vue", "./map", "../runtime", ...getIconExternals()],
+    external: ["vue", "./icons/base", "./icons/guangfa", "../../runtime", ...getIconExternals()],
     plugins: [dts()],
     output: [
       {
@@ -104,3 +104,5 @@ export default [
     ],
   },
 ];
+// console.log(JSON.stringify(config, null, 2));
+export default config;

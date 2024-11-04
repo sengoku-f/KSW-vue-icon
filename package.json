@@ -1,6 +1,6 @@
 {
   "name": "ksw-vue-icon",
-  "version": "2.2.35",
+  "version": "2.3.0",
   "license": "ISC",
   "description": "KSW ICON",
   "type": "module",
@@ -9,11 +9,14 @@
   "types": "packages/es/index.d.ts",
   "files": [
     "styles",
-    "icons.json",
+    "icons-base.json",
+    "icons-guangfa.json",
     "packages/*/*.js",
     "packages/*/*/*.js",
+    "packages/*/*/*/*.js",
     "packages/*/*.d.ts",
-    "packages/*/*/*.d.ts"
+    "packages/*/*/*.d.ts",
+    "packages/*/*/*/*.d.ts"
   ],
   "repository": "https://github.com/sengoku-f/KSW-vue-icon",
   "scripts": {
@@ -66,10 +69,6 @@
     ".": {
       "import": "./packages/es/index.js",
       "require": "./packages/cjs/index.js"
-    },
-    "./icons.json": {
-      "import": "./icons.json",
-      "require": "./icons.json"
     },
     "./styles/*.css": {
       "import": "./styles/*.css",

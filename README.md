@@ -66,6 +66,21 @@ Vue.use(KswIcon);
 <IconLoading />
 ```
 
+## 项目用法
+
+你可以在 `Vue.ues` 方法传入项目名称来使用项目图标库扩充基本图标库。项目图标的优先级大于基本图标。
+
+例如下方的示例使用广发 (Guangfa) 来扩充基本图标库
+
+```js
+Vue.use(KswIcon, { projectName: "Guangfa" });
+```
+
+| projectName  | 介绍                     | 
+| --------- | -------------------------- |
+| Base      |  基本图标库       |
+| Guangfa     | 广发图标库 |
+
 ## 展示页配置
 
 ### 安装依赖
