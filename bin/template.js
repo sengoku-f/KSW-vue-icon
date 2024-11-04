@@ -94,8 +94,9 @@ const getCalendarCode = (svgChildren) => {
 // 定义用于检查 name 是否包含 "Animation" 的正则表达式
 const ANIMATION_ICON_REGEX = /animation/i;
 
-const getAnimationCode = (name) => {
-  const animationFilePath = resolve(rootDir, `./src/svg/${name}.js`);
+const getAnimationCode = (filePath) => {
+  // 构建动画文件的完整路径
+  const animationFilePath = filePath.replace(/\.svg$/, ".js");
   if (existsSync(animationFilePath)) {
     const importAnimationVue = `
     import { createVNode, nextTick, ref } from "vue";
@@ -113,7 +114,7 @@ const getAnimationCode = (name) => {
 // 定义用于检查 componentName 是否包含 "loading" 的正则表达式
 const SPIN_ICON_REGEX = /loading/i;
 
-const getElementCode = async (names, svgCode) => {
+const getElementCode = async (names, svgCode, filePath) => {
   // 解构 names
   const { name, componentName, style } = names;
   // 如果图标名称包含 "loading"，则将 spin 设为 true
@@ -121,7 +122,7 @@ const getElementCode = async (names, svgCode) => {
 
   // 检查组件名是否匹配动画相关正则表达式
   const isAnimation = ANIMATION_ICON_REGEX.test(name);
-  const { importAnimationVue, animationCode } = getAnimationCode(isAnimation ? name : "");
+  const { importAnimationVue, animationCode } = getAnimationCode(isAnimation ? filePath : "");
   const importVue = importAnimationVue || `import { createVNode } from "vue";`;
 
   // 检查组件名是否匹配日历相关正则表达式
@@ -141,7 +142,7 @@ const getElementCode = async (names, svgCode) => {
   });
   const code = `
     ${importVue}
-    import { IconWrapper } from '../runtime';
+    import { IconWrapper } from '../../runtime';
 
     export default IconWrapper('${componentName}', ${spin}, function (props) {
       ${animationCode}

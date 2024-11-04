@@ -26,7 +26,7 @@
 
 <script setup>
 import { ref, computed, onMounted } from "vue";
-import * as Icons from "@/map.js";
+import * as Icons from "@/icons/base";
 import iconsData from "~/icons.json";
 import ToolBar from "./ToolBar.vue";
 import IconPreview from "./IconPreview.vue";

@@ -15,7 +15,6 @@ const rootDir = path.join(__dirname, "..");
 // 定义源代码和图标代码的目录
 const srcDir = path.join(rootDir, "src");
 const iconsDir = path.join(rootDir, "src/icons");
-const mapFile = path.join(rootDir, "src", "map.js");
 const jsonOutputFile = path.join(rootDir, "icons.json");
 const iconsConfigFile = path.join(rootDir, "icons-config.json");
 
@@ -25,19 +24,12 @@ const iconsConfig = JSON.parse(fs.readFileSync(iconsConfigFile, "utf8"));
 // 创建目录的辅助函数
 const createDirIfNotExists = (dir) => {
   if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir);
+    fs.mkdirSync(dir, { recursive: true });
   }
 };
 
-// 生成 map.js
-const generateMap = () => {
-  createDirIfNotExists(srcDir);
-  createDirIfNotExists(iconsDir);
-  fs.writeFileSync(path.join(srcDir, "map.js"), "", "utf-8");
-};
-
 // 创建图标数据的辅助函数
-const createIconData = (config, id, ComponentName, name, stats) => ({
+const createIconData = (config, id, ComponentName, name, projectName, stats) => ({
   id,
   name,
   componentName: `Icon${ComponentName}`,
@@ -45,64 +37,68 @@ const createIconData = (config, id, ComponentName, name, stats) => ({
   category: config?.category || "Other",
   categoryCN: config?.categoryCN || "其他",
   author: config?.author || "KSW",
-  modifiedTime: stats.mtime,
   tag: config?.tag || [],
+  projectName: projectName,
+  modifiedTime: stats.mtime,
 });
 
+// 递归获取所有 SVG 文件
+const getAllSvgFiles = async (dir) => {
+  const entries = await fs.promises.readdir(dir, { withFileTypes: true });
+  const files = await Promise.all(entries.map((entry) => {
+    const fullPath = path.join(dir, entry.name);
+    return entry.isDirectory() ? getAllSvgFiles(fullPath) : fullPath;
+  }));
+  return Array.prototype.concat(...files).filter(file => path.extname(file) === ".svg");
+};
+
 // 分别生成图标代码
-const generateIconCode = async (name) => {
+const generateIconCode = async (filePath, svgDir) => {
+  const name = path.basename(filePath, ".svg");
   const names = parseName(name);
-  const location = path.join(rootDir, "src/svg", `${names.name}.svg`);
-  const destination = path.join(rootDir, "src/icons", `${names.name}.js`);
+  const relativePath = path.relative(svgDir, path.dirname(filePath));
+  const destinationDir = path.join(iconsDir, relativePath);
+  createDirIfNotExists(destinationDir);
+  const destination = path.join(destinationDir, `${names.name}.js`);
   // 读取 SVG 文件
-  // const code = fs.readFileSync(location)
-  const code = await fs.promises.readFile(location);
+  const code = await fs.promises.readFile(filePath);
   // 处理 SVG 文件
   const svgCode = await processSvg(code, names.style); // 将样式传递给 processSvg
   const ComponentName = names.componentName;
   // 获取组件代码
-  const component = await getElementCode(names, svgCode);
-
+  const component = await getElementCode(names, svgCode, filePath);
   // 写入组件代码
-  // fs.writeFileSync(destination, component, 'utf-8');
   await fs.promises.writeFile(destination, component, "utf-8");
-
   // 获取文件的修改日期
-  // const stats = fs.statSync(location);
-  const stats = await fs.promises.stat(location);
-
+  const stats = await fs.promises.stat(filePath);
   // 查找 icons-config.json 中的配置
-  const config = iconsConfig.find(
-    (icon) => icon.name.trim() === names.name.trim()
-  );
-
+  const config = iconsConfig.find(icon => icon.name.trim() === names.name.trim());
   console.log("成功构建:", ComponentName, "修改日期:", stats.mtime);
-  return { ComponentName, name: names.name, config, stats };
+  return { ComponentName, name: names.name, config, stats, relativePath };
 };
 
-// 将导出代码追加到 map.js
-const appendToIndex = async ({ ComponentName, name }) => {
-  const exportString = `export { default as Icon${ComponentName} } from './icons/${name}';\r\n`;
-  await fs.promises.appendFile(
-    path.join(rootDir, "src", "map.js"),
-    exportString,
-    "utf-8"
-  );
+// 生成每个子目录的 index.js
+const generateMapForDirectory = async (relativePath, exports) => {
+  const mapFilePath = path.join(iconsDir, relativePath, "index.js");
+  const exportStrings = exports
+    .map(({ ComponentName, name }) => `export { default as ${ComponentName} } from './${name}';\r\n`)
+    .join("");
+  await fs.promises.writeFile(mapFilePath, exportStrings, "utf-8");
+  console.log("成功生成 index.js 文件:", mapFilePath);
 };
 
 async function processFiles() {
   // 从 src/svg 目录读取 SVG 文件
   const svgDir = path.join(rootDir, "src/svg");
   try {
-    const files = await fs.promises.readdir(svgDir);
     // 过滤出所有的 SVG 文件
-    const svgFiles = files.filter((file) => path.extname(file) === ".svg");
+    const svgFiles = await getAllSvgFiles(svgDir);
     // 对文件名进行排序
     svgFiles.sort((a, b) => a.localeCompare(b));
 
     // 使用 Promise.all 处理所有 SVG 文件并按索引排序
     const results = await Promise.all(
-      svgFiles.map((file, index) => processFile(file, index))
+      svgFiles.map((file, index) => processFile(file, index, svgDir))
     );
 
     // 提取 iconData 并写入 JSON 文件
@@ -117,35 +113,34 @@ async function processFiles() {
     );
     console.log("成功生成 JSON 文件:", jsonOutputFile);
 
-    // 生成 map.js 文件
-    const exportStrings = results
-      .map(
-        ({ iconData }) =>
-          `export { default as ${iconData.componentName} } from './icons/${iconData.name}';\r\n`
-      )
-      .join("");
-    await fs.promises.writeFile(mapFile, exportStrings, "utf-8");
-    console.log("成功生成 map.js 文件:", mapFile);
+    // 按子目录生成 index.js 文件
+    const exportsByDir = results.reduce((acc, { iconData, relativePath }) => {
+      if (!acc[relativePath]) {
+        acc[relativePath] = [];
+      }
+      acc[relativePath].push({ ComponentName: iconData.componentName, name: iconData.name });
+      return acc;
+    }, {});
+
+    await Promise.all(Object.entries(exportsByDir).map(([relativePath, exports]) =>
+      generateMapForDirectory(relativePath, exports)
+    ));
   } catch (err) {
     console.error("生成图标代码时出错:", err);
   }
 }
 
-async function processFile(file, index) {
-  const name = path.basename(file, ".svg");
+async function processFile(filePath, index, svgDir) {
   try {
-    const { ComponentName, config, stats } = await generateIconCode(name);
-    // 创建 icon 数据，确保字段顺序一致
-    const iconData = createIconData(config, index, ComponentName, name, stats);
-    // await appendToIndex({ ComponentName, name });
-    return { index, iconData };
+    const { ComponentName, config, stats, relativePath } = await generateIconCode(filePath, svgDir);
+    console.log(relativePath);
+    const iconData = createIconData(config, index, ComponentName, path.basename(filePath, ".svg"), relativePath, stats);
+    return { index, iconData, relativePath };
   } catch (err) {
-    console.error(`处理SVG ${file} 时出错:`, err);
-    return { index, iconData: null };
+    console.error(`处理SVG ${filePath} 时出错:`, err);
+    return { index, iconData: null, relativePath: "" };
   }
 }
 
-// 生成 index 文件
-generateMap();
 // 执行主函数
 processFiles();
