@@ -15,11 +15,6 @@ const rootDir = path.join(__dirname, "..");
 // 定义源代码和图标代码的目录
 const srcDir = path.join(rootDir, "src");
 const iconsDir = path.join(rootDir, "src/icons");
-const jsonOutputFile = path.join(rootDir, "icons.json");
-const iconsConfigFile = path.join(rootDir, "icons-config.json");
-
-// 读取 icons-config.json 文件
-const iconsConfig = JSON.parse(fs.readFileSync(iconsConfigFile, "utf8"));
 
 // 创建目录的辅助函数
 const createDirIfNotExists = (dir) => {
@@ -71,7 +66,14 @@ const generateIconCode = async (filePath, svgDir) => {
   await fs.promises.writeFile(destination, component, "utf-8");
   // 获取文件的修改日期
   const stats = await fs.promises.stat(filePath);
-  // 查找 icons-config.json 中的配置
+  // 查找项目特定的 icons-config-${relativePath}.json 中的配置
+  const configFilePath = path.join(rootDir, `icons-config-${relativePath}.json`);
+  let iconsConfig = [];
+  try {
+    iconsConfig = JSON.parse(fs.readFileSync(configFilePath, "utf8"));
+  } catch (err) {
+    console.warn(`未找到配置文件: ${configFilePath}`);
+  }
   const config = iconsConfig.find(icon => icon.name.trim() === names.name.trim());
   console.log("成功构建:", ComponentName, "修改日期:", stats.mtime);
   return { ComponentName, name: names.name, config, stats, relativePath };
@@ -96,22 +98,36 @@ async function processFiles() {
     // 对文件名进行排序
     svgFiles.sort((a, b) => a.localeCompare(b));
 
-    // 使用 Promise.all 处理所有 SVG 文件并按索引排序
+    // 初始化每个项目的计数器
+    const idCounters = {};
+
+    // 使用 Promise.all 处理所有 SVG 文件
     const results = await Promise.all(
-      svgFiles.map((file, index) => processFile(file, index, svgDir))
+      svgFiles.map((file) => processFile(file, idCounters, svgDir))
     );
 
-    // 提取 iconData 并写入 JSON 文件
-    const iconDataList = results
-      .sort((a, b) => a.index - b.index)
-      .map((result) => result.iconData);
+    const iconDataByProject = results.reduce((acc, { iconData, relativePath }) => {
+      if (!acc[relativePath]) {
+        acc[relativePath] = [];
+      }
+      acc[relativePath].push(iconData);
+      return acc;
+    }, {});
 
+    // 对每个项目的图标数据进行排序
+    for (const relativePath in iconDataByProject) {
+      iconDataByProject[relativePath].sort((a, b) => a.id - b.id);
+    }
+
+    await Promise.all(Object.entries(iconDataByProject).map(async ([relativePath, iconDataList]) => {
+      const jsonOutputFile = path.join(rootDir, `icons-${relativePath}.json`);
     await fs.promises.writeFile(
       jsonOutputFile,
       JSON.stringify(iconDataList, null, 2),
       "utf-8"
     );
-    console.log("成功生成 JSON 文件:", jsonOutputFile);
+      console.log(`成功生成 JSON 文件: ${jsonOutputFile}`);
+    }));
 
     // 按子目录生成 index.js 文件
     const exportsByDir = results.reduce((acc, { iconData, relativePath }) => {
@@ -130,15 +146,21 @@ async function processFiles() {
   }
 }
 
-async function processFile(filePath, index, svgDir) {
+async function processFile(filePath, idCounters, svgDir) {
   try {
     const { ComponentName, config, stats, relativePath } = await generateIconCode(filePath, svgDir);
-    console.log(relativePath);
-    const iconData = createIconData(config, index, ComponentName, path.basename(filePath, ".svg"), relativePath, stats);
-    return { index, iconData, relativePath };
+    
+    // 初始化或更新每个项目的计数器
+    if (!idCounters[relativePath]) {
+      idCounters[relativePath] = 0;
+    }
+    const id = idCounters[relativePath]++;
+    
+    const iconData = createIconData(config, id, ComponentName, path.basename(filePath, ".svg"), relativePath, stats);
+    return { iconData, relativePath };
   } catch (err) {
     console.error(`处理SVG ${filePath} 时出错:`, err);
-    return { index, iconData: null, relativePath: "" };
+    return { index, iconData: null, relativePath: relativePath };
   }
 }
 
