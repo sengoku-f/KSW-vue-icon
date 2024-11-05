@@ -98,12 +98,19 @@ async function processFiles() {
     // 对文件名进行排序
     svgFiles.sort((a, b) => a.localeCompare(b));
 
-    // 初始化每个项目的计数器
-    const idCounters = {};
+    // 用于存储每个 relativePath 的计数器
+    const indexCounters = {};
 
     // 使用 Promise.all 处理所有 SVG 文件
     const results = await Promise.all(
-      svgFiles.map((file) => processFile(file, idCounters, svgDir))
+      svgFiles.map((file) => {
+        const relativePath = path.relative(svgDir, path.dirname(file));
+        if (!indexCounters[relativePath]) {
+          indexCounters[relativePath] = 0;
+        }
+        const currentIndex = indexCounters[relativePath]++;
+        return processFile(file, currentIndex, svgDir);
+      })
     );
 
     const iconDataByProject = results.reduce((acc, { iconData, relativePath }) => {
@@ -114,18 +121,13 @@ async function processFiles() {
       return acc;
     }, {});
 
-    // 对每个项目的图标数据进行排序
-    for (const relativePath in iconDataByProject) {
-      iconDataByProject[relativePath].sort((a, b) => a.id - b.id);
-    }
-
     await Promise.all(Object.entries(iconDataByProject).map(async ([relativePath, iconDataList]) => {
       const jsonOutputFile = path.join(rootDir, `icons-${relativePath}.json`);
-    await fs.promises.writeFile(
-      jsonOutputFile,
-      JSON.stringify(iconDataList, null, 2),
-      "utf-8"
-    );
+      await fs.promises.writeFile(
+        jsonOutputFile,
+        JSON.stringify(iconDataList, null, 2),
+        "utf-8"
+      );
       console.log(`成功生成 JSON 文件: ${jsonOutputFile}`);
     }));
 
@@ -146,21 +148,14 @@ async function processFiles() {
   }
 }
 
-async function processFile(filePath, idCounters, svgDir) {
+async function processFile(filePath, index, svgDir) {
   try {
     const { ComponentName, config, stats, relativePath } = await generateIconCode(filePath, svgDir);
-    
-    // 初始化或更新每个项目的计数器
-    if (!idCounters[relativePath]) {
-      idCounters[relativePath] = 0;
-    }
-    const id = idCounters[relativePath]++;
-    
-    const iconData = createIconData(config, id, ComponentName, path.basename(filePath, ".svg"), relativePath, stats);
-    return { iconData, relativePath };
+    const iconData = createIconData(config, index, ComponentName, path.basename(filePath, ".svg"), relativePath, stats);
+    return { index, iconData, relativePath };
   } catch (err) {
     console.error(`处理SVG ${filePath} 时出错:`, err);
-    return { index, iconData: null, relativePath: relativePath };
+    return { index, iconData: null, relativePath: "" };
   }
 }
 
