@@ -1,11 +1,4 @@
-import * as baseIcons from "./icons/base"; // 引入所有图标组件
-import * as guangfaIcons from "./icons/guangfa"; // 引入广发组件
-
-// 创建一个映射对象，将项目名称映射到相应的图标集
-export const ProjectIconsMap = {
-  Base: baseIcons,
-  Guangfa: guangfaIcons,
-};
+import { ProjectIconsMap } from "./map"
 
 export const KswIcon = {
   install(app, options = {}) {
@@ -27,3 +20,4 @@ function loadProjectIcons(projectName) {
 
 // 同时导出所有图标组件，以支持按需导入
 export * from "./icons/base";
+// export * as guangfa from "./icons/guangfa";

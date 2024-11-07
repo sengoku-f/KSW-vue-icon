@@ -68,6 +68,7 @@ const siteConfig = {
 function getFileInput() {
   const files = globSync([
     "src/index.js",
+    "src/map.js",
     "src/runtime/*.js",
     "src/icons/*/*.js",
   ]);
@@ -117,7 +118,7 @@ const packagesConfig = {
     // minify: true,
     rollupOptions: {
       input: getFileInput(),
-      external: ["vue", "./icons/base", "./icons/guangfa", "../../runtime", ...getIconExternals()],
+      external: ["vue", "./map", "./icons/base", "./icons/guangfa", "../../runtime", ...getIconExternals()],
       preserveEntrySignatures: "allow-extension",
       output: [
         {

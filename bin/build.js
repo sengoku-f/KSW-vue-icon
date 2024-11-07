@@ -1,6 +1,8 @@
 import path from "path";
 import fs from "fs/promises";
 import { fileURLToPath } from "url";
+import camelCase from 'camelcase';
+import prettier from "prettier";
 import { processSvg } from "./processSvg.js";
 import parseName from "./utils.js";
 import { getElementCode } from "./template.js";
@@ -87,6 +89,32 @@ const generateMapForDirectory = async (relativePath, exports) => {
   console.log(`成功生成 ${relativePath} index.js 文件: ${mapFilePath}`);
 };
 
+// 生成 map.js 文件
+const generateMainMapFile = async (exportsByDir) => {
+  const mapFilePath = path.join(srcDir, "map.js");
+  let importStrings = "";
+  let mapEntries = "";
+
+  exportsByDir.forEach((exports, relativePath) => {
+    const camelCasePath = camelCase(relativePath, {
+      preserveConsecutiveUppercase: true,
+      pascalCase: true,
+    });
+    importStrings += `import * as ${camelCasePath} from "./icons/${relativePath}";\r\n`;
+    mapEntries += `${camelCasePath},\r\n`;
+  });
+
+  const mapFileContent = `
+    ${importStrings}
+    export const ProjectIconsMap = {
+      ${mapEntries}
+    };
+  `;
+
+  await fs.writeFile(mapFilePath, await prettier.format(mapFileContent, { parser: "babel" }), "utf-8");
+  console.log(`成功生成 map.js 文件: ${mapFilePath}`);
+};
+
 async function processFiles() {
   // 从 src/svg 目录读取 SVG 文件
   const svgDir = path.join(rootDir, "src/svg");
@@ -141,6 +169,10 @@ async function processFiles() {
         generateMapForDirectory(relativePath, exports)
       )
     ]);
+
+    // 生成 map.js 文件
+    await generateMainMapFile(exportsByDir);
+
   } catch (err) {
     console.error("生成图标代码时出错:", err);
   }

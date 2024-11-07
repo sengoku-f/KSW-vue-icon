@@ -13,6 +13,22 @@
   },
   {
     "id": 1,
+    "name": "gfaom-BGGK",
+    "componentName": "IconGfaomBGGK",
+    "title": "广发 变更管控",
+    "category": "GF AOM",
+    "categoryCN": "广发 AOM",
+    "author": "KSW",
+    "tag": [
+      "广发",
+      "AOM",
+      "变更"
+    ],
+    "projectName": "guangfa",
+    "modifiedTime": "2024-10-24T06:35:42.380Z"
+  },
+  {
+    "id": 2,
     "name": "gfaom-BGGL",
     "componentName": "IconGfaomBGGL",
     "title": "广发 变更管理",
@@ -28,7 +44,7 @@
     "modifiedTime": "2024-10-24T06:35:42.387Z"
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "gfaom-CJDDGL",
     "componentName": "IconGfaomCJDDGL",
     "title": "广发 采集调度管理",
@@ -45,56 +61,7 @@
     "modifiedTime": "2024-10-24T06:35:42.392Z"
   },
   {
-    "id": 3,
-    "name": "gfaom-BGGK",
-    "componentName": "IconGfaomBGGK",
-    "title": "广发 变更管控",
-    "category": "GF AOM",
-    "categoryCN": "广发 AOM",
-    "author": "KSW",
-    "tag": [
-      "广发",
-      "AOM",
-      "变更"
-    ],
-    "projectName": "guangfa",
-    "modifiedTime": "2024-10-24T06:35:42.380Z"
-  },
-  {
     "id": 4,
-    "name": "gfaom-SYKB",
-    "componentName": "IconGfaomSYKB",
-    "title": "广发 首页看板",
-    "category": "GuangFa AOM",
-    "categoryCN": "广发 AOM",
-    "author": "KSW",
-    "tag": [
-      "广发",
-      "AOM",
-      "看板"
-    ],
-    "projectName": "guangfa",
-    "modifiedTime": "2024-10-24T06:35:42.407Z"
-  },
-  {
-    "id": 5,
-    "name": "GFAOM-YHGL",
-    "componentName": "IconGFAOMYHGL",
-    "title": "广发 用户管理",
-    "category": "GuangFa AOM",
-    "categoryCN": "广发 AOM",
-    "author": "KSW",
-    "tag": [
-      "广发",
-      "AOM",
-      "用户",
-      "管理"
-    ],
-    "projectName": "guangfa",
-    "modifiedTime": "2024-10-31T13:26:21.926Z"
-  },
-  {
-    "id": 6,
     "name": "gfaom-GJGL",
     "componentName": "IconGfaomGJGL",
     "title": "广发 工具管理",
@@ -111,7 +78,7 @@
     "modifiedTime": "2024-10-24T06:35:42.401Z"
   },
   {
-    "id": 7,
+    "id": 5,
     "name": "GFAOM-QXGL",
     "componentName": "IconGFAOMQXGL",
     "title": "广发 权限管理",
@@ -126,5 +93,38 @@
     ],
     "projectName": "guangfa",
     "modifiedTime": "2024-10-31T13:26:21.914Z"
+  },
+  {
+    "id": 6,
+    "name": "gfaom-SYKB",
+    "componentName": "IconGfaomSYKB",
+    "title": "广发 首页看板",
+    "category": "GuangFa AOM",
+    "categoryCN": "广发 AOM",
+    "author": "KSW",
+    "tag": [
+      "广发",
+      "AOM",
+      "看板"
+    ],
+    "projectName": "guangfa",
+    "modifiedTime": "2024-10-24T06:35:42.407Z"
+  },
+  {
+    "id": 7,
+    "name": "GFAOM-YHGL",
+    "componentName": "IconGFAOMYHGL",
+    "title": "广发 用户管理",
+    "category": "GuangFa AOM",
+    "categoryCN": "广发 AOM",
+    "author": "KSW",
+    "tag": [
+      "广发",
+      "AOM",
+      "用户",
+      "管理"
+    ],
+    "projectName": "guangfa",
+    "modifiedTime": "2024-10-31T13:26:21.926Z"
   }
 ]
