@@ -29,3 +29,8 @@ pnpm-debug.log*
 deploy_key
 deploy_key.pub
 .npmrc
+
+# 测试文件
+test.js
+test.vue
+test.html
