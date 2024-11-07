@@ -1,0 +1,1 @@
+import{O as e,D as s,r as o,h as r,w as t,b as c,o as l,e as n,j as p,P as u,k as i}from"./tailwind-6ttbyZ4X.js";const _={__name:"iframe",setup(m){e.plugin([s]);const a=o({scrollbars:{autoHide:"leave",clickScroll:!0}});return(d,h)=>(l(),r(c(u),{options:a.value,class:"h-full",defer:""},{default:t(()=>[n(p)]),_:1},8,["options"]))}},f=i(_);f.mount("#app");
