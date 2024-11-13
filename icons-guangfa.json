@@ -1,18 +1,6 @@
 [
   {
     "id": 0,
-    "name": "add",
-    "componentName": "IconAdd",
-    "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
-    "author": "KSW",
-    "tag": [],
-    "projectName": "guangfa",
-    "modifiedTime": "2024-10-16T13:38:42.616Z"
-  },
-  {
-    "id": 1,
     "name": "gfaom-BGGK",
     "componentName": "IconGfaomBGGK",
     "title": "广发 变更管控",
@@ -25,10 +13,10 @@
       "变更"
     ],
     "projectName": "guangfa",
-    "modifiedTime": "2024-10-24T06:35:42.380Z"
+    "modifiedTime": "2024-11-07T03:44:01.993Z"
   },
   {
-    "id": 2,
+    "id": 1,
     "name": "gfaom-BGGL",
     "componentName": "IconGfaomBGGL",
     "title": "广发 变更管理",
@@ -41,10 +29,10 @@
       "变更"
     ],
     "projectName": "guangfa",
-    "modifiedTime": "2024-10-24T06:35:42.387Z"
+    "modifiedTime": "2024-11-07T03:44:01.993Z"
   },
   {
-    "id": 3,
+    "id": 2,
     "name": "gfaom-CJDDGL",
     "componentName": "IconGfaomCJDDGL",
     "title": "广发 采集调度管理",
@@ -58,10 +46,10 @@
       "调度"
     ],
     "projectName": "guangfa",
-    "modifiedTime": "2024-10-24T06:35:42.392Z"
+    "modifiedTime": "2024-11-07T03:44:01.993Z"
   },
   {
-    "id": 4,
+    "id": 3,
     "name": "gfaom-GJGL",
     "componentName": "IconGfaomGJGL",
     "title": "广发 工具管理",
@@ -75,10 +63,10 @@
       "管理"
     ],
     "projectName": "guangfa",
-    "modifiedTime": "2024-10-24T06:35:42.401Z"
+    "modifiedTime": "2024-11-07T03:44:01.993Z"
   },
   {
-    "id": 5,
+    "id": 4,
     "name": "GFAOM-QXGL",
     "componentName": "IconGFAOMQXGL",
     "title": "广发 权限管理",
@@ -92,10 +80,10 @@
       "管理"
     ],
     "projectName": "guangfa",
-    "modifiedTime": "2024-10-31T13:26:21.914Z"
+    "modifiedTime": "2024-11-07T03:44:01.992Z"
   },
   {
-    "id": 6,
+    "id": 5,
     "name": "gfaom-SYKB",
     "componentName": "IconGfaomSYKB",
     "title": "广发 首页看板",
@@ -108,10 +96,10 @@
       "看板"
     ],
     "projectName": "guangfa",
-    "modifiedTime": "2024-10-24T06:35:42.407Z"
+    "modifiedTime": "2024-11-07T03:44:01.993Z"
   },
   {
-    "id": 7,
+    "id": 6,
     "name": "GFAOM-YHGL",
     "componentName": "IconGFAOMYHGL",
     "title": "广发 用户管理",
@@ -125,6 +113,6 @@
       "管理"
     ],
     "projectName": "guangfa",
-    "modifiedTime": "2024-10-31T13:26:21.926Z"
+    "modifiedTime": "2024-11-07T03:44:01.992Z"
   }
 ]

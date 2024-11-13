@@ -40,8 +40,8 @@ const siteConfig = {
     emptyOutDir: true,
     rollupOptions: {
       input: {
-        main: path.resolve(__dirname, 'index.html'),
-        iframe: path.resolve(__dirname, 'iframe.html'),
+        main: path.resolve(__dirname, "index.html"),
+        iframe: path.resolve(__dirname, "iframe.html"),
       },
       output: {
         manualChunks(id) {
@@ -49,17 +49,35 @@ const siteConfig = {
           //   // 将 node_modules 中打包的库拆分成单独的 chunk
           //   return id.toString().split('node_modules/')[1].split('/')[0].toString();
           // }
-          // if (id.includes("src/icons")) {
-          //   const groups = getGroupedIconChunks();
-          //   console.log('ID:', id);
-          //   console.log('Groups:', groups);
-          //   for (const [group, files] of Object.entries(groups)) {
-          //     if (files.includes(id)) {
-          //       return group;
-          //     }
-          //   }
-          //   return null; //如果没有组匹配，则默认情况
-          // }
+          const utilsKeywords = [
+            "runtime",
+            "overlayscrollbars",
+            "icons-base",
+            "icons-guangfa",
+            "package",
+            "vue-clipboard3",
+          ];
+
+          if (utilsKeywords.some((keyword) => id.includes(keyword))) {
+            return `utils`;
+          }
+
+          const mainKeywords = ["src/main", "vite"];
+
+          if (mainKeywords.some((keyword) => id.includes(keyword))) {
+            return `main`;
+          }
+          console.log("ID:", id);
+          if (id.includes("src/icons")) {
+            const groups = getGroupedIconChunks();
+            // console.log('Groups:', groups);
+            for (const [group, files] of Object.entries(groups)) {
+              if (files.includes(id)) {
+                return group;
+              }
+            }
+            return null; //如果没有组匹配，则默认情况
+          }
         },
       },
     },
@@ -90,9 +108,7 @@ function getFileInput() {
 // 获取/icons文件夹下的所有图标名称
 function getIconExternals() {
   const iconFiles = globSync("src/icons/*/*.js");
-  return iconFiles.map(
-    (file) => `./${path.parse(file).name}`
-  );
+  return iconFiles.map((file) => `./${path.parse(file).name}`);
 }
 
 // 默认参数
@@ -109,29 +125,36 @@ const baseOutputConfig = {
 
 const packagesConfig = {
   ...baseConfig,
-  // esbuild: {
-  //   minifySyntax: false,
-  //   minifyWhitespace: false,
-  //   minifyIdentifiers: false,
-  // },
+  esbuild: {
+    minifySyntax: false,
+    minifyWhitespace: false,
+    minifyIdentifiers: false,
+  },
   build: {
     outDir: "packages",
     emptyOutDir: true,
     // minify: true,
     rollupOptions: {
       input: getFileInput(),
-      external: ["vue", "./map", "./icons/base", "./icons/guangfa", "../../runtime", ...getIconExternals()],
+      external: [
+        "vue",
+        "./map",
+        "./icons/base",
+        "./icons/guangfa",
+        "../../runtime",
+        ...getIconExternals(),
+      ],
       preserveEntrySignatures: "allow-extension",
       output: [
         {
           format: "es",
           dir: "packages/es",
-          ...baseOutputConfig
+          ...baseOutputConfig,
         },
         {
           format: "cjs",
           dir: "packages/cjs",
-          ...baseOutputConfig
+          ...baseOutputConfig,
         },
       ],
     },
