@@ -80,6 +80,7 @@ Vue.use(KswIcon, { projectName: "Guangfa" });
 | --------- | -------------------------- |
 | Base      |  基本图标库       |
 | Guangfa     | 广发图标库 |
+| KingAutometa     | 新RPA |
 
 ## 展示页配置
 
