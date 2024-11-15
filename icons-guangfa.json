@@ -1,6 +1,42 @@
 [
   {
     "id": 0,
+    "name": "gfaom-BGDW",
+    "componentName": "IconGfaomBGDW",
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": [],
+    "projectName": "guangfa",
+    "modifiedTime": "2024-11-15T10:08:15.693Z"
+  },
+  {
+    "id": 1,
+    "name": "gfaom-BGFX",
+    "componentName": "IconGfaomBGFX",
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": [],
+    "projectName": "guangfa",
+    "modifiedTime": "2024-11-15T10:06:08.004Z"
+  },
+  {
+    "id": 2,
+    "name": "gfaom-BGFY",
+    "componentName": "IconGfaomBGFY",
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": [],
+    "projectName": "guangfa",
+    "modifiedTime": "2024-11-15T10:06:08.009Z"
+  },
+  {
+    "id": 3,
     "name": "gfaom-BGGK",
     "componentName": "IconGfaomBGGK",
     "title": "广发 变更管控",
@@ -16,7 +52,7 @@
     "modifiedTime": "2024-11-07T03:44:01.993Z"
   },
   {
-    "id": 1,
+    "id": 4,
     "name": "gfaom-BGGL",
     "componentName": "IconGfaomBGGL",
     "title": "广发 变更管理",
@@ -32,7 +68,31 @@
     "modifiedTime": "2024-11-07T03:44:01.993Z"
   },
   {
-    "id": 2,
+    "id": 5,
+    "name": "gfaom-BGSJ",
+    "componentName": "IconGfaomBGSJ",
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": [],
+    "projectName": "guangfa",
+    "modifiedTime": "2024-11-15T10:06:08.018Z"
+  },
+  {
+    "id": 6,
+    "name": "gfaom-BSGZ",
+    "componentName": "IconGfaomBSGZ",
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": [],
+    "projectName": "guangfa",
+    "modifiedTime": "2024-11-15T10:06:08.022Z"
+  },
+  {
+    "id": 7,
     "name": "gfaom-CJDDGL",
     "componentName": "IconGfaomCJDDGL",
     "title": "广发 采集调度管理",
@@ -49,7 +109,7 @@
     "modifiedTime": "2024-11-07T03:44:01.993Z"
   },
   {
-    "id": 3,
+    "id": 8,
     "name": "gfaom-GJGL",
     "componentName": "IconGfaomGJGL",
     "title": "广发 工具管理",
@@ -66,24 +126,19 @@
     "modifiedTime": "2024-11-07T03:44:01.993Z"
   },
   {
-    "id": 4,
-    "name": "GFAOM-QXGL",
-    "componentName": "IconGFAOMQXGL",
-    "title": "广发 权限管理",
-    "category": "GuangFa AOM",
-    "categoryCN": "广发 AOM",
+    "id": 9,
+    "name": "gfaom-QXGL",
+    "componentName": "IconGfaomQXGL",
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
     "author": "KSW",
-    "tag": [
-      "广发",
-      "AOM",
-      "权限",
-      "管理"
-    ],
+    "tag": [],
     "projectName": "guangfa",
     "modifiedTime": "2024-11-07T03:44:01.992Z"
   },
   {
-    "id": 5,
+    "id": 10,
     "name": "gfaom-SYKB",
     "componentName": "IconGfaomSYKB",
     "title": "广发 首页看板",
@@ -99,19 +154,14 @@
     "modifiedTime": "2024-11-07T03:44:01.993Z"
   },
   {
-    "id": 6,
-    "name": "GFAOM-YHGL",
-    "componentName": "IconGFAOMYHGL",
-    "title": "广发 用户管理",
-    "category": "GuangFa AOM",
-    "categoryCN": "广发 AOM",
+    "id": 11,
+    "name": "gfaom-YHGL",
+    "componentName": "IconGfaomYHGL",
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
     "author": "KSW",
-    "tag": [
-      "广发",
-      "AOM",
-      "用户",
-      "管理"
-    ],
+    "tag": [],
     "projectName": "guangfa",
     "modifiedTime": "2024-11-07T03:44:01.992Z"
   }
