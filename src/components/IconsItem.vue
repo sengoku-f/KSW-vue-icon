@@ -32,11 +32,13 @@ import IconPreview from "./IconPreview.vue";
 // 引入 icons 组件
 import * as baseIcons from "@/icons/base";
 import * as guangfaIcons from "@/icons/guangfa"
+import * as kingAutometaIcons from "@/icons/KingAutometa"
 import iconsDataBase from "~/icons-base.json";
 import iconsDataGuangfa from "~/icons-guangfa.json";
+import iconsDataKingAutometa from "~/icons-KingAutometa.json";
 
-const iconsData = [ ...iconsDataBase, ...iconsDataGuangfa ];
-const iconSet = { ...guangfaIcons, ...baseIcons }
+const iconsData = [ ...iconsDataBase, ...iconsDataGuangfa, ...iconsDataKingAutometa ];
+const iconSet = { ...guangfaIcons, ...kingAutometaIcons, ...baseIcons }
 
 // 状态和属性
 const icons = ref([]);
