@@ -29,16 +29,18 @@ import { ref, computed, onMounted } from "vue";
 import ToolBar from "./ToolBar.vue";
 import IconPreview from "./IconPreview.vue";
 
-// 引入 icons 组件
-import * as baseIcons from "@/icons/base";
-import * as guangfaIcons from "@/icons/guangfa"
-import * as kingAutometaIcons from "@/icons/KingAutometa"
+// 从 map 中引入所有 icons 组件
+import { ProjectIconsMap } from "@/map";
 import iconsDataBase from "~/icons-base.json";
 import iconsDataGuangfa from "~/icons-guangfa.json";
 import iconsDataKingAutometa from "~/icons-KingAutometa.json";
 
 const iconsData = [ ...iconsDataBase, ...iconsDataGuangfa, ...iconsDataKingAutometa ];
-const iconSet = { ...guangfaIcons, ...kingAutometaIcons, ...baseIcons }
+
+// 将 ProjectIconsMap 中的值从后往前合并为一个
+const iconSet = Object.values(ProjectIconsMap).reduceRight((acc, current) => {
+  return { ...acc, ...current };
+}, {});
 
 // 状态和属性
 const icons = ref([]);
