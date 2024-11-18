@@ -1,6 +1,6 @@
 {
   "name": "ksw-vue-icon",
-  "version": "2.3.3",
+  "version": "2.3.4",
   "license": "ISC",
   "description": "KSW ICON",
   "type": "module",
@@ -69,6 +69,14 @@
     ".": {
       "import": "./packages/es/index.js",
       "require": "./packages/cjs/index.js"
+    },
+    "./Guangfa": {
+      "import": "./packages/es/icons/guangfa/index.js",
+      "require": "./packages/cjs/icons/guangfa/index.js"
+    },
+    "./KingAutometa": {
+      "import": "./packages/es/icons/KingAutometa/index.js",
+      "require": "./packages/cjs/icons/KingAutometa/index.js"
     },
     "./styles/*.css": {
       "import": "./styles/*.css",

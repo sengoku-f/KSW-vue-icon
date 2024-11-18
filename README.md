@@ -76,6 +76,12 @@ Vue.use(KswIcon);
 Vue.use(KswIcon, { projectName: "Guangfa" });
 ```
 
+按需引用项目图标只需要在 `ksw-vue-icon` 后添加上 `projectName`，例如:
+
+```js
+import { IconName } from 'ksw-vue-icon/Guangfa'
+```
+
 | projectName  | 介绍                     | 
 | --------- | -------------------------- |
 | Base      |  基本图标库       |
