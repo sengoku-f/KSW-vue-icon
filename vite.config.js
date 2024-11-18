@@ -107,8 +107,19 @@ function getFileInput() {
 
 // 获取/icons文件夹下的所有图标名称
 function getIconExternals() {
-  const iconFiles = globSync("src/icons/*/*.js");
-  return iconFiles.map((file) => `./${path.parse(file).name}`);
+  // 同时匹配文件和目录
+  const allIcons = globSync(["src/icons/*", "src/icons/*/*.js"], {
+    ignore: {
+      ignored: (p) => /index\.js$/.test(p.name),
+    },
+  });
+  // 统一格式化路径
+  return allIcons.map((file) => {
+    // 如果是文件，使用 path.parse 取文件名；如果是目录，用相对路径
+    return file.endsWith(".js")
+      ? `./${path.parse(file).name}`
+      : `./${path.relative("src", file)}`;
+  });
 }
 
 // 默认参数
@@ -125,25 +136,18 @@ const baseOutputConfig = {
 
 const packagesConfig = {
   ...baseConfig,
-  esbuild: {
-    minifySyntax: false,
-    minifyWhitespace: false,
-    minifyIdentifiers: false,
-  },
+  // esbuild: {
+  //   minifySyntax: false,
+  //   minifyWhitespace: false,
+  //   minifyIdentifiers: false,
+  // },
   build: {
     outDir: "packages",
     emptyOutDir: true,
     // minify: true,
     rollupOptions: {
       input: getFileInput(),
-      external: [
-        "vue",
-        "./map",
-        "./icons/base",
-        "./icons/guangfa",
-        "../../runtime",
-        ...getIconExternals(),
-      ],
+      external: ["vue", "./map", "../../runtime", ...getIconExternals()],
       preserveEntrySignatures: "allow-extension",
       output: [
         {

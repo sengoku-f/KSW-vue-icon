@@ -2,7 +2,7 @@ import { nodeResolve } from "@rollup/plugin-node-resolve";
 import esbuild from "rollup-plugin-esbuild";
 import { minify } from "rollup-plugin-esbuild";
 import { emptyDir } from "rollup-plugin-empty-dir";
-import del from 'rollup-plugin-delete'
+import del from "rollup-plugin-delete";
 import cleanup from "rollup-plugin-cleanup";
 import dts from "rollup-plugin-dts";
 import path from "path";
@@ -16,16 +16,26 @@ const __dirname = path.dirname(__filename);
 
 // 获取/icons文件夹下的所有图标名称
 function getIconExternals() {
-  const iconFiles = globSync("src/icons/*/*.js");
-  return iconFiles.map(
-    (file) => `./${path.parse(file).name}`
-  );
+  // 同时匹配文件和目录
+  const allIcons = globSync(["src/icons/*", "src/icons/*/*.js"], {
+    ignore: {
+      ignored: (p) => /index\.js$/.test(p.name),
+    },
+  });
+  // 统一格式化路径
+  return allIcons.map((file) => {
+    // 如果是文件，使用 path.parse 取文件名；如果是目录，用相对路径
+    return file.endsWith(".js")
+      ? `./${path.parse(file).name}`
+      : `./${path.relative("src", file)}`;
+  });
 }
 
 // 获取多入口文件输入
 function getFileInput() {
   const files = globSync([
     "src/index.js",
+    "src/map.js",
     "src/runtime/*.js",
     "src/icons/*/*.js",
   ]);
@@ -45,7 +55,7 @@ function getFileInput() {
 // 默认参数
 const baseOutputConfig = {
   // compact: true,
-  entryFileNames: '[name].js',
+  entryFileNames: "[name].js",
   chunkFileNames: "[name].js",
   globals: {
     vue: "Vue",
@@ -55,12 +65,12 @@ const baseOutputConfig = {
   },
 };
 
-const config =  [
+const config = [
   {
     input: getFileInput(),
-    external: ["vue", "./icons/base", "./icons/guangfa", "../../runtime", ...getIconExternals()],
+    external: ["vue", "./map", "../../runtime", ...getIconExternals()],
     plugins: [
-      del({ targets: 'packages/*' }),
+      del({ targets: "packages/*" }),
       nodeResolve(),
       // esbuild({
       //   minifySyntax: true,
@@ -90,7 +100,7 @@ const config =  [
   },
   {
     input: getFileInput(),
-    external: ["vue", "./icons/base", "./icons/guangfa", "../../runtime", ...getIconExternals()],
+    external: ["vue", "./map", "../../runtime", ...getIconExternals()],
     plugins: [dts()],
     output: [
       {
