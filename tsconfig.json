@@ -1,6 +1,7 @@
 {
   "include": [
     "src/index.js",
+    "src/map.js",
     "src/runtime/*.js",
     "src/icons/*/*.js"
   ], // 包括需要编译的文件

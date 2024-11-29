@@ -9,8 +9,9 @@
   "types": "packages/es/index.d.ts",
   "files": [
     "styles",
-    "icons-base.json",
-    "icons-guangfa.json",
+    "icons-base.js",
+    "icons-guangfa.js",
+    "icons-KingAutometa.js",
     "packages/*/*.js",
     "packages/*/*/*.js",
     "packages/*/*/*/*.js",
@@ -79,6 +80,10 @@
     "./KingAutometa": {
       "import": "./packages/es/icons/KingAutometa/index.js",
       "require": "./packages/cjs/icons/KingAutometa/index.js"
+    },
+    "./icons-*.js": {
+      "import": "./icons-*.js",
+      "require": "./icons-*.js"
     },
     "./styles/*.css": {
       "import": "./styles/*.css",

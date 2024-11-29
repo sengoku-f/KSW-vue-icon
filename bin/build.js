@@ -4,7 +4,7 @@ import { fileURLToPath } from "url";
 import camelCase from 'camelcase';
 import prettier from "prettier";
 import { processSvg } from "./processSvg.js";
-import { parseName } from "./utils.js";
+import { parseName, toCamelCase } from "./utils.js";
 import { getElementCode } from "./template.js";
 
 // 获取当前模块文件的 URL (ES模块)
@@ -96,10 +96,7 @@ const generateMainMapFile = async (exportsByDir) => {
   let mapEntries = "";
 
   exportsByDir.forEach((exports, relativePath) => {
-    const camelCasePath = camelCase(relativePath, {
-      preserveConsecutiveUppercase: true,
-      pascalCase: true,
-    });
+    const camelCasePath = toCamelCase(relativePath);
     importStrings += `import * as ${camelCasePath} from "./icons/${relativePath}";\r\n`;
     mapEntries += `${camelCasePath},\r\n`;
   });
@@ -157,10 +154,10 @@ async function processFiles() {
 
     await Promise.all([
       ...Array.from(iconDataByProject.entries()).map(async ([relativePath, iconDataList]) => {
-        const jsonOutputFile = path.join(rootDir, `icons-${relativePath}.json`);
+        const jsonOutputFile = path.join(rootDir, `icons-${relativePath}.js`);
         await fs.writeFile(
           jsonOutputFile,
-          JSON.stringify(iconDataList, null, 2),
+          await prettier.format(`export const iconsData${toCamelCase(relativePath)} = ${JSON.stringify(iconDataList, null, 2)}`, { parser: "babel" }),
           "utf-8"
         );
         console.log(`成功生成 JSON 文件: ${jsonOutputFile}`);

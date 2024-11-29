@@ -75,7 +75,7 @@ const parseToObject = (str) => {
  * @param {svgData} svgData - svg 内容
  * @returns {base64Png} base64 png
  */
-async function convertSvgToBase64Png(svgData) {
+const convertSvgToBase64Png = async (svgData) => {
   try {
     // 使用 sharp 将 SVG 转换为 PNG Buffer
     const pngBuffer = await sharp(Buffer.from(svgData))
@@ -94,4 +94,11 @@ async function convertSvgToBase64Png(svgData) {
   }
 }
 
-export { parseName, parseToObject, convertSvgToBase64Png };
+const toCamelCase = (str) => {
+  return camelCase(str, {
+    preserveConsecutiveUppercase: true,
+    pascalCase: true,
+  });
+}
+
+export { parseName, parseToObject, convertSvgToBase64Png, toCamelCase };
