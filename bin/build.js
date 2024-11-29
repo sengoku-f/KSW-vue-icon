@@ -4,7 +4,7 @@ import { fileURLToPath } from "url";
 import camelCase from 'camelcase';
 import prettier from "prettier";
 import { processSvg } from "./processSvg.js";
-import parseName from "./utils.js";
+import { parseName } from "./utils.js";
 import { getElementCode } from "./template.js";
 
 // 获取当前模块文件的 URL (ES模块)
