@@ -80,7 +80,8 @@ const hideElement = () => {
   gap: 2rem;
   margin: 0;
   width: 100%;
-  padding-bottom: 3rem;
+  height: fit-content;
+  /* padding-bottom: 3rem; */
 }
 
 .item {

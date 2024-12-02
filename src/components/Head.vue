@@ -2,12 +2,12 @@
 import { ref } from 'vue';
 import useClipboard from "vue-clipboard3";
 import IconCopy from './icon/Copy.vue'
-import iconsData from "~/icons-base.json";
+import { iconsDataBase } from "~/icons-base.js";
 import packageData from "/package.json";
 
 const { toClipboard } = useClipboard();
 
-const iconNumber = iconsData.at(-1).id;
+const iconNumber = iconsDataBase.at(-1).id;
 const version = packageData.version;
 const npmInstallCode = `npm i ksw-vue-icon@${version}`;
 

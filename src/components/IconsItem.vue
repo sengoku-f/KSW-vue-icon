@@ -10,8 +10,8 @@
     @onToggleAnimationIcons="toggleAnimationIcons"
     @onSearchChange="updateSearchQuery"
   />
-  <div class="flex mx-auto max-w-7xl gap-6 mt-6 px-4 sm:px-6 lg:px-8">
-    <aside class="flex-shrink-0 w-56 h-full sticky top-[84px]">
+  <div class="flex mx-auto max-w-7xl gap-6 mt-6 mb-12 px-4 sm:px-6 lg:px-8">
+    <aside class="sidebar flex-shrink-0 w-56 overflow-auto overscroll-auto sticky top-[84px]">
       <ul class="flex flex-col gap-1">
         <li v-for="category in categories" :key="category">
           <div @click="changeCategory(category)" class="w-full px-3 py-2 rounded-lg cursor-pointer select-none text-slate-500 font-normal hover:bg-slate-50 transition-all text-sm" :class="{ 'is-active': selectedCategory === category }">
@@ -31,9 +31,9 @@ import IconPreview from "./IconPreview.vue";
 
 // 从 map 中引入所有 icons 组件
 import { ProjectIconsMap } from "@/map";
-import iconsDataBase from "~/icons-base.json";
-import iconsDataGuangfa from "~/icons-guangfa.json";
-import iconsDataKingAutometa from "~/icons-KingAutometa.json";
+import { iconsDataBase } from "~/icons-base.js";
+import { iconsDataGuangfa } from "~/icons-guangfa.js";
+import { iconsDataKingAutometa } from "~/icons-KingAutometa.js";
 
 const iconsData = [ ...iconsDataBase, ...iconsDataGuangfa, ...iconsDataKingAutometa ];
 
@@ -121,5 +121,8 @@ const filteredIcons = computed(() => {
 <style scoped>
 .is-active {
   @apply font-medium text-blue-600 bg-blue-50;
+}
+.sidebar {
+  max-height: calc(100vh - 132px);
 }
 </style>
