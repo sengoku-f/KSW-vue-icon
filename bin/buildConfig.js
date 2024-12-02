@@ -111,7 +111,8 @@ async function listSvgFilesInDirectories(rootDirectory, useAI = false) {
           console.error(`Error processing file ${svgFile.name}:`, fileErr);
         }
       }
-
+      // 对 iconsConfig 按照 SVG 文件名排序
+      iconsConfig.sort((a, b) => a.name.localeCompare(b.name));
       // 写入更新后的 iconsConfig 到输出 JSON 文件
       const jsonOutputFile = join(rootDir, `icons-config-${dirent.name}.json`);
       try {

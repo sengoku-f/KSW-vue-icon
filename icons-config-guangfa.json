@@ -1,95 +1,5 @@
 [
   {
-    "name": "gfaom-BGGK",
-    "title": "广发 变更管控",
-    "category": "GF AOM",
-    "categoryCN": "广发 AOM",
-    "author": "KSW",
-    "tag": [
-      "广发",
-      "AOM",
-      "变更"
-    ]
-  },
-  {
-    "name": "gfaom-BGGL",
-    "title": "广发 变更管理",
-    "category": "GuangFa AOM",
-    "categoryCN": "广发 AOM",
-    "author": "KSW",
-    "tag": [
-      "广发",
-      "AOM",
-      "变更"
-    ]
-  },
-  {
-    "name": "gfaom-CJDDGL",
-    "title": "广发 采集调度管理",
-    "category": "GuangFa AOM",
-    "categoryCN": "广发 AOM",
-    "author": "KSW",
-    "tag": [
-      "广发",
-      "AOM",
-      "采集",
-      "调度"
-    ]
-  },
-  {
-    "name": "gfaom-GJGL",
-    "title": "广发 工具管理",
-    "category": "GuangFa AOM",
-    "categoryCN": "广发 AOM",
-    "author": "KSW",
-    "tag": [
-      "广发",
-      "AOM",
-      "工具",
-      "管理"
-    ]
-  },
-  {
-    "name": "gfaom-SYKB",
-    "title": "广发 首页看板",
-    "category": "GuangFa AOM",
-    "categoryCN": "广发 AOM",
-    "author": "KSW",
-    "tag": [
-      "广发",
-      "AOM",
-      "看板"
-    ]
-  },
-  {
-    "name": "gfaom-YHGL",
-    "componentName": "IconGFAOMYHGL",
-    "title": "广发 用户管理",
-    "category": "GuangFa AOM",
-    "categoryCN": "广发 AOM",
-    "author": "KSW",
-    "tag": [
-      "广发",
-      "AOM",
-      "用户",
-      "管理"
-    ]
-  },
-  {
-    "name": "gfaom-QXGL",
-    "componentName": "IconGFAOMQXGL",
-    "title": "广发 权限管理",
-    "category": "GuangFa AOM",
-    "categoryCN": "广发 AOM",
-    "author": "KSW",
-    "tag": [
-      "广发",
-      "AOM",
-      "权限",
-      "管理"
-    ]
-  },
-  {
     "name": "gfaom-BGDW",
     "title": "高分辨率海洋生物地理数据",
     "category": "Oceanography",
@@ -126,6 +36,30 @@
     ]
   },
   {
+    "name": "gfaom-BGGK",
+    "title": "广发 变更管控",
+    "category": "GF AOM",
+    "categoryCN": "广发 AOM",
+    "author": "KSW",
+    "tag": [
+      "广发",
+      "AOM",
+      "变更"
+    ]
+  },
+  {
+    "name": "gfaom-BGGL",
+    "title": "广发 变更管理",
+    "category": "GuangFa AOM",
+    "categoryCN": "广发 AOM",
+    "author": "KSW",
+    "tag": [
+      "广发",
+      "AOM",
+      "变更"
+    ]
+  },
+  {
     "name": "gfaom-BGSJ",
     "title": "全球海洋观测系统",
     "category": "Oceanography",
@@ -149,6 +83,72 @@
       "地理信息系统",
       "高分辨率",
       "数据处理"
+    ]
+  },
+  {
+    "name": "gfaom-CJDDGL",
+    "title": "广发 采集调度管理",
+    "category": "GuangFa AOM",
+    "categoryCN": "广发 AOM",
+    "author": "KSW",
+    "tag": [
+      "广发",
+      "AOM",
+      "采集",
+      "调度"
+    ]
+  },
+  {
+    "name": "gfaom-GJGL",
+    "title": "广发 工具管理",
+    "category": "GuangFa AOM",
+    "categoryCN": "广发 AOM",
+    "author": "KSW",
+    "tag": [
+      "广发",
+      "AOM",
+      "工具",
+      "管理"
+    ]
+  },
+  {
+    "name": "gfaom-QXGL",
+    "componentName": "IconGFAOMQXGL",
+    "title": "广发 权限管理",
+    "category": "GuangFa AOM",
+    "categoryCN": "广发 AOM",
+    "author": "KSW",
+    "tag": [
+      "广发",
+      "AOM",
+      "权限",
+      "管理"
+    ]
+  },
+  {
+    "name": "gfaom-SYKB",
+    "title": "广发 首页看板",
+    "category": "GuangFa AOM",
+    "categoryCN": "广发 AOM",
+    "author": "KSW",
+    "tag": [
+      "广发",
+      "AOM",
+      "看板"
+    ]
+  },
+  {
+    "name": "gfaom-YHGL",
+    "componentName": "IconGFAOMYHGL",
+    "title": "广发 用户管理",
+    "category": "GuangFa AOM",
+    "categoryCN": "广发 AOM",
+    "author": "KSW",
+    "tag": [
+      "广发",
+      "AOM",
+      "用户",
+      "管理"
     ]
   }
 ]
