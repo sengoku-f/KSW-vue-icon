@@ -24,6 +24,7 @@
     "dev": "vite",
     "build": "vite build",
     "build:icons": "rm -rf src/icons && node bin/build.js",
+    "build:icons:config": "node bin/buildConfig.js",
     "build:code": "BUILD=packages vite build",
     "build:r-code": "rollup -c rollup.config.js",
     "build:types": "tsc --emitDeclarationOnly",

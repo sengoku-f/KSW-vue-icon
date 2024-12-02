@@ -5,7 +5,11 @@
     "category": "Character",
     "categoryCN": "符号标识",
     "author": "KSW",
-    "tag": ["新建", "增加", "创建"]
+    "tag": [
+      "新建",
+      "增加",
+      "创建"
+    ]
   },
   {
     "name": "aom-menu-AOMRZ-color",
@@ -13,7 +17,10 @@
     "category": "AOM Menu",
     "categoryCN": "AOM 菜单",
     "author": "KSW",
-    "tag": ["AOM", "日志"]
+    "tag": [
+      "AOM",
+      "日志"
+    ]
   },
   {
     "name": "aom-menu-BBCX-color",
@@ -21,7 +28,10 @@
     "category": "AOM Menu",
     "categoryCN": "AOM 菜单",
     "author": "KSW",
-    "tag": ["AOM", "报表"]
+    "tag": [
+      "AOM",
+      "报表"
+    ]
   },
   {
     "name": "aom-menu-DPGL-color",
@@ -29,7 +39,11 @@
     "category": "AOM Menu",
     "categoryCN": "AOM 菜单",
     "author": "KSW",
-    "tag": ["AOM", "大屏", "管理"]
+    "tag": [
+      "AOM",
+      "大屏",
+      "管理"
+    ]
   },
   {
     "name": "aom-menu-FPGL-color",
@@ -37,7 +51,12 @@
     "category": "AOM Menu",
     "categoryCN": "AOM 菜单",
     "author": "KSW",
-    "tag": ["AOM", "大屏", "分屏", "管理"]
+    "tag": [
+      "AOM",
+      "大屏",
+      "分屏",
+      "管理"
+    ]
   },
   {
     "name": "aom-menu-DPYL-color",
@@ -45,7 +64,12 @@
     "category": "AOM Menu",
     "categoryCN": "AOM 菜单",
     "author": "KSW",
-    "tag": ["AOM", "大屏", "预览", "演示"]
+    "tag": [
+      "AOM",
+      "大屏",
+      "预览",
+      "演示"
+    ]
   },
   {
     "name": "list-search",
@@ -54,7 +78,11 @@
     "category": "Edit",
     "categoryCN": "编辑",
     "author": "KSW",
-    "tag": ["列表", "搜索", "查看"]
+    "tag": [
+      "列表",
+      "搜索",
+      "查看"
+    ]
   },
   {
     "name": "size-controls",
@@ -63,7 +91,9 @@
     "category": "Edit",
     "categoryCN": "编辑",
     "author": "KSW",
-    "tag": ["控制"]
+    "tag": [
+      "控制"
+    ]
   },
   {
     "name": "user-filled",
@@ -72,7 +102,10 @@
     "category": "User",
     "categoryCN": "用户",
     "author": "KSW",
-    "tag": ["用户", "人们"]
+    "tag": [
+      "用户",
+      "人们"
+    ]
   },
   {
     "name": "users-filled",
@@ -81,7 +114,10 @@
     "category": "User",
     "categoryCN": "用户",
     "author": "KSW",
-    "tag": ["用户们", "人们"]
+    "tag": [
+      "用户们",
+      "人们"
+    ]
   },
   {
     "name": "users",
@@ -90,6 +126,3285 @@
     "category": "User",
     "categoryCN": "用户",
     "author": "KSW",
-    "tag": ["用户们", "人们"]
+    "tag": [
+      "用户们",
+      "人们"
+    ]
+  },
+  {
+    "name": "Collect",
+    "title": "收藏",
+    "category": "User",
+    "categoryCN": "用户界面",
+    "author": "KSW",
+    "tag": [
+      "收藏",
+      "星形",
+      "标记",
+      "用户界面"
+    ]
+  },
+  {
+    "name": "Drag",
+    "title": "拖动",
+    "category": "Interaction",
+    "categoryCN": "交互",
+    "author": "KSW",
+    "tag": [
+      "拖拽",
+      "移动",
+      "操作"
+    ]
+  },
+  {
+    "name": "Edit",
+    "title": "编辑",
+    "category": "Editing",
+    "categoryCN": "编辑工具",
+    "author": "KSW",
+    "tag": [
+      "编辑",
+      "修改",
+      "调整"
+    ]
+  },
+  {
+    "name": "EmptyBox",
+    "title": "空盒子",
+    "category": "Containers",
+    "categoryCN": "容器",
+    "author": "KSW",
+    "tag": [
+      "空",
+      "盒子",
+      "容器",
+      "存储"
+    ]
+  },
+  {
+    "name": "GlobalOperation",
+    "title": "全球操作",
+    "category": "International",
+    "categoryCN": "国际服务",
+    "author": "KSW",
+    "tag": [
+      "全球",
+      "操作",
+      "国际",
+      "服务"
+    ]
+  },
+  {
+    "name": "IP",
+    "title": "IP地址",
+    "category": "Network",
+    "categoryCN": "网络",
+    "author": "KSW",
+    "tag": [
+      "互联网",
+      "地址",
+      "网络",
+      "连接"
+    ]
+  },
+  {
+    "name": "Message",
+    "title": "消息",
+    "category": "Communication",
+    "categoryCN": "通信",
+    "author": "KSW",
+    "tag": [
+      "消息",
+      "通信",
+      "通知",
+      "提醒"
+    ]
+  },
+  {
+    "name": "Question-line",
+    "title": "问号",
+    "category": "Symbols",
+    "categoryCN": "符号",
+    "author": "KSW",
+    "tag": [
+      "问题",
+      "帮助",
+      "询问",
+      "信息"
+    ]
+  },
+  {
+    "name": "Step-Status-Failure",
+    "title": "步骤状态失败",
+    "category": "Process",
+    "categoryCN": "流程状态",
+    "author": "KSW",
+    "tag": [
+      "步骤",
+      "状态",
+      "失败",
+      "流程",
+      "图标"
+    ]
+  },
+  {
+    "name": "Step-Status-Success",
+    "title": "步骤状态成功",
+    "category": "Progress",
+    "categoryCN": "进度指示器",
+    "author": "KSW",
+    "tag": [
+      "步骤",
+      "状态",
+      "成功",
+      "完成",
+      "进度"
+    ]
+  },
+  {
+    "name": "SupportCenter",
+    "title": "支持中心",
+    "category": "Customer",
+    "categoryCN": "客户服务",
+    "author": "KSW",
+    "tag": [
+      "帮助",
+      "支持",
+      "客服",
+      "问题解答"
+    ]
+  },
+  {
+    "name": "SystemType-AS-color",
+    "title": "系统类型",
+    "category": "System",
+    "categoryCN": "系统组件",
+    "author": "KSW",
+    "tag": [
+      "系统",
+      "类型",
+      "彩色"
+    ]
+  },
+  {
+    "name": "SystemType-LB-color",
+    "title": "系统类型",
+    "category": "System",
+    "categoryCN": "系统组件",
+    "author": "KSW",
+    "tag": [
+      "系统",
+      "负载均衡",
+      "彩色"
+    ]
+  },
+  {
+    "name": "SystemType-Unix-color",
+    "title": "Unix系统类型",
+    "category": "Operating",
+    "categoryCN": "操作系统",
+    "author": "KSW",
+    "tag": [
+      "Unix",
+      "操作系统",
+      "彩色图标"
+    ]
+  },
+  {
+    "name": "SystemType-aix-color",
+    "title": "系统类型",
+    "category": "Operating",
+    "categoryCN": "操作系统",
+    "author": "KSW",
+    "tag": [
+      "AIX",
+      "系统",
+      "彩色",
+      "图标"
+    ]
+  },
+  {
+    "name": "SystemType-android-color",
+    "title": "系统类型",
+    "category": "System",
+    "categoryCN": "系统",
+    "author": "KSW",
+    "tag": [
+      "系统",
+      "安卓",
+      "颜色"
+    ]
+  },
+  {
+    "name": "SystemType-arm-color",
+    "title": "系统类型",
+    "category": "System",
+    "categoryCN": "系统",
+    "author": "KSW",
+    "tag": [
+      "系统",
+      "ARM",
+      "彩色"
+    ]
+  },
+  {
+    "name": "SystemType-firewall-color",
+    "title": "系统类型",
+    "category": "System",
+    "categoryCN": "系统组件",
+    "author": "KSW",
+    "tag": [
+      "系统",
+      "防火墙",
+      "颜色"
+    ]
+  },
+  {
+    "name": "SystemType-interchanger-color",
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "SystemType-ios-color",
+    "title": "系统类型",
+    "category": "Operating",
+    "categoryCN": "操作系统",
+    "author": "KSW",
+    "tag": [
+      "系统",
+      "iOS",
+      "彩色"
+    ]
+  },
+  {
+    "name": "SystemType-linux-color",
+    "title": "Linux系统类型",
+    "category": "Operating",
+    "categoryCN": "操作系统",
+    "author": "KSW",
+    "tag": [
+      "Linux",
+      "系统",
+      "图标"
+    ]
+  },
+  {
+    "name": "SystemType-router-color",
+    "title": "系统类型",
+    "category": "Networking",
+    "categoryCN": "网络",
+    "author": "KSW",
+    "tag": [
+      "路由器",
+      "网络设备",
+      "无线",
+      "连接"
+    ]
+  },
+  {
+    "name": "SystemType-windows-color",
+    "title": "系统类型",
+    "category": "Operating",
+    "categoryCN": "操作系统",
+    "author": "KSW",
+    "tag": [
+      "系统",
+      "Windows",
+      "颜色"
+    ]
+  },
+  {
+    "name": "add",
+    "title": "添加",
+    "category": "Operations",
+    "categoryCN": "操作",
+    "author": "KSW",
+    "tag": [
+      "增加",
+      "添加",
+      "操作"
+    ]
+  },
+  {
+    "name": "aom-menu-BBSH-color",
+    "title": "菜单按钮颜色",
+    "category": "UI",
+    "categoryCN": "用户界面元素",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "按钮",
+      "颜色",
+      "用户界面"
+    ]
+  },
+  {
+    "name": "aom-menu-BBSJ-color",
+    "title": "菜单",
+    "category": "Menu",
+    "categoryCN": "菜单",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "论坛",
+      "颜色"
+    ]
+  },
+  {
+    "name": "aom-menu-BBYL-color",
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "aom-menu-BCLLPZ-color",
+    "title": "菜单图标",
+    "category": "UI",
+    "categoryCN": "用户界面元素",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "导航",
+      "图标"
+    ]
+  },
+  {
+    "name": "aom-menu-BCZXKanban-color",
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "aom-menu-BDCK-color",
+    "title": "菜单工具颜色",
+    "category": "Tools",
+    "categoryCN": "工具",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "工具",
+      "颜色"
+    ]
+  },
+  {
+    "name": "aom-menu-BDGL-color",
+    "title": "菜单选项颜色",
+    "category": "UI",
+    "categoryCN": "用户界面元素",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "选项",
+      "颜色",
+      "用户界面"
+    ]
+  },
+  {
+    "name": "aom-menu-BDKanban-color",
+    "title": "自动化菜单",
+    "category": "Automation",
+    "categoryCN": "自动化工具",
+    "author": "KSW",
+    "tag": [
+      "自动化",
+      "菜单",
+      "看板",
+      "颜色"
+    ]
+  },
+  {
+    "name": "aom-menu-CJCL-color",
+    "title": "菜单颜色选择器",
+    "category": "UI",
+    "categoryCN": "用户界面元素",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "颜色",
+      "选择器"
+    ]
+  },
+  {
+    "name": "aom-menu-CKGL-color",
+    "title": "代码菜单",
+    "category": "Development",
+    "categoryCN": "开发工具",
+    "author": "KSW",
+    "tag": [
+      "代码",
+      "菜单",
+      "颜色",
+      "开发",
+      "工具"
+    ]
+  },
+  {
+    "name": "aom-menu-CLJL-color",
+    "title": "菜单列表颜色",
+    "category": "UI",
+    "categoryCN": "用户界面元素",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "列表",
+      "颜色",
+      "图标"
+    ]
+  },
+  {
+    "name": "aom-menu-CZRZ-color",
+    "title": "菜单颜色设置",
+    "category": "User",
+    "categoryCN": "用户界面",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "颜色",
+      "设置",
+      "用户界面"
+    ]
+  },
+  {
+    "name": "aom-menu-DLDGL-color",
+    "title": "菜单选项颜色",
+    "category": "UI",
+    "categoryCN": "用户界面元素",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "颜色",
+      "用户界面"
+    ]
+  },
+  {
+    "name": "aom-menu-DLDSJ-color",
+    "title": "自动化菜单",
+    "category": "Automation",
+    "categoryCN": "自动化工具",
+    "author": "KSW",
+    "tag": [
+      "自动化",
+      "菜单",
+      "动态数据监控",
+      "彩色"
+    ]
+  },
+  {
+    "name": "aom-menu-DLDXC-color",
+    "title": "菜单选项颜色",
+    "category": "User",
+    "categoryCN": "用户界面",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "选项",
+      "颜色",
+      "界面"
+    ]
+  },
+  {
+    "name": "aom-menu-DLDXX-color",
+    "title": "奥姆菜单",
+    "category": "Menu",
+    "categoryCN": "菜单图标",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "颜色",
+      "图标"
+    ]
+  },
+  {
+    "name": "aom-menu-DLDXZ-color",
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "aom-menu-DXSZ-color",
+    "title": "菜单设置颜色",
+    "category": "Menu",
+    "categoryCN": "菜单配置",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "设置",
+      "颜色"
+    ]
+  },
+  {
+    "name": "aom-menu-DYGX-color",
+    "title": "菜单选项",
+    "category": "Navigation",
+    "categoryCN": "导航",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "选项",
+      "导航",
+      "界面"
+    ]
+  },
+  {
+    "name": "aom-menu-FFQDJ-color",
+    "title": "奥姆菜单",
+    "category": "Menu",
+    "categoryCN": "菜单图标",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "颜色",
+      "图标"
+    ]
+  },
+  {
+    "name": "aom-menu-FFQSL-color",
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "aom-menu-FWQPZ-color",
+    "title": "自动化菜单配置",
+    "category": "Automation",
+    "categoryCN": "自动化工具",
+    "author": "KSW",
+    "tag": [
+      "自动化",
+      "菜单",
+      "配置",
+      "工具"
+    ]
+  },
+  {
+    "name": "aom-menu-FWQXX-color",
+    "title": "服务器菜单",
+    "category": "Server",
+    "categoryCN": "服务器管理",
+    "author": "KSW",
+    "tag": [
+      "服务器",
+      "菜单",
+      "管理",
+      "颜色"
+    ]
+  },
+  {
+    "name": "aom-menu-GLST-color",
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "aom-menu-GNHS-color",
+    "title": "奥姆菜单",
+    "category": "Menu",
+    "categoryCN": "菜单图标",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "图标",
+      "绿色",
+      "圆形"
+    ]
+  },
+  {
+    "name": "aom-menu-GRBL-color",
+    "title": "奥姆菜单GRBL颜色",
+    "category": "Software",
+    "categoryCN": "软件工具",
+    "author": "KSW",
+    "tag": [
+      "奥姆",
+      "菜单",
+      "GRBL",
+      "颜色"
+    ]
+  },
+  {
+    "name": "aom-menu-HSZ-color",
+    "title": "菜单选项",
+    "category": "Menu",
+    "categoryCN": "菜单选项",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "选项",
+      "HSZ颜色"
+    ]
+  },
+  {
+    "name": "aom-menu-JBGL-color",
+    "title": "菜单管理",
+    "category": "Menu",
+    "categoryCN": "菜单管理",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "管理",
+      "彩色"
+    ]
+  },
+  {
+    "name": "aom-menu-JBKanban-color",
+    "title": "AOM菜单",
+    "category": "UI",
+    "categoryCN": "用户界面元素",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "看板",
+      "颜色"
+    ]
+  },
+  {
+    "name": "aom-menu-JBRZ-color",
+    "title": "菜单选项",
+    "category": "User",
+    "categoryCN": "用户界面",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "选项",
+      "用户界面"
+    ]
+  },
+  {
+    "name": "aom-menu-JBSM-color",
+    "title": "菜单栏颜色",
+    "category": "UI",
+    "categoryCN": "用户界面元素",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "颜色",
+      "界面"
+    ]
+  },
+  {
+    "name": "aom-menu-JCYWPTKanban-color",
+    "title": "菜单",
+    "category": "UI",
+    "categoryCN": "用户界面元素",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "看板",
+      "颜色"
+    ]
+  },
+  {
+    "name": "aom-menu-JGCL-color",
+    "title": "菜单颜色选择器",
+    "category": "UI",
+    "categoryCN": "用户界面元素",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "颜色",
+      "选择器"
+    ]
+  },
+  {
+    "name": "aom-menu-JQFA-color",
+    "title": "菜单颜色",
+    "category": "UI",
+    "categoryCN": "用户界面元素",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "颜色",
+      "界面"
+    ]
+  },
+  {
+    "name": "aom-menu-JRLC-color",
+    "title": "菜单选项颜色",
+    "category": "User",
+    "categoryCN": "用户界面",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "颜色",
+      "用户界面"
+    ]
+  },
+  {
+    "name": "aom-menu-KZTGL-color",
+    "title": "奥姆菜单",
+    "category": "Menu",
+    "categoryCN": "菜单工具",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "管理",
+      "工具",
+      "彩色"
+    ]
+  },
+  {
+    "name": "aom-menu-LCCK-color",
+    "title": "菜单选项颜色",
+    "category": "User",
+    "categoryCN": "用户界面",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "颜色",
+      "用户界面"
+    ]
+  },
+  {
+    "name": "aom-menu-LCJG-color",
+    "title": "菜单图标",
+    "category": "UI",
+    "categoryCN": "用户界面元素",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "导航",
+      "图标"
+    ]
+  },
+  {
+    "name": "aom-menu-LCKanban-color",
+    "title": "菜单",
+    "category": "UI",
+    "categoryCN": "用户界面元素",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "看板",
+      "颜色"
+    ]
+  },
+  {
+    "name": "aom-menu-LCMB-color",
+    "title": "菜单图标",
+    "category": "UI",
+    "categoryCN": "用户界面元素",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "导航",
+      "图标"
+    ]
+  },
+  {
+    "name": "aom-menu-LCSH-color",
+    "title": "菜单选项",
+    "category": "Navigation",
+    "categoryCN": "导航",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "选项",
+      "导航"
+    ]
+  },
+  {
+    "name": "aom-menu-LCST-color",
+    "title": "菜单图标",
+    "category": "Menu",
+    "categoryCN": "菜单",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "导航",
+      "选项"
+    ]
+  },
+  {
+    "name": "aom-menu-LYCDL-color",
+    "title": "菜单图标",
+    "category": "UI",
+    "categoryCN": "用户界面元素",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "导航",
+      "图标"
+    ]
+  },
+  {
+    "name": "aom-menu-MBCS-color",
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "aom-menu-MBGL-color",
+    "title": "菜单MBGL颜色",
+    "category": "Menu",
+    "categoryCN": "菜单",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "MBGL",
+      "颜色"
+    ]
+  },
+  {
+    "name": "aom-menu-MJRW-color",
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "aom-menu-QDGL-color",
+    "title": "质量管理菜单",
+    "category": "Quality",
+    "categoryCN": "质量管理",
+    "author": "KSW",
+    "tag": [
+      "质量管理",
+      "菜单",
+      "图标"
+    ]
+  },
+  {
+    "name": "aom-menu-QJBL-color",
+    "title": "菜单图标",
+    "category": "UI",
+    "categoryCN": "用户界面元素",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "导航",
+      "界面",
+      "图标"
+    ]
+  },
+  {
+    "name": "aom-menu-QXGL-color",
+    "title": "菜单",
+    "category": "Menu",
+    "categoryCN": "菜单管理",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "权限管理",
+      "颜色"
+    ]
+  },
+  {
+    "name": "aom-menu-RLPZ-color",
+    "title": "奥姆菜单",
+    "category": "Menu",
+    "categoryCN": "菜单图标",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "颜色",
+      "图标"
+    ]
+  },
+  {
+    "name": "aom-menu-RWCX-color",
+    "title": "菜单列表颜色",
+    "category": "UI",
+    "categoryCN": "用户界面元素",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "列表",
+      "颜色",
+      "用户界面"
+    ]
+  },
+  {
+    "name": "aom-menu-RWGL-color",
+    "title": "菜单列表",
+    "category": "UI",
+    "categoryCN": "用户界面元素",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "列表",
+      "彩色",
+      "图标"
+    ]
+  },
+  {
+    "name": "aom-menu-RWXQ-color",
+    "title": "菜单选项颜色",
+    "category": "UI",
+    "categoryCN": "用户界面元素",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "选项",
+      "颜色",
+      "用户界面"
+    ]
+  },
+  {
+    "name": "aom-menu-RYFA-color",
+    "title": "菜单选项",
+    "category": "User",
+    "categoryCN": "用户界面",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "选项",
+      "用户界面"
+    ]
+  },
+  {
+    "name": "aom-menu-RZLC-color",
+    "title": "菜单选项颜色",
+    "category": "UI",
+    "categoryCN": "用户界面元素",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "选项",
+      "颜色",
+      "界面"
+    ]
+  },
+  {
+    "name": "aom-menu-SBST-color",
+    "title": "菜单选项颜色",
+    "category": "User",
+    "categoryCN": "用户界面",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "选项",
+      "颜色",
+      "用户界面"
+    ]
+  },
+  {
+    "name": "aom-menu-SJCX-color",
+    "title": "自动化菜单",
+    "category": "Automation",
+    "categoryCN": "自动化工具",
+    "author": "KSW",
+    "tag": [
+      "自动化",
+      "菜单",
+      "系统检查",
+      "彩色"
+    ]
+  },
+  {
+    "name": "aom-menu-SJGL-color",
+    "title": "菜单设置颜色",
+    "category": "Menu",
+    "categoryCN": "菜单设置",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "设置",
+      "颜色"
+    ]
+  },
+  {
+    "name": "aom-menu-SJHB-color",
+    "title": "奥姆菜单SJHB颜色",
+    "category": "Software",
+    "categoryCN": "软件工具",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "颜色",
+      "软件",
+      "工具"
+    ]
+  },
+  {
+    "name": "aom-menu-SJKLJ-color",
+    "title": "菜单选项颜色",
+    "category": "UI",
+    "categoryCN": "用户界面元素",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "选项",
+      "颜色",
+      "用户界面"
+    ]
+  },
+  {
+    "name": "aom-menu-SSSJ-color",
+    "title": "菜单信息颜色",
+    "category": "UI",
+    "categoryCN": "用户界面元素",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "信息",
+      "颜色"
+    ]
+  },
+  {
+    "name": "aom-menu-TZJL-color",
+    "title": "菜单项颜色",
+    "category": "UI",
+    "categoryCN": "用户界面元素",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "颜色",
+      "界面",
+      "设计"
+    ]
+  },
+  {
+    "name": "aom-menu-WHQGL-color",
+    "title": "奥姆菜单",
+    "category": "Menu",
+    "categoryCN": "菜单图标",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "图标",
+      "颜色",
+      "设计"
+    ]
+  },
+  {
+    "name": "aom-menu-WWGL-color",
+    "title": "奥姆菜单",
+    "category": "Menu",
+    "categoryCN": "菜单",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "WWGL",
+      "颜色"
+    ]
+  },
+  {
+    "name": "aom-menu-XTSZ-color",
+    "title": "菜单选项",
+    "category": "UI",
+    "categoryCN": "用户界面元素",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "选项",
+      "颜色",
+      "XTSZ"
+    ]
+  },
+  {
+    "name": "aom-menu-YHGL-color",
+    "title": "奥姆菜单",
+    "category": "Menu",
+    "categoryCN": "菜单",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "颜色",
+      "图标"
+    ]
+  },
+  {
+    "name": "aom-menu-YWBCZL-color",
+    "title": "菜单工具箱",
+    "category": "Tools",
+    "categoryCN": "工具",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "工具箱",
+      "工具"
+    ]
+  },
+  {
+    "name": "aom-menu-YYST-color",
+    "title": "菜单颜色",
+    "category": "UI",
+    "categoryCN": "用户界面元素",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "颜色",
+      "图标"
+    ]
+  },
+  {
+    "name": "aom-menu-ZBGL-color",
+    "title": "自动化管理菜单",
+    "category": "Automation",
+    "categoryCN": "自动化管理",
+    "author": "KSW",
+    "tag": [
+      "自动化",
+      "管理",
+      "菜单",
+      "综合管理",
+      "颜色"
+    ]
+  },
+  {
+    "name": "aom-menu-ZBZXSZ-color",
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "aom-menu-ZHCL-color",
+    "title": "菜单图标",
+    "category": "UI",
+    "categoryCN": "用户界面元素",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "界面",
+      "图标"
+    ]
+  },
+  {
+    "name": "aom-menu-ZHJG-color",
+    "title": "菜单",
+    "category": "Menu",
+    "categoryCN": "菜单",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "中国",
+      "颜色"
+    ]
+  },
+  {
+    "name": "aom-menu-ZXLS-color",
+    "title": "奥姆菜单",
+    "category": "Menu",
+    "categoryCN": "菜单",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "自定义",
+      "列表",
+      "颜色"
+    ]
+  },
+  {
+    "name": "aom-menu-ZYSJ-color",
+    "title": "菜单",
+    "category": "Menu",
+    "categoryCN": "菜单",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "自定义设置",
+      "颜色"
+    ]
+  },
+  {
+    "name": "aom-menu-ZZFWQ-color",
+    "title": "自动化菜单配置",
+    "category": "System",
+    "categoryCN": "系统配置",
+    "author": "KSW",
+    "tag": [
+      "自动化",
+      "菜单",
+      "配置",
+      "系统管理"
+    ]
+  },
+  {
+    "name": "aom-menu-default-color",
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "argument",
+    "title": "参数",
+    "category": "Programming",
+    "categoryCN": "编程",
+    "author": "KSW",
+    "tag": [
+      "参数",
+      "编程",
+      "代码"
+    ]
+  },
+  {
+    "name": "arrow-bottom",
+    "title": "向下箭头",
+    "category": "Navigation",
+    "categoryCN": "导航",
+    "author": "KSW",
+    "tag": [
+      "箭头",
+      "底部",
+      "方向"
+    ]
+  },
+  {
+    "name": "arrow-left",
+    "title": "左箭头",
+    "category": "Navigation",
+    "categoryCN": "导航",
+    "author": "KSW",
+    "tag": [
+      "箭头",
+      "方向",
+      "返回",
+      "导航"
+    ]
+  },
+  {
+    "name": "arrow-right",
+    "title": "右箭头",
+    "category": "Navigation",
+    "categoryCN": "导航",
+    "author": "KSW",
+    "tag": [
+      "箭头",
+      "方向",
+      "右"
+    ]
+  },
+  {
+    "name": "arrow-to-left",
+    "title": "向左箭头",
+    "category": "Navigation",
+    "categoryCN": "导航",
+    "author": "KSW",
+    "tag": [
+      "箭头",
+      "方向",
+      "左"
+    ]
+  },
+  {
+    "name": "arrow-to-right",
+    "title": "向右箭头",
+    "category": "Navigation",
+    "categoryCN": "导航",
+    "author": "KSW",
+    "tag": [
+      "箭头",
+      "方向",
+      "右"
+    ]
+  },
+  {
+    "name": "arrow-top",
+    "title": "向上箭头",
+    "category": "Directional",
+    "categoryCN": "方向图标",
+    "author": "KSW",
+    "tag": [
+      "箭头",
+      "向上",
+      "方向"
+    ]
+  },
+  {
+    "name": "arrow-up-right",
+    "title": "向上右箭头",
+    "category": "Navigation",
+    "categoryCN": "导航",
+    "author": "KSW",
+    "tag": [
+      "箭头",
+      "方向",
+      "导航",
+      "向上",
+      "右"
+    ]
+  },
+  {
+    "name": "bot",
+    "title": "机器人",
+    "category": "Artificial",
+    "categoryCN": "人工智能",
+    "author": "KSW",
+    "tag": [
+      "自动化",
+      "聊天机器人",
+      "虚拟助手"
+    ]
+  },
+  {
+    "name": "c-type-JS-color",
+    "title": "JavaScript颜色类型",
+    "category": "Programming",
+    "categoryCN": "编程",
+    "author": "KSW",
+    "tag": [
+      "JavaScript",
+      "颜色",
+      "编程语言"
+    ]
+  },
+  {
+    "name": "c-type-autoit-color",
+    "title": "C型自动色彩",
+    "category": "Color",
+    "categoryCN": "色彩工具",
+    "author": "KSW",
+    "tag": [
+      "色彩",
+      "自动色彩",
+      "C型色彩"
+    ]
+  },
+  {
+    "name": "c-type-bat-color",
+    "title": "C型蝙蝠颜色",
+    "category": "Animal",
+    "categoryCN": "动物",
+    "author": "KSW",
+    "tag": [
+      "蝙蝠",
+      "颜色",
+      "C型"
+    ]
+  },
+  {
+    "name": "c-type-c-sharp-color",
+    "title": "C型C尖锐颜色",
+    "category": "Technology",
+    "categoryCN": "科技",
+    "author": "KSW",
+    "tag": [
+      "科技",
+      "图标",
+      "颜色"
+    ]
+  },
+  {
+    "name": "c-type-cn-color",
+    "title": "中文类型颜色",
+    "category": "Color",
+    "categoryCN": "颜色",
+    "author": "KSW",
+    "tag": [
+      "中文",
+      "类型",
+      "颜色"
+    ]
+  },
+  {
+    "name": "c-type-en-color",
+    "title": "英文类型颜色",
+    "category": "Color",
+    "categoryCN": "颜色",
+    "author": "KSW",
+    "tag": [
+      "颜色",
+      "英文",
+      "类型"
+    ]
+  },
+  {
+    "name": "c-type-fn-color",
+    "title": "函数颜色类型",
+    "category": "Function",
+    "categoryCN": "函数颜色类型",
+    "author": "KSW",
+    "tag": [
+      "函数",
+      "颜色",
+      "类型"
+    ]
+  },
+  {
+    "name": "c-type-lego-color",
+    "title": "C型乐高颜色",
+    "category": "Building",
+    "categoryCN": "积木",
+    "author": "KSW",
+    "tag": [
+      "乐高",
+      "积木",
+      "颜色",
+      "玩具"
+    ]
+  },
+  {
+    "name": "c-type-linuxshell-color",
+    "title": "C类型Linux",
+    "category": "Programming",
+    "categoryCN": "编程工具",
+    "author": "KSW",
+    "tag": [
+      "编程",
+      "Linux",
+      "Shell",
+      "颜色"
+    ]
+  },
+  {
+    "name": "c-type-perl-color",
+    "title": "C型Perl颜色",
+    "category": "Programming",
+    "categoryCN": "编程工具",
+    "author": "KSW",
+    "tag": [
+      "编程",
+      "Perl",
+      "颜色",
+      "工具"
+    ]
+  },
+  {
+    "name": "c-type-powershell-color",
+    "title": "C型PowerShell颜色",
+    "category": "Development",
+    "categoryCN": "开发工具",
+    "author": "KSW",
+    "tag": [
+      "编程",
+      "PowerShell",
+      "颜色",
+      "开发"
+    ]
+  },
+  {
+    "name": "c-type-python-color",
+    "title": "C型Python颜色",
+    "category": "Programming",
+    "categoryCN": "编程工具",
+    "author": "KSW",
+    "tag": [
+      "Python",
+      "编程",
+      "颜色",
+      "开发工具"
+    ]
+  },
+  {
+    "name": "c-type-vbs-color",
+    "title": "VBS颜色类型",
+    "category": "Programming",
+    "categoryCN": "编程",
+    "author": "KSW",
+    "tag": [
+      "VBS",
+      "颜色",
+      "编程语言"
+    ]
+  },
+  {
+    "name": "c-type-yaml-color",
+    "title": "C型YAML颜色",
+    "category": "Programming",
+    "categoryCN": "编程工具",
+    "author": "KSW",
+    "tag": [
+      "编程",
+      "YAML",
+      "颜色",
+      "代码"
+    ]
+  },
+  {
+    "name": "calendar-color",
+    "title": "日历颜色",
+    "category": "Calendar",
+    "categoryCN": "日历",
+    "author": "KSW",
+    "tag": [
+      "日历",
+      "日期",
+      "时间",
+      "事件"
+    ]
+  },
+  {
+    "name": "card",
+    "title": "卡片",
+    "category": "Finance",
+    "categoryCN": "金融",
+    "author": "KSW",
+    "tag": [
+      "信用卡",
+      "银行卡",
+      "支付",
+      "金融工具"
+    ]
+  },
+  {
+    "name": "chart-pie-color",
+    "title": "彩色饼图",
+    "category": "Data",
+    "categoryCN": "数据可视化",
+    "author": "KSW",
+    "tag": [
+      "图表",
+      "饼图",
+      "彩色"
+    ]
+  },
+  {
+    "name": "chart-pie",
+    "title": "饼图",
+    "category": "Data",
+    "categoryCN": "数据可视化",
+    "author": "KSW",
+    "tag": [
+      "图表",
+      "数据",
+      "分析",
+      "展示"
+    ]
+  },
+  {
+    "name": "check-ed-color",
+    "title": "已选中颜色",
+    "category": "Status",
+    "categoryCN": "状态指示器",
+    "author": "KSW",
+    "tag": [
+      "选中",
+      "颜色",
+      "确认",
+      "完成"
+    ]
+  },
+  {
+    "name": "check-normal-color",
+    "title": "正常颜色检查",
+    "category": "Verification",
+    "categoryCN": "验证",
+    "author": "KSW",
+    "tag": [
+      "检查",
+      "正常",
+      "颜色"
+    ]
+  },
+  {
+    "name": "check-or-color",
+    "title": "检查或颜色",
+    "category": "Tools",
+    "categoryCN": "工具",
+    "author": "KSW",
+    "tag": [
+      "检查",
+      "颜色",
+      "工具"
+    ]
+  },
+  {
+    "name": "check",
+    "title": "勾选",
+    "category": "Icons",
+    "categoryCN": "图标",
+    "author": "KSW",
+    "tag": [
+      "勾选",
+      "确认",
+      "完成",
+      "选择"
+    ]
+  },
+  {
+    "name": "clear",
+    "title": "清除",
+    "category": "Action",
+    "categoryCN": "动作",
+    "author": "KSW",
+    "tag": [
+      "清除",
+      "删除",
+      "取消"
+    ]
+  },
+  {
+    "name": "clear2",
+    "title": "清除2",
+    "category": "Cleaning",
+    "categoryCN": "清洁工具",
+    "author": "KSW",
+    "tag": [
+      "清洁",
+      "工具",
+      "扫帚"
+    ]
+  },
+  {
+    "name": "clearDate",
+    "title": "清除日期",
+    "category": "Date",
+    "categoryCN": "日期操作",
+    "author": "KSW",
+    "tag": [
+      "日期",
+      "清除",
+      "时间管理"
+    ]
+  },
+  {
+    "name": "close",
+    "title": "关闭",
+    "category": "Interface",
+    "categoryCN": "界面",
+    "author": "KSW",
+    "tag": [
+      "关闭",
+      "退出",
+      "终止"
+    ]
+  },
+  {
+    "name": "copy",
+    "title": "复制",
+    "category": "Editing",
+    "categoryCN": "编辑工具",
+    "author": "KSW",
+    "tag": [
+      "复制",
+      "粘贴",
+      "剪切"
+    ]
+  },
+  {
+    "name": "cursor-pointer",
+    "title": "光标指针",
+    "category": "Cursor",
+    "categoryCN": "光标",
+    "author": "KSW",
+    "tag": [
+      "鼠标",
+      "指针",
+      "光标"
+    ]
+  },
+  {
+    "name": "date",
+    "title": "日期",
+    "category": "Calendar",
+    "categoryCN": "日历",
+    "author": "KSW",
+    "tag": [
+      "时间",
+      "日期",
+      "日历",
+      "计划",
+      "事件"
+    ]
+  },
+  {
+    "name": "delete",
+    "title": "删除",
+    "category": "Action",
+    "categoryCN": "动作",
+    "author": "KSW",
+    "tag": [
+      "删除",
+      "移除",
+      "取消"
+    ]
+  },
+  {
+    "name": "dev-color",
+    "title": "开发颜色",
+    "category": "Development",
+    "categoryCN": "开发工具",
+    "author": "KSW",
+    "tag": [
+      "开发",
+      "颜色",
+      "工具"
+    ]
+  },
+  {
+    "name": "down-c",
+    "title": "向下箭头",
+    "category": "Direction",
+    "categoryCN": "方向",
+    "author": "KSW",
+    "tag": [
+      "箭头",
+      "向下",
+      "方向"
+    ]
+  },
+  {
+    "name": "download",
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "fall",
+    "title": "秋天",
+    "category": "Season",
+    "categoryCN": "季节",
+    "author": "KSW",
+    "tag": [
+      "秋天",
+      "落叶",
+      "丰收",
+      "凉爽"
+    ]
+  },
+  {
+    "name": "file-add",
+    "title": "文件添加",
+    "category": "Document",
+    "categoryCN": "文档",
+    "author": "KSW",
+    "tag": [
+      "文件",
+      "添加",
+      "文档",
+      "新建"
+    ]
+  },
+  {
+    "name": "file-starred-color",
+    "title": "星标文件",
+    "category": "Documents",
+    "categoryCN": "文档",
+    "author": "KSW",
+    "tag": [
+      "文件",
+      "星标",
+      "重要",
+      "文档"
+    ]
+  },
+  {
+    "name": "file",
+    "title": "文件",
+    "category": "Document",
+    "categoryCN": "文档",
+    "author": "KSW",
+    "tag": [
+      "文件",
+      "文档",
+      "数据"
+    ]
+  },
+  {
+    "name": "filter-fill",
+    "title": "填充过滤器",
+    "category": "Tools",
+    "categoryCN": "工具",
+    "author": "KSW",
+    "tag": [
+      "过滤器",
+      "填充",
+      "工具"
+    ]
+  },
+  {
+    "name": "filter",
+    "title": "过滤器",
+    "category": "Data",
+    "categoryCN": "数据处理",
+    "author": "KSW",
+    "tag": [
+      "过滤",
+      "筛选",
+      "数据处理"
+    ]
+  },
+  {
+    "name": "flow-add",
+    "title": "流程添加",
+    "category": "Process",
+    "categoryCN": "流程管理",
+    "author": "KSW",
+    "tag": [
+      "流程",
+      "添加",
+      "管理",
+      "工作流"
+    ]
+  },
+  {
+    "name": "flow-back",
+    "title": "回流",
+    "category": "Navigation",
+    "categoryCN": "导航",
+    "author": "KSW",
+    "tag": [
+      "返回",
+      "箭头",
+      "导航",
+      "界面"
+    ]
+  },
+  {
+    "name": "flow-batch-processing-color",
+    "title": "批量处理流程",
+    "category": "Data",
+    "categoryCN": "数据处理",
+    "author": "KSW",
+    "tag": [
+      "批量处理",
+      "流程",
+      "彩色",
+      "数据",
+      "处理"
+    ]
+  },
+  {
+    "name": "flow-check-color",
+    "title": "流程检查颜色",
+    "category": "Process",
+    "categoryCN": "流程管理",
+    "author": "KSW",
+    "tag": [
+      "流程",
+      "检查",
+      "颜色"
+    ]
+  },
+  {
+    "name": "flow-component-color",
+    "title": "流动组件颜色",
+    "category": "UI",
+    "categoryCN": "用户界面组件",
+    "author": "KSW",
+    "tag": [
+      "颜色",
+      "组件",
+      "流动",
+      "设计"
+    ]
+  },
+  {
+    "name": "flow-controls-color",
+    "title": "流程控制颜色",
+    "category": "Flow",
+    "categoryCN": "流程控制",
+    "author": "KSW",
+    "tag": [
+      "流程",
+      "控制",
+      "颜色"
+    ]
+  },
+  {
+    "name": "flow-end-color",
+    "title": "流程结束颜色",
+    "category": "Flow",
+    "categoryCN": "流程",
+    "author": "KSW",
+    "tag": [
+      "流程",
+      "结束",
+      "颜色"
+    ]
+  },
+  {
+    "name": "flow-end",
+    "title": "流程结束",
+    "category": "Process",
+    "categoryCN": "流程",
+    "author": "KSW",
+    "tag": [
+      "流程",
+      "结束",
+      "标志"
+    ]
+  },
+  {
+    "name": "flow-if-color",
+    "title": "流程判断颜色",
+    "category": "Flow",
+    "categoryCN": "流程控制",
+    "author": "KSW",
+    "tag": [
+      "流程",
+      "判断",
+      "颜色"
+    ]
+  },
+  {
+    "name": "flow-nested-color",
+    "title": "流动嵌套颜色",
+    "category": "Design",
+    "categoryCN": "设计元素",
+    "author": "KSW",
+    "tag": [
+      "流动",
+      "嵌套",
+      "颜色",
+      "设计"
+    ]
+  },
+  {
+    "name": "flow-nested",
+    "title": "流动嵌套",
+    "category": "Design",
+    "categoryCN": "设计元素",
+    "author": "KSW",
+    "tag": [
+      "流动",
+      "嵌套",
+      "设计"
+    ]
+  },
+  {
+    "name": "flow-quote-color",
+    "title": "流动引文颜色",
+    "category": "Design",
+    "categoryCN": "设计元素",
+    "author": "KSW",
+    "tag": [
+      "流动",
+      "引文",
+      "颜色",
+      "设计"
+    ]
+  },
+  {
+    "name": "flow-start-color",
+    "title": "流动开始颜色",
+    "category": "Color",
+    "categoryCN": "颜色",
+    "author": "KSW",
+    "tag": [
+      "流动",
+      "开始",
+      "颜色"
+    ]
+  },
+  {
+    "name": "flow-start",
+    "title": "流程开始",
+    "category": "Process",
+    "categoryCN": "流程",
+    "author": "KSW",
+    "tag": [
+      "流程",
+      "开始",
+      "启动"
+    ]
+  },
+  {
+    "name": "flow-tips-color",
+    "title": "流动提示颜色",
+    "category": "Design",
+    "categoryCN": "设计元素",
+    "author": "KSW",
+    "tag": [
+      "流动",
+      "提示",
+      "颜色",
+      "设计"
+    ]
+  },
+  {
+    "name": "flow-toolBox",
+    "title": "流程工具箱",
+    "category": "Development",
+    "categoryCN": "开发工具",
+    "author": "KSW",
+    "tag": [
+      "流程",
+      "工具",
+      "开发"
+    ]
+  },
+  {
+    "name": "flow",
+    "title": "流程",
+    "category": "Process",
+    "categoryCN": "流程图",
+    "author": "KSW",
+    "tag": [
+      "流程",
+      "图表",
+      "结构"
+    ]
+  },
+  {
+    "name": "fn-add",
+    "title": "添加功能",
+    "category": "Function",
+    "categoryCN": "功能",
+    "author": "KSW",
+    "tag": [
+      "添加",
+      "功能",
+      "操作"
+    ]
+  },
+  {
+    "name": "fn",
+    "title": "函数",
+    "category": "Mathematics",
+    "categoryCN": "数学",
+    "author": "KSW",
+    "tag": [
+      "函数",
+      "数学",
+      "公式"
+    ]
+  },
+  {
+    "name": "fold",
+    "title": "折叠",
+    "category": "Navigation",
+    "categoryCN": "导航",
+    "author": "KSW",
+    "tag": [
+      "折叠",
+      "展开",
+      "箭头",
+      "方向"
+    ]
+  },
+  {
+    "name": "folder-add",
+    "title": "添加文件夹",
+    "category": "File",
+    "categoryCN": "文件管理",
+    "author": "KSW",
+    "tag": [
+      "文件夹",
+      "添加",
+      "新建"
+    ]
+  },
+  {
+    "name": "folder-close",
+    "title": "关闭文件夹",
+    "category": "File",
+    "categoryCN": "文件管理",
+    "author": "KSW",
+    "tag": [
+      "文件夹",
+      "关闭",
+      "文档",
+      "管理"
+    ]
+  },
+  {
+    "name": "folder-open",
+    "title": "打开文件夹",
+    "category": "File",
+    "categoryCN": "文件管理",
+    "author": "KSW",
+    "tag": [
+      "文件夹",
+      "打开",
+      "文档",
+      "存储"
+    ]
+  },
+  {
+    "name": "full-screen",
+    "title": "全屏",
+    "category": "Display",
+    "categoryCN": "显示",
+    "author": "KSW",
+    "tag": [
+      "全屏",
+      "显示",
+      "屏幕"
+    ]
+  },
+  {
+    "name": "hard-drive-color",
+    "title": "彩色硬盘",
+    "category": "Storage",
+    "categoryCN": "存储设备",
+    "author": "KSW",
+    "tag": [
+      "硬盘",
+      "存储",
+      "彩色"
+    ]
+  },
+  {
+    "name": "hide",
+    "title": "隐藏",
+    "category": "Visibility",
+    "categoryCN": "可见性",
+    "author": "KSW",
+    "tag": [
+      "隐藏",
+      "不可见",
+      "遮挡"
+    ]
+  },
+  {
+    "name": "icon-def",
+    "title": "图标定义",
+    "category": "Design",
+    "categoryCN": "设计元素",
+    "author": "KSW",
+    "tag": [
+      "图标",
+      "设计",
+      "元素",
+      "定义"
+    ]
+  },
+  {
+    "name": "ide-pause",
+    "title": "IDE暂停",
+    "category": "Development",
+    "categoryCN": "开发工具",
+    "author": "KSW",
+    "tag": [
+      "编程",
+      "IDE",
+      "暂停",
+      "开发",
+      "工具"
+    ]
+  },
+  {
+    "name": "ide-play",
+    "title": "IDE播放",
+    "category": "Development",
+    "categoryCN": "开发工具",
+    "author": "KSW",
+    "tag": [
+      "编程",
+      "开发",
+      "IDE",
+      "播放"
+    ]
+  },
+  {
+    "name": "ide-refresh",
+    "title": "IDE刷新",
+    "category": "Development",
+    "categoryCN": "开发工具",
+    "author": "KSW",
+    "tag": [
+      "IDE",
+      "刷新",
+      "开发",
+      "工具"
+    ]
+  },
+  {
+    "name": "ide-stop",
+    "title": "IDE停止",
+    "category": "Development",
+    "categoryCN": "开发工具",
+    "author": "KSW",
+    "tag": [
+      "IDE",
+      "停止",
+      "开发",
+      "编程"
+    ]
+  },
+  {
+    "name": "item-def-color",
+    "title": "默认颜色项",
+    "category": "Color",
+    "categoryCN": "颜色管理",
+    "author": "KSW",
+    "tag": [
+      "颜色",
+      "默认",
+      "图标",
+      "设计"
+    ]
+  },
+  {
+    "name": "left-menu-display",
+    "title": "左侧菜单显示",
+    "category": "Navigation",
+    "categoryCN": "导航",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "显示",
+      "左侧"
+    ]
+  },
+  {
+    "name": "line",
+    "title": "线条",
+    "category": "Design",
+    "categoryCN": "设计",
+    "author": "KSW",
+    "tag": [
+      "线条",
+      "设计元素",
+      "图形"
+    ]
+  },
+  {
+    "name": "list-close",
+    "title": "列表关闭",
+    "category": "List",
+    "categoryCN": "列表管理",
+    "author": "KSW",
+    "tag": [
+      "列表",
+      "关闭",
+      "管理"
+    ]
+  },
+  {
+    "name": "list-open",
+    "title": "列表打开",
+    "category": "Navigation",
+    "categoryCN": "导航",
+    "author": "KSW",
+    "tag": [
+      "列表",
+      "打开",
+      "导航",
+      "下拉"
+    ]
+  },
+  {
+    "name": "loading",
+    "title": "加载中",
+    "category": "Progress",
+    "categoryCN": "进度",
+    "author": "KSW",
+    "tag": [
+      "加载",
+      "缓冲",
+      "等待",
+      "进度条"
+    ]
+  },
+  {
+    "name": "lock",
+    "title": "锁",
+    "category": "Security",
+    "categoryCN": "安全",
+    "author": "KSW",
+    "tag": [
+      "安全",
+      "保护",
+      "隐私"
+    ]
+  },
+  {
+    "name": "locked",
+    "title": "锁定",
+    "category": "Security",
+    "categoryCN": "安全",
+    "author": "KSW",
+    "tag": [
+      "锁定",
+      "安全",
+      "保护",
+      "隐私"
+    ]
+  },
+  {
+    "name": "logout",
+    "title": "登出",
+    "category": "User",
+    "categoryCN": "用户界面",
+    "author": "KSW",
+    "tag": [
+      "退出",
+      "注销",
+      "离开"
+    ]
+  },
+  {
+    "name": "medal-1",
+    "title": "奖章1",
+    "category": "Awards",
+    "categoryCN": "奖项",
+    "author": "KSW",
+    "tag": [
+      "奖章",
+      "荣誉",
+      "成就"
+    ]
+  },
+  {
+    "name": "medal-2",
+    "title": "奖章",
+    "category": "Awards",
+    "categoryCN": "奖项",
+    "author": "KSW",
+    "tag": [
+      "奖章",
+      "荣誉",
+      "成就"
+    ]
+  },
+  {
+    "name": "medal-3",
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "menu-collect",
+    "title": "菜单收藏",
+    "category": "Navigation",
+    "categoryCN": "导航",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "收藏",
+      "导航"
+    ]
+  },
+  {
+    "name": "menu-collected",
+    "title": "菜单收藏",
+    "category": "Navigation",
+    "categoryCN": "导航",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "收藏",
+      "导航"
+    ]
+  },
+  {
+    "name": "menu-def-color",
+    "title": "菜单默认颜色",
+    "category": "UI",
+    "categoryCN": "用户界面元素",
+    "author": "KSW",
+    "tag": [
+      "菜单",
+      "颜色",
+      "默认"
+    ]
+  },
+  {
+    "name": "more",
+    "title": "更多",
+    "category": "Navigation",
+    "categoryCN": "导航",
+    "author": "KSW",
+    "tag": [
+      "更多选项",
+      "菜单",
+      "扩展"
+    ]
+  },
+  {
+    "name": "organization",
+    "title": "组织",
+    "category": "Business",
+    "categoryCN": "商业",
+    "author": "KSW",
+    "tag": [
+      "公司",
+      "机构",
+      "团队"
+    ]
+  },
+  {
+    "name": "patch-color",
+    "title": "补丁颜色",
+    "category": "Design",
+    "categoryCN": "设计工具",
+    "author": "KSW",
+    "tag": [
+      "补丁",
+      "颜色",
+      "设计"
+    ]
+  },
+  {
+    "name": "patch-set-color",
+    "title": "补丁设置颜色",
+    "category": "Development",
+    "categoryCN": "开发工具",
+    "author": "KSW",
+    "tag": [
+      "补丁",
+      "颜色设置",
+      "开发工具"
+    ]
+  },
+  {
+    "name": "personnel",
+    "title": "人员",
+    "category": "Human",
+    "categoryCN": "人力资源",
+    "author": "KSW",
+    "tag": [
+      "员工",
+      "人事",
+      "管理",
+      "招聘"
+    ]
+  },
+  {
+    "name": "plug-in-360-color",
+    "title": "360度彩色插件",
+    "category": "Software",
+    "categoryCN": "软件工具",
+    "author": "KSW",
+    "tag": [
+      "插件",
+      "360度",
+      "彩色",
+      "软件"
+    ]
+  },
+  {
+    "name": "plug-in-Chrome-color",
+    "title": "插件",
+    "category": "Browser",
+    "categoryCN": "浏览器插件",
+    "author": "KSW",
+    "tag": [
+      "插件",
+      "Chrome",
+      "颜色"
+    ]
+  },
+  {
+    "name": "plug-in-Edge-color",
+    "title": "插件边缘颜色",
+    "category": "Software",
+    "categoryCN": "软件工具",
+    "author": "KSW",
+    "tag": [
+      "插件",
+      "边缘",
+      "颜色",
+      "设计",
+      "工具"
+    ]
+  },
+  {
+    "name": "plug-in-Firefox-color",
+    "title": "火狐插件颜色",
+    "category": "Browser",
+    "categoryCN": "浏览器插件",
+    "author": "KSW",
+    "tag": [
+      "火狐",
+      "插件",
+      "颜色"
+    ]
+  },
+  {
+    "name": "plug-in-Mail-color",
+    "title": "插件邮件颜色",
+    "category": "Email",
+    "categoryCN": "电子邮件插件",
+    "author": "KSW",
+    "tag": [
+      "邮件",
+      "插件",
+      "颜色"
+    ]
+  },
+  {
+    "name": "plug-in-Net-color-2",
+    "title": "插件网络颜色2",
+    "category": "Software",
+    "categoryCN": "软件工具",
+    "author": "KSW",
+    "tag": [
+      "插件",
+      "网络",
+      "颜色",
+      "工具"
+    ]
+  },
+  {
+    "name": "plug-in-Net-color",
+    "title": "插件",
+    "category": "Software",
+    "categoryCN": "软件开发",
+    "author": "KSW",
+    "tag": [
+      "插件",
+      "Net",
+      "颜色"
+    ]
+  },
+  {
+    "name": "plug-in-OCR-color",
+    "title": "插件OCR颜色识别",
+    "category": "Image",
+    "categoryCN": "图像处理",
+    "author": "KSW",
+    "tag": [
+      "OCR",
+      "颜色识别",
+      "插件"
+    ]
+  },
+  {
+    "name": "plug-in-SSL-color",
+    "title": "插件SSL颜色",
+    "category": "Security",
+    "categoryCN": "安全",
+    "author": "KSW",
+    "tag": [
+      "插件",
+      "SSL",
+      "颜色"
+    ]
+  },
+  {
+    "name": "plug-in-excel-color",
+    "title": "Excel插件颜色",
+    "category": "Software",
+    "categoryCN": "软件工具",
+    "author": "KSW",
+    "tag": [
+      "Excel",
+      "插件",
+      "颜色"
+    ]
+  },
+  {
+    "name": "plug-in-image-color",
+    "title": "插件图像颜色",
+    "category": "Image",
+    "categoryCN": "图像处理",
+    "author": "KSW",
+    "tag": [
+      "插件",
+      "图像",
+      "颜色"
+    ]
+  },
+  {
+    "name": "plug-in-java-color",
+    "title": "插件Java颜色",
+    "category": "Development",
+    "categoryCN": "开发工具",
+    "author": "KSW",
+    "tag": [
+      "插件",
+      "Java",
+      "颜色",
+      "开发工具"
+    ]
+  },
+  {
+    "name": "plug-in-pdf-color",
+    "title": "插件PDF颜色",
+    "category": "Software",
+    "categoryCN": "软件工具",
+    "author": "KSW",
+    "tag": [
+      "插件",
+      "PDF",
+      "颜色"
+    ]
+  },
+  {
+    "name": "plug-in-sogou-color",
+    "title": "搜狗插件颜色",
+    "category": "Software",
+    "categoryCN": "软件工具",
+    "author": "KSW",
+    "tag": [
+      "插件",
+      "搜狗",
+      "颜色"
+    ]
+  },
+  {
+    "name": "plug-in-text-color",
+    "title": "插件文本颜色",
+    "category": "Text",
+    "categoryCN": "文本编辑",
+    "author": "KSW",
+    "tag": [
+      "插件",
+      "文本",
+      "颜色",
+      "编辑"
+    ]
+  },
+  {
+    "name": "portfolio",
+    "title": "投资组合",
+    "category": "Finance",
+    "categoryCN": "金融",
+    "author": "KSW",
+    "tag": [
+      "投资",
+      "组合",
+      "金融",
+      "管理"
+    ]
+  },
+  {
+    "name": "project-logo-gf-color",
+    "title": "项目标志GF彩色",
+    "category": "Logo",
+    "categoryCN": "标志",
+    "author": "KSW",
+    "tag": [
+      "项目",
+      "标志",
+      "彩色",
+      "设计"
+    ]
+  },
+  {
+    "name": "question",
+    "title": "问题",
+    "category": "Help",
+    "categoryCN": "帮助",
+    "author": "KSW",
+    "tag": [
+      "问题",
+      "帮助",
+      "询问"
+    ]
+  },
+  {
+    "name": "ranking-color",
+    "title": "排名颜色",
+    "category": "Color",
+    "categoryCN": "颜色",
+    "author": "KSW",
+    "tag": [
+      "排名",
+      "颜色",
+      "图标"
+    ]
+  },
+  {
+    "name": "ranking",
+    "title": "排名",
+    "category": "Data",
+    "categoryCN": "数据分析",
+    "author": "KSW",
+    "tag": [
+      "排名",
+      "数据",
+      "分析",
+      "图表"
+    ]
+  },
+  {
+    "name": "re-screen",
+    "title": "重新筛选",
+    "category": "Data",
+    "categoryCN": "数据处理",
+    "author": "KSW",
+    "tag": [
+      "筛选",
+      "数据",
+      "处理",
+      "分析"
+    ]
+  },
+  {
+    "name": "refresh",
+    "title": "刷新",
+    "category": "Action",
+    "categoryCN": "动作",
+    "author": "KSW",
+    "tag": [
+      "刷新",
+      "更新",
+      "重新加载"
+    ]
+  },
+  {
+    "name": "reset",
+    "title": "重置",
+    "category": "System",
+    "categoryCN": "系统",
+    "author": "KSW",
+    "tag": [
+      "重置",
+      "恢复",
+      "初始化"
+    ]
+  },
+  {
+    "name": "rise",
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "save",
+    "title": "保存",
+    "category": "File",
+    "categoryCN": "文件管理",
+    "author": "KSW",
+    "tag": [
+      "保存",
+      "文件",
+      "存储"
+    ]
+  },
+  {
+    "name": "scan",
+    "title": "扫描",
+    "category": "Technology",
+    "categoryCN": "科技",
+    "author": "KSW",
+    "tag": [
+      "扫描仪",
+      "条形码",
+      "二维码"
+    ]
+  },
+  {
+    "name": "scrip-color",
+    "title": "脚本颜色",
+    "category": "Development",
+    "categoryCN": "开发工具",
+    "author": "KSW",
+    "tag": [
+      "编程",
+      "代码",
+      "颜色"
+    ]
+  },
+  {
+    "name": "scrip",
+    "title": "脚本",
+    "category": "Programming",
+    "categoryCN": "编程",
+    "author": "KSW",
+    "tag": [
+      "脚本",
+      "编程",
+      "代码"
+    ]
+  },
+  {
+    "name": "seal",
+    "title": "印章",
+    "category": "Stationery",
+    "categoryCN": "文具",
+    "author": "KSW",
+    "tag": [
+      "印章",
+      "办公用品",
+      "文具"
+    ]
+  },
+  {
+    "name": "search",
+    "title": "搜索",
+    "category": "Navigation",
+    "categoryCN": "导航",
+    "author": "KSW",
+    "tag": [
+      "搜索",
+      "放大镜",
+      "查找"
+    ]
+  },
+  {
+    "name": "setting-animation",
+    "title": "设置动画",
+    "category": "Design",
+    "categoryCN": "设计工具",
+    "author": "KSW",
+    "tag": [
+      "设置",
+      "动画",
+      "设计",
+      "工具"
+    ]
+  },
+  {
+    "name": "setting-fill",
+    "title": "设置填充",
+    "category": "Tools",
+    "categoryCN": "工具",
+    "author": "KSW",
+    "tag": [
+      "设置",
+      "配置",
+      "选项",
+      "工具"
+    ]
+  },
+  {
+    "name": "setting",
+    "title": "设置",
+    "category": "System",
+    "categoryCN": "系统工具",
+    "author": "KSW",
+    "tag": [
+      "设置",
+      "配置",
+      "系统管理"
+    ]
+  },
+  {
+    "name": "show",
+    "title": "显示",
+    "category": "Visibility",
+    "categoryCN": "可见性",
+    "author": "KSW",
+    "tag": [
+      "显示",
+      "可见",
+      "视觉"
+    ]
+  },
+  {
+    "name": "sort-bottom",
+    "title": "底部排序",
+    "category": "Sorting",
+    "categoryCN": "排序",
+    "author": "KSW",
+    "tag": [
+      "排序",
+      "底部",
+      "图标"
+    ]
+  },
+  {
+    "name": "sort-down",
+    "title": "向下排序",
+    "category": "Sorting",
+    "categoryCN": "排序",
+    "author": "KSW",
+    "tag": [
+      "排序",
+      "向下",
+      "箭头"
+    ]
+  },
+  {
+    "name": "sort-top",
+    "title": "顶部排序",
+    "category": "Sorting",
+    "categoryCN": "排序",
+    "author": "KSW",
+    "tag": [
+      "排序",
+      "顶部",
+      "图标"
+    ]
+  },
+  {
+    "name": "sort-up",
+    "title": "排序上升",
+    "category": "Sorting",
+    "categoryCN": "排序",
+    "author": "KSW",
+    "tag": [
+      "排序",
+      "上升",
+      "箭头"
+    ]
+  },
+  {
+    "name": "status-403",
+    "title": "状态",
+    "category": "HTTP",
+    "categoryCN": "HTTP状态",
+    "author": "KSW",
+    "tag": [
+      "错误",
+      "访问被拒绝",
+      "403"
+    ]
+  },
+  {
+    "name": "status-404",
+    "title": "状态",
+    "category": "Error",
+    "categoryCN": "错误页面",
+    "author": "KSW",
+    "tag": [
+      "错误",
+      "404",
+      "未找到"
+    ]
+  },
+  {
+    "name": "status-500",
+    "title": "状态500",
+    "category": "Error",
+    "categoryCN": "错误",
+    "author": "KSW",
+    "tag": [
+      "错误",
+      "500",
+      "服务器错误"
+    ]
+  },
+  {
+    "name": "status-danger",
+    "title": "危险状态",
+    "category": "Status",
+    "categoryCN": "状态指示器",
+    "author": "KSW",
+    "tag": [
+      "警告",
+      "错误",
+      "危险",
+      "注意"
+    ]
+  },
+  {
+    "name": "status-def",
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "status-empty-color",
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "status-empty",
+    "title": "状态空",
+    "category": "Status",
+    "categoryCN": "状态",
+    "author": "KSW",
+    "tag": [
+      "状态",
+      "空",
+      "图标"
+    ]
+  },
+  {
+    "name": "status-info",
+    "title": "状态信息",
+    "category": "Information",
+    "categoryCN": "信息",
+    "author": "KSW",
+    "tag": [
+      "状态",
+      "信息",
+      "图标"
+    ]
+  },
+  {
+    "name": "status-success",
+    "title": "状态成功",
+    "category": "Status",
+    "categoryCN": "状态指示器",
+    "author": "KSW",
+    "tag": [
+      "成功",
+      "完成",
+      "确认",
+      "勾选"
+    ]
+  },
+  {
+    "name": "status-warning",
+    "title": "状态警告",
+    "category": "Alerts",
+    "categoryCN": "警告",
+    "author": "KSW",
+    "tag": [
+      "警告",
+      "状态",
+      "注意",
+      "错误"
+    ]
+  },
+  {
+    "name": "store-color",
+    "title": "商店颜色",
+    "category": "Shopping",
+    "categoryCN": "购物",
+    "author": "KSW",
+    "tag": [
+      "商店",
+      "颜色",
+      "购物"
+    ]
+  },
+  {
+    "name": "table-control-more",
+    "title": "表格控制更多",
+    "category": "Table",
+    "categoryCN": "表格控件",
+    "author": "KSW",
+    "tag": [
+      "表格",
+      "控制",
+      "更多选项"
+    ]
+  },
+  {
+    "name": "table-sort-down-color",
+    "title": "表格排序向下颜色",
+    "category": "Data",
+    "categoryCN": "数据管理",
+    "author": "KSW",
+    "tag": [
+      "表格",
+      "排序",
+      "向下",
+      "颜色"
+    ]
+  },
+  {
+    "name": "table-sort-normal-color",
+    "title": "表格排序",
+    "category": "Data",
+    "categoryCN": "数据管理",
+    "author": "KSW",
+    "tag": [
+      "表格",
+      "排序",
+      "颜色"
+    ]
+  },
+  {
+    "name": "table-sort-up-color",
+    "title": "表格排序上升颜色",
+    "category": "Data",
+    "categoryCN": "数据管理",
+    "author": "KSW",
+    "tag": [
+      "表格",
+      "排序",
+      "上升",
+      "颜色"
+    ]
+  },
+  {
+    "name": "task",
+    "title": "任务",
+    "category": "Productivity",
+    "categoryCN": "生产力",
+    "author": "KSW",
+    "tag": [
+      "任务管理",
+      "待办事项",
+      "工作效率"
+    ]
+  },
+  {
+    "name": "test-color",
+    "title": "测试颜色",
+    "category": "Color",
+    "categoryCN": "颜色",
+    "author": "KSW",
+    "tag": [
+      "颜色",
+      "测试",
+      "图标"
+    ]
+  },
+  {
+    "name": "time",
+    "title": "时间",
+    "category": "Clock",
+    "categoryCN": "时钟",
+    "author": "KSW",
+    "tag": [
+      "时间",
+      "时钟",
+      "计时"
+    ]
+  },
+  {
+    "name": "tips",
+    "title": "提示",
+    "category": "Helpful",
+    "categoryCN": "帮助资源",
+    "author": "KSW",
+    "tag": [
+      "建议",
+      "技巧",
+      "帮助",
+      "指南"
+    ]
+  },
+  {
+    "name": "top1-color",
+    "title": "第一名颜色",
+    "category": "Achievement",
+    "categoryCN": "成就",
+    "author": "KSW",
+    "tag": [
+      "第一名",
+      "奖牌",
+      "荣誉"
+    ]
+  },
+  {
+    "name": "top2-color",
+    "title": "顶部2号彩色",
+    "category": "Icons",
+    "categoryCN": "图标",
+    "author": "KSW",
+    "tag": [
+      "顶部",
+      "数字",
+      "彩色",
+      "图标"
+    ]
+  },
+  {
+    "name": "top3-color",
+    "title": "前三名颜色",
+    "category": "Achievement",
+    "categoryCN": "成就",
+    "author": "KSW",
+    "tag": [
+      "排名",
+      "前三名",
+      "颜色"
+    ]
+  },
+  {
+    "name": "triangle-bottom",
+    "title": "底部三角形",
+    "category": "Shapes",
+    "categoryCN": "形状",
+    "author": "KSW",
+    "tag": [
+      "三角形",
+      "底部",
+      "几何形状"
+    ]
+  },
+  {
+    "name": "triangle-top",
+    "title": "三角形顶部",
+    "category": "Shapes",
+    "categoryCN": "形状",
+    "author": "KSW",
+    "tag": [
+      "几何",
+      "图形",
+      "三角形"
+    ]
+  },
+  {
+    "name": "unfold",
+    "title": "展开",
+    "category": "Navigation",
+    "categoryCN": "导航",
+    "author": "KSW",
+    "tag": [
+      "展开",
+      "箭头",
+      "方向"
+    ]
+  },
+  {
+    "name": "upload",
+    "title": "上传",
+    "category": "File",
+    "categoryCN": "文件管理",
+    "author": "KSW",
+    "tag": [
+      "上传",
+      "文件",
+      "数据传输"
+    ]
+  },
+  {
+    "name": "variable",
+    "title": "变量",
+    "category": "Programming",
+    "categoryCN": "编程",
+    "author": "KSW",
+    "tag": [
+      "变量",
+      "编程",
+      "数据存储"
+    ]
+  },
+  {
+    "name": "view-switch-card",
+    "title": "视图切换卡",
+    "category": "UI",
+    "categoryCN": "用户界面组件",
+    "author": "KSW",
+    "tag": [
+      "视图",
+      "切换",
+      "卡片",
+      "用户界面"
+    ]
+  },
+  {
+    "name": "view-switch-color",
+    "title": "视图切换颜色",
+    "category": "UI",
+    "categoryCN": "用户界面元素",
+    "author": "KSW",
+    "tag": [
+      "视图",
+      "切换",
+      "颜色"
+    ]
+  },
+  {
+    "name": "view-toggle-details",
+    "title": "视图切换详情",
+    "category": "UI",
+    "categoryCN": "用户界面元素",
+    "author": "KSW",
+    "tag": [
+      "视图",
+      "切换",
+      "详情",
+      "用户界面"
+    ]
+  },
+  {
+    "name": "view-toggle-table",
+    "title": "视图切换表格",
+    "category": "UI",
+    "categoryCN": "用户界面元素",
+    "author": "KSW",
+    "tag": [
+      "视图",
+      "切换",
+      "表格",
+      "UI",
+      "交互"
+    ]
+  },
+  {
+    "name": "warning",
+    "title": "警告",
+    "category": "Safety",
+    "categoryCN": "安全",
+    "author": "KSW",
+    "tag": [
+      "警告",
+      "注意",
+      "危险"
+    ]
   }
 ]

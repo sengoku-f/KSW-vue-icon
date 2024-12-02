@@ -1,82 +1,132 @@
 [
   {
     "name": "debug",
-    "title": "",
+    "title": "调试工具",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
-    "tag": []
+    "tag": [
+      "调试",
+      "开发",
+      "编程"
+    ]
   },
   {
     "name": "download",
-    "title": "",
+    "title": "下载图标",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
-    "tag": []
+    "tag": [
+      "下载",
+      "文件",
+      "箭头",
+      "向下"
+    ]
   },
   {
     "name": "ide-digital-asset",
-    "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "title": "数字资产图标",
+    "category": [
+      "Digital",
+      "Assets"
+    ],
+    "categoryCN": "数字资产",
     "author": "KSW",
-    "tag": []
+    "tag": [
+      "数字",
+      "资产",
+      "图标",
+      "金融",
+      "银行"
+    ]
   },
   {
     "name": "ide-document",
-    "title": "",
+    "title": "代码文档",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
-    "tag": []
+    "tag": [
+      "编程",
+      "文档",
+      "IDE",
+      "开发"
+    ]
   },
   {
     "name": "ide-options",
-    "title": "",
+    "title": "集成开发环境选项",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
-    "tag": []
+    "tag": [
+      "开发",
+      "IDE",
+      "选项",
+      "配置"
+    ]
   },
   {
     "name": "send",
-    "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "title": "发送图标",
+    "category": "Communication",
+    "categoryCN": "通信",
     "author": "KSW",
-    "tag": []
+    "tag": [
+      "发送",
+      "箭头",
+      "上传",
+      "传输"
+    ]
   },
   {
     "name": "setting-box",
-    "title": "",
+    "title": "设置框",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
-    "tag": []
+    "tag": [
+      "设置",
+      "工具",
+      "图标"
+    ]
   },
   {
     "name": "template-color",
-    "title": "",
+    "title": "模板颜色",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
-    "tag": []
+    "tag": [
+      "模板",
+      "颜色",
+      "设计"
+    ]
   },
   {
     "name": "turn-to-left",
-    "title": "",
+    "title": "左转",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
-    "tag": []
+    "tag": [
+      "方向",
+      "箭头",
+      "导航",
+      "左转"
+    ]
   },
   {
     "name": "turn-to-right",
-    "title": "",
+    "title": "右转",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
-    "tag": []
+    "tag": [
+      "方向",
+      "箭头",
+      "右转"
+    ]
   }
 ]

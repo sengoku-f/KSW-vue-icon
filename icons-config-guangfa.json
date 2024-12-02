@@ -5,7 +5,11 @@
     "category": "GF AOM",
     "categoryCN": "广发 AOM",
     "author": "KSW",
-    "tag": ["广发", "AOM", "变更"]
+    "tag": [
+      "广发",
+      "AOM",
+      "变更"
+    ]
   },
   {
     "name": "gfaom-BGGL",
@@ -13,7 +17,11 @@
     "category": "GuangFa AOM",
     "categoryCN": "广发 AOM",
     "author": "KSW",
-    "tag": ["广发", "AOM", "变更"]
+    "tag": [
+      "广发",
+      "AOM",
+      "变更"
+    ]
   },
   {
     "name": "gfaom-CJDDGL",
@@ -21,7 +29,12 @@
     "category": "GuangFa AOM",
     "categoryCN": "广发 AOM",
     "author": "KSW",
-    "tag": ["广发", "AOM", "采集", "调度"]
+    "tag": [
+      "广发",
+      "AOM",
+      "采集",
+      "调度"
+    ]
   },
   {
     "name": "gfaom-GJGL",
@@ -29,7 +42,12 @@
     "category": "GuangFa AOM",
     "categoryCN": "广发 AOM",
     "author": "KSW",
-    "tag": ["广发", "AOM", "工具", "管理"]
+    "tag": [
+      "广发",
+      "AOM",
+      "工具",
+      "管理"
+    ]
   },
   {
     "name": "gfaom-SYKB",
@@ -37,7 +55,11 @@
     "category": "GuangFa AOM",
     "categoryCN": "广发 AOM",
     "author": "KSW",
-    "tag": ["广发", "AOM", "看板"]
+    "tag": [
+      "广发",
+      "AOM",
+      "看板"
+    ]
   },
   {
     "name": "gfaom-YHGL",
@@ -46,7 +68,12 @@
     "category": "GuangFa AOM",
     "categoryCN": "广发 AOM",
     "author": "KSW",
-    "tag": ["广发", "AOM", "用户", "管理"]
+    "tag": [
+      "广发",
+      "AOM",
+      "用户",
+      "管理"
+    ]
   },
   {
     "name": "gfaom-QXGL",
@@ -55,6 +82,73 @@
     "category": "GuangFa AOM",
     "categoryCN": "广发 AOM",
     "author": "KSW",
-    "tag": ["广发", "AOM", "权限", "管理"]
+    "tag": [
+      "广发",
+      "AOM",
+      "权限",
+      "管理"
+    ]
+  },
+  {
+    "name": "gfaom-BGDW",
+    "title": "高分辨率海洋生物地理数据",
+    "category": "Oceanography",
+    "categoryCN": "海洋学",
+    "author": "KSW",
+    "tag": [
+      "海洋生物",
+      "地理数据",
+      "高分辨率"
+    ]
+  },
+  {
+    "name": "gfaom-BGFX",
+    "title": "高分辨率图形渲染框架",
+    "category": "Graphics",
+    "categoryCN": "图形渲染",
+    "author": "KSW",
+    "tag": [
+      "高分辨率",
+      "图形渲染",
+      "框架"
+    ]
+  },
+  {
+    "name": "gfaom-BGFY",
+    "title": "高分辨率海洋生物地球化学模型",
+    "category": "Oceanography",
+    "categoryCN": "海洋学",
+    "author": "KSW",
+    "tag": [
+      "海洋生物地球化学",
+      "高分辨率模型",
+      "海洋生态系统"
+    ]
+  },
+  {
+    "name": "gfaom-BGSJ",
+    "title": "全球海洋观测系统",
+    "category": "Oceanography",
+    "categoryCN": "海洋学",
+    "author": "KSW",
+    "tag": [
+      "海洋观测",
+      "全球系统",
+      "背景调查",
+      "环境监测"
+    ]
+  },
+  {
+    "name": "gfaom-BSGZ",
+    "title": "高分辨率海洋生物地理信息系统",
+    "category": "Oceanography",
+    "categoryCN": "海洋学",
+    "author": "KSW",
+    "tag": [
+      "海洋生物",
+      "地理信息系统",
+      "高分辨率",
+      "数据处理"
+    ]
   }
 ]

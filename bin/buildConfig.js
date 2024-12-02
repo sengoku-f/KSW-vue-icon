@@ -1,4 +1,4 @@
-import { readdir, readFile } from "fs/promises";
+import { readdir, readFile, writeFile } from "fs/promises";
 import { join, dirname, basename } from "path";
 import { fileURLToPath } from "url";
 import { convertSvgToBase64Png } from "./utils.js";
@@ -11,6 +11,10 @@ const __dirname = dirname(__filename);
 // 定义项目的根目录
 const rootDir = join(__dirname, "..");
 
+// 定义源代码和图标代码的目录
+const srcDir = join(rootDir, "src");
+const svgDir = join(rootDir, "src/svg");
+
 // 创建图标数据的辅助函数
 const createIconData = (config, name, tag) => ({
   name: config?.name || name,
@@ -21,7 +25,12 @@ const createIconData = (config, name, tag) => ({
   tag: config?.tag || tag,
 });
 
-async function listSvgFilesInDirectories(rootDirectory) {
+/**
+ * 生成 SVG icons-config.json
+ * @param {string} rootDirectory - 路径
+ * @param {boolean} useAI - 布尔值
+ */
+async function listSvgFilesInDirectories(rootDirectory, useAI = false) {
   try {
     // 读取根目录中的所有文件和文件夹
     const files = await readdir(rootDirectory, { withFileTypes: true });
@@ -32,13 +41,16 @@ async function listSvgFilesInDirectories(rootDirectory) {
     for (const dirent of directories) {
       const directoryPath = join(rootDirectory, dirent.name);
       console.log(`Directory: ${directoryPath}`);
+
       // 查找项目特定的 icons-config-${relativePath}.json 中的配置
       const configFilePath = join(rootDir, `icons-config-${dirent.name}.json`);
       let iconsConfig = [];
       try {
         iconsConfig = JSON.parse(await readFile(configFilePath, "utf8"));
       } catch (err) {
-        console.warn(err);
+        console.warn(
+          `Failed to read config file at ${configFilePath}. Starting with empty config.`
+        );
       }
 
       // 读取子目录中的所有文件
@@ -48,20 +60,19 @@ async function listSvgFilesInDirectories(rootDirectory) {
       const svgFiles = subFiles.filter(
         (subDirent) => subDirent.isFile() && subDirent.name.endsWith(".svg")
       );
-      // .map((subDirent) => subDirent.name);
 
-      // 遍历 svg
+      // 遍历 SVG
       for (const svgFile of svgFiles) {
-        // svg 路径
+        // SVG 路径
         const filePath = join(directoryPath, svgFile.name);
-        // 获取 svg 名称
+        console.log(filePath);
+        // 获取 SVG 名称
         const svgFileName = basename(svgFile.name, ".svg");
         try {
-          
           let configEntry = iconsConfig.find(
             (icon) => icon.name === svgFileName
           );
-          
+
           let LLMIconData = null;
 
           if (!configEntry) {
@@ -69,28 +80,47 @@ async function listSvgFilesInDirectories(rootDirectory) {
             iconsConfig.push(configEntry);
           }
 
-          if (!configEntry.title || !configEntry.tag || configEntry.tag.length === 0) {
+          if (
+            useAI &&
+            (!configEntry.title ||
+              !configEntry.tag ||
+              configEntry.tag.length === 0)
+          ) {
             console.log(`开始调用 AI 生成内容`);
-            // 读取 svg
+            // 读取 SVG
             const svgContent = await readFile(filePath, "utf-8");
             // 转换为 base64Png
             const base64Png = await convertSvgToBase64Png(svgContent);
             // 使用大模型生成信息
-            LLMIconData = await generateIconData(svgFileName, base64Png)
+            LLMIconData = await generateIconData(svgFileName, base64Png);
           }
-
+          console.log(LLMIconData);
           // 检查并更新空字段
-          configEntry.title = configEntry.title || LLMIconData?.title || "";
-          configEntry.category = configEntry.category || LLMIconData?.category || "Other";
-          configEntry.categoryCN = configEntry.categoryCN || LLMIconData?.categoryCN || "其他";
-          configEntry.author = configEntry.author || "KSW";
-          configEntry.tag =
-            configEntry.tag.length > 0 ? configEntry.tag : (LLMIconData?.tag || []);
+          configEntry.title = configEntry.title || (Array.isArray(LLMIconData?.title) ? LLMIconData.title[0] : LLMIconData?.title) || "";
+
+          configEntry.category = Array.isArray(LLMIconData?.category) ? LLMIconData.category[0] : LLMIconData?.category || configEntry?.category;
+
+          configEntry.categoryCN = Array.isArray(LLMIconData?.categoryCN) ? LLMIconData.categoryCN[0] : LLMIconData?.categoryCN || configEntry?.categoryCN;
+          
+          configEntry.tag = configEntry.tag.length > 0 ? configEntry.tag : LLMIconData?.tag || [];
 
           console.log(configEntry);
         } catch (fileErr) {
-          console.error(`Error reading or converting file ${svgFile.name}:`, fileErr);
+          console.error(`Error processing file ${svgFile.name}:`, fileErr);
         }
+      }
+
+      // 写入更新后的 iconsConfig 到输出 JSON 文件
+      const jsonOutputFile = join(rootDir, `icons-config-${dirent.name}.json`);
+      try {
+        await writeFile(
+          jsonOutputFile,
+          JSON.stringify(iconsConfig, null, 2),
+          "utf8"
+        );
+        console.log(`Updated config written to ${jsonOutputFile}`);
+      } catch (writeErr) {
+        console.error(`Error writing JSON file ${jsonOutputFile}:`, writeErr);
       }
     }
   } catch (err) {
@@ -98,5 +128,4 @@ async function listSvgFilesInDirectories(rootDirectory) {
   }
 }
 
-const rootDirectory = "./src/svg_copy"; // 替换为你要列出的目录路径
-listSvgFilesInDirectories(rootDirectory);
+listSvgFilesInDirectories(svgDir, true);

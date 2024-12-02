@@ -37,7 +37,7 @@ const generateIconData = async (iconName, imageUrl) => {
             这个图标的名字是${iconName},请生成以下数据
             {
             name: ${iconName},
-            title: 生成一个中文名称,
+            title: 生成一个中文名称,可以直接翻译name的值,
             category: 生成一个英文类别,
             categoryCN: 生成一个中文类别,
             tag: [中文关键词数组] 如果你不知道就使用空数组[],
