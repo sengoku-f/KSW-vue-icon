@@ -1,6 +1,6 @@
 [
   {
-    "name": " add",
+    "name": "add",
     "title": "添加",
     "category": "Character",
     "categoryCN": "符号标识",
@@ -414,18 +414,6 @@
       "系统",
       "Windows",
       "颜色"
-    ]
-  },
-  {
-    "name": "add",
-    "title": "添加",
-    "category": "Operations",
-    "categoryCN": "操作",
-    "author": "KSW",
-    "tag": [
-      "增加",
-      "添加",
-      "操作"
     ]
   },
   {
@@ -3406,5 +3394,37 @@
       "注意",
       "危险"
     ]
+  },
+  {
+    "name": "aom-menu-JXSH-color",
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "aom-menu-JXYL-color",
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "aom-menu-JXCX-color",
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "aom-menu-JXPZ-color",
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
   }
 ]

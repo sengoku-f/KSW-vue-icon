@@ -123,6 +123,6 @@ const filteredIcons = computed(() => {
   @apply font-medium text-blue-600 bg-blue-50;
 }
 .sidebar {
-  max-height: calc(100vh - 132px);
+  max-height: calc(100vh - 84px);
 }
 </style>

@@ -61,6 +61,12 @@ async function listSvgFilesInDirectories(rootDirectory, useAI = false) {
         (subDirent) => subDirent.isFile() && subDirent.name.endsWith(".svg")
       );
 
+      // 收集所有存在的 SVG 文件名
+      const existingSvgFileNames = new Set(svgFiles.map((subDirent) => basename(subDirent.name, ".svg")));
+      
+      // 过滤掉不在目录中的 SVG 文件配置
+      iconsConfig = iconsConfig.filter((configEntry) => existingSvgFileNames.has(configEntry.name));
+
       // 遍历 SVG
       for (const svgFile of svgFiles) {
         // SVG 路径
@@ -80,21 +86,17 @@ async function listSvgFilesInDirectories(rootDirectory, useAI = false) {
             iconsConfig.push(configEntry);
           }
 
-          if (
-            useAI &&
-            (!configEntry.title ||
-              !configEntry.tag ||
-              configEntry.tag.length === 0)
-          ) {
-            console.log(`开始调用 AI 生成内容`);
+          if (useAI && (!configEntry.title || !configEntry.tag || configEntry.tag.length === 0)) {
+            console.log("现在的信息", configEntry);
+            console.log("开始调用 AI 生成信息");
             // 读取 SVG
             const svgContent = await readFile(filePath, "utf-8");
             // 转换为 base64Png
             const base64Png = await convertSvgToBase64Png(svgContent);
             // 使用大模型生成信息
             LLMIconData = await generateIconData(svgFileName, base64Png);
+            console.log("AI 生成的信息:", LLMIconData);
           }
-          console.log(LLMIconData);
           // 检查并更新空字段
           configEntry.title = configEntry.title || (Array.isArray(LLMIconData?.title) ? LLMIconData.title[0] : LLMIconData?.title) || "";
 
@@ -128,4 +130,4 @@ async function listSvgFilesInDirectories(rootDirectory, useAI = false) {
   }
 }
 
-listSvgFilesInDirectories(svgDir, true);
+listSvgFilesInDirectories(svgDir, false);
