@@ -37,6 +37,11 @@ import { iconsDataKingAutometa } from "~/icons-KingAutometa.js";
 
 const iconsData = [ ...iconsDataBase, ...iconsDataGuangfa, ...iconsDataKingAutometa ];
 
+// 基于 name 去重
+const uniqueIconsData = Array.from(
+  new Map(iconsData.map((icon) => [icon.name, icon])).values()
+);
+
 // 将 ProjectIconsMap 中的值从后往前合并为一个
 const iconSet = Object.values(ProjectIconsMap).reduceRight((acc, current) => {
   return { ...acc, ...current };
@@ -58,7 +63,7 @@ const categories = computed(() => {
 
 // 过滤和排序图标
 const sortIcons = () => {
-  let sortedIcons = [...iconsData];
+  let sortedIcons = [...uniqueIconsData];
   if (sortBy.value === "date") {
     sortedIcons.sort((a, b) => new Date(b.modifiedTime) - new Date(a.modifiedTime));
   } else {
@@ -75,7 +80,7 @@ const sortIcons = () => {
   if (selectedCategory.value !== "全部") {
     sortedIcons = sortedIcons.filter(icon => icon.categoryCN === selectedCategory.value);
   }
-  icons.value = sortedIcons.map((icon) => ({ componentName: icon.componentName, title: icon.title }));
+  icons.value = sortedIcons.map((icon) => ({ componentName: icon.componentName, title: icon.title, projectName: icon.projectName }));
 };
 
 // 初始排序
