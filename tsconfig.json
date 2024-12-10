@@ -1,5 +1,6 @@
 {
   "include": [
+    "icons-*.js",
     "src/index.js",
     "src/map.js",
     "src/runtime/*.js",

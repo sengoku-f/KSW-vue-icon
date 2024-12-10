@@ -5,6 +5,7 @@ node_modules
 /packages
 /src/icons
 key.js
+icons-*.d.ts
 
 # local env files
 .env

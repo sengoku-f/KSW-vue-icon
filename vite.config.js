@@ -87,21 +87,30 @@ const siteConfig = {
 // 为了匹配多种路径模式，可以使用数组传递给 `globSync`
 function getFileInput() {
   const files = globSync([
+    // "icons-*.js",
     "src/index.js",
     "src/map.js",
     "src/runtime/*.js",
     "src/icons/*/*.js",
   ]);
   return Object.fromEntries(
-    files.map((file) => [
-      path.relative(
-        // 相对于 `src` 文件夹生成相对路径
-        "src",
-        file.slice(0, file.length - path.extname(file).length)
-      ),
-      // 使用 `fileURLToPath` 将文件路径转换为 URL 文件路径
-      fileURLToPath(new URL(file, import.meta.url)),
-    ])
+    files.map((file) => {
+      // 判断是否是根目录的文件
+      const isRootFile = path.isAbsolute(file) || !file.startsWith("src/");
+      const relativePath = isRootFile
+        ? path.basename(file, path.extname(file)) // 根目录文件使用文件名作为键
+        : path.relative(
+            // 相对于 `src` 文件夹生成相对路径
+            "src",
+            file.slice(0, file.length - path.extname(file).length)
+          );
+
+      return [
+        relativePath,
+        // 使用 `fileURLToPath` 将文件路径转换为 URL 文件路径
+        fileURLToPath(new URL(file, import.meta.url)),
+      ];
+    })
   );
 }
 
@@ -165,13 +174,17 @@ const packagesConfig = {
   },
   publicDir: false,
   plugins: [
-    // ES模块类型
+    // 使用插件生成 dts
+    // 处理 src 目录
     dts({
-      outDir: "packages/es",
+      entryRoot: "src",
+      outDir: ["packages/es", "packages/cjs"],
     }),
-    // CommonJS类型
+    // 处理根目录文件
     dts({
-      outDir: "packages/cjs",
+      include: ["icons-*.js"],
+      entryRoot: ".",
+      outDir: ".",
     }),
   ],
 };

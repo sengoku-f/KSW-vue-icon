@@ -9,9 +9,8 @@
   "types": "packages/es/index.d.ts",
   "files": [
     "styles",
-    "icons-base.js",
-    "icons-guangfa.js",
-    "icons-KingAutometa.js",
+    "icons-*.js",
+    "icons-*.d.ts",
     "packages/*/*.js",
     "packages/*/*/*.js",
     "packages/*/*/*/*.js",

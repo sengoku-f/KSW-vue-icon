@@ -28,7 +28,7 @@ export const iconsDataKingAutometa = [
     name: "ide-digital-asset",
     componentName: "IconIdeDigitalAsset",
     title: "数字资产图标",
-    category: ["Digital", "Assets"],
+    category: "Digital",
     categoryCN: "数字资产",
     author: "KSW",
     tag: ["数字", "资产", "图标", "金融", "银行"],

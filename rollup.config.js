@@ -34,21 +34,30 @@ function getIconExternals() {
 // 获取多入口文件输入
 function getFileInput() {
   const files = globSync([
+    // "icons-*.js",
     "src/index.js",
     "src/map.js",
     "src/runtime/*.js",
     "src/icons/*/*.js",
   ]);
-  // console.log("file:", JSON.stringify(files, null, 1));
   return Object.fromEntries(
-    files.map((file) => [
-      path.relative(
-        // 相对于 `src` 文件夹生成相对路径
-        "src",
-        file.slice(0, file.length - path.extname(file).length)
-      ),
-      file,
-    ])
+    files.map((file) => {
+      // 判断是否是根目录的文件
+      const isRootFile = path.isAbsolute(file) || !file.startsWith("src/");
+      const relativePath = isRootFile
+        ? path.basename(file, path.extname(file)) // 根目录文件使用文件名作为键
+        : path.relative(
+            // 相对于 `src` 文件夹生成相对路径
+            "src",
+            file.slice(0, file.length - path.extname(file).length)
+          );
+
+      return [
+        relativePath,
+        // 使用 `fileURLToPath` 将文件路径转换为 URL 文件路径
+        fileURLToPath(new URL(file, import.meta.url)),
+      ];
+    })
   );
 }
 
