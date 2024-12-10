@@ -2,7 +2,7 @@
   <!-- <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"> -->
   <ul class="wrapper">
     <li
-      class="group item cursor-pointer"
+      class="group cursor-pointer"
       v-for="icon in filteredIcons"
       :key="icon.componentName"
       :title="icon.title"
@@ -10,6 +10,7 @@
       @mouseenter="showElement(icon.componentName)"
       @mouseleave="hideElement(icon.componentName)"
     >
+    <div class="item">
       <div class="icon-text icon-title" v-if="hoveredIcon === icon.componentName">
         {{ icon.title }}
       </div>
@@ -25,6 +26,7 @@
           <IconCode />
         </button>
       </div>
+    </div>
     </li>
   </ul>
   <!-- </div> -->
@@ -103,7 +105,7 @@ const hideElement = () => {
     0 1px 3px -1px rgba(0, 0, 0, 0.2);
 }
 
-.item:hover {
+.group:hover .item {
   /* @apply shadow-lg; */
   border-radius: 1rem;
   font-size: 3rem;
@@ -114,6 +116,7 @@ const hideElement = () => {
     0 3.5px 6px rgba(0, 0, 0, 0.09);
   transform: scale3d(1.04, 1.04, 1.04) translateY(-0.5rem);
 }
+
 .icon-text {
   @apply items-center justify-center text-xs antialiased text-center truncate text-slate-500 text-wrap w-full h-4 group-hover:overflow-visible group-hover:break-words;
 }
