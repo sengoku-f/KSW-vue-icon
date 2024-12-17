@@ -181,7 +181,7 @@ async function processFile(filePath, index, svgDir) {
     const iconData = createIconData(config, index, ComponentName, path.basename(filePath, ".svg"), relativePath, stats);
     return { index, iconData, relativePath };
   } catch (err) {
-    console.error(`处理SVG文件时出错: ${filePath}，错误信息: ${err.message}`);
+    console.error(`处理SVG文件时出错: ${filePath}, 错误信息: ${err.message}`);
     return { index, iconData: null, relativePath: path.relative(svgDir, path.dirname(filePath)) };
   }
 }
