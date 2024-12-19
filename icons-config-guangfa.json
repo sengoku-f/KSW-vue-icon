@@ -1,6 +1,7 @@
 [
   {
     "name": "gfaom-BGDW",
+    "alias": [],
     "title": "高分辨率海洋生物地理数据",
     "category": "Oceanography",
     "categoryCN": "海洋学",
@@ -13,6 +14,7 @@
   },
   {
     "name": "gfaom-BGFX",
+    "alias": [],
     "title": "高分辨率图形渲染框架",
     "category": "Graphics",
     "categoryCN": "图形渲染",
@@ -25,6 +27,7 @@
   },
   {
     "name": "gfaom-BGFY",
+    "alias": [],
     "title": "高分辨率海洋生物地球化学模型",
     "category": "Oceanography",
     "categoryCN": "海洋学",
@@ -37,6 +40,7 @@
   },
   {
     "name": "gfaom-BGGK",
+    "alias": [],
     "title": "广发 变更管控",
     "category": "GF AOM",
     "categoryCN": "广发 AOM",
@@ -49,6 +53,7 @@
   },
   {
     "name": "gfaom-BGGL",
+    "alias": [],
     "title": "广发 变更管理",
     "category": "GuangFa AOM",
     "categoryCN": "广发 AOM",
@@ -61,6 +66,7 @@
   },
   {
     "name": "gfaom-BGSJ",
+    "alias": [],
     "title": "全球海洋观测系统",
     "category": "Oceanography",
     "categoryCN": "海洋学",
@@ -74,6 +80,7 @@
   },
   {
     "name": "gfaom-BSGZ",
+    "alias": [],
     "title": "高分辨率海洋生物地理信息系统",
     "category": "Oceanography",
     "categoryCN": "海洋学",
@@ -87,6 +94,7 @@
   },
   {
     "name": "gfaom-CJDDGL",
+    "alias": [],
     "title": "广发 采集调度管理",
     "category": "GuangFa AOM",
     "categoryCN": "广发 AOM",
@@ -100,6 +108,7 @@
   },
   {
     "name": "gfaom-GJGL",
+    "alias": [],
     "title": "广发 工具管理",
     "category": "GuangFa AOM",
     "categoryCN": "广发 AOM",
@@ -113,7 +122,7 @@
   },
   {
     "name": "gfaom-QXGL",
-    "componentName": "IconGFAOMQXGL",
+    "alias": [],
     "title": "广发 权限管理",
     "category": "GuangFa AOM",
     "categoryCN": "广发 AOM",
@@ -127,6 +136,7 @@
   },
   {
     "name": "gfaom-SYKB",
+    "alias": [],
     "title": "广发 首页看板",
     "category": "GuangFa AOM",
     "categoryCN": "广发 AOM",
@@ -139,7 +149,7 @@
   },
   {
     "name": "gfaom-YHGL",
-    "componentName": "IconGFAOMYHGL",
+    "alias": [],
     "title": "广发 用户管理",
     "category": "GuangFa AOM",
     "categoryCN": "广发 AOM",

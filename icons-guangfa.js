@@ -2,7 +2,9 @@ export const iconsDataGuangfa = [
   {
     id: 0,
     name: "gfaom-BGDW",
+    alias: [],
     componentName: "IconGfaomBGDW",
+    componentAlias: [],
     title: "高分辨率海洋生物地理数据",
     category: "Oceanography",
     categoryCN: "海洋学",
@@ -14,7 +16,9 @@ export const iconsDataGuangfa = [
   {
     id: 1,
     name: "gfaom-BGFX",
+    alias: [],
     componentName: "IconGfaomBGFX",
+    componentAlias: [],
     title: "高分辨率图形渲染框架",
     category: "Graphics",
     categoryCN: "图形渲染",
@@ -26,7 +30,9 @@ export const iconsDataGuangfa = [
   {
     id: 2,
     name: "gfaom-BGFY",
+    alias: [],
     componentName: "IconGfaomBGFY",
+    componentAlias: [],
     title: "高分辨率海洋生物地球化学模型",
     category: "Oceanography",
     categoryCN: "海洋学",
@@ -38,7 +44,9 @@ export const iconsDataGuangfa = [
   {
     id: 3,
     name: "gfaom-BGGK",
+    alias: [],
     componentName: "IconGfaomBGGK",
+    componentAlias: [],
     title: "广发 变更管控",
     category: "GF AOM",
     categoryCN: "广发 AOM",
@@ -50,7 +58,9 @@ export const iconsDataGuangfa = [
   {
     id: 4,
     name: "gfaom-BGGL",
+    alias: [],
     componentName: "IconGfaomBGGL",
+    componentAlias: [],
     title: "广发 变更管理",
     category: "GuangFa AOM",
     categoryCN: "广发 AOM",
@@ -62,7 +72,9 @@ export const iconsDataGuangfa = [
   {
     id: 5,
     name: "gfaom-BGSJ",
+    alias: [],
     componentName: "IconGfaomBGSJ",
+    componentAlias: [],
     title: "全球海洋观测系统",
     category: "Oceanography",
     categoryCN: "海洋学",
@@ -74,7 +86,9 @@ export const iconsDataGuangfa = [
   {
     id: 6,
     name: "gfaom-BSGZ",
+    alias: [],
     componentName: "IconGfaomBSGZ",
+    componentAlias: [],
     title: "高分辨率海洋生物地理信息系统",
     category: "Oceanography",
     categoryCN: "海洋学",
@@ -86,7 +100,9 @@ export const iconsDataGuangfa = [
   {
     id: 7,
     name: "gfaom-CJDDGL",
+    alias: [],
     componentName: "IconGfaomCJDDGL",
+    componentAlias: [],
     title: "广发 采集调度管理",
     category: "GuangFa AOM",
     categoryCN: "广发 AOM",
@@ -98,7 +114,9 @@ export const iconsDataGuangfa = [
   {
     id: 8,
     name: "gfaom-GJGL",
+    alias: [],
     componentName: "IconGfaomGJGL",
+    componentAlias: [],
     title: "广发 工具管理",
     category: "GuangFa AOM",
     categoryCN: "广发 AOM",
@@ -110,7 +128,9 @@ export const iconsDataGuangfa = [
   {
     id: 9,
     name: "gfaom-QXGL",
+    alias: [],
     componentName: "IconGfaomQXGL",
+    componentAlias: [],
     title: "广发 权限管理",
     category: "GuangFa AOM",
     categoryCN: "广发 AOM",
@@ -122,7 +142,9 @@ export const iconsDataGuangfa = [
   {
     id: 10,
     name: "gfaom-SYKB",
+    alias: [],
     componentName: "IconGfaomSYKB",
+    componentAlias: [],
     title: "广发 首页看板",
     category: "GuangFa AOM",
     categoryCN: "广发 AOM",
@@ -134,7 +156,9 @@ export const iconsDataGuangfa = [
   {
     id: 11,
     name: "gfaom-YHGL",
+    alias: [],
     componentName: "IconGfaomYHGL",
+    componentAlias: [],
     title: "广发 用户管理",
     category: "GuangFa AOM",
     categoryCN: "广发 AOM",

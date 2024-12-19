@@ -2,7 +2,9 @@ export const iconsDataBase = [
   {
     id: 0,
     name: "add",
+    alias: [],
     componentName: "IconAdd",
+    componentAlias: [],
     title: "添加",
     category: "Character",
     categoryCN: "符号标识",
@@ -14,7 +16,9 @@ export const iconsDataBase = [
   {
     id: 1,
     name: "aom-menu-AOMRZ-color",
+    alias: [],
     componentName: "IconAomMenuAOMRZColor",
+    componentAlias: [],
     title: "AOM日志",
     category: "AOM Menu",
     categoryCN: "AOM 菜单",
@@ -26,7 +30,9 @@ export const iconsDataBase = [
   {
     id: 2,
     name: "aom-menu-BBCX-color",
+    alias: [],
     componentName: "IconAomMenuBBCXColor",
+    componentAlias: [],
     title: "报表查询",
     category: "AOM Menu",
     categoryCN: "AOM 菜单",
@@ -38,7 +44,9 @@ export const iconsDataBase = [
   {
     id: 3,
     name: "aom-menu-BBSH-color",
+    alias: [],
     componentName: "IconAomMenuBBSHColor",
+    componentAlias: [],
     title: "菜单按钮颜色",
     category: "UI",
     categoryCN: "用户界面元素",
@@ -50,7 +58,9 @@ export const iconsDataBase = [
   {
     id: 4,
     name: "aom-menu-BBSJ-color",
+    alias: [],
     componentName: "IconAomMenuBBSJColor",
+    componentAlias: [],
     title: "菜单",
     category: "Menu",
     categoryCN: "菜单",
@@ -62,7 +72,9 @@ export const iconsDataBase = [
   {
     id: 5,
     name: "aom-menu-BBYL-color",
+    alias: [],
     componentName: "IconAomMenuBBYLColor",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -74,7 +86,9 @@ export const iconsDataBase = [
   {
     id: 6,
     name: "aom-menu-BCLLPZ-color",
+    alias: [],
     componentName: "IconAomMenuBCLLPZColor",
+    componentAlias: [],
     title: "菜单图标",
     category: "UI",
     categoryCN: "用户界面元素",
@@ -86,7 +100,9 @@ export const iconsDataBase = [
   {
     id: 7,
     name: "aom-menu-BCZXKanban-color",
+    alias: [],
     componentName: "IconAomMenuBCZXKanbanColor",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -98,7 +114,9 @@ export const iconsDataBase = [
   {
     id: 8,
     name: "aom-menu-BDCK-color",
+    alias: [],
     componentName: "IconAomMenuBDCKColor",
+    componentAlias: [],
     title: "菜单工具颜色",
     category: "Tools",
     categoryCN: "工具",
@@ -110,7 +128,9 @@ export const iconsDataBase = [
   {
     id: 9,
     name: "aom-menu-BDGL-color",
+    alias: [],
     componentName: "IconAomMenuBDGLColor",
+    componentAlias: [],
     title: "菜单选项颜色",
     category: "UI",
     categoryCN: "用户界面元素",
@@ -122,7 +142,9 @@ export const iconsDataBase = [
   {
     id: 10,
     name: "aom-menu-BDKanban-color",
+    alias: [],
     componentName: "IconAomMenuBDKanbanColor",
+    componentAlias: [],
     title: "自动化菜单",
     category: "Automation",
     categoryCN: "自动化工具",
@@ -134,7 +156,9 @@ export const iconsDataBase = [
   {
     id: 11,
     name: "aom-menu-CJCL-color",
+    alias: [],
     componentName: "IconAomMenuCJCLColor",
+    componentAlias: [],
     title: "菜单颜色选择器",
     category: "UI",
     categoryCN: "用户界面元素",
@@ -146,7 +170,9 @@ export const iconsDataBase = [
   {
     id: 12,
     name: "aom-menu-CKGL-color",
+    alias: [],
     componentName: "IconAomMenuCKGLColor",
+    componentAlias: [],
     title: "代码菜单",
     category: "Development",
     categoryCN: "开发工具",
@@ -158,7 +184,9 @@ export const iconsDataBase = [
   {
     id: 13,
     name: "aom-menu-CLJL-color",
+    alias: [],
     componentName: "IconAomMenuCLJLColor",
+    componentAlias: [],
     title: "菜单列表颜色",
     category: "UI",
     categoryCN: "用户界面元素",
@@ -170,7 +198,9 @@ export const iconsDataBase = [
   {
     id: 14,
     name: "aom-menu-CZRZ-color",
+    alias: [],
     componentName: "IconAomMenuCZRZColor",
+    componentAlias: [],
     title: "菜单颜色设置",
     category: "User",
     categoryCN: "用户界面",
@@ -182,7 +212,9 @@ export const iconsDataBase = [
   {
     id: 15,
     name: "aom-menu-default-color",
+    alias: [],
     componentName: "IconAomMenuDefaultColor",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -194,7 +226,9 @@ export const iconsDataBase = [
   {
     id: 16,
     name: "aom-menu-DLDGL-color",
+    alias: [],
     componentName: "IconAomMenuDLDGLColor",
+    componentAlias: [],
     title: "菜单选项颜色",
     category: "UI",
     categoryCN: "用户界面元素",
@@ -206,7 +240,9 @@ export const iconsDataBase = [
   {
     id: 17,
     name: "aom-menu-DLDSJ-color",
+    alias: [],
     componentName: "IconAomMenuDLDSJColor",
+    componentAlias: [],
     title: "自动化菜单",
     category: "Automation",
     categoryCN: "自动化工具",
@@ -218,7 +254,9 @@ export const iconsDataBase = [
   {
     id: 18,
     name: "aom-menu-DLDXC-color",
+    alias: [],
     componentName: "IconAomMenuDLDXCColor",
+    componentAlias: [],
     title: "菜单选项颜色",
     category: "User",
     categoryCN: "用户界面",
@@ -230,7 +268,9 @@ export const iconsDataBase = [
   {
     id: 19,
     name: "aom-menu-DLDXX-color",
+    alias: [],
     componentName: "IconAomMenuDLDXXColor",
+    componentAlias: [],
     title: "奥姆菜单",
     category: "Menu",
     categoryCN: "菜单图标",
@@ -242,7 +282,9 @@ export const iconsDataBase = [
   {
     id: 20,
     name: "aom-menu-DLDXZ-color",
+    alias: [],
     componentName: "IconAomMenuDLDXZColor",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -254,7 +296,9 @@ export const iconsDataBase = [
   {
     id: 21,
     name: "aom-menu-DPGL-color",
+    alias: [],
     componentName: "IconAomMenuDPGLColor",
+    componentAlias: [],
     title: "大屏管理",
     category: "AOM Menu",
     categoryCN: "AOM 菜单",
@@ -266,7 +310,9 @@ export const iconsDataBase = [
   {
     id: 22,
     name: "aom-menu-DPYL-color",
+    alias: [],
     componentName: "IconAomMenuDPYLColor",
+    componentAlias: [],
     title: "大屏预览",
     category: "AOM Menu",
     categoryCN: "AOM 菜单",
@@ -278,7 +324,9 @@ export const iconsDataBase = [
   {
     id: 23,
     name: "aom-menu-DXSZ-color",
+    alias: [],
     componentName: "IconAomMenuDXSZColor",
+    componentAlias: [],
     title: "菜单设置颜色",
     category: "Menu",
     categoryCN: "菜单配置",
@@ -290,7 +338,9 @@ export const iconsDataBase = [
   {
     id: 24,
     name: "aom-menu-DYGX-color",
+    alias: [],
     componentName: "IconAomMenuDYGXColor",
+    componentAlias: [],
     title: "菜单选项",
     category: "Navigation",
     categoryCN: "导航",
@@ -302,7 +352,9 @@ export const iconsDataBase = [
   {
     id: 25,
     name: "aom-menu-FFQDJ-color",
+    alias: [],
     componentName: "IconAomMenuFFQDJColor",
+    componentAlias: [],
     title: "奥姆菜单",
     category: "Menu",
     categoryCN: "菜单图标",
@@ -314,7 +366,9 @@ export const iconsDataBase = [
   {
     id: 26,
     name: "aom-menu-FFQSL-color",
+    alias: [],
     componentName: "IconAomMenuFFQSLColor",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -326,7 +380,9 @@ export const iconsDataBase = [
   {
     id: 27,
     name: "aom-menu-FPGL-color",
+    alias: [],
     componentName: "IconAomMenuFPGLColor",
+    componentAlias: [],
     title: "分屏管理",
     category: "AOM Menu",
     categoryCN: "AOM 菜单",
@@ -338,7 +394,9 @@ export const iconsDataBase = [
   {
     id: 28,
     name: "aom-menu-FWQPZ-color",
+    alias: [],
     componentName: "IconAomMenuFWQPZColor",
+    componentAlias: [],
     title: "自动化菜单配置",
     category: "Automation",
     categoryCN: "自动化工具",
@@ -350,7 +408,9 @@ export const iconsDataBase = [
   {
     id: 29,
     name: "aom-menu-FWQXX-color",
+    alias: [],
     componentName: "IconAomMenuFWQXXColor",
+    componentAlias: [],
     title: "服务器菜单",
     category: "Server",
     categoryCN: "服务器管理",
@@ -362,7 +422,9 @@ export const iconsDataBase = [
   {
     id: 30,
     name: "aom-menu-GLST-color",
+    alias: [],
     componentName: "IconAomMenuGLSTColor",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -374,7 +436,9 @@ export const iconsDataBase = [
   {
     id: 31,
     name: "aom-menu-GNHS-color",
+    alias: [],
     componentName: "IconAomMenuGNHSColor",
+    componentAlias: [],
     title: "奥姆菜单",
     category: "Menu",
     categoryCN: "菜单图标",
@@ -386,7 +450,9 @@ export const iconsDataBase = [
   {
     id: 32,
     name: "aom-menu-GRBL-color",
+    alias: [],
     componentName: "IconAomMenuGRBLColor",
+    componentAlias: [],
     title: "奥姆菜单GRBL颜色",
     category: "Software",
     categoryCN: "软件工具",
@@ -398,7 +464,9 @@ export const iconsDataBase = [
   {
     id: 33,
     name: "aom-menu-HSZ-color",
+    alias: [],
     componentName: "IconAomMenuHSZColor",
+    componentAlias: [],
     title: "菜单选项",
     category: "Menu",
     categoryCN: "菜单选项",
@@ -410,7 +478,9 @@ export const iconsDataBase = [
   {
     id: 34,
     name: "aom-menu-JBGL-color",
+    alias: [],
     componentName: "IconAomMenuJBGLColor",
+    componentAlias: [],
     title: "菜单管理",
     category: "Menu",
     categoryCN: "菜单管理",
@@ -422,7 +492,9 @@ export const iconsDataBase = [
   {
     id: 35,
     name: "aom-menu-JBKanban-color",
+    alias: [],
     componentName: "IconAomMenuJBKanbanColor",
+    componentAlias: [],
     title: "AOM菜单",
     category: "UI",
     categoryCN: "用户界面元素",
@@ -434,7 +506,9 @@ export const iconsDataBase = [
   {
     id: 36,
     name: "aom-menu-JBRZ-color",
+    alias: [],
     componentName: "IconAomMenuJBRZColor",
+    componentAlias: [],
     title: "菜单选项",
     category: "User",
     categoryCN: "用户界面",
@@ -446,7 +520,9 @@ export const iconsDataBase = [
   {
     id: 37,
     name: "aom-menu-JBSM-color",
+    alias: [],
     componentName: "IconAomMenuJBSMColor",
+    componentAlias: [],
     title: "菜单栏颜色",
     category: "UI",
     categoryCN: "用户界面元素",
@@ -458,7 +534,9 @@ export const iconsDataBase = [
   {
     id: 38,
     name: "aom-menu-JCYWPTKanban-color",
+    alias: [],
     componentName: "IconAomMenuJCYWPTKanbanColor",
+    componentAlias: [],
     title: "菜单",
     category: "UI",
     categoryCN: "用户界面元素",
@@ -470,7 +548,9 @@ export const iconsDataBase = [
   {
     id: 39,
     name: "aom-menu-JGCL-color",
+    alias: [],
     componentName: "IconAomMenuJGCLColor",
+    componentAlias: [],
     title: "菜单颜色选择器",
     category: "UI",
     categoryCN: "用户界面元素",
@@ -482,7 +562,9 @@ export const iconsDataBase = [
   {
     id: 40,
     name: "aom-menu-JQFA-color",
+    alias: [],
     componentName: "IconAomMenuJQFAColor",
+    componentAlias: [],
     title: "菜单颜色",
     category: "UI",
     categoryCN: "用户界面元素",
@@ -494,7 +576,9 @@ export const iconsDataBase = [
   {
     id: 41,
     name: "aom-menu-JRLC-color",
+    alias: [],
     componentName: "IconAomMenuJRLCColor",
+    componentAlias: [],
     title: "菜单选项颜色",
     category: "User",
     categoryCN: "用户界面",
@@ -506,7 +590,9 @@ export const iconsDataBase = [
   {
     id: 42,
     name: "aom-menu-JXCX-color",
+    alias: [],
     componentName: "IconAomMenuJXCXColor",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -518,7 +604,9 @@ export const iconsDataBase = [
   {
     id: 43,
     name: "aom-menu-JXLL-color",
+    alias: [],
     componentName: "IconAomMenuJXLLColor",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -530,7 +618,9 @@ export const iconsDataBase = [
   {
     id: 44,
     name: "aom-menu-JXPZ-color",
+    alias: [],
     componentName: "IconAomMenuJXPZColor",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -542,7 +632,9 @@ export const iconsDataBase = [
   {
     id: 45,
     name: "aom-menu-JXSH-color",
+    alias: [],
     componentName: "IconAomMenuJXSHColor",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -554,7 +646,9 @@ export const iconsDataBase = [
   {
     id: 46,
     name: "aom-menu-KZTGL-color",
+    alias: [],
     componentName: "IconAomMenuKZTGLColor",
+    componentAlias: [],
     title: "奥姆菜单",
     category: "Menu",
     categoryCN: "菜单工具",
@@ -566,7 +660,9 @@ export const iconsDataBase = [
   {
     id: 47,
     name: "aom-menu-LCCK-color",
+    alias: [],
     componentName: "IconAomMenuLCCKColor",
+    componentAlias: [],
     title: "菜单选项颜色",
     category: "User",
     categoryCN: "用户界面",
@@ -578,7 +674,9 @@ export const iconsDataBase = [
   {
     id: 48,
     name: "aom-menu-LCJG-color",
+    alias: [],
     componentName: "IconAomMenuLCJGColor",
+    componentAlias: [],
     title: "菜单图标",
     category: "UI",
     categoryCN: "用户界面元素",
@@ -590,7 +688,9 @@ export const iconsDataBase = [
   {
     id: 49,
     name: "aom-menu-LCKanban-color",
+    alias: [],
     componentName: "IconAomMenuLCKanbanColor",
+    componentAlias: [],
     title: "菜单",
     category: "UI",
     categoryCN: "用户界面元素",
@@ -602,7 +702,9 @@ export const iconsDataBase = [
   {
     id: 50,
     name: "aom-menu-LCMB-color",
+    alias: [],
     componentName: "IconAomMenuLCMBColor",
+    componentAlias: [],
     title: "菜单图标",
     category: "UI",
     categoryCN: "用户界面元素",
@@ -614,7 +716,9 @@ export const iconsDataBase = [
   {
     id: 51,
     name: "aom-menu-LCSH-color",
+    alias: [],
     componentName: "IconAomMenuLCSHColor",
+    componentAlias: [],
     title: "菜单选项",
     category: "Navigation",
     categoryCN: "导航",
@@ -626,7 +730,9 @@ export const iconsDataBase = [
   {
     id: 52,
     name: "aom-menu-LCST-color",
+    alias: [],
     componentName: "IconAomMenuLCSTColor",
+    componentAlias: [],
     title: "菜单图标",
     category: "Menu",
     categoryCN: "菜单",
@@ -638,7 +744,9 @@ export const iconsDataBase = [
   {
     id: 53,
     name: "aom-menu-LYCDL-color",
+    alias: [],
     componentName: "IconAomMenuLYCDLColor",
+    componentAlias: [],
     title: "菜单图标",
     category: "UI",
     categoryCN: "用户界面元素",
@@ -650,7 +758,9 @@ export const iconsDataBase = [
   {
     id: 54,
     name: "aom-menu-MBCS-color",
+    alias: [],
     componentName: "IconAomMenuMBCSColor",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -662,7 +772,9 @@ export const iconsDataBase = [
   {
     id: 55,
     name: "aom-menu-MBGL-color",
+    alias: [],
     componentName: "IconAomMenuMBGLColor",
+    componentAlias: [],
     title: "菜单MBGL颜色",
     category: "Menu",
     categoryCN: "菜单",
@@ -674,7 +786,9 @@ export const iconsDataBase = [
   {
     id: 56,
     name: "aom-menu-MJRW-color",
+    alias: [],
     componentName: "IconAomMenuMJRWColor",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -686,7 +800,9 @@ export const iconsDataBase = [
   {
     id: 57,
     name: "aom-menu-QDGL-color",
+    alias: [],
     componentName: "IconAomMenuQDGLColor",
+    componentAlias: [],
     title: "质量管理菜单",
     category: "Quality",
     categoryCN: "质量管理",
@@ -698,7 +814,9 @@ export const iconsDataBase = [
   {
     id: 58,
     name: "aom-menu-QJBL-color",
+    alias: [],
     componentName: "IconAomMenuQJBLColor",
+    componentAlias: [],
     title: "菜单图标",
     category: "UI",
     categoryCN: "用户界面元素",
@@ -710,7 +828,9 @@ export const iconsDataBase = [
   {
     id: 59,
     name: "aom-menu-QXGL-color",
+    alias: [],
     componentName: "IconAomMenuQXGLColor",
+    componentAlias: [],
     title: "菜单",
     category: "Menu",
     categoryCN: "菜单管理",
@@ -722,7 +842,9 @@ export const iconsDataBase = [
   {
     id: 60,
     name: "aom-menu-RJBS-color",
+    alias: [],
     componentName: "IconAomMenuRJBSColor",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -734,7 +856,9 @@ export const iconsDataBase = [
   {
     id: 61,
     name: "aom-menu-RJGL-color",
+    alias: [],
     componentName: "IconAomMenuRJGLColor",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -746,7 +870,9 @@ export const iconsDataBase = [
   {
     id: 62,
     name: "aom-menu-RLPZ-color",
+    alias: [],
     componentName: "IconAomMenuRLPZColor",
+    componentAlias: [],
     title: "奥姆菜单",
     category: "Menu",
     categoryCN: "菜单图标",
@@ -758,7 +884,9 @@ export const iconsDataBase = [
   {
     id: 63,
     name: "aom-menu-RWCX-color",
+    alias: [],
     componentName: "IconAomMenuRWCXColor",
+    componentAlias: [],
     title: "菜单列表颜色",
     category: "UI",
     categoryCN: "用户界面元素",
@@ -770,7 +898,9 @@ export const iconsDataBase = [
   {
     id: 64,
     name: "aom-menu-RWGL-color",
+    alias: [],
     componentName: "IconAomMenuRWGLColor",
+    componentAlias: [],
     title: "菜单列表",
     category: "UI",
     categoryCN: "用户界面元素",
@@ -782,7 +912,9 @@ export const iconsDataBase = [
   {
     id: 65,
     name: "aom-menu-RWXQ-color",
+    alias: [],
     componentName: "IconAomMenuRWXQColor",
+    componentAlias: [],
     title: "菜单选项颜色",
     category: "UI",
     categoryCN: "用户界面元素",
@@ -794,7 +926,9 @@ export const iconsDataBase = [
   {
     id: 66,
     name: "aom-menu-RYFA-color",
+    alias: [],
     componentName: "IconAomMenuRYFAColor",
+    componentAlias: [],
     title: "菜单选项",
     category: "User",
     categoryCN: "用户界面",
@@ -806,7 +940,9 @@ export const iconsDataBase = [
   {
     id: 67,
     name: "aom-menu-RZLC-color",
+    alias: [],
     componentName: "IconAomMenuRZLCColor",
+    componentAlias: [],
     title: "菜单选项颜色",
     category: "UI",
     categoryCN: "用户界面元素",
@@ -818,7 +954,9 @@ export const iconsDataBase = [
   {
     id: 68,
     name: "aom-menu-SBST-color",
+    alias: [],
     componentName: "IconAomMenuSBSTColor",
+    componentAlias: [],
     title: "菜单选项颜色",
     category: "User",
     categoryCN: "用户界面",
@@ -830,7 +968,9 @@ export const iconsDataBase = [
   {
     id: 69,
     name: "aom-menu-SJCX-color",
+    alias: [],
     componentName: "IconAomMenuSJCXColor",
+    componentAlias: [],
     title: "自动化菜单",
     category: "Automation",
     categoryCN: "自动化工具",
@@ -842,7 +982,9 @@ export const iconsDataBase = [
   {
     id: 70,
     name: "aom-menu-SJGL-color",
+    alias: [],
     componentName: "IconAomMenuSJGLColor",
+    componentAlias: [],
     title: "菜单设置颜色",
     category: "Menu",
     categoryCN: "菜单设置",
@@ -854,7 +996,9 @@ export const iconsDataBase = [
   {
     id: 71,
     name: "aom-menu-SJHB-color",
+    alias: [],
     componentName: "IconAomMenuSJHBColor",
+    componentAlias: [],
     title: "奥姆菜单SJHB颜色",
     category: "Software",
     categoryCN: "软件工具",
@@ -866,7 +1010,9 @@ export const iconsDataBase = [
   {
     id: 72,
     name: "aom-menu-SJKLJ-color",
+    alias: [],
     componentName: "IconAomMenuSJKLJColor",
+    componentAlias: [],
     title: "菜单选项颜色",
     category: "UI",
     categoryCN: "用户界面元素",
@@ -878,7 +1024,9 @@ export const iconsDataBase = [
   {
     id: 73,
     name: "aom-menu-SSSJ-color",
+    alias: [],
     componentName: "IconAomMenuSSSJColor",
+    componentAlias: [],
     title: "菜单信息颜色",
     category: "UI",
     categoryCN: "用户界面元素",
@@ -890,7 +1038,9 @@ export const iconsDataBase = [
   {
     id: 74,
     name: "aom-menu-TZJL-color",
+    alias: [],
     componentName: "IconAomMenuTZJLColor",
+    componentAlias: [],
     title: "菜单项颜色",
     category: "UI",
     categoryCN: "用户界面元素",
@@ -902,7 +1052,9 @@ export const iconsDataBase = [
   {
     id: 75,
     name: "aom-menu-WHQGL-color",
+    alias: [],
     componentName: "IconAomMenuWHQGLColor",
+    componentAlias: [],
     title: "奥姆菜单",
     category: "Menu",
     categoryCN: "菜单图标",
@@ -914,7 +1066,9 @@ export const iconsDataBase = [
   {
     id: 76,
     name: "aom-menu-WWGL-color",
+    alias: [],
     componentName: "IconAomMenuWWGLColor",
+    componentAlias: [],
     title: "奥姆菜单",
     category: "Menu",
     categoryCN: "菜单",
@@ -926,7 +1080,9 @@ export const iconsDataBase = [
   {
     id: 77,
     name: "aom-menu-XTSZ-color",
+    alias: [],
     componentName: "IconAomMenuXTSZColor",
+    componentAlias: [],
     title: "菜单选项",
     category: "UI",
     categoryCN: "用户界面元素",
@@ -938,7 +1094,9 @@ export const iconsDataBase = [
   {
     id: 78,
     name: "aom-menu-YHGL-color",
+    alias: [],
     componentName: "IconAomMenuYHGLColor",
+    componentAlias: [],
     title: "奥姆菜单",
     category: "Menu",
     categoryCN: "菜单",
@@ -950,7 +1108,9 @@ export const iconsDataBase = [
   {
     id: 79,
     name: "aom-menu-YWBCZL-color",
+    alias: [],
     componentName: "IconAomMenuYWBCZLColor",
+    componentAlias: [],
     title: "菜单工具箱",
     category: "Tools",
     categoryCN: "工具",
@@ -962,7 +1122,9 @@ export const iconsDataBase = [
   {
     id: 80,
     name: "aom-menu-YYST-color",
+    alias: [],
     componentName: "IconAomMenuYYSTColor",
+    componentAlias: [],
     title: "菜单颜色",
     category: "UI",
     categoryCN: "用户界面元素",
@@ -974,7 +1136,9 @@ export const iconsDataBase = [
   {
     id: 81,
     name: "aom-menu-ZBGL-color",
+    alias: [],
     componentName: "IconAomMenuZBGLColor",
+    componentAlias: [],
     title: "自动化管理菜单",
     category: "Automation",
     categoryCN: "自动化管理",
@@ -986,7 +1150,9 @@ export const iconsDataBase = [
   {
     id: 82,
     name: "aom-menu-ZBZXSZ-color",
+    alias: [],
     componentName: "IconAomMenuZBZXSZColor",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -998,7 +1164,9 @@ export const iconsDataBase = [
   {
     id: 83,
     name: "aom-menu-ZHCL-color",
+    alias: [],
     componentName: "IconAomMenuZHCLColor",
+    componentAlias: [],
     title: "菜单图标",
     category: "UI",
     categoryCN: "用户界面元素",
@@ -1010,7 +1178,9 @@ export const iconsDataBase = [
   {
     id: 84,
     name: "aom-menu-ZHJG-color",
+    alias: [],
     componentName: "IconAomMenuZHJGColor",
+    componentAlias: [],
     title: "菜单",
     category: "Menu",
     categoryCN: "菜单",
@@ -1022,7 +1192,9 @@ export const iconsDataBase = [
   {
     id: 85,
     name: "aom-menu-ZXLS-color",
+    alias: [],
     componentName: "IconAomMenuZXLSColor",
+    componentAlias: [],
     title: "奥姆菜单",
     category: "Menu",
     categoryCN: "菜单",
@@ -1034,7 +1206,9 @@ export const iconsDataBase = [
   {
     id: 86,
     name: "aom-menu-ZYSJ-color",
+    alias: [],
     componentName: "IconAomMenuZYSJColor",
+    componentAlias: [],
     title: "菜单",
     category: "Menu",
     categoryCN: "菜单",
@@ -1046,7 +1220,9 @@ export const iconsDataBase = [
   {
     id: 87,
     name: "aom-menu-ZZFWQ-color",
+    alias: [],
     componentName: "IconAomMenuZZFWQColor",
+    componentAlias: [],
     title: "自动化菜单配置",
     category: "System",
     categoryCN: "系统配置",
@@ -1058,7 +1234,9 @@ export const iconsDataBase = [
   {
     id: 88,
     name: "application-color",
+    alias: [],
     componentName: "IconApplicationColor",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -1070,7 +1248,9 @@ export const iconsDataBase = [
   {
     id: 89,
     name: "argument",
+    alias: [],
     componentName: "IconArgument",
+    componentAlias: [],
     title: "参数",
     category: "Programming",
     categoryCN: "编程",
@@ -1082,7 +1262,9 @@ export const iconsDataBase = [
   {
     id: 90,
     name: "arrow-back-up",
+    alias: [],
     componentName: "IconArrowBackUp",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -1094,7 +1276,9 @@ export const iconsDataBase = [
   {
     id: 91,
     name: "arrow-bottom",
+    alias: [],
     componentName: "IconArrowBottom",
+    componentAlias: [],
     title: "向下箭头",
     category: "Navigation",
     categoryCN: "导航",
@@ -1106,7 +1290,9 @@ export const iconsDataBase = [
   {
     id: 92,
     name: "arrow-forward-up",
+    alias: [],
     componentName: "IconArrowForwardUp",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -1118,7 +1304,9 @@ export const iconsDataBase = [
   {
     id: 93,
     name: "arrow-left",
+    alias: [],
     componentName: "IconArrowLeft",
+    componentAlias: [],
     title: "左箭头",
     category: "Navigation",
     categoryCN: "导航",
@@ -1130,7 +1318,9 @@ export const iconsDataBase = [
   {
     id: 94,
     name: "arrow-right",
+    alias: [],
     componentName: "IconArrowRight",
+    componentAlias: [],
     title: "右箭头",
     category: "Navigation",
     categoryCN: "导航",
@@ -1142,7 +1332,9 @@ export const iconsDataBase = [
   {
     id: 95,
     name: "arrow-to-left",
+    alias: [],
     componentName: "IconArrowToLeft",
+    componentAlias: [],
     title: "向左箭头",
     category: "Navigation",
     categoryCN: "导航",
@@ -1154,7 +1346,9 @@ export const iconsDataBase = [
   {
     id: 96,
     name: "arrow-to-right",
+    alias: [],
     componentName: "IconArrowToRight",
+    componentAlias: [],
     title: "向右箭头",
     category: "Navigation",
     categoryCN: "导航",
@@ -1166,7 +1360,9 @@ export const iconsDataBase = [
   {
     id: 97,
     name: "arrow-top",
+    alias: [],
     componentName: "IconArrowTop",
+    componentAlias: [],
     title: "向上箭头",
     category: "Directional",
     categoryCN: "方向图标",
@@ -1178,7 +1374,9 @@ export const iconsDataBase = [
   {
     id: 98,
     name: "arrow-up-right",
+    alias: [],
     componentName: "IconArrowUpRight",
+    componentAlias: [],
     title: "向上右箭头",
     category: "Navigation",
     categoryCN: "导航",
@@ -1190,7 +1388,9 @@ export const iconsDataBase = [
   {
     id: 99,
     name: "backspace",
+    alias: [],
     componentName: "IconBackspace",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -1202,7 +1402,9 @@ export const iconsDataBase = [
   {
     id: 100,
     name: "bot",
+    alias: [],
     componentName: "IconBot",
+    componentAlias: [],
     title: "机器人",
     category: "Artificial",
     categoryCN: "人工智能",
@@ -1214,7 +1416,9 @@ export const iconsDataBase = [
   {
     id: 101,
     name: "c-type-autoit-color",
+    alias: [],
     componentName: "IconCTypeAutoitColor",
+    componentAlias: [],
     title: "C型自动色彩",
     category: "Color",
     categoryCN: "色彩工具",
@@ -1226,7 +1430,9 @@ export const iconsDataBase = [
   {
     id: 102,
     name: "c-type-bat-color",
+    alias: [],
     componentName: "IconCTypeBatColor",
+    componentAlias: [],
     title: "C型蝙蝠颜色",
     category: "Animal",
     categoryCN: "动物",
@@ -1238,7 +1444,9 @@ export const iconsDataBase = [
   {
     id: 103,
     name: "c-type-c-sharp-color",
+    alias: [],
     componentName: "IconCTypeCSharpColor",
+    componentAlias: [],
     title: "C型C尖锐颜色",
     category: "Technology",
     categoryCN: "科技",
@@ -1250,7 +1458,9 @@ export const iconsDataBase = [
   {
     id: 104,
     name: "c-type-cn-color",
+    alias: [],
     componentName: "IconCTypeCnColor",
+    componentAlias: [],
     title: "中文类型颜色",
     category: "Color",
     categoryCN: "颜色",
@@ -1262,7 +1472,9 @@ export const iconsDataBase = [
   {
     id: 105,
     name: "c-type-en-color",
+    alias: [],
     componentName: "IconCTypeEnColor",
+    componentAlias: [],
     title: "英文类型颜色",
     category: "Color",
     categoryCN: "颜色",
@@ -1274,7 +1486,9 @@ export const iconsDataBase = [
   {
     id: 106,
     name: "c-type-fn-color",
+    alias: [],
     componentName: "IconCTypeFnColor",
+    componentAlias: [],
     title: "函数颜色类型",
     category: "Function",
     categoryCN: "函数颜色类型",
@@ -1286,7 +1500,9 @@ export const iconsDataBase = [
   {
     id: 107,
     name: "c-type-JS-color",
+    alias: [],
     componentName: "IconCTypeJSColor",
+    componentAlias: [],
     title: "JavaScript颜色类型",
     category: "Programming",
     categoryCN: "编程",
@@ -1298,7 +1514,9 @@ export const iconsDataBase = [
   {
     id: 108,
     name: "c-type-lego-color",
+    alias: [],
     componentName: "IconCTypeLegoColor",
+    componentAlias: [],
     title: "C型乐高颜色",
     category: "Building",
     categoryCN: "积木",
@@ -1310,7 +1528,9 @@ export const iconsDataBase = [
   {
     id: 109,
     name: "c-type-linuxshell-color",
+    alias: [],
     componentName: "IconCTypeLinuxshellColor",
+    componentAlias: [],
     title: "C类型Linux",
     category: "Programming",
     categoryCN: "编程工具",
@@ -1322,7 +1542,9 @@ export const iconsDataBase = [
   {
     id: 110,
     name: "c-type-perl-color",
+    alias: [],
     componentName: "IconCTypePerlColor",
+    componentAlias: [],
     title: "C型Perl颜色",
     category: "Programming",
     categoryCN: "编程工具",
@@ -1334,7 +1556,9 @@ export const iconsDataBase = [
   {
     id: 111,
     name: "c-type-powershell-color",
+    alias: [],
     componentName: "IconCTypePowershellColor",
+    componentAlias: [],
     title: "C型PowerShell颜色",
     category: "Development",
     categoryCN: "开发工具",
@@ -1346,7 +1570,9 @@ export const iconsDataBase = [
   {
     id: 112,
     name: "c-type-python-color",
+    alias: [],
     componentName: "IconCTypePythonColor",
+    componentAlias: [],
     title: "C型Python颜色",
     category: "Programming",
     categoryCN: "编程工具",
@@ -1358,7 +1584,9 @@ export const iconsDataBase = [
   {
     id: 113,
     name: "c-type-vbs-color",
+    alias: [],
     componentName: "IconCTypeVbsColor",
+    componentAlias: [],
     title: "VBS颜色类型",
     category: "Programming",
     categoryCN: "编程",
@@ -1370,7 +1598,9 @@ export const iconsDataBase = [
   {
     id: 114,
     name: "c-type-yaml-color",
+    alias: [],
     componentName: "IconCTypeYamlColor",
+    componentAlias: [],
     title: "C型YAML颜色",
     category: "Programming",
     categoryCN: "编程工具",
@@ -1382,7 +1612,9 @@ export const iconsDataBase = [
   {
     id: 115,
     name: "calendar-color",
+    alias: [],
     componentName: "IconCalendarColor",
+    componentAlias: [],
     title: "日历颜色",
     category: "Calendar",
     categoryCN: "日历",
@@ -1394,7 +1626,9 @@ export const iconsDataBase = [
   {
     id: 116,
     name: "card",
+    alias: [],
     componentName: "IconCard",
+    componentAlias: [],
     title: "卡片",
     category: "Finance",
     categoryCN: "金融",
@@ -1406,7 +1640,9 @@ export const iconsDataBase = [
   {
     id: 117,
     name: "chart-pie-color",
+    alias: [],
     componentName: "IconChartPieColor",
+    componentAlias: [],
     title: "彩色饼图",
     category: "Data",
     categoryCN: "数据可视化",
@@ -1418,7 +1654,9 @@ export const iconsDataBase = [
   {
     id: 118,
     name: "chart-pie",
+    alias: [],
     componentName: "IconChartPie",
+    componentAlias: [],
     title: "饼图",
     category: "Data",
     categoryCN: "数据可视化",
@@ -1430,7 +1668,9 @@ export const iconsDataBase = [
   {
     id: 119,
     name: "check-ed-color",
+    alias: [],
     componentName: "IconCheckEdColor",
+    componentAlias: [],
     title: "已选中颜色",
     category: "Status",
     categoryCN: "状态指示器",
@@ -1442,7 +1682,9 @@ export const iconsDataBase = [
   {
     id: 120,
     name: "check-normal-color",
+    alias: [],
     componentName: "IconCheckNormalColor",
+    componentAlias: [],
     title: "正常颜色检查",
     category: "Verification",
     categoryCN: "验证",
@@ -1454,7 +1696,9 @@ export const iconsDataBase = [
   {
     id: 121,
     name: "check-or-color",
+    alias: [],
     componentName: "IconCheckOrColor",
+    componentAlias: [],
     title: "检查或颜色",
     category: "Tools",
     categoryCN: "工具",
@@ -1466,7 +1710,9 @@ export const iconsDataBase = [
   {
     id: 122,
     name: "check",
+    alias: [],
     componentName: "IconCheck",
+    componentAlias: [],
     title: "勾选",
     category: "Icons",
     categoryCN: "图标",
@@ -1478,7 +1724,9 @@ export const iconsDataBase = [
   {
     id: 123,
     name: "clear",
+    alias: [],
     componentName: "IconClear",
+    componentAlias: [],
     title: "清除",
     category: "Action",
     categoryCN: "动作",
@@ -1490,7 +1738,9 @@ export const iconsDataBase = [
   {
     id: 124,
     name: "clear2",
+    alias: [],
     componentName: "IconClear2",
+    componentAlias: [],
     title: "清除2",
     category: "Cleaning",
     categoryCN: "清洁工具",
@@ -1502,7 +1752,9 @@ export const iconsDataBase = [
   {
     id: 125,
     name: "clearDate",
+    alias: [],
     componentName: "IconClearDate",
+    componentAlias: [],
     title: "清除日期",
     category: "Date",
     categoryCN: "日期操作",
@@ -1514,7 +1766,9 @@ export const iconsDataBase = [
   {
     id: 126,
     name: "clipboard",
+    alias: [],
     componentName: "IconClipboard",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -1526,7 +1780,9 @@ export const iconsDataBase = [
   {
     id: 127,
     name: "close",
+    alias: [],
     componentName: "IconClose",
+    componentAlias: [],
     title: "关闭",
     category: "Interface",
     categoryCN: "界面",
@@ -1538,7 +1794,9 @@ export const iconsDataBase = [
   {
     id: 128,
     name: "Collect",
+    alias: [],
     componentName: "IconCollect",
+    componentAlias: [],
     title: "收藏",
     category: "User",
     categoryCN: "用户界面",
@@ -1550,7 +1808,9 @@ export const iconsDataBase = [
   {
     id: 129,
     name: "copy",
+    alias: [],
     componentName: "IconCopy",
+    componentAlias: [],
     title: "复制",
     category: "Editing",
     categoryCN: "编辑工具",
@@ -1562,7 +1822,9 @@ export const iconsDataBase = [
   {
     id: 130,
     name: "cursor-pointer",
+    alias: [],
     componentName: "IconCursorPointer",
+    componentAlias: [],
     title: "光标指针",
     category: "Cursor",
     categoryCN: "光标",
@@ -1574,7 +1836,9 @@ export const iconsDataBase = [
   {
     id: 131,
     name: "cut",
+    alias: [],
     componentName: "IconCut",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -1586,7 +1850,9 @@ export const iconsDataBase = [
   {
     id: 132,
     name: "date",
+    alias: [],
     componentName: "IconDate",
+    componentAlias: [],
     title: "日期",
     category: "Calendar",
     categoryCN: "日历",
@@ -1598,7 +1864,9 @@ export const iconsDataBase = [
   {
     id: 133,
     name: "delete",
+    alias: [],
     componentName: "IconDelete",
+    componentAlias: [],
     title: "删除",
     category: "Action",
     categoryCN: "动作",
@@ -1610,7 +1878,9 @@ export const iconsDataBase = [
   {
     id: 134,
     name: "dev-color",
+    alias: [],
     componentName: "IconDevColor",
+    componentAlias: [],
     title: "开发颜色",
     category: "Development",
     categoryCN: "开发工具",
@@ -1622,7 +1892,9 @@ export const iconsDataBase = [
   {
     id: 135,
     name: "down-c",
+    alias: [],
     componentName: "IconDownC",
+    componentAlias: [],
     title: "向下箭头",
     category: "Direction",
     categoryCN: "方向",
@@ -1634,7 +1906,9 @@ export const iconsDataBase = [
   {
     id: 136,
     name: "download",
+    alias: [],
     componentName: "IconDownload",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -1646,7 +1920,9 @@ export const iconsDataBase = [
   {
     id: 137,
     name: "Drag",
+    alias: [],
     componentName: "IconDrag",
+    componentAlias: [],
     title: "拖动",
     category: "Interaction",
     categoryCN: "交互",
@@ -1658,7 +1934,9 @@ export const iconsDataBase = [
   {
     id: 138,
     name: "Edit",
+    alias: [],
     componentName: "IconEdit",
+    componentAlias: [],
     title: "编辑",
     category: "Editing",
     categoryCN: "编辑工具",
@@ -1670,7 +1948,9 @@ export const iconsDataBase = [
   {
     id: 139,
     name: "EmptyBox",
+    alias: [],
     componentName: "IconEmptyBox",
+    componentAlias: [],
     title: "空盒子",
     category: "Containers",
     categoryCN: "容器",
@@ -1682,7 +1962,9 @@ export const iconsDataBase = [
   {
     id: 140,
     name: "fall",
+    alias: [],
     componentName: "IconFall",
+    componentAlias: [],
     title: "秋天",
     category: "Season",
     categoryCN: "季节",
@@ -1694,7 +1976,9 @@ export const iconsDataBase = [
   {
     id: 141,
     name: "file-add",
+    alias: [],
     componentName: "IconFileAdd",
+    componentAlias: [],
     title: "文件添加",
     category: "Document",
     categoryCN: "文档",
@@ -1706,7 +1990,9 @@ export const iconsDataBase = [
   {
     id: 142,
     name: "file-starred-color",
+    alias: [],
     componentName: "IconFileStarredColor",
+    componentAlias: [],
     title: "星标文件",
     category: "Documents",
     categoryCN: "文档",
@@ -1718,7 +2004,9 @@ export const iconsDataBase = [
   {
     id: 143,
     name: "file",
+    alias: [],
     componentName: "IconFile",
+    componentAlias: [],
     title: "文件",
     category: "Document",
     categoryCN: "文档",
@@ -1730,7 +2018,9 @@ export const iconsDataBase = [
   {
     id: 144,
     name: "filter-fill",
+    alias: [],
     componentName: "IconFilterFill",
+    componentAlias: [],
     title: "填充过滤器",
     category: "Tools",
     categoryCN: "工具",
@@ -1742,7 +2032,9 @@ export const iconsDataBase = [
   {
     id: 145,
     name: "filter",
+    alias: [],
     componentName: "IconFilter",
+    componentAlias: [],
     title: "过滤器",
     category: "Data",
     categoryCN: "数据处理",
@@ -1754,7 +2046,9 @@ export const iconsDataBase = [
   {
     id: 146,
     name: "flow-add",
+    alias: [],
     componentName: "IconFlowAdd",
+    componentAlias: [],
     title: "流程添加",
     category: "Process",
     categoryCN: "流程管理",
@@ -1766,7 +2060,9 @@ export const iconsDataBase = [
   {
     id: 147,
     name: "flow-back",
+    alias: [],
     componentName: "IconFlowBack",
+    componentAlias: [],
     title: "回流",
     category: "Navigation",
     categoryCN: "导航",
@@ -1778,7 +2074,9 @@ export const iconsDataBase = [
   {
     id: 148,
     name: "flow-batch-processing-color",
+    alias: [],
     componentName: "IconFlowBatchProcessingColor",
+    componentAlias: [],
     title: "批量处理流程",
     category: "Data",
     categoryCN: "数据处理",
@@ -1790,7 +2088,9 @@ export const iconsDataBase = [
   {
     id: 149,
     name: "flow-check-color",
+    alias: [],
     componentName: "IconFlowCheckColor",
+    componentAlias: [],
     title: "流程检查颜色",
     category: "Process",
     categoryCN: "流程管理",
@@ -1802,7 +2102,9 @@ export const iconsDataBase = [
   {
     id: 150,
     name: "flow-component-color",
+    alias: [],
     componentName: "IconFlowComponentColor",
+    componentAlias: [],
     title: "流动组件颜色",
     category: "UI",
     categoryCN: "用户界面组件",
@@ -1814,7 +2116,9 @@ export const iconsDataBase = [
   {
     id: 151,
     name: "flow-controls-color",
+    alias: [],
     componentName: "IconFlowControlsColor",
+    componentAlias: [],
     title: "流程控制颜色",
     category: "Flow",
     categoryCN: "流程控制",
@@ -1826,7 +2130,9 @@ export const iconsDataBase = [
   {
     id: 152,
     name: "flow-end-color",
+    alias: [],
     componentName: "IconFlowEndColor",
+    componentAlias: [],
     title: "流程结束颜色",
     category: "Flow",
     categoryCN: "流程",
@@ -1838,7 +2144,9 @@ export const iconsDataBase = [
   {
     id: 153,
     name: "flow-end",
+    alias: [],
     componentName: "IconFlowEnd",
+    componentAlias: [],
     title: "流程结束",
     category: "Process",
     categoryCN: "流程",
@@ -1850,7 +2158,9 @@ export const iconsDataBase = [
   {
     id: 154,
     name: "flow-if-color",
+    alias: [],
     componentName: "IconFlowIfColor",
+    componentAlias: [],
     title: "流程判断颜色",
     category: "Flow",
     categoryCN: "流程控制",
@@ -1862,7 +2172,9 @@ export const iconsDataBase = [
   {
     id: 155,
     name: "flow-nested-color",
+    alias: [],
     componentName: "IconFlowNestedColor",
+    componentAlias: [],
     title: "流动嵌套颜色",
     category: "Design",
     categoryCN: "设计元素",
@@ -1874,7 +2186,9 @@ export const iconsDataBase = [
   {
     id: 156,
     name: "flow-nested",
+    alias: [],
     componentName: "IconFlowNested",
+    componentAlias: [],
     title: "流动嵌套",
     category: "Design",
     categoryCN: "设计元素",
@@ -1886,7 +2200,9 @@ export const iconsDataBase = [
   {
     id: 157,
     name: "flow-quote-color",
+    alias: [],
     componentName: "IconFlowQuoteColor",
+    componentAlias: [],
     title: "流动引文颜色",
     category: "Design",
     categoryCN: "设计元素",
@@ -1898,7 +2214,9 @@ export const iconsDataBase = [
   {
     id: 158,
     name: "flow-start-color",
+    alias: [],
     componentName: "IconFlowStartColor",
+    componentAlias: [],
     title: "流动开始颜色",
     category: "Color",
     categoryCN: "颜色",
@@ -1910,7 +2228,9 @@ export const iconsDataBase = [
   {
     id: 159,
     name: "flow-start",
+    alias: [],
     componentName: "IconFlowStart",
+    componentAlias: [],
     title: "流程开始",
     category: "Process",
     categoryCN: "流程",
@@ -1922,7 +2242,9 @@ export const iconsDataBase = [
   {
     id: 160,
     name: "flow-tips-color",
+    alias: [],
     componentName: "IconFlowTipsColor",
+    componentAlias: [],
     title: "流动提示颜色",
     category: "Design",
     categoryCN: "设计元素",
@@ -1934,7 +2256,9 @@ export const iconsDataBase = [
   {
     id: 161,
     name: "flow-toolBox",
+    alias: [],
     componentName: "IconFlowToolBox",
+    componentAlias: [],
     title: "流程工具箱",
     category: "Development",
     categoryCN: "开发工具",
@@ -1946,7 +2270,9 @@ export const iconsDataBase = [
   {
     id: 162,
     name: "flow",
+    alias: [],
     componentName: "IconFlow",
+    componentAlias: [],
     title: "流程",
     category: "Process",
     categoryCN: "流程图",
@@ -1958,7 +2284,9 @@ export const iconsDataBase = [
   {
     id: 163,
     name: "fn-add",
+    alias: [],
     componentName: "IconFnAdd",
+    componentAlias: [],
     title: "添加功能",
     category: "Function",
     categoryCN: "功能",
@@ -1970,7 +2298,9 @@ export const iconsDataBase = [
   {
     id: 164,
     name: "fn",
+    alias: [],
     componentName: "IconFn",
+    componentAlias: [],
     title: "函数",
     category: "Mathematics",
     categoryCN: "数学",
@@ -1982,7 +2312,9 @@ export const iconsDataBase = [
   {
     id: 165,
     name: "fold-down",
+    alias: [],
     componentName: "IconFoldDown",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -1994,7 +2326,9 @@ export const iconsDataBase = [
   {
     id: 166,
     name: "fold-up",
+    alias: [],
     componentName: "IconFoldUp",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -2006,7 +2340,9 @@ export const iconsDataBase = [
   {
     id: 167,
     name: "fold",
+    alias: [],
     componentName: "IconFold",
+    componentAlias: [],
     title: "折叠",
     category: "Navigation",
     categoryCN: "导航",
@@ -2018,7 +2354,9 @@ export const iconsDataBase = [
   {
     id: 168,
     name: "folder-add",
+    alias: [],
     componentName: "IconFolderAdd",
+    componentAlias: [],
     title: "添加文件夹",
     category: "File",
     categoryCN: "文件管理",
@@ -2030,7 +2368,9 @@ export const iconsDataBase = [
   {
     id: 169,
     name: "folder-close",
+    alias: [],
     componentName: "IconFolderClose",
+    componentAlias: [],
     title: "关闭文件夹",
     category: "File",
     categoryCN: "文件管理",
@@ -2042,7 +2382,9 @@ export const iconsDataBase = [
   {
     id: 170,
     name: "folder-open",
+    alias: [],
     componentName: "IconFolderOpen",
+    componentAlias: [],
     title: "打开文件夹",
     category: "File",
     categoryCN: "文件管理",
@@ -2054,7 +2396,9 @@ export const iconsDataBase = [
   {
     id: 171,
     name: "forbid",
+    alias: [],
     componentName: "IconForbid",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -2066,7 +2410,9 @@ export const iconsDataBase = [
   {
     id: 172,
     name: "full-screen",
+    alias: [],
     componentName: "IconFullScreen",
+    componentAlias: [],
     title: "全屏",
     category: "Display",
     categoryCN: "显示",
@@ -2078,7 +2424,9 @@ export const iconsDataBase = [
   {
     id: 173,
     name: "function",
+    alias: [],
     componentName: "IconFunction",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -2090,7 +2438,9 @@ export const iconsDataBase = [
   {
     id: 174,
     name: "GlobalOperation",
+    alias: [],
     componentName: "IconGlobalOperation",
+    componentAlias: [],
     title: "全球操作",
     category: "International",
     categoryCN: "国际服务",
@@ -2102,7 +2452,9 @@ export const iconsDataBase = [
   {
     id: 175,
     name: "hard-drive-color",
+    alias: [],
     componentName: "IconHardDriveColor",
+    componentAlias: [],
     title: "彩色硬盘",
     category: "Storage",
     categoryCN: "存储设备",
@@ -2114,7 +2466,9 @@ export const iconsDataBase = [
   {
     id: 176,
     name: "hide",
+    alias: [],
     componentName: "IconHide",
+    componentAlias: [],
     title: "隐藏",
     category: "Visibility",
     categoryCN: "可见性",
@@ -2126,7 +2480,9 @@ export const iconsDataBase = [
   {
     id: 177,
     name: "icon-def",
+    alias: [],
     componentName: "IconIconDef",
+    componentAlias: [],
     title: "图标定义",
     category: "Design",
     categoryCN: "设计元素",
@@ -2138,7 +2494,9 @@ export const iconsDataBase = [
   {
     id: 178,
     name: "ide-pause",
+    alias: [],
     componentName: "IconIdePause",
+    componentAlias: [],
     title: "IDE暂停",
     category: "Development",
     categoryCN: "开发工具",
@@ -2150,7 +2508,9 @@ export const iconsDataBase = [
   {
     id: 179,
     name: "ide-play",
+    alias: [],
     componentName: "IconIdePlay",
+    componentAlias: [],
     title: "IDE播放",
     category: "Development",
     categoryCN: "开发工具",
@@ -2162,7 +2522,9 @@ export const iconsDataBase = [
   {
     id: 180,
     name: "ide-refresh",
+    alias: [],
     componentName: "IconIdeRefresh",
+    componentAlias: [],
     title: "IDE刷新",
     category: "Development",
     categoryCN: "开发工具",
@@ -2174,7 +2536,9 @@ export const iconsDataBase = [
   {
     id: 181,
     name: "ide-stop",
+    alias: [],
     componentName: "IconIdeStop",
+    componentAlias: [],
     title: "IDE停止",
     category: "Development",
     categoryCN: "开发工具",
@@ -2186,7 +2550,9 @@ export const iconsDataBase = [
   {
     id: 182,
     name: "IP",
+    alias: [],
     componentName: "IconIP",
+    componentAlias: [],
     title: "IP地址",
     category: "Network",
     categoryCN: "网络",
@@ -2198,7 +2564,9 @@ export const iconsDataBase = [
   {
     id: 183,
     name: "item-def-color",
+    alias: [],
     componentName: "IconItemDefColor",
+    componentAlias: [],
     title: "默认颜色项",
     category: "Color",
     categoryCN: "颜色管理",
@@ -2210,7 +2578,9 @@ export const iconsDataBase = [
   {
     id: 184,
     name: "left-menu-display",
+    alias: [],
     componentName: "IconLeftMenuDisplay",
+    componentAlias: [],
     title: "左侧菜单显示",
     category: "Navigation",
     categoryCN: "导航",
@@ -2222,7 +2592,9 @@ export const iconsDataBase = [
   {
     id: 185,
     name: "line",
+    alias: [],
     componentName: "IconLine",
+    componentAlias: [],
     title: "线条",
     category: "Design",
     categoryCN: "设计",
@@ -2234,7 +2606,9 @@ export const iconsDataBase = [
   {
     id: 186,
     name: "list-close",
+    alias: [],
     componentName: "IconListClose",
+    componentAlias: [],
     title: "列表关闭",
     category: "List",
     categoryCN: "列表管理",
@@ -2246,7 +2620,9 @@ export const iconsDataBase = [
   {
     id: 187,
     name: "list-open",
+    alias: [],
     componentName: "IconListOpen",
+    componentAlias: [],
     title: "列表打开",
     category: "Navigation",
     categoryCN: "导航",
@@ -2258,7 +2634,9 @@ export const iconsDataBase = [
   {
     id: 188,
     name: "list-search",
+    alias: [],
     componentName: "IconListSearch",
+    componentAlias: [],
     title: "列表搜索",
     category: "Edit",
     categoryCN: "编辑",
@@ -2270,7 +2648,9 @@ export const iconsDataBase = [
   {
     id: 189,
     name: "loading",
+    alias: [],
     componentName: "IconLoading",
+    componentAlias: [],
     title: "加载中",
     category: "Progress",
     categoryCN: "进度",
@@ -2282,7 +2662,9 @@ export const iconsDataBase = [
   {
     id: 190,
     name: "lock",
+    alias: [],
     componentName: "IconLock",
+    componentAlias: [],
     title: "锁",
     category: "Security",
     categoryCN: "安全",
@@ -2294,7 +2676,9 @@ export const iconsDataBase = [
   {
     id: 191,
     name: "locked",
+    alias: [],
     componentName: "IconLocked",
+    componentAlias: [],
     title: "锁定",
     category: "Security",
     categoryCN: "安全",
@@ -2306,7 +2690,9 @@ export const iconsDataBase = [
   {
     id: 192,
     name: "logout",
+    alias: [],
     componentName: "IconLogout",
+    componentAlias: [],
     title: "登出",
     category: "User",
     categoryCN: "用户界面",
@@ -2318,7 +2704,9 @@ export const iconsDataBase = [
   {
     id: 193,
     name: "medal-1",
+    alias: [],
     componentName: "IconMedal1",
+    componentAlias: [],
     title: "奖章1",
     category: "Awards",
     categoryCN: "奖项",
@@ -2330,7 +2718,9 @@ export const iconsDataBase = [
   {
     id: 194,
     name: "medal-2",
+    alias: [],
     componentName: "IconMedal2",
+    componentAlias: [],
     title: "奖章",
     category: "Awards",
     categoryCN: "奖项",
@@ -2342,7 +2732,9 @@ export const iconsDataBase = [
   {
     id: 195,
     name: "medal-3",
+    alias: [],
     componentName: "IconMedal3",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -2354,7 +2746,9 @@ export const iconsDataBase = [
   {
     id: 196,
     name: "menu-collect",
+    alias: [],
     componentName: "IconMenuCollect",
+    componentAlias: [],
     title: "菜单收藏",
     category: "Navigation",
     categoryCN: "导航",
@@ -2366,7 +2760,9 @@ export const iconsDataBase = [
   {
     id: 197,
     name: "menu-collected",
+    alias: [],
     componentName: "IconMenuCollected",
+    componentAlias: [],
     title: "菜单收藏",
     category: "Navigation",
     categoryCN: "导航",
@@ -2378,7 +2774,9 @@ export const iconsDataBase = [
   {
     id: 198,
     name: "menu-def-color",
+    alias: [],
     componentName: "IconMenuDefColor",
+    componentAlias: [],
     title: "菜单默认颜色",
     category: "UI",
     categoryCN: "用户界面元素",
@@ -2390,7 +2788,9 @@ export const iconsDataBase = [
   {
     id: 199,
     name: "Message",
+    alias: [],
     componentName: "IconMessage",
+    componentAlias: [],
     title: "消息",
     category: "Communication",
     categoryCN: "通信",
@@ -2402,7 +2802,9 @@ export const iconsDataBase = [
   {
     id: 200,
     name: "mode-expression-color",
+    alias: [],
     componentName: "IconModeExpressionColor",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -2414,7 +2816,9 @@ export const iconsDataBase = [
   {
     id: 201,
     name: "mode-expression",
+    alias: [],
     componentName: "IconModeExpression",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -2426,7 +2830,9 @@ export const iconsDataBase = [
   {
     id: 202,
     name: "more",
+    alias: [],
     componentName: "IconMore",
+    componentAlias: [],
     title: "更多",
     category: "Navigation",
     categoryCN: "导航",
@@ -2438,7 +2844,9 @@ export const iconsDataBase = [
   {
     id: 203,
     name: "organization",
+    alias: [],
     componentName: "IconOrganization",
+    componentAlias: [],
     title: "组织",
     category: "Business",
     categoryCN: "商业",
@@ -2450,7 +2858,9 @@ export const iconsDataBase = [
   {
     id: 204,
     name: "patch-color",
+    alias: [],
     componentName: "IconPatchColor",
+    componentAlias: [],
     title: "补丁颜色",
     category: "Design",
     categoryCN: "设计工具",
@@ -2462,7 +2872,9 @@ export const iconsDataBase = [
   {
     id: 205,
     name: "patch-set-color",
+    alias: [],
     componentName: "IconPatchSetColor",
+    componentAlias: [],
     title: "补丁设置颜色",
     category: "Development",
     categoryCN: "开发工具",
@@ -2474,7 +2886,9 @@ export const iconsDataBase = [
   {
     id: 206,
     name: "personnel",
+    alias: [],
     componentName: "IconPersonnel",
+    componentAlias: [],
     title: "人员",
     category: "Human",
     categoryCN: "人力资源",
@@ -2486,7 +2900,9 @@ export const iconsDataBase = [
   {
     id: 207,
     name: "play",
+    alias: [],
     componentName: "IconPlay",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -2498,7 +2914,9 @@ export const iconsDataBase = [
   {
     id: 208,
     name: "plug-in-360-color",
+    alias: [],
     componentName: "IconPlugIn360Color",
+    componentAlias: [],
     title: "360度彩色插件",
     category: "Software",
     categoryCN: "软件工具",
@@ -2510,7 +2928,9 @@ export const iconsDataBase = [
   {
     id: 209,
     name: "plug-in-Chrome-color",
+    alias: [],
     componentName: "IconPlugInChromeColor",
+    componentAlias: [],
     title: "插件",
     category: "Browser",
     categoryCN: "浏览器插件",
@@ -2522,7 +2942,9 @@ export const iconsDataBase = [
   {
     id: 210,
     name: "plug-in-Edge-color",
+    alias: [],
     componentName: "IconPlugInEdgeColor",
+    componentAlias: [],
     title: "插件边缘颜色",
     category: "Software",
     categoryCN: "软件工具",
@@ -2534,7 +2956,9 @@ export const iconsDataBase = [
   {
     id: 211,
     name: "plug-in-excel-color",
+    alias: [],
     componentName: "IconPlugInExcelColor",
+    componentAlias: [],
     title: "Excel插件颜色",
     category: "Software",
     categoryCN: "软件工具",
@@ -2546,7 +2970,9 @@ export const iconsDataBase = [
   {
     id: 212,
     name: "plug-in-Firefox-color",
+    alias: [],
     componentName: "IconPlugInFirefoxColor",
+    componentAlias: [],
     title: "火狐插件颜色",
     category: "Browser",
     categoryCN: "浏览器插件",
@@ -2558,7 +2984,9 @@ export const iconsDataBase = [
   {
     id: 213,
     name: "plug-in-image-color",
+    alias: [],
     componentName: "IconPlugInImageColor",
+    componentAlias: [],
     title: "插件图像颜色",
     category: "Image",
     categoryCN: "图像处理",
@@ -2570,7 +2998,9 @@ export const iconsDataBase = [
   {
     id: 214,
     name: "plug-in-java-color",
+    alias: [],
     componentName: "IconPlugInJavaColor",
+    componentAlias: [],
     title: "插件Java颜色",
     category: "Development",
     categoryCN: "开发工具",
@@ -2582,7 +3012,9 @@ export const iconsDataBase = [
   {
     id: 215,
     name: "plug-in-Mail-color",
+    alias: [],
     componentName: "IconPlugInMailColor",
+    componentAlias: [],
     title: "插件邮件颜色",
     category: "Email",
     categoryCN: "电子邮件插件",
@@ -2594,7 +3026,9 @@ export const iconsDataBase = [
   {
     id: 216,
     name: "plug-in-Net-color-2",
+    alias: [],
     componentName: "IconPlugInNetColor2",
+    componentAlias: [],
     title: "插件网络颜色2",
     category: "Software",
     categoryCN: "软件工具",
@@ -2606,7 +3040,9 @@ export const iconsDataBase = [
   {
     id: 217,
     name: "plug-in-Net-color",
+    alias: [],
     componentName: "IconPlugInNetColor",
+    componentAlias: [],
     title: "插件",
     category: "Software",
     categoryCN: "软件开发",
@@ -2618,7 +3054,9 @@ export const iconsDataBase = [
   {
     id: 218,
     name: "plug-in-OCR-color",
+    alias: [],
     componentName: "IconPlugInOCRColor",
+    componentAlias: [],
     title: "插件OCR颜色识别",
     category: "Image",
     categoryCN: "图像处理",
@@ -2630,7 +3068,9 @@ export const iconsDataBase = [
   {
     id: 219,
     name: "plug-in-pdf-color",
+    alias: [],
     componentName: "IconPlugInPdfColor",
+    componentAlias: [],
     title: "插件PDF颜色",
     category: "Software",
     categoryCN: "软件工具",
@@ -2642,7 +3082,9 @@ export const iconsDataBase = [
   {
     id: 220,
     name: "plug-in-sogou-color",
+    alias: [],
     componentName: "IconPlugInSogouColor",
+    componentAlias: [],
     title: "搜狗插件颜色",
     category: "Software",
     categoryCN: "软件工具",
@@ -2654,7 +3096,9 @@ export const iconsDataBase = [
   {
     id: 221,
     name: "plug-in-SSL-color",
+    alias: [],
     componentName: "IconPlugInSSLColor",
+    componentAlias: [],
     title: "插件SSL颜色",
     category: "Security",
     categoryCN: "安全",
@@ -2666,7 +3110,9 @@ export const iconsDataBase = [
   {
     id: 222,
     name: "plug-in-text-color",
+    alias: [],
     componentName: "IconPlugInTextColor",
+    componentAlias: [],
     title: "插件文本颜色",
     category: "Text",
     categoryCN: "文本编辑",
@@ -2678,7 +3124,9 @@ export const iconsDataBase = [
   {
     id: 223,
     name: "portfolio",
+    alias: [],
     componentName: "IconPortfolio",
+    componentAlias: [],
     title: "投资组合",
     category: "Finance",
     categoryCN: "金融",
@@ -2690,7 +3138,9 @@ export const iconsDataBase = [
   {
     id: 224,
     name: "project-logo-gf-color",
+    alias: [],
     componentName: "IconProjectLogoGfColor",
+    componentAlias: [],
     title: "项目标志GF彩色",
     category: "Logo",
     categoryCN: "标志",
@@ -2702,7 +3152,9 @@ export const iconsDataBase = [
   {
     id: 225,
     name: "Question-line",
+    alias: [],
     componentName: "IconQuestionLine",
+    componentAlias: [],
     title: "问号",
     category: "Symbols",
     categoryCN: "符号",
@@ -2714,7 +3166,9 @@ export const iconsDataBase = [
   {
     id: 226,
     name: "question",
+    alias: [],
     componentName: "IconQuestion",
+    componentAlias: [],
     title: "问题",
     category: "Help",
     categoryCN: "帮助",
@@ -2726,7 +3180,9 @@ export const iconsDataBase = [
   {
     id: 227,
     name: "ranking-color",
+    alias: [],
     componentName: "IconRankingColor",
+    componentAlias: [],
     title: "排名颜色",
     category: "Color",
     categoryCN: "颜色",
@@ -2738,7 +3194,9 @@ export const iconsDataBase = [
   {
     id: 228,
     name: "ranking",
+    alias: [],
     componentName: "IconRanking",
+    componentAlias: [],
     title: "排名",
     category: "Data",
     categoryCN: "数据分析",
@@ -2750,7 +3208,9 @@ export const iconsDataBase = [
   {
     id: 229,
     name: "re-screen",
+    alias: [],
     componentName: "IconReScreen",
+    componentAlias: [],
     title: "重新筛选",
     category: "Data",
     categoryCN: "数据处理",
@@ -2762,7 +3222,9 @@ export const iconsDataBase = [
   {
     id: 230,
     name: "refresh",
+    alias: [],
     componentName: "IconRefresh",
+    componentAlias: [],
     title: "刷新",
     category: "Action",
     categoryCN: "动作",
@@ -2774,7 +3236,9 @@ export const iconsDataBase = [
   {
     id: 231,
     name: "reset",
+    alias: [],
     componentName: "IconReset",
+    componentAlias: [],
     title: "重置",
     category: "System",
     categoryCN: "系统",
@@ -2786,7 +3250,9 @@ export const iconsDataBase = [
   {
     id: 232,
     name: "rise",
+    alias: [],
     componentName: "IconRise",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -2798,7 +3264,9 @@ export const iconsDataBase = [
   {
     id: 233,
     name: "save",
+    alias: [],
     componentName: "IconSave",
+    componentAlias: [],
     title: "保存",
     category: "File",
     categoryCN: "文件管理",
@@ -2810,7 +3278,9 @@ export const iconsDataBase = [
   {
     id: 234,
     name: "scan",
+    alias: [],
     componentName: "IconScan",
+    componentAlias: [],
     title: "扫描",
     category: "Technology",
     categoryCN: "科技",
@@ -2822,7 +3292,9 @@ export const iconsDataBase = [
   {
     id: 235,
     name: "scrip-color",
+    alias: [],
     componentName: "IconScripColor",
+    componentAlias: [],
     title: "脚本颜色",
     category: "Development",
     categoryCN: "开发工具",
@@ -2834,7 +3306,9 @@ export const iconsDataBase = [
   {
     id: 236,
     name: "scrip",
+    alias: [],
     componentName: "IconScrip",
+    componentAlias: [],
     title: "脚本",
     category: "Programming",
     categoryCN: "编程",
@@ -2846,7 +3320,9 @@ export const iconsDataBase = [
   {
     id: 237,
     name: "seal",
+    alias: [],
     componentName: "IconSeal",
+    componentAlias: [],
     title: "印章",
     category: "Stationery",
     categoryCN: "文具",
@@ -2858,7 +3334,9 @@ export const iconsDataBase = [
   {
     id: 238,
     name: "search",
+    alias: [],
     componentName: "IconSearch",
+    componentAlias: [],
     title: "搜索",
     category: "Navigation",
     categoryCN: "导航",
@@ -2870,7 +3348,9 @@ export const iconsDataBase = [
   {
     id: 239,
     name: "setting-animation",
+    alias: [],
     componentName: "IconSettingAnimation",
+    componentAlias: [],
     title: "设置动画",
     category: "Design",
     categoryCN: "设计工具",
@@ -2882,7 +3362,9 @@ export const iconsDataBase = [
   {
     id: 240,
     name: "setting-fill",
+    alias: [],
     componentName: "IconSettingFill",
+    componentAlias: [],
     title: "设置填充",
     category: "Tools",
     categoryCN: "工具",
@@ -2894,7 +3376,9 @@ export const iconsDataBase = [
   {
     id: 241,
     name: "setting",
+    alias: [],
     componentName: "IconSetting",
+    componentAlias: [],
     title: "设置",
     category: "System",
     categoryCN: "系统工具",
@@ -2906,7 +3390,9 @@ export const iconsDataBase = [
   {
     id: 242,
     name: "show",
+    alias: [],
     componentName: "IconShow",
+    componentAlias: [],
     title: "显示",
     category: "Visibility",
     categoryCN: "可见性",
@@ -2918,7 +3404,9 @@ export const iconsDataBase = [
   {
     id: 243,
     name: "size-controls",
+    alias: [],
     componentName: "IconSizeControls",
+    componentAlias: [],
     title: "大小控制",
     category: "Edit",
     categoryCN: "编辑",
@@ -2930,7 +3418,9 @@ export const iconsDataBase = [
   {
     id: 244,
     name: "sort-bottom",
+    alias: [],
     componentName: "IconSortBottom",
+    componentAlias: [],
     title: "底部排序",
     category: "Sorting",
     categoryCN: "排序",
@@ -2942,7 +3432,9 @@ export const iconsDataBase = [
   {
     id: 245,
     name: "sort-down",
+    alias: [],
     componentName: "IconSortDown",
+    componentAlias: [],
     title: "向下排序",
     category: "Sorting",
     categoryCN: "排序",
@@ -2954,7 +3446,9 @@ export const iconsDataBase = [
   {
     id: 246,
     name: "sort-top",
+    alias: [],
     componentName: "IconSortTop",
+    componentAlias: [],
     title: "顶部排序",
     category: "Sorting",
     categoryCN: "排序",
@@ -2966,7 +3460,9 @@ export const iconsDataBase = [
   {
     id: 247,
     name: "sort-up",
+    alias: [],
     componentName: "IconSortUp",
+    componentAlias: [],
     title: "排序上升",
     category: "Sorting",
     categoryCN: "排序",
@@ -2978,7 +3474,9 @@ export const iconsDataBase = [
   {
     id: 248,
     name: "status-403",
+    alias: [],
     componentName: "IconStatus403",
+    componentAlias: [],
     title: "状态",
     category: "HTTP",
     categoryCN: "HTTP状态",
@@ -2990,7 +3488,9 @@ export const iconsDataBase = [
   {
     id: 249,
     name: "status-404",
+    alias: [],
     componentName: "IconStatus404",
+    componentAlias: [],
     title: "状态",
     category: "Error",
     categoryCN: "错误页面",
@@ -3002,7 +3502,9 @@ export const iconsDataBase = [
   {
     id: 250,
     name: "status-500",
+    alias: [],
     componentName: "IconStatus500",
+    componentAlias: [],
     title: "状态500",
     category: "Error",
     categoryCN: "错误",
@@ -3014,7 +3516,9 @@ export const iconsDataBase = [
   {
     id: 251,
     name: "status-danger",
+    alias: [],
     componentName: "IconStatusDanger",
+    componentAlias: [],
     title: "危险状态",
     category: "Status",
     categoryCN: "状态指示器",
@@ -3026,7 +3530,9 @@ export const iconsDataBase = [
   {
     id: 252,
     name: "status-def",
+    alias: [],
     componentName: "IconStatusDef",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -3038,7 +3544,9 @@ export const iconsDataBase = [
   {
     id: 253,
     name: "status-empty-color",
+    alias: [],
     componentName: "IconStatusEmptyColor",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -3050,7 +3558,9 @@ export const iconsDataBase = [
   {
     id: 254,
     name: "status-empty",
+    alias: [],
     componentName: "IconStatusEmpty",
+    componentAlias: [],
     title: "状态空",
     category: "Status",
     categoryCN: "状态",
@@ -3062,7 +3572,9 @@ export const iconsDataBase = [
   {
     id: 255,
     name: "status-info",
+    alias: [],
     componentName: "IconStatusInfo",
+    componentAlias: [],
     title: "状态信息",
     category: "Information",
     categoryCN: "信息",
@@ -3074,7 +3586,9 @@ export const iconsDataBase = [
   {
     id: 256,
     name: "status-success",
+    alias: [],
     componentName: "IconStatusSuccess",
+    componentAlias: [],
     title: "状态成功",
     category: "Status",
     categoryCN: "状态指示器",
@@ -3086,7 +3600,9 @@ export const iconsDataBase = [
   {
     id: 257,
     name: "status-warning",
+    alias: [],
     componentName: "IconStatusWarning",
+    componentAlias: [],
     title: "状态警告",
     category: "Alerts",
     categoryCN: "警告",
@@ -3098,7 +3614,9 @@ export const iconsDataBase = [
   {
     id: 258,
     name: "Step-Status-Failure",
+    alias: [],
     componentName: "IconStepStatusFailure",
+    componentAlias: [],
     title: "步骤状态失败",
     category: "Process",
     categoryCN: "流程状态",
@@ -3110,7 +3628,9 @@ export const iconsDataBase = [
   {
     id: 259,
     name: "Step-Status-Success",
+    alias: [],
     componentName: "IconStepStatusSuccess",
+    componentAlias: [],
     title: "步骤状态成功",
     category: "Progress",
     categoryCN: "进度指示器",
@@ -3122,7 +3642,9 @@ export const iconsDataBase = [
   {
     id: 260,
     name: "store-color",
+    alias: [],
     componentName: "IconStoreColor",
+    componentAlias: [],
     title: "商店颜色",
     category: "Shopping",
     categoryCN: "购物",
@@ -3134,7 +3656,9 @@ export const iconsDataBase = [
   {
     id: 261,
     name: "subtask",
+    alias: [],
     componentName: "IconSubtask",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -3146,7 +3670,9 @@ export const iconsDataBase = [
   {
     id: 262,
     name: "SupportCenter",
+    alias: [],
     componentName: "IconSupportCenter",
+    componentAlias: [],
     title: "支持中心",
     category: "Customer",
     categoryCN: "客户服务",
@@ -3158,7 +3684,9 @@ export const iconsDataBase = [
   {
     id: 263,
     name: "SystemType-aix-color",
+    alias: [],
     componentName: "IconSystemTypeAixColor",
+    componentAlias: [],
     title: "系统类型",
     category: "Operating",
     categoryCN: "操作系统",
@@ -3170,7 +3698,9 @@ export const iconsDataBase = [
   {
     id: 264,
     name: "SystemType-android-color",
+    alias: [],
     componentName: "IconSystemTypeAndroidColor",
+    componentAlias: [],
     title: "系统类型",
     category: "System",
     categoryCN: "系统",
@@ -3182,7 +3712,9 @@ export const iconsDataBase = [
   {
     id: 265,
     name: "SystemType-arm-color",
+    alias: [],
     componentName: "IconSystemTypeArmColor",
+    componentAlias: [],
     title: "系统类型",
     category: "System",
     categoryCN: "系统",
@@ -3194,7 +3726,9 @@ export const iconsDataBase = [
   {
     id: 266,
     name: "SystemType-AS-color",
+    alias: [],
     componentName: "IconSystemTypeASColor",
+    componentAlias: [],
     title: "系统类型",
     category: "System",
     categoryCN: "系统组件",
@@ -3206,7 +3740,9 @@ export const iconsDataBase = [
   {
     id: 267,
     name: "SystemType-firewall-color",
+    alias: [],
     componentName: "IconSystemTypeFirewallColor",
+    componentAlias: [],
     title: "系统类型",
     category: "System",
     categoryCN: "系统组件",
@@ -3218,7 +3754,9 @@ export const iconsDataBase = [
   {
     id: 268,
     name: "SystemType-interchanger-color",
+    alias: [],
     componentName: "IconSystemTypeInterchangerColor",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -3230,7 +3768,9 @@ export const iconsDataBase = [
   {
     id: 269,
     name: "SystemType-ios-color",
+    alias: [],
     componentName: "IconSystemTypeIosColor",
+    componentAlias: [],
     title: "系统类型",
     category: "Operating",
     categoryCN: "操作系统",
@@ -3242,7 +3782,9 @@ export const iconsDataBase = [
   {
     id: 270,
     name: "SystemType-LB-color",
+    alias: [],
     componentName: "IconSystemTypeLBColor",
+    componentAlias: [],
     title: "系统类型",
     category: "System",
     categoryCN: "系统组件",
@@ -3254,7 +3796,9 @@ export const iconsDataBase = [
   {
     id: 271,
     name: "SystemType-linux-color",
+    alias: [],
     componentName: "IconSystemTypeLinuxColor",
+    componentAlias: [],
     title: "Linux系统类型",
     category: "Operating",
     categoryCN: "操作系统",
@@ -3266,7 +3810,9 @@ export const iconsDataBase = [
   {
     id: 272,
     name: "SystemType-router-color",
+    alias: [],
     componentName: "IconSystemTypeRouterColor",
+    componentAlias: [],
     title: "系统类型",
     category: "Networking",
     categoryCN: "网络",
@@ -3278,7 +3824,9 @@ export const iconsDataBase = [
   {
     id: 273,
     name: "SystemType-Unix-color",
+    alias: [],
     componentName: "IconSystemTypeUnixColor",
+    componentAlias: [],
     title: "Unix系统类型",
     category: "Operating",
     categoryCN: "操作系统",
@@ -3290,7 +3838,9 @@ export const iconsDataBase = [
   {
     id: 274,
     name: "SystemType-windows-color",
+    alias: [],
     componentName: "IconSystemTypeWindowsColor",
+    componentAlias: [],
     title: "系统类型",
     category: "Operating",
     categoryCN: "操作系统",
@@ -3302,7 +3852,9 @@ export const iconsDataBase = [
   {
     id: 275,
     name: "table-control-more",
+    alias: [],
     componentName: "IconTableControlMore",
+    componentAlias: [],
     title: "表格控制更多",
     category: "Table",
     categoryCN: "表格控件",
@@ -3314,7 +3866,9 @@ export const iconsDataBase = [
   {
     id: 276,
     name: "table-sort-down-color",
+    alias: [],
     componentName: "IconTableSortDownColor",
+    componentAlias: [],
     title: "表格排序向下颜色",
     category: "Data",
     categoryCN: "数据管理",
@@ -3326,7 +3880,9 @@ export const iconsDataBase = [
   {
     id: 277,
     name: "table-sort-normal-color",
+    alias: [],
     componentName: "IconTableSortNormalColor",
+    componentAlias: [],
     title: "表格排序",
     category: "Data",
     categoryCN: "数据管理",
@@ -3338,7 +3894,9 @@ export const iconsDataBase = [
   {
     id: 278,
     name: "table-sort-up-color",
+    alias: [],
     componentName: "IconTableSortUpColor",
+    componentAlias: [],
     title: "表格排序上升颜色",
     category: "Data",
     categoryCN: "数据管理",
@@ -3350,7 +3908,9 @@ export const iconsDataBase = [
   {
     id: 279,
     name: "task",
+    alias: [],
     componentName: "IconTask",
+    componentAlias: [],
     title: "任务",
     category: "Productivity",
     categoryCN: "生产力",
@@ -3362,7 +3922,9 @@ export const iconsDataBase = [
   {
     id: 280,
     name: "test-color",
+    alias: [],
     componentName: "IconTestColor",
+    componentAlias: [],
     title: "测试颜色",
     category: "Color",
     categoryCN: "颜色",
@@ -3374,7 +3936,9 @@ export const iconsDataBase = [
   {
     id: 281,
     name: "time",
+    alias: [],
     componentName: "IconTime",
+    componentAlias: [],
     title: "时间",
     category: "Clock",
     categoryCN: "时钟",
@@ -3386,7 +3950,9 @@ export const iconsDataBase = [
   {
     id: 282,
     name: "tips",
+    alias: [],
     componentName: "IconTips",
+    componentAlias: [],
     title: "提示",
     category: "Helpful",
     categoryCN: "帮助资源",
@@ -3398,7 +3964,9 @@ export const iconsDataBase = [
   {
     id: 283,
     name: "top1-color",
+    alias: [],
     componentName: "IconTop1Color",
+    componentAlias: [],
     title: "第一名颜色",
     category: "Achievement",
     categoryCN: "成就",
@@ -3410,7 +3978,9 @@ export const iconsDataBase = [
   {
     id: 284,
     name: "top2-color",
+    alias: [],
     componentName: "IconTop2Color",
+    componentAlias: [],
     title: "顶部2号彩色",
     category: "Icons",
     categoryCN: "图标",
@@ -3422,7 +3992,9 @@ export const iconsDataBase = [
   {
     id: 285,
     name: "top3-color",
+    alias: [],
     componentName: "IconTop3Color",
+    componentAlias: [],
     title: "前三名颜色",
     category: "Achievement",
     categoryCN: "成就",
@@ -3434,7 +4006,9 @@ export const iconsDataBase = [
   {
     id: 286,
     name: "triangle-bottom",
+    alias: [],
     componentName: "IconTriangleBottom",
+    componentAlias: [],
     title: "底部三角形",
     category: "Shapes",
     categoryCN: "形状",
@@ -3446,7 +4020,9 @@ export const iconsDataBase = [
   {
     id: 287,
     name: "triangle-top",
+    alias: [],
     componentName: "IconTriangleTop",
+    componentAlias: [],
     title: "三角形顶部",
     category: "Shapes",
     categoryCN: "形状",
@@ -3458,7 +4034,9 @@ export const iconsDataBase = [
   {
     id: 288,
     name: "unfold",
+    alias: [],
     componentName: "IconUnfold",
+    componentAlias: [],
     title: "展开",
     category: "Navigation",
     categoryCN: "导航",
@@ -3470,7 +4048,9 @@ export const iconsDataBase = [
   {
     id: 289,
     name: "upload",
+    alias: [],
     componentName: "IconUpload",
+    componentAlias: [],
     title: "上传",
     category: "File",
     categoryCN: "文件管理",
@@ -3482,7 +4062,9 @@ export const iconsDataBase = [
   {
     id: 290,
     name: "user-filled",
+    alias: [],
     componentName: "IconUserFilled",
+    componentAlias: [],
     title: "用户-填充",
     category: "User",
     categoryCN: "用户",
@@ -3494,7 +4076,9 @@ export const iconsDataBase = [
   {
     id: 291,
     name: "users-filled",
+    alias: [],
     componentName: "IconUsersFilled",
+    componentAlias: [],
     title: "用户们-填充",
     category: "User",
     categoryCN: "用户",
@@ -3506,7 +4090,9 @@ export const iconsDataBase = [
   {
     id: 292,
     name: "users",
+    alias: [],
     componentName: "IconUsers",
+    componentAlias: [],
     title: "用户们",
     category: "User",
     categoryCN: "用户",
@@ -3518,7 +4104,9 @@ export const iconsDataBase = [
   {
     id: 293,
     name: "variable",
+    alias: [],
     componentName: "IconVariable",
+    componentAlias: [],
     title: "变量",
     category: "Programming",
     categoryCN: "编程",
@@ -3530,7 +4118,9 @@ export const iconsDataBase = [
   {
     id: 294,
     name: "version-color",
+    alias: [],
     componentName: "IconVersionColor",
+    componentAlias: [],
     title: "",
     category: "Other",
     categoryCN: "其他",
@@ -3542,7 +4132,9 @@ export const iconsDataBase = [
   {
     id: 295,
     name: "view-switch-card",
+    alias: [],
     componentName: "IconViewSwitchCard",
+    componentAlias: [],
     title: "视图切换卡",
     category: "UI",
     categoryCN: "用户界面组件",
@@ -3554,7 +4146,9 @@ export const iconsDataBase = [
   {
     id: 296,
     name: "view-switch-color",
+    alias: [],
     componentName: "IconViewSwitchColor",
+    componentAlias: [],
     title: "视图切换颜色",
     category: "UI",
     categoryCN: "用户界面元素",
@@ -3566,7 +4160,9 @@ export const iconsDataBase = [
   {
     id: 297,
     name: "view-toggle-details",
+    alias: [],
     componentName: "IconViewToggleDetails",
+    componentAlias: [],
     title: "视图切换详情",
     category: "UI",
     categoryCN: "用户界面元素",
@@ -3578,7 +4174,9 @@ export const iconsDataBase = [
   {
     id: 298,
     name: "view-toggle-table",
+    alias: [],
     componentName: "IconViewToggleTable",
+    componentAlias: [],
     title: "视图切换表格",
     category: "UI",
     categoryCN: "用户界面元素",
@@ -3590,7 +4188,9 @@ export const iconsDataBase = [
   {
     id: 299,
     name: "warning",
+    alias: [],
     componentName: "IconWarning",
+    componentAlias: [],
     title: "警告",
     category: "Safety",
     categoryCN: "安全",
