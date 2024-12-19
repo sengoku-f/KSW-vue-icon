@@ -11,6 +11,7 @@
       @mouseleave="hideElement(icon.componentName)"
     >
     <div class="item">
+      <span v-if="icon.isAlias" class="alias-badge">Alias</span>
       <div class="icon-text icon-title" v-if="hoveredIcon === icon.componentName">
         {{ icon.title }}
       </div>
@@ -119,6 +120,11 @@ const hideElement = () => {
 
 .icon-text {
   @apply items-center justify-center text-xs antialiased text-center truncate text-slate-500 text-wrap w-full h-4 group-hover:overflow-visible group-hover:break-words;
+}
+
+.alias-badge {
+  @apply text-xs text-blue-600 bg-blue-50 flex items-center absolute top-0 right-0 px-2;
+  border-radius: 0 0.75rem 0 0.5rem;
 }
 
 .icon-title {

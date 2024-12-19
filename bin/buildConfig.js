@@ -18,12 +18,30 @@ const svgDir = join(rootDir, "src/svg");
 // 创建图标数据的辅助函数
 const createIconData = (config, name, tag) => ({
   name: config?.name || name,
+  alias: config?.alias || [],
   title: config?.title || "",
   category: config?.category || "Other",
   categoryCN: config?.categoryCN || "其他",
   author: config?.author || "KSW",
   tag: config?.tag || tag,
 });
+
+/**
+ * 同步配置字段，保证与默认值一致
+ * @param {Object} configEntry 当前配置条目
+ * @param {Object} defaultIconData 默认字段模板
+ * @returns {Object} 更新后的配置条目
+ */
+function syncFields(configEntry, defaultIconData) {
+  const updatedEntry = { ...defaultIconData, ...configEntry };
+  for (const key in updatedEntry) {
+    // 删除多余字段
+    if (!defaultIconData.hasOwnProperty(key)) {
+      delete updatedEntry[key];
+    }
+  }
+  return updatedEntry;
+}
 
 /**
  * 生成 SVG icons-config.json
@@ -71,7 +89,7 @@ async function listSvgFilesInDirectories(rootDirectory, useAI = false) {
       for (const svgFile of svgFiles) {
         // SVG 路径
         const filePath = join(directoryPath, svgFile.name);
-        console.log(filePath);
+        console.log(`SVG 路径: ${filePath}`);
         // 获取 SVG 名称
         const svgFileName = basename(svgFile.name, ".svg");
         try {
@@ -82,8 +100,19 @@ async function listSvgFilesInDirectories(rootDirectory, useAI = false) {
           let LLMIconData = null;
 
           if (!configEntry) {
+            // 如果不存在，则直接创建一个新的条目
             configEntry = createIconData(null, svgFileName, []);
             iconsConfig.push(configEntry);
+          } else {
+            // 如果存在，则同步字段
+            const defaultIconData = createIconData(null, svgFileName, []);
+            configEntry = syncFields(configEntry, defaultIconData);
+          
+            // 更新 iconsConfig 中的条目
+            const index = iconsConfig.findIndex((icon) => icon.name === configEntry.name);
+            if (index !== -1) {
+              iconsConfig[index] = configEntry;
+            }
           }
 
           if (useAI && (!configEntry.title || !configEntry.tag || configEntry.tag.length === 0)) {
@@ -121,9 +150,9 @@ async function listSvgFilesInDirectories(rootDirectory, useAI = false) {
           JSON.stringify(iconsConfig, null, 2),
           "utf8"
         );
-        console.log(`Updated config written to ${jsonOutputFile}`);
+        console.log(`更新后的配置已写入: ${jsonOutputFile}`);
       } catch (writeErr) {
-        console.error(`Error writing JSON file ${jsonOutputFile}:`, writeErr);
+        console.error(`写入JSON文件时出错: ${jsonOutputFile}:`, writeErr);
       }
     }
   } catch (err) {

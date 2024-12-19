@@ -88,6 +88,21 @@ import { IconName } from 'ksw-vue-icon/Guangfa'
 | Guangfa     | 广发图标库 |
 | KingAutometa     | 新RPA |
 
+
+## 别名图标
+
+你可以为同一个图标配置别名，即一个图标对应多个名称。在 `icons-config.json` 中的 `alias` 添加你的别名:
+
+```json
+{
+  "alias": [
+    "alias-1",
+    "alias-2",
+    "alias-3"
+  ],
+}
+```
+
 ## 展示页配置
 
 ### 安装依赖

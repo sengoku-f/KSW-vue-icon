@@ -42,6 +42,21 @@ const uniqueIconsData = Array.from(
   new Map(iconsData.map((icon) => [icon.name, icon])).values()
 );
 
+const extendedIconsData = uniqueIconsData.flatMap((icon) => {
+  // 原始图标项
+  const mainIcon = { ...icon, isAlias: false };
+
+  // 别名图标项
+  const aliasIcons = (icon.componentAlias || []).map((alias, index) => ({
+    ...icon,
+    componentName: alias,
+    name: `${icon.name}-alias-${index}`,
+    isAlias: true, // 标记为别名图标
+  }));
+
+  return [mainIcon, ...aliasIcons];
+});
+
 // 将 ProjectIconsMap 中的值从后往前合并为一个
 const iconSet = Object.values(ProjectIconsMap).reduceRight((acc, current) => {
   return { ...acc, ...current };
@@ -63,7 +78,7 @@ const categories = computed(() => {
 
 // 过滤和排序图标
 const sortIcons = () => {
-  let sortedIcons = [...uniqueIconsData];
+  let sortedIcons = [...extendedIconsData];
   if (sortBy.value === "date") {
     sortedIcons.sort((a, b) => new Date(b.modifiedTime) - new Date(a.modifiedTime));
   } else {
@@ -80,7 +95,7 @@ const sortIcons = () => {
   if (selectedCategory.value !== "全部") {
     sortedIcons = sortedIcons.filter(icon => icon.categoryCN === selectedCategory.value);
   }
-  icons.value = sortedIcons.map((icon) => ({ componentName: icon.componentName, title: icon.title, projectName: icon.projectName }));
+  icons.value = sortedIcons.map((icon) => ({ componentName: icon.componentName, title: icon.title, projectName: icon.projectName, isAlias: icon.isAlias }));
 };
 
 // 初始排序

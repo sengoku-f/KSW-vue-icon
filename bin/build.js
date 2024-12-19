@@ -1,7 +1,6 @@
 import path from "path";
 import fs from "fs/promises";
 import { fileURLToPath } from "url";
-import camelCase from 'camelcase';
 import prettier from "prettier";
 import { processSvg } from "./processSvg.js";
 import { parseName, toCamelCase } from "./utils.js";
@@ -24,10 +23,12 @@ const createDirIfNotExists = async (dir) => {
 };
 
 // 创建图标数据的辅助函数
-const createIconData = (config, id, ComponentName, name, projectName, stats) => ({
+const createIconData = (config, id, componentName, componentAlias, name, projectName, stats) => ({
   id,
   name,
-  componentName: `Icon${ComponentName}`,
+  alias: config?.alias || [],
+  componentName,
+  componentAlias,
   title: config?.title || "",
   category: config?.category || "Other",
   categoryCN: config?.categoryCN || "其他",
@@ -59,7 +60,7 @@ const generateIconCode = async (filePath, svgDir) => {
   const code = await fs.readFile(filePath, "utf-8");
   // 处理 SVG 文件
   const svgCode = await processSvg(code, names.style); // 将样式传递给 processSvg
-  const ComponentName = names.componentName;
+  const componentName = `Icon${names.componentName}`;
   // 获取组件代码
   const component = await getElementCode(names, svgCode, filePath);
   // 写入组件代码
@@ -75,15 +76,26 @@ const generateIconCode = async (filePath, svgDir) => {
     console.warn(`未找到配置文件: ${configFilePath}`);
   }
   const config = iconsConfig.find(icon => icon.name.trim() === names.name.trim());
-  console.log("成功构建:", ComponentName, "修改日期:", stats.mtime);
-  return { ComponentName, name: names.name, config, stats, relativePath };
+  // 别名转为驼峰
+  const componentAlias = config?.alias?.map(alias => `Icon${toCamelCase(alias)}`);
+
+  console.log("成功构建:", componentName, "修改日期:", stats.mtime);
+  return { componentName, componentAlias, config, stats, relativePath };
 };
 
 // 生成每个子目录的 index.js
 const generateMapForDirectory = async (relativePath, exports) => {
   const mapFilePath = path.join(iconsDir, relativePath, "index.js");
   const exportStrings = exports
-    .map(({ ComponentName, name }) => `export { default as ${ComponentName} } from './${name}';\r\n`)
+    .map(({ componentName, componentAlias, name }) => {
+      // 主导出
+      let result = `export { default as ${componentName} } from './${name}';\r\n`;
+      // 别名导出
+      componentAlias?.forEach((componentAlias) => {
+        result += `export { default as ${componentAlias} } from './${name}';\r\n`;
+      });
+      return result;
+    })
     .join("");
   await fs.writeFile(mapFilePath, exportStrings, "utf-8");
   console.log(`成功生成 ${relativePath} index.js 文件: ${mapFilePath}`);
@@ -149,7 +161,7 @@ async function processFiles() {
       if (!exportsByDir.has(relativePath)) {
         exportsByDir.set(relativePath, []);
       }
-      exportsByDir.get(relativePath).push({ ComponentName: iconData.componentName, name: iconData.name });
+      exportsByDir.get(relativePath).push({ componentName: iconData.componentName, componentAlias: iconData.componentAlias, name: iconData.name });
     });
 
     await Promise.all([
@@ -177,8 +189,8 @@ async function processFiles() {
 
 async function processFile(filePath, index, svgDir) {
   try {
-    const { ComponentName, config, stats, relativePath } = await generateIconCode(filePath, svgDir);
-    const iconData = createIconData(config, index, ComponentName, path.basename(filePath, ".svg"), relativePath, stats);
+    const { componentName, componentAlias, config, stats, relativePath } = await generateIconCode(filePath, svgDir);
+    const iconData = createIconData(config, index, componentName, componentAlias, path.basename(filePath, ".svg"), relativePath, stats);
     return { index, iconData, relativePath };
   } catch (err) {
     console.error(`处理SVG文件时出错: ${filePath}, 错误信息: ${err.message}`);
