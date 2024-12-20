@@ -2360,6 +2360,15 @@
     ]
   },
   {
+    "name": "item-remove",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "left-menu-display",
     "alias": [],
     "title": "左侧菜单显示",

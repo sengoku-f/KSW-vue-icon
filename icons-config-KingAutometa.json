@@ -133,18 +133,72 @@
     "tag": []
   },
   {
-    "name": "RPAData-color",
+    "name": "RPAAppIntegrationCloseExcel-color",
     "alias": [],
-    "title": "",
+    "title": "关闭Excel",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
   {
+    "name": "RPAAppIntegrationCycleExcel-color",
+    "alias": [],
+    "title": "循环Excel内容",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationExcelLaunch-color",
+    "alias": [],
+    "title": "打开/新建Excel",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationExportToPDF-color",
+    "alias": [],
+    "title": "导出为PDF",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationGetActiveExcel-color",
+    "alias": [],
+    "title": "获取当前激活的Excel对象",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationSaveExcel-color",
+    "alias": [],
+    "title": "保存/另存Excel",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAData-color",
+    "alias": [],
+    "title": "数据处理",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPADialogs-color",
     "alias": [],
-    "title": "",
+    "title": "对话框",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -153,7 +207,7 @@
   {
     "name": "RPANetwor-color",
     "alias": [],
-    "title": "",
+    "title": "网络",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -162,7 +216,7 @@
   {
     "name": "RPAProgramming-color",
     "alias": [],
-    "title": "",
+    "title": "编程",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -171,7 +225,7 @@
   {
     "name": "RPASystem-color",
     "alias": [],
-    "title": "",
+    "title": "操作系统",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -180,7 +234,7 @@
   {
     "name": "RPAWebAutomationAutoHandleBox-color",
     "alias": [],
-    "title": "",
+    "title": "自动处理弹框",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -189,7 +243,7 @@
   {
     "name": "RPAWebAutomationBatchDataScraping-color",
     "alias": [],
-    "title": "",
+    "title": "批量数据抓取",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -200,7 +254,7 @@
     "alias": [
       "RPAWinAutomationCloseeWindow-color"
     ],
-    "title": "",
+    "title": "关闭网页",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -214,7 +268,7 @@
       "RPAWebAutomationGetFilterCookie-color",
       "RPAWebAutomationGetAppointCookie-color"
     ],
-    "title": "",
+    "title": "设置Cookie",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -223,7 +277,7 @@
   {
     "name": "RPAWebAutomationDownLoadFile-color",
     "alias": [],
-    "title": "",
+    "title": "下载文件",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -234,7 +288,7 @@
     "alias": [
       "RPAWinAutomationWinClickElement-color"
     ],
-    "title": "",
+    "title": "点击元素",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -245,7 +299,7 @@
     "alias": [
       "RPAWinAutomationWinElementInput-color"
     ],
-    "title": "",
+    "title": "填写输入框",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -254,7 +308,7 @@
   {
     "name": "RPAWebAutomationExecJsScript-color",
     "alias": [],
-    "title": "",
+    "title": "执行JS脚本",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -263,7 +317,7 @@
   {
     "name": "RPAWebAutomationForwardNewWeb-color",
     "alias": [],
-    "title": "",
+    "title": "跳转至新网页",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -271,8 +325,10 @@
   },
   {
     "name": "RPAWebAutomationGetAllElements-color",
-    "alias": [],
-    "title": "",
+    "alias": [
+      "RPAWinAutomationWinGetAllElements-color"
+    ],
+    "title": "获取相似元素列表",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -280,8 +336,10 @@
   },
   {
     "name": "RPAWebAutomationGetAssnElement-color",
-    "alias": [],
-    "title": "",
+    "alias": [
+      "RPAWinAutomationWinGetAssnElement-color"
+    ],
+    "title": "获取关联元素",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -290,7 +348,7 @@
   {
     "name": "RPAWebAutomationGetElementInfo-color",
     "alias": [],
-    "title": "",
+    "title": "获取元素信息",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -298,8 +356,10 @@
   },
   {
     "name": "RPAWebAutomationGetElementObj-color",
-    "alias": [],
-    "title": "",
+    "alias": [
+      "RPAWinAutomationWinGetElementObj-color"
+    ],
+    "title": "获取元素对象",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -307,8 +367,10 @@
   },
   {
     "name": "RPAWebAutomationGetWebBoxContent-color",
-    "alias": [],
-    "title": "",
+    "alias": [
+      "RPAWebAutomationHandleWebBox-color"
+    ],
+    "title": "获取网页对话框内容",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -317,7 +379,7 @@
   {
     "name": "RPAWebAutomationGetWebInfo-color",
     "alias": [],
-    "title": "",
+    "title": "获取网页信息",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -326,7 +388,7 @@
   {
     "name": "RPAWebAutomationGetWebListenRest-color",
     "alias": [],
-    "title": "",
+    "title": "获取网页监听结果",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -337,7 +399,7 @@
     "alias": [
       "RPAWebAutomationGetWebObjList-color"
     ],
-    "title": "",
+    "title": "获取已打开的网页对象",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -346,7 +408,7 @@
   {
     "name": "RPAWebAutomationHandleDownLoadBox-color",
     "alias": [],
-    "title": "",
+    "title": "处理下载对话框",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -355,16 +417,7 @@
   {
     "name": "RPAWebAutomationHandleUpLoadBox-color",
     "alias": [],
-    "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
-    "author": "KSW",
-    "tag": []
-  },
-  {
-    "name": "RPAWebAutomationHandleWebBox-color",
-    "alias": [],
-    "title": "",
+    "title": "处理上传对话框",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -375,7 +428,7 @@
     "alias": [
       "RPAWinAutomationWinHoverElement-color"
     ],
-    "title": "",
+    "title": "鼠标悬停在元素上",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -384,7 +437,7 @@
   {
     "name": "RPAWebAutomationListenWebRequest-color",
     "alias": [],
-    "title": "",
+    "title": "开始监听网页请求",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -395,9 +448,10 @@
     "alias": [
       "RPAWebAutomationDragToElement-color",
       "RPAWebAutomationGetScrollPosition-color",
-      "RPAWinAutomationMoveWindow-color"
+      "RPAWinAutomationMoveWindow-color",
+      "RPAWinAutomationWinDragToElement-color"
     ],
-    "title": "",
+    "title": "鼠标滚动页面",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -405,8 +459,10 @@
   },
   {
     "name": "RPAWebAutomationSetCheckBox-color",
-    "alias": [],
-    "title": "",
+    "alias": [
+      "RPAWinAutomationWinSetCheckBox-color"
+    ],
+    "title": "设置复选框",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -415,7 +471,7 @@
   {
     "name": "RPAWebAutomationSetElementAtt-color",
     "alias": [],
-    "title": "",
+    "title": "设置元素属性",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -423,8 +479,10 @@
   },
   {
     "name": "RPAWebAutomationSetElementValue-color",
-    "alias": [],
-    "title": "",
+    "alias": [
+      "RPAWinAutomationWinSetElementValue-color"
+    ],
+    "title": "设置元素值",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -433,9 +491,10 @@
   {
     "name": "RPAWebAutomationSetSelectInput-color",
     "alias": [
-      "RPAWebAutomationGetSelectOption-color"
+      "RPAWebAutomationGetSelectOption-color",
+      "RPAWinAutomationWinSetSelectInput-color"
     ],
-    "title": "",
+    "title": "设置下拉框",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -444,7 +503,7 @@
   {
     "name": "RPAWebAutomationStopWebListen-color",
     "alias": [],
-    "title": "",
+    "title": "停止监听网页请求",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -453,7 +512,7 @@
   {
     "name": "RPAWebAutomationStopWebLoad-color",
     "alias": [],
-    "title": "",
+    "title": "停止网页加载",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -462,7 +521,7 @@
   {
     "name": "RPAWebAutomationUpLoadFile-color",
     "alias": [],
-    "title": "",
+    "title": "上传文件",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -471,9 +530,10 @@
   {
     "name": "RPAWebAutomationWaitLoadCompleted-color",
     "alias": [
-      "RPAWebAutomationWaitElement-color"
+      "RPAWebAutomationWaitElement-color",
+      "RPAWinAutomationWinWaitElement-color"
     ],
-    "title": "",
+    "title": "等待网页加载完成",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -482,7 +542,7 @@
   {
     "name": "RPAWebAutomationWebOpen-color",
     "alias": [],
-    "title": "",
+    "title": "打开网页",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -491,7 +551,7 @@
   {
     "name": "RPAWebAutomationWebScrnShot-color",
     "alias": [],
-    "title": "",
+    "title": "网页截图",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -499,8 +559,10 @@
   },
   {
     "name": "RPAWebAutomationWritePassInput-color",
-    "alias": [],
-    "title": "",
+    "alias": [
+      "RPAWinAutomationWinWritePassInput-color"
+    ],
+    "title": "填写密码框",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -509,7 +571,7 @@
   {
     "name": "RPAWinAutomation-color",
     "alias": [],
-    "title": "",
+    "title": "获取窗口对象",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -518,7 +580,7 @@
   {
     "name": "RPAWinAutomationActivateWindow-color",
     "alias": [],
-    "title": "",
+    "title": "激活软件窗口",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -527,7 +589,7 @@
   {
     "name": "RPAWinAutomationGetDetails-color",
     "alias": [],
-    "title": "",
+    "title": "获取窗口信息",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -536,7 +598,7 @@
   {
     "name": "RPAWinAutomationGetWinObject-color",
     "alias": [],
-    "title": "",
+    "title": "获取窗口对象",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -545,7 +607,7 @@
   {
     "name": "RPAWinAutomationGetWinObjList-color",
     "alias": [],
-    "title": "",
+    "title": "获取窗口对象列表",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -554,7 +616,7 @@
   {
     "name": "RPAWinAutomationResizeWindow-color",
     "alias": [],
-    "title": "",
+    "title": "调整窗口大小",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -563,7 +625,7 @@
   {
     "name": "RPAWinAutomationSetVisibility-color",
     "alias": [],
-    "title": "",
+    "title": "设置窗口是否提示",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -572,7 +634,7 @@
   {
     "name": "RPAWinAutomationSetWinState-color",
     "alias": [],
-    "title": "",
+    "title": "设置窗口状态",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -581,7 +643,7 @@
   {
     "name": "RPAWorkflowBreak-color",
     "alias": [],
-    "title": "",
+    "title": "退出循环",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -590,7 +652,7 @@
   {
     "name": "RPAWorkflowContinue-color",
     "alias": [],
-    "title": "",
+    "title": "继续下一次循环",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -608,7 +670,7 @@
   {
     "name": "RPAWorkflowElseIf-color",
     "alias": [],
-    "title": "",
+    "title": "Else",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -617,7 +679,7 @@
   {
     "name": "RPAWorkflowEndIf-color",
     "alias": [],
-    "title": "",
+    "title": "End If",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -626,7 +688,7 @@
   {
     "name": "RPAWorkflowEndLoop-color",
     "alias": [],
-    "title": "",
+    "title": "循环结束标记",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -635,7 +697,7 @@
   {
     "name": "RPAWorkflowFor-color",
     "alias": [],
-    "title": "",
+    "title": "For次数循环",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -644,7 +706,7 @@
   {
     "name": "RPAWorkflowForEachIterator-color",
     "alias": [],
-    "title": "",
+    "title": "ForEach列表循环",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -653,7 +715,7 @@
   {
     "name": "RPAWorkflowForIterator-color",
     "alias": [],
-    "title": "",
+    "title": "For次数循环",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -664,7 +726,7 @@
     "alias": [
       "RPAWorkflowTest-color"
     ],
-    "title": "",
+    "title": "IF条件",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -673,7 +735,7 @@
   {
     "name": "RPAWorkflowIfFileExists-color",
     "alias": [],
-    "title": "",
+    "title": "IF 文件存在",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -682,7 +744,7 @@
   {
     "name": "RPAWorkflowIfFolderExists-color",
     "alias": [],
-    "title": "",
+    "title": "IF 文件夹存在",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -691,7 +753,7 @@
   {
     "name": "RPAWorkflowWhile-color",
     "alias": [],
-    "title": "",
+    "title": "While条件循环",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -700,7 +762,7 @@
   {
     "name": "RPAWorkflowWhileTrue-color",
     "alias": [],
-    "title": "",
+    "title": "无限循环",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
