@@ -133,6 +133,24 @@
     "tag": []
   },
   {
+    "name": "RPAAppIntegrationAtiveSheet-color",
+    "alias": [],
+    "title": "激活Sheet页",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationClearRange-color",
+    "alias": [],
+    "title": "清空Excel内容",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPAAppIntegrationCloseExcel-color",
     "alias": [],
     "title": "关闭Excel",
@@ -142,9 +160,45 @@
     "tag": []
   },
   {
+    "name": "RPAAppIntegrationCopyRange-color",
+    "alias": [],
+    "title": "拷贝Excel内容",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationCopySheet-color",
+    "alias": [],
+    "title": "拷贝Sheet页",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationCreateSheet-color",
+    "alias": [],
+    "title": "添加Sheet页",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPAAppIntegrationCycleExcel-color",
     "alias": [],
     "title": "循环Excel内容",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationDeleteSheet-color",
+    "alias": [],
+    "title": "删除Sheet页",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -178,11 +232,191 @@
     "tag": []
   },
   {
+    "name": "RPAAppIntegrationGetFirstCol-color",
+    "alias": [],
+    "title": "获取第一个可用列",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationGetFirstColOnRow-color",
+    "alias": [],
+    "title": "获取行上第一个可用列",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationGetFirstRow-color",
+    "alias": [],
+    "title": "获取第一个可用行",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationGetFirstRowOnCol-color",
+    "alias": [],
+    "title": "获取列上第一个可用行",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationGetLastCol-color",
+    "alias": [],
+    "title": "获取最后一列",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationGetSelectRange-color",
+    "alias": [],
+    "title": "获取选中区域",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationGetSheetName-color",
+    "alias": [],
+    "title": "获取Sheet页名称",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationInsertBlankColumn-color",
+    "alias": [],
+    "title": "插入空列",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationInsertBlankRow-color",
+    "alias": [],
+    "title": "插入空行",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationPasteRange-color",
+    "alias": [],
+    "title": "粘贴Excel内容",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationReadExcel-color",
+    "alias": [],
+    "title": "读取Excel内容",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationReadExcelRow-color",
+    "alias": [],
+    "title": "读取Excel总行数",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationRemoveAllRows-color",
+    "alias": [],
+    "title": "删除所有行",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationRemoveColumn-color",
+    "alias": [],
+    "title": "删除Excel列",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationRemoveRepeatRow-color",
+    "alias": [],
+    "title": "删除重复行",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationRemoveRow-color",
+    "alias": [],
+    "title": "删除Excel行",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationRenameSheet-color",
+    "alias": [],
+    "title": "重命名Sheet页",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPAAppIntegrationSaveExcel-color",
     "alias": [],
     "title": "保存/另存Excel",
     "category": "RPA",
     "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationSelectRange-color",
+    "alias": [],
+    "title": "选中区域",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationSetHidden-color",
+    "alias": [],
+    "title": "设置行列隐藏",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationWriteToExcel-color",
+    "alias": [],
+    "title": "写入内容至Excel工作表",
+    "category": "Other",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
