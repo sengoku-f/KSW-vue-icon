@@ -12,20 +12,35 @@
     >
     <div class="item">
       <span v-if="icon.isAlias" class="alias-badge">Alias</span>
-      <div class="icon-text icon-title" v-if="hoveredIcon === icon.componentName">
-        {{ icon.title }}
+      <div class="icon-text icon-title" v-if="hoverState.icon === icon.componentName">
+        {{ hoverState.text || icon.title }}
       </div>
       <component :is="iconComponents[icon.componentName]" />
       <div class="icon-text">
         {{ icon.componentName }}
       </div>
-      <div class="icon-options" v-if="hoveredIcon === icon.componentName">
-        <button @click.stop="copyName(icon.componentName)">
-          <IconCopy />
-        </button>
-        <button @click.stop="copyVue(icon.componentName)">
-          <IconCode />
-        </button>
+      <div class="icon-options" v-if="hoverState.icon === icon.componentName">
+        <button
+        @click.stop="copyName(icon.componentName)"
+        @mouseenter="handleHover('enter', '复制名称')"
+        @mouseleave="handleHover('leave')"
+      >
+        <IconCopy />
+      </button>
+      <button
+        @click.stop="copyVue(icon.componentName)"
+        @mouseenter="handleHover('enter', '复制Vue')"
+        @mouseleave="handleHover('leave')"
+      >
+        <IconCode />
+      </button>
+      <button
+        @click.stop="downloadSvg(icon.componentName)"
+        @mouseenter="handleHover('enter', '下载Svg')"
+        @mouseleave="handleHover('leave')"
+      >
+        <IconDownload />
+      </button>
       </div>
     </div>
     </li>
@@ -34,12 +49,13 @@
 </template>
 
 <script setup>
-import { ref, computed } from "vue";
+import { ref, computed, h, render } from "vue";
 import useClipboard from "vue-clipboard3";
 import "vue-m-message/dist/style.css";
 import Message from "vue-m-message";
 import IconCopy from "./icon/Copy.vue";
 import IconCode from "./icon/Code.vue";
+import IconDownload from "./icon/Download.vue";
 
 // Props
 const props = defineProps({
@@ -64,14 +80,73 @@ const filteredIcons = computed(() => {
 });
 
 // 用于跟踪悬停哪个图标的状态
-const hoveredIcon = ref(null);
+const hoverState = ref({
+  icon: null,
+  text: null,
+});
 
 const showElement = (iconComponentName) => {
-  hoveredIcon.value = iconComponentName;
+  hoverState.value.icon = iconComponentName;
 };
 
 const hideElement = () => {
-  hoveredIcon.value = null;
+  hoverState.value.icon = null;
+};
+
+const handleHover = (type, text = null) => {
+  hoverState.value.text = type === "enter" ? text : null;
+};
+
+// 下载 SVG 方法
+const downloadSvg = async (componentName) => {
+  let container = null;
+  try {
+    // 获取组件对象
+    const Component = props.iconComponents[componentName];
+    if (!Component) {
+      Message.error("未找到对应的图标组件");
+      return;
+    }
+
+    // 创建一个临时容器
+    container = document.createElement("div");
+
+    // 使用 Vue 的 render 函数渲染组件
+    render(h(Component), container);
+
+    // 获取渲染结果（SVG 元素）
+    const svgElement = container.querySelector("svg");
+    if (!svgElement) {
+      Message.error("渲染的组件不是有效的 SVG");
+      return;
+    }
+
+    // 获取 SVG 的外部 HTML
+    const svgHtml = svgElement.outerHTML;
+
+    // 创建 Blob 对象
+    const blob = new Blob([svgHtml], { type: "image/svg+xml;charset=utf-8" });
+
+    // 创建下载链接
+    const link = document.createElement("a");
+    link.href = URL.createObjectURL(blob);
+    link.download = `${componentName}.svg`;
+
+    // 触发下载
+    link.click();
+
+    // 释放 URL 对象
+    URL.revokeObjectURL(link.href);
+
+    Message.success(`已下载 SVG: ${componentName}`);
+  } catch (error) {
+    console.error("下载 SVG 失败", error);
+    Message.error("下载 SVG 失败");
+  } finally {
+    // 销毁临时容器
+    render(null, container); // 卸载虚拟 DOM
+    container.remove(); // 移除容器节点
+  }
 };
 </script>
 
@@ -136,7 +211,7 @@ const hideElement = () => {
 }
 
 .icon-options {
-  @apply flex text-base w-32;
+  @apply flex text-base w-32 gap-[1px] rounded-full border border-slate-200 bg-slate-200 overflow-hidden;
   position: absolute;
   opacity: 0;
   bottom: 0;
@@ -145,15 +220,7 @@ const hideElement = () => {
 }
 
 .icon-options > button {
-  @apply flex flex-1 items-center justify-center px-2 py-[5px] border border-slate-200 bg-white text-xs hover:bg-slate-50 hover:text-blue-600;
-}
-
-.icon-options > button:first-child {
-  @apply rounded-l-full;
-}
-
-.icon-options > button:last-child {
-  @apply rounded-r-full border-l-0;
+  @apply flex flex-1 items-center justify-center px-2 py-[5px] bg-white text-xs hover:bg-slate-50 hover:text-blue-600;
 }
 
 @keyframes iconOptions {

@@ -19,7 +19,6 @@ const getAttrs = (style) => {
     xmlns: "http://www.w3.org/2000/svg",
     width: "props.size",
     height: "props.size",
-    "aria-hidden": true,
     viewBox: `0 0 ${defaultSize} ${defaultSize}`,
     transform: "props.rotate ? `rotate(${props.rotate})` : undefined",
   };
