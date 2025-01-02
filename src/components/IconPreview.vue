@@ -35,8 +35,15 @@
         <IconCode />
       </button>
       <button
-        @click.stop="downloadSvg(icon.componentName)"
-        @mouseenter="handleHover('enter', '下载Svg')"
+        @click.stop="downloadIcon(icon.componentName)"
+        @mouseenter="handleHover('enter', '下载SVG')"
+        @mouseleave="handleHover('leave')"
+      >
+        <IconDownload />
+      </button>
+      <button
+        @click.stop="downloadIcon(icon.componentName, 'png')"
+        @mouseenter="handleHover('enter', '下载PNG')"
         @mouseleave="handleHover('leave')"
       >
         <IconDownload />
@@ -97,8 +104,8 @@ const handleHover = (type, text = null) => {
   hoverState.value.text = type === "enter" ? text : null;
 };
 
-// 下载 SVG 方法
-const downloadSvg = async (componentName) => {
+// 下载图标方法
+const downloadIcon = async (componentName, format = "svg") => {
   let container = null;
   try {
     // 获取组件对象
@@ -121,31 +128,81 @@ const downloadSvg = async (componentName) => {
       return;
     }
 
-    // 获取 SVG 的外部 HTML
-    const svgHtml = svgElement.outerHTML;
+    if (format === "svg") {
+      // 获取 SVG 的外部 HTML
+      const svgHtml = svgElement.outerHTML;
 
-    // 创建 Blob 对象
-    const blob = new Blob([svgHtml], { type: "image/svg+xml;charset=utf-8" });
+      // 创建 Blob 对象
+      const blob = new Blob([svgHtml], { type: "image/svg+xml;charset=utf-8" });
 
-    // 创建下载链接
-    const link = document.createElement("a");
-    link.href = URL.createObjectURL(blob);
-    link.download = `${componentName}.svg`;
+      // 创建下载链接
+      const link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      link.download = `${componentName}.svg`;
 
-    // 触发下载
-    link.click();
+      // 触发下载
+      link.click();
 
-    // 释放 URL 对象
-    URL.revokeObjectURL(link.href);
+      // 释放 URL 对象
+      URL.revokeObjectURL(link.href);
 
-    Message.success(`已下载 SVG: ${componentName}`);
+      Message.success(`已下载 SVG: ${componentName}`);
+    } else if (format === "png") {
+      // 创建一个 Canvas 元素
+      const canvas = document.createElement("canvas");
+      const context = canvas.getContext("2d");
+
+      // 设置 Canvas 大小
+      const width = 200; // 默认宽度
+      const height = 200; // 默认高度
+      canvas.width = width;
+      canvas.height = height;
+
+      // 将 SVG 转换为 Data URL
+      const svgData = new XMLSerializer().serializeToString(svgElement);
+      const svgBlob = new Blob([svgData], { type: "image/svg+xml;charset=utf-8" });
+      const url = URL.createObjectURL(svgBlob);
+
+      // 创建一个图像加载 SVG 数据
+      const img = new Image();
+      img.onload = () => {
+        // 绘制到 Canvas 上
+        context.clearRect(0, 0, width, height);
+        context.drawImage(img, 0, 0, width, height);
+
+        // 释放 URL
+        URL.revokeObjectURL(url);
+
+        // 导出 PNG 文件
+        canvas.toBlob((blob) => {
+          const link = document.createElement("a");
+          link.href = URL.createObjectURL(blob);
+          link.download = `${componentName}.png`;
+          link.click();
+          URL.revokeObjectURL(link.href);
+          Message.success(`已下载 PNG: ${componentName}`);
+        }, "image/png");
+      };
+
+      img.onerror = () => {
+        URL.revokeObjectURL(url);
+        Message.error("加载 SVG 时出错，无法生成 PNG");
+      };
+
+      // 加载 SVG 数据
+      img.src = url;
+    } else {
+      Message.error("不支持的文件格式");
+    }
   } catch (error) {
-    console.error("下载 SVG 失败", error);
-    Message.error("下载 SVG 失败");
+    console.error("下载图标失败", error);
+    Message.error("下载图标失败");
   } finally {
-    // 销毁临时容器
-    render(null, container); // 卸载虚拟 DOM
-    container.remove(); // 移除容器节点
+    if (container) {
+      // 销毁临时容器
+      render(null, container);
+      container.remove();
+    }
   }
 };
 </script>
