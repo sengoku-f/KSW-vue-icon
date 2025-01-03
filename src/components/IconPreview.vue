@@ -39,14 +39,14 @@
         @mouseenter="handleHover('enter', '下载SVG')"
         @mouseleave="handleHover('leave')"
       >
-        <IconDownload />
+        <IconSVG class="scale-125"/>
       </button>
       <button
         @click.stop="downloadIcon(icon.componentName, 'png')"
         @mouseenter="handleHover('enter', '下载PNG')"
         @mouseleave="handleHover('leave')"
       >
-        <IconDownload />
+        <IconPNG class="scale-125"/>
       </button>
       </div>
     </div>
@@ -62,7 +62,8 @@ import "vue-m-message/dist/style.css";
 import Message from "vue-m-message";
 import IconCopy from "./icon/Copy.vue";
 import IconCode from "./icon/Code.vue";
-import IconDownload from "./icon/Download.vue";
+import IconPNG from "./icon/PNG.vue";
+import IconSVG from "./icon/SVG.vue";
 
 // Props
 const props = defineProps({
