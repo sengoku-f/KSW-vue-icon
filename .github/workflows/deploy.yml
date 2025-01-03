@@ -44,7 +44,7 @@ jobs:
         id: check
         with:
           diff-search: true
-          file-url: https://unpkg.com/ksw-vue-icon@latest/package.json
+          file-url: https://cdn.jsdelivr.net/npm/ksw-vue-icon@latest/package.json
           static-checking: localIsNew
 
       # check是我们在上一段中为check步骤提供的id
