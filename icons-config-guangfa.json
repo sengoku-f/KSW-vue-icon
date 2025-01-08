@@ -121,6 +121,24 @@
     ]
   },
   {
+    "name": "gfaom-parameter-configuration",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "gfaom-permissions",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "gfaom-QXGL",
     "alias": [],
     "title": "广发 权限管理",
@@ -135,6 +153,15 @@
     ]
   },
   {
+    "name": "gfaom-setting-config",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "gfaom-SYKB",
     "alias": [],
     "title": "广发 首页看板",
@@ -146,6 +173,15 @@
       "AOM",
       "看板"
     ]
+  },
+  {
+    "name": "gfaom-task-list",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "gfaom-YHGL",
