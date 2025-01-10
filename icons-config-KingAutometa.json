@@ -1109,9 +1109,56 @@
     "tag": []
   },
   {
+    "name": "RPASystemAddFileToClipboard-color",
+    "alias": [
+      "RPASystemSetContentForClipboard-color"
+    ],
+    "title": "将文件添加到剪切板",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemAwakeScreenSaver-color",
+    "alias": [],
+    "title": "唤起屏幕保护",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemClearClipboard-color",
+    "alias": [],
+    "title": "清空剪切板",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPASystemClearDir-color",
     "alias": [],
     "title": "清空文件夹",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemClearScreenSaverTip-color",
+    "alias": [],
+    "title": "清空屏保提示",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemCloseAwakenScreenSaver-color",
+    "alias": [],
+    "title": "关闭屏幕保护",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -1199,6 +1246,15 @@
     "tag": []
   },
   {
+    "name": "RPASystemGetContentFromClipboard-color",
+    "alias": [],
+    "title": "获取剪切板文本",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPASystemGetFilePathInfo-color",
     "alias": [],
     "title": "获取文件路径信息",
@@ -1208,9 +1264,27 @@
     "tag": []
   },
   {
+    "name": "RPASystemGetInputTool-color",
+    "alias": [],
+    "title": "获取输入法",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPASystemGetSystemDirPath-color",
     "alias": [],
     "title": "获取系统文件夹路径",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemLockScreen-color",
+    "alias": [],
+    "title": "屏幕锁屏",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -1280,6 +1354,24 @@
     "tag": []
   },
   {
+    "name": "RPASystemSetInputTool-color",
+    "alias": [],
+    "title": "设置输入法",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemSetScreenSaverTip-color",
+    "alias": [],
+    "title": "设置屏保提示",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPASystemTakeScreenShot-color",
     "alias": [],
     "title": "截屏",
@@ -1298,9 +1390,36 @@
     "tag": []
   },
   {
+    "name": "RPASystemUnlockScreen-color",
+    "alias": [],
+    "title": "屏幕解锁",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemUnZip-color",
+    "alias": [],
+    "title": "解压文件/文件夹",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPASystemWaitFile-color",
     "alias": [],
     "title": "等待文件",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemZip-color",
+    "alias": [],
+    "title": "压缩文件/文件夹",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
