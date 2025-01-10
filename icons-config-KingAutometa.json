@@ -711,6 +711,26 @@
     "tag": []
   },
   {
+    "name": "RPADataBase64Encode-color",
+    "alias": [
+      "RPADataBase64Decode-color"
+    ],
+    "title": "Base64编码",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataChangeDateTime-color",
+    "alias": [],
+    "title": "增加/减少时间",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPADataChangeTextCase-color",
     "alias": [],
     "title": "改变文本的大小写",
@@ -749,6 +769,15 @@
     "tag": []
   },
   {
+    "name": "RPADataDateToTimeStamp-color",
+    "alias": [],
+    "title": "日期时间转化为时间戳",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPADataDeleteDictionaryKey-color",
     "alias": [],
     "title": "删除字典键值对",
@@ -779,6 +808,35 @@
     "name": "RPADataFilterList-color",
     "alias": [],
     "title": "过滤列表中的多项",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataGetCurrentDateTime-color",
+    "alias": [
+      "RPADataTextToDateTime-color"
+    ],
+    "title": "获取当前日期时间",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataGetDateTimeDetail-color",
+    "alias": [],
+    "title": "获取时间详细信息",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataGetDateTimeInterval-color",
+    "alias": [],
+    "title": "获取时间间隔",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -862,6 +920,15 @@
     "tag": []
   },
   {
+    "name": "RPADataJsonToText-color",
+    "alias": [],
+    "title": "Json转换成文本",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPADataMergeList-color",
     "alias": [],
     "title": "合并列表",
@@ -892,6 +959,15 @@
     "name": "RPADataRandomSortList-color",
     "alias": [],
     "title": "列表随机排序",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataReadCSVData-color",
+    "alias": [],
+    "title": "读取CSV数据",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -961,9 +1037,45 @@
     "tag": []
   },
   {
+    "name": "RPADataTextToJson-color",
+    "alias": [],
+    "title": "转换成Json对象",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataTimeStampToDate-color",
+    "alias": [],
+    "title": "时间戳转化为日期时间",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataWriteDataToCSV-color",
+    "alias": [],
+    "title": "数据写入CSV",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPADialogs-color",
     "alias": [],
     "title": "对话框",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAMouseKeyboard-color",
+    "alias": [],
+    "title": "鼠标键盘",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -991,6 +1103,204 @@
     "name": "RPASystem-color",
     "alias": [],
     "title": "操作系统",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemClearDir-color",
+    "alias": [],
+    "title": "清空文件夹",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemCopyDir-color",
+    "alias": [],
+    "title": "拷贝文件夹",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemFileCopy-color",
+    "alias": [],
+    "title": "拷贝文件",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemFileMove-color",
+    "alias": [],
+    "title": "移动文件",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemFileRead-color",
+    "alias": [],
+    "title": "读取文件",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemFileRemove-color",
+    "alias": [],
+    "title": "删除文件",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemFileRename-color",
+    "alias": [],
+    "title": "文件重命名",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemFileWrite-color",
+    "alias": [],
+    "title": "写入文件",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemFindDirList-color",
+    "alias": [],
+    "title": "获取文件夹列表",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemFindFileList-color",
+    "alias": [],
+    "title": "获取文件列表",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemGetFilePathInfo-color",
+    "alias": [],
+    "title": "获取文件路径信息",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemGetSystemDirPath-color",
+    "alias": [],
+    "title": "获取系统文件夹路径",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemMkDir-color",
+    "alias": [],
+    "title": "创建文件夹",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemMoveDir-color",
+    "alias": [],
+    "title": "移动文件夹",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemOpenDir-color",
+    "alias": [],
+    "title": "打开文件夹",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemRemoveDir-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemRenameDir-color",
+    "alias": [],
+    "title": "文件夹重命名",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemRunDosCommand-color",
+    "alias": [],
+    "title": "运行DOS命令",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemRunOrOpen-color",
+    "alias": [],
+    "title": "运行或打开",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemTakeScreenShot-color",
+    "alias": [],
+    "title": "截屏",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemTerminalProcess-color",
+    "alias": [],
+    "title": "终止程序",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemWaitFile-color",
+    "alias": [],
+    "title": "等待文件",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
