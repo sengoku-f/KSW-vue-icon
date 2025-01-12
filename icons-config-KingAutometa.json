@@ -1912,7 +1912,9 @@
   },
   {
     "name": "RPAWebAutomationGetElementInfo-color",
-    "alias": [],
+    "alias": [
+      "RPAWinAutomationGetWinElementInfo-color"
+    ],
     "title": "获取元素信息",
     "category": "Other",
     "categoryCN": "其他",
@@ -2057,7 +2059,8 @@
     "name": "RPAWebAutomationSetSelectInput-color",
     "alias": [
       "RPAWebAutomationGetSelectOption-color",
-      "RPAWinAutomationWinSetSelectInput-color"
+      "RPAWinAutomationWinSetSelectInput-color",
+      "RPAWinAutomationGetWinSelectOption-color"
     ],
     "title": "设置下拉框",
     "category": "Other",
@@ -2115,7 +2118,9 @@
   },
   {
     "name": "RPAWebAutomationWebScrnShot-color",
-    "alias": [],
+    "alias": [
+      "RPAWinAutomationElementScreenshot-color"
+    ],
     "title": "网页截图",
     "category": "Other",
     "categoryCN": "其他",
@@ -2155,6 +2160,15 @@
     "name": "RPAWinAutomationGetDetails-color",
     "alias": [],
     "title": "获取窗口信息",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWinAutomationGetSelectedText-color",
+    "alias": [],
+    "title": "获取选中文本",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
