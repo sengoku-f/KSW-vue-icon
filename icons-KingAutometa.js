@@ -3323,6 +3323,46 @@ export const iconsDataKingAutometa = [
   },
   {
     id: 234,
+    name: "RPAWinAutomationSap-color",
+    alias: [
+      "RPAWinAutomationSapStart-color",
+      "RPAWinAutomationSapLogin-color",
+      "RPAWinAutomationExpandSelectNode-color",
+      "RPAWinAutomationClickToolbarButton-color",
+      "RPAWinAutomationGetTableRowCount-color",
+      "RPAWinAutomationGetTableColumnCount-color",
+      "RPAWinAutomationWaitSAPLoadCompleted-color",
+      "RPAWinAutomationCallTransaction-color",
+      "RPAWinAutomationReadStatusBar-color",
+      "RPAWinAutomationSelectMenuItem-color",
+      "RPAWinAutomationSelectDate-color",
+      "RPAWinAutomationGetTableCells-color",
+    ],
+    componentName: "IconRPAWinAutomationSapColor",
+    componentAlias: [
+      "IconRPAWinAutomationSapStartColor",
+      "IconRPAWinAutomationSapLoginColor",
+      "IconRPAWinAutomationExpandSelectNodeColor",
+      "IconRPAWinAutomationClickToolbarButtonColor",
+      "IconRPAWinAutomationGetTableRowCountColor",
+      "IconRPAWinAutomationGetTableColumnCountColor",
+      "IconRPAWinAutomationWaitSAPLoadCompletedColor",
+      "IconRPAWinAutomationCallTransactionColor",
+      "IconRPAWinAutomationReadStatusBarColor",
+      "IconRPAWinAutomationSelectMenuItemColor",
+      "IconRPAWinAutomationSelectDateColor",
+      "IconRPAWinAutomationGetTableCellsColor",
+    ],
+    title: "SAP",
+    category: "Other",
+    categoryCN: "其他",
+    author: "KSW",
+    tag: [],
+    projectName: "KingAutometa",
+    modifiedTime: "2025-01-12T09:46:43.581Z",
+  },
+  {
+    id: 235,
     name: "RPAWinAutomationSetVisibility-color",
     alias: [],
     componentName: "IconRPAWinAutomationSetVisibilityColor",
@@ -3336,7 +3376,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-18T09:53:04.453Z",
   },
   {
-    id: 235,
+    id: 236,
     name: "RPAWinAutomationSetWinState-color",
     alias: [],
     componentName: "IconRPAWinAutomationSetWinStateColor",
@@ -3350,7 +3390,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-18T08:49:02.661Z",
   },
   {
-    id: 236,
+    id: 237,
     name: "RPAWorkflowBreak-color",
     alias: [],
     componentName: "IconRPAWorkflowBreakColor",
@@ -3364,7 +3404,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T06:13:36.000Z",
   },
   {
-    id: 237,
+    id: 238,
     name: "RPAWorkflowContinue-color",
     alias: [],
     componentName: "IconRPAWorkflowContinueColor",
@@ -3378,7 +3418,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T06:13:36.000Z",
   },
   {
-    id: 238,
+    id: 239,
     name: "RPAWorkflowElse-color",
     alias: [],
     componentName: "IconRPAWorkflowElseColor",
@@ -3392,7 +3432,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T10:28:47.750Z",
   },
   {
-    id: 239,
+    id: 240,
     name: "RPAWorkflowElseIf-color",
     alias: ["RPAWorkflowElseIfTest-color"],
     componentName: "IconRPAWorkflowElseIfColor",
@@ -3406,7 +3446,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T09:47:40.549Z",
   },
   {
-    id: 240,
+    id: 241,
     name: "RPAWorkflowEndIf-color",
     alias: [],
     componentName: "IconRPAWorkflowEndIfColor",
@@ -3420,7 +3460,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T10:28:49.862Z",
   },
   {
-    id: 241,
+    id: 242,
     name: "RPAWorkflowEndLoop-color",
     alias: [],
     componentName: "IconRPAWorkflowEndLoopColor",
@@ -3434,7 +3474,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T06:13:36.000Z",
   },
   {
-    id: 242,
+    id: 243,
     name: "RPAWorkflowFor-color",
     alias: [],
     componentName: "IconRPAWorkflowForColor",
@@ -3448,7 +3488,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T06:13:36.000Z",
   },
   {
-    id: 243,
+    id: 244,
     name: "RPAWorkflowForEachIterator-color",
     alias: [],
     componentName: "IconRPAWorkflowForEachIteratorColor",
@@ -3462,7 +3502,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T06:13:36.000Z",
   },
   {
-    id: 244,
+    id: 245,
     name: "RPAWorkflowForIterator-color",
     alias: [],
     componentName: "IconRPAWorkflowForIteratorColor",
@@ -3476,7 +3516,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T07:03:58.079Z",
   },
   {
-    id: 245,
+    id: 246,
     name: "RPAWorkflowIf-color",
     alias: ["RPAWorkflowTest-color"],
     componentName: "IconRPAWorkflowIfColor",
@@ -3490,7 +3530,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T06:12:30.000Z",
   },
   {
-    id: 246,
+    id: 247,
     name: "RPAWorkflowIfFileExists-color",
     alias: [],
     componentName: "IconRPAWorkflowIfFileExistsColor",
@@ -3504,7 +3544,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T06:12:30.000Z",
   },
   {
-    id: 247,
+    id: 248,
     name: "RPAWorkflowIfFolderExists-color",
     alias: [],
     componentName: "IconRPAWorkflowIfFolderExistsColor",
@@ -3518,7 +3558,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T06:12:30.000Z",
   },
   {
-    id: 248,
+    id: 249,
     name: "RPAWorkflowIfHTMLContain-color",
     alias: [
       "RPAWorkflowIfHTMLVisible-color",
@@ -3540,7 +3580,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2025-01-12T09:01:39.543Z",
   },
   {
-    id: 249,
+    id: 250,
     name: "RPAWorkflowIfTextExists-color",
     alias: [],
     componentName: "IconRPAWorkflowIfTextExistsColor",
@@ -3554,7 +3594,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2025-01-12T09:29:11.871Z",
   },
   {
-    id: 250,
+    id: 251,
     name: "RPAWorkflowWhile-color",
     alias: [],
     componentName: "IconRPAWorkflowWhileColor",
@@ -3568,7 +3608,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T06:13:36.000Z",
   },
   {
-    id: 251,
+    id: 252,
     name: "RPAWorkflowWhileTrue-color",
     alias: [],
     componentName: "IconRPAWorkflowWhileTrueColor",
@@ -3582,7 +3622,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T06:13:36.000Z",
   },
   {
-    id: 252,
+    id: 253,
     name: "send",
     alias: [],
     componentName: "IconSend",
@@ -3596,7 +3636,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-11-15T12:23:43.032Z",
   },
   {
-    id: 253,
+    id: 254,
     name: "setting-box",
     alias: [],
     componentName: "IconSettingBox",
@@ -3610,7 +3650,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-11-15T12:23:43.032Z",
   },
   {
-    id: 254,
+    id: 255,
     name: "template-color",
     alias: [],
     componentName: "IconTemplateColor",
@@ -3624,7 +3664,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-11-15T12:23:43.032Z",
   },
   {
-    id: 255,
+    id: 256,
     name: "turn-to-left",
     alias: [],
     componentName: "IconTurnToLeft",
@@ -3638,7 +3678,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-11-15T12:23:43.032Z",
   },
   {
-    id: 256,
+    id: 257,
     name: "turn-to-right",
     alias: [],
     componentName: "IconTurnToRight",

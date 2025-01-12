@@ -2202,6 +2202,28 @@
     "tag": []
   },
   {
+    "name": "RPAWinAutomationSap-color",
+    "alias": [
+      "RPAWinAutomationSapStart-color",
+      "RPAWinAutomationSapLogin-color",
+      "RPAWinAutomationExpandSelectNode-color",
+      "RPAWinAutomationClickToolbarButton-color",
+      "RPAWinAutomationGetTableRowCount-color",
+      "RPAWinAutomationGetTableColumnCount-color",
+      "RPAWinAutomationWaitSAPLoadCompleted-color",
+      "RPAWinAutomationCallTransaction-color",
+      "RPAWinAutomationReadStatusBar-color",
+      "RPAWinAutomationSelectMenuItem-color",
+      "RPAWinAutomationSelectDate-color",
+      "RPAWinAutomationGetTableCells-color"
+    ],
+    "title": "SAP",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPAWinAutomationSetVisibility-color",
     "alias": [],
     "title": "设置窗口是否提示",
