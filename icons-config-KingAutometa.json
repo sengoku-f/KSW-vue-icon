@@ -241,6 +241,15 @@
     "tag": []
   },
   {
+    "name": "RPAAppIntegrationDatabaseClose-color",
+    "alias": [],
+    "title": "关闭数据库",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPAAppIntegrationDatabaseConnect-color",
     "alias": [],
     "title": "连接数据库",
@@ -442,6 +451,15 @@
     "name": "RPAAppIntegrationMoveWordCursor-color",
     "alias": [],
     "title": "移动Word光标",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationOpenSQL-color",
+    "alias": [],
+    "title": "查询SQL语句",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
