@@ -1065,7 +1065,9 @@
   },
   {
     "name": "RPADialogs-color",
-    "alias": [],
+    "alias": [
+      "RPAProgrammingShowMessageDialog-color"
+    ],
     "title": "对话框",
     "category": "Other",
     "categoryCN": "其他",
@@ -1271,6 +1273,69 @@
     "name": "RPAProgrammingPrintLog-color",
     "alias": [],
     "title": "打印日志",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingShowCustomDialog-color",
+    "alias": [],
+    "title": "打开自定义对话框",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingShowDataTableDialog-color",
+    "alias": [],
+    "title": "打开数据表格对话框",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingShowDatetimeDialog-color",
+    "alias": [],
+    "title": "打开日期时间对话框",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingShowInputDialog-color",
+    "alias": [],
+    "title": "打开输入对话框",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingShowNotifycation-color",
+    "alias": [],
+    "title": "消息通知",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingShowSelectDialog-color",
+    "alias": [],
+    "title": "打开选择对话框",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingShowSelectFileDialog-color",
+    "alias": [],
+    "title": "打开选择文件对话框",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
