@@ -1333,6 +1333,33 @@
     "tag": []
   },
   {
+    "name": "RPASystemClickImg-color",
+    "alias": [],
+    "title": "点击图像",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemClickMouse-color",
+    "alias": [],
+    "title": "鼠标点击",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemClickText-color",
+    "alias": [],
+    "title": "单击文本(OCR)",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPASystemCloseAwakenScreenSaver-color",
     "alias": [],
     "title": "关闭屏幕保护",
@@ -1452,6 +1479,15 @@
     "tag": []
   },
   {
+    "name": "RPASystemGetMousePosition-color",
+    "alias": [],
+    "title": "获取鼠标当前位置",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPASystemGetSystemDirPath-color",
     "alias": [],
     "title": "获取系统文件夹路径",
@@ -1461,9 +1497,45 @@
     "tag": []
   },
   {
+    "name": "RPASystemHoverImg-color",
+    "alias": [],
+    "title": "鼠标悬停在图像上",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemHoverOnText-color",
+    "alias": [],
+    "title": "鼠标悬停在文本上(OCR)",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPASystemLockScreen-color",
     "alias": [],
     "title": "屏幕锁屏",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemManualMotionOff-color",
+    "alias": [],
+    "title": "结束模拟真人操作",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemManualMotionOn-color",
+    "alias": [],
+    "title": "开启模拟真人操作",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -1482,6 +1554,15 @@
     "name": "RPASystemMoveDir-color",
     "alias": [],
     "title": "移动文件夹",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemMoveMouse-color",
+    "alias": [],
+    "title": "移动鼠标",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -1527,6 +1608,15 @@
     "name": "RPASystemRunOrOpen-color",
     "alias": [],
     "title": "运行或打开",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemSendKeys-color",
+    "alias": [],
+    "title": "键盘输入",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -1590,6 +1680,33 @@
     "name": "RPASystemWaitFile-color",
     "alias": [],
     "title": "等待文件",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemWaitImg-color",
+    "alias": [],
+    "title": "等待图像",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemWaitText-color",
+    "alias": [],
+    "title": "等待文本(OCR)",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemWheelMouse-color",
+    "alias": [],
+    "title": "滚动鼠标滚轮",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
