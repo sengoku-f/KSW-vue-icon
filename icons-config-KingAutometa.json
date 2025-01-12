@@ -2234,7 +2234,9 @@
   },
   {
     "name": "RPAWorkflowElseIf-color",
-    "alias": [],
+    "alias": [
+      "RPAWorkflowElseIfTest-color"
+    ],
     "title": "Else",
     "category": "Other",
     "categoryCN": "其他",
@@ -2310,6 +2312,28 @@
     "name": "RPAWorkflowIfFolderExists-color",
     "alias": [],
     "title": "IF 文件夹存在",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWorkflowIfHTMLContain-color",
+    "alias": [
+      "RPAWorkflowIfHTMLVisible-color",
+      "RPAWorkflowIfWinObjecExists-color",
+      "RPAWorkflowIfWinObjecContain-color"
+    ],
+    "title": "if 网页包含",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWorkflowIfTextExists-color",
+    "alias": [],
+    "title": "IF 屏幕上出现文本",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
