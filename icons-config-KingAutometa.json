@@ -1091,9 +1091,186 @@
     "tag": []
   },
   {
+    "name": "RPANetworkChangeFtpPath-color",
+    "alias": [],
+    "title": "切换FTP工作路径",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkCreateFtpFolder-color",
+    "alias": [],
+    "title": "FTP创建文件夹",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkDelFtpFile-color",
+    "alias": [
+      "RPANetworkDelFtpFolder-color"
+    ],
+    "title": "FTP文件删除",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkDisFtpConn-color",
+    "alias": [],
+    "title": "断开FTP连接",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkDownFtpFile-color",
+    "alias": [
+      "RPANetworkDownFtpFolder-color"
+    ],
+    "title": "FTP文件下载",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkFeiShuSendMessages-color",
+    "alias": [],
+    "title": "飞书群通知",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkGetFtpConn-color",
+    "alias": [],
+    "title": "建立FTP连接",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkGetFtpFile-color",
+    "alias": [],
+    "title": "获取FTP文件",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkGetHttpDownLoad-color",
+    "alias": [],
+    "title": "Http下载",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkGetHttpPostOpt-color",
+    "alias": [],
+    "title": "Http请求",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkRenameFtpFile-color",
+    "alias": [],
+    "title": "FTP文件重命名",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkRetrieveEmail-color",
+    "alias": [],
+    "title": "获取邮件",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkSendCorGroupMsgByDD-color",
+    "alias": [],
+    "title": "钉钉群通知",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkSendEmail-color",
+    "alias": [],
+    "title": "发送邮件",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkSendEnterpriseWeChatMsg-color",
+    "alias": [],
+    "title": "企业微信群通知",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkUpLoadFtpFile-color",
+    "alias": [
+      "RPANetworkUpLoadFtpFolder-color"
+    ],
+    "title": "FTP文件上传",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgramming_Sleep-color",
+    "alias": [],
+    "title": "等待",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPAProgramming-color",
     "alias": [],
     "title": "编程",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingAddRemark-color",
+    "alias": [],
+    "title": "添加备注说明",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingPrintLog-color",
+    "alias": [],
+    "title": "打印日志",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -1184,7 +1361,9 @@
   },
   {
     "name": "RPASystemFileMove-color",
-    "alias": [],
+    "alias": [
+      "RPAProgrammingExportLog-color"
+    ],
     "title": "移动文件",
     "category": "Other",
     "categoryCN": "其他",
