@@ -814,6 +814,15 @@
     "tag": []
   },
   {
+    "name": "RPADataForEachDictionary-color",
+    "alias": [],
+    "title": "ForEach字典循环",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPADataGetCurrentDateTime-color",
     "alias": [
       "RPADataTextToDateTime-color"
@@ -1881,7 +1890,8 @@
   {
     "name": "RPAWebAutomationGetAllElements-color",
     "alias": [
-      "RPAWinAutomationWinGetAllElements-color"
+      "RPAWinAutomationWinGetAllElements-color",
+      "RPAWinAutomationCycleWinSimilarElements-color"
     ],
     "title": "获取相似元素列表",
     "category": "Other",
