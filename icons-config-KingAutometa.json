@@ -693,6 +693,33 @@
     "tag": []
   },
   {
+    "name": "RPAAppIntegrationWordSetParagraphFormat-color",
+    "alias": [],
+    "title": "设置段落",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationWordSetSelection-color",
+    "alias": [],
+    "title": "选中内容",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationWriteExcelCell-color",
+    "alias": [],
+    "title": "写入单元格",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPAAppIntegrationWriteToExcel-color",
     "alias": [],
     "title": "写入内容至Excel工作表",
