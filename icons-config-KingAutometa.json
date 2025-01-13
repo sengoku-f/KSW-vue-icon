@@ -382,7 +382,9 @@
   },
   {
     "name": "RPAAppIntegrationCreatePivotTable-color",
-    "alias": [],
+    "alias": [
+      "RPAProgrammingCreatePivotTable-color"
+    ],
     "title": "新建数据透视表",
     "category": "Other",
     "categoryCN": "其他",
@@ -1644,7 +1646,126 @@
     "tag": []
   },
   {
+    "name": "RPAProgrammingConvertDataType-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingCreateDataTable-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingDeleteDuplicateRow-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingDeleteRowAndColData-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPAProgrammingEndTry-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingForEachRow-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingFreeDataTable-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingGetBusinessData-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingGetRowAndColCount-color",
+    "alias": [
+      "RPAProgrammingGetRowAndColNames-color"
+    ],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingHandleMissValue-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingInsertDataToTable-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingMergeDataTable-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingOutputDataRow-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingOutputDataTable-color",
     "alias": [],
     "title": "",
     "category": "Other",
@@ -1656,6 +1777,24 @@
     "name": "RPAProgrammingPrintLog-color",
     "alias": [],
     "title": "打印日志",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingReadDataFromTable-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingSetBusinessData-color",
+    "alias": [],
+    "title": "",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -1719,6 +1858,47 @@
     "name": "RPAProgrammingShowSelectFileDialog-color",
     "alias": [],
     "title": "打开选择文件对话框",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingSpliceColData-color",
+    "alias": [
+      "RPAProgrammingSortDataTable-color",
+      "RPAProgrammingColumnsOperation-color"
+    ],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingSummaryCalColumn-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingTerminateApp-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingWriteDataToTable-color",
+    "alias": [
+      "RPAProgrammingModiyRowAndColName-color"
+    ],
+    "title": "",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -1874,7 +2054,9 @@
   },
   {
     "name": "RPASystemFileWrite-color",
-    "alias": [],
+    "alias": [
+      "RPAProgrammingWriteDataToFile-color"
+    ],
     "title": "写入文件",
     "category": "Other",
     "categoryCN": "其他",
