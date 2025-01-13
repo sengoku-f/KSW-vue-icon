@@ -1267,6 +1267,18 @@
     ]
   },
   {
+    "name": "arrows-exchange",
+    "alias": [],
+    "title": "箭头交换",
+    "category": "Arrow direction",
+    "categoryCN": "箭头方向",
+    "author": "KSW",
+    "tag": [
+      "交换",
+      "转换"
+    ]
+  },
+  {
     "name": "backspace",
     "alias": [],
     "title": "",
