@@ -291,6 +291,15 @@
     "tag": []
   },
   {
+    "name": "RPAAIVideoToText-color",
+    "alias": [],
+    "title": "语音转文字",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPAAppIntegration-color",
     "alias": [],
     "title": "应用程序集成",
