@@ -31,7 +31,8 @@
     "preview": "vite preview",
     "lint": "vite lint",
     "clean-publish": "clean-publish",
-    "upv": "node ./gitHooks/updateVersion.js"
+    "upv": "node ./gitHooks/updateVersion.js",
+    "watch:icons": "chokidar 'src/svg/**/*' -c 'yarn build:icons:all'"
   },
   "peerDependencies": {
     "vue": "^3.4.21"
@@ -43,6 +44,7 @@
     "autoprefixer": "^10.4.19",
     "camelcase": "^8.0.0",
     "cheerio": "^1.0.0-rc.12",
+    "chokidar-cli": "^3.0.0",
     "clean-publish": "^4.4.0",
     "dotenv": "^16.4.5",
     "esbuild": "^0.23.1",
