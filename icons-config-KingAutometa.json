@@ -205,6 +205,15 @@
     "tag": []
   },
   {
+    "name": "RPAAppIntegrationCreateJsonObject-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPAAppIntegrationCreatePivotTable-color",
     "alias": [],
     "title": "新建数据透视表",
@@ -253,6 +262,15 @@
     "name": "RPAAppIntegrationDatabaseConnect-color",
     "alias": [],
     "title": "连接数据库",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationDeleteJsonNode-color",
+    "alias": [],
+    "title": "",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -322,6 +340,15 @@
     "tag": []
   },
   {
+    "name": "RPAAppIntegrationFreeJsonNode-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPAAppIntegrationGetActiveExcel-color",
     "alias": [],
     "title": "获取当前激活的Excel对象",
@@ -361,6 +388,37 @@
     "name": "RPAAppIntegrationGetFirstRowOnCol-color",
     "alias": [],
     "title": "获取列上第一个可用行",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationGetJsonArrayLength-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationGetJsonDataType-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationGetJsonValue-color",
+    "alias": [
+      "RPAAppIntegrationGetJsonArray-color",
+      "RPAAppIntegrationGetJsonObject-color",
+      "RPAAppIntegrationGetJsonAllKey-color"
+    ],
+    "title": "",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -439,6 +497,15 @@
     "tag": []
   },
   {
+    "name": "RPAAppIntegrationJsonToString-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPAAppIntegrationMergePDF-color",
     "alias": [],
     "title": "合并PDF文档",
@@ -460,6 +527,15 @@
     "name": "RPAAppIntegrationOpenSQL-color",
     "alias": [],
     "title": "查询SQL语句",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationParseJson-color",
+    "alias": [],
+    "title": "",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -621,9 +697,27 @@
     "tag": []
   },
   {
+    "name": "RPAAppIntegrationSaveJson-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPAAppIntegrationSaveWord-color",
     "alias": [],
     "title": "保存Word",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationSearchJsonNode-color",
+    "alias": [],
+    "title": "",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -660,6 +754,18 @@
     "name": "RPAAppIntegrationSetHidden-color",
     "alias": [],
     "title": "设置行列隐藏",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationSetJsonValue-color",
+    "alias": [
+      "RPAAppIntegrationSetJsonArray-color",
+      "RPAAppIntegrationSetJsonObject-color"
+    ],
+    "title": "",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
