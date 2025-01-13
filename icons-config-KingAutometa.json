@@ -124,6 +124,173 @@
     ]
   },
   {
+    "name": "RPAAIB_TextCensor-color",
+    "alias": [
+      "RPAAIB_ImageCensor-color"
+    ],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAIBillIdentify-color",
+    "alias": [
+      "RPAAITableIdentify-color",
+      "RPAAITextIdentify-color",
+      "RPAAIIdCardIdentify-color",
+      "RPAAIBankReceiptIdentify-color",
+      "RPAAICardCertificateIdentify-color",
+      "RPAAIOcrIdentify-color"
+    ],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAIBodyPointIdentify-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAICaptcha_ChaoJiYing-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAICaptcha_Fateadm-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAIDetectAction-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAIFaceIdentify-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAIKRPA_BaiduChat-color",
+    "alias": [
+      "RPAAIKRPA_BaiduChatPrompt-color"
+    ],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAIKRPA_Detect-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAIKRPA_Emotion-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAIKRPA_ImgVerify-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAIKRPA_PosTag-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAIKRPA_Semantic-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAIKRPA_Trans-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAIKRPA_VerificationCode-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAIKRPA_WordSeg-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAIKRPAChatCompletions-color",
+    "alias": [
+      "RPAAIKRPAImgCompletions-color",
+      "RPAAIKRPAAudioCompletions-color"
+    ],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPAAppIntegration-color",
     "alias": [],
     "title": "应用程序集成",
@@ -809,7 +976,9 @@
   },
   {
     "name": "RPAAppIntegrationWordSetSelection-color",
-    "alias": [],
+    "alias": [
+      "RPAAIKRPA_Entity-color"
+    ],
     "title": "选中内容",
     "category": "Other",
     "categoryCN": "其他",
@@ -896,6 +1065,15 @@
       "RPADataRemoveItem-color"
     ],
     "title": "清空列表",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataCopy-color",
+    "alias": [],
+    "title": "拷贝",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -1403,9 +1581,36 @@
     "tag": []
   },
   {
+    "name": "RPAProgramming_Finally-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgramming_Raise-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPAProgramming_Sleep-color",
     "alias": [],
     "title": "等待",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgramming_Try-color",
+    "alias": [],
+    "title": "",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -1424,6 +1629,24 @@
     "name": "RPAProgrammingAddRemark-color",
     "alias": [],
     "title": "添加备注说明",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingCatch-color",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingEndTry-color",
+    "alias": [],
+    "title": "",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
