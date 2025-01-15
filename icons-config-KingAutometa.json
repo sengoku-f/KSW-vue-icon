@@ -124,6 +124,15 @@
     ]
   },
   {
+    "name": "RPAAI-color",
+    "alias": [],
+    "title": "人工智能",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPAAIB_TextCensor-color",
     "alias": [
       "RPAAIB_ImageCensor-color"
@@ -1424,6 +1433,15 @@
     "tag": []
   },
   {
+    "name": "RPAFlow-color",
+    "alias": [],
+    "title": "流程/应用",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPAMouseKeyboard-color",
     "alias": [],
     "title": "鼠标键盘",
@@ -1433,7 +1451,7 @@
     "tag": []
   },
   {
-    "name": "RPANetwor-color",
+    "name": "RPANetwork-color",
     "alias": [],
     "title": "网络",
     "category": "Other",
@@ -1586,6 +1604,15 @@
       "RPANetworkUpLoadFtpFolder-color"
     ],
     "title": "FTP文件上传",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgramming_Exit-color",
+    "alias": [],
+    "title": "退出当前流程",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -1750,6 +1777,15 @@
     "name": "RPAProgrammingInsertDataToTable-color",
     "alias": [],
     "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingInvokeSubScript-color",
+    "alias": [],
+    "title": "调用流程",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
