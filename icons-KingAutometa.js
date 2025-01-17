@@ -3642,6 +3642,20 @@ export const iconsDataKingAutometa = [
   },
   {
     id: 257,
+    name: "RPAWebAutomation-color",
+    alias: [],
+    componentName: "IconRPAWebAutomationColor",
+    componentAlias: [],
+    title: "网页自动化",
+    category: "Other",
+    categoryCN: "其他",
+    author: "KSW",
+    tag: [],
+    projectName: "KingAutometa",
+    modifiedTime: "2025-01-17T07:23:06.868Z",
+  },
+  {
+    id: 258,
     name: "RPAWebAutomationAutoHandleBox-color",
     alias: [],
     componentName: "IconRPAWebAutomationAutoHandleBoxColor",
@@ -3655,7 +3669,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T06:14:28.000Z",
   },
   {
-    id: 258,
+    id: 259,
     name: "RPAWebAutomationBatchDataScraping-color",
     alias: [],
     componentName: "IconRPAWebAutomationBatchDataScrapingColor",
@@ -3669,7 +3683,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-17T13:35:25.877Z",
   },
   {
-    id: 259,
+    id: 260,
     name: "RPAWebAutomationCloseWeb-color",
     alias: ["RPAWinAutomationCloseeWindow-color"],
     componentName: "IconRPAWebAutomationCloseWebColor",
@@ -3683,7 +3697,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-19T08:14:11.705Z",
   },
   {
-    id: 260,
+    id: 261,
     name: "RPAWebAutomationCookie-color",
     alias: [
       "RPAWebAutomationSetCookie-color",
@@ -3707,7 +3721,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-19T08:17:20.383Z",
   },
   {
-    id: 261,
+    id: 262,
     name: "RPAWebAutomationDownLoadFile-color",
     alias: [],
     componentName: "IconRPAWebAutomationDownLoadFileColor",
@@ -3721,7 +3735,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-18T07:21:35.323Z",
   },
   {
-    id: 262,
+    id: 263,
     name: "RPAWebAutomationElementClick-color",
     alias: ["RPAWinAutomationWinClickElement-color"],
     componentName: "IconRPAWebAutomationElementClickColor",
@@ -3735,7 +3749,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T06:13:56.000Z",
   },
   {
-    id: 263,
+    id: 264,
     name: "RPAWebAutomationElementInput-color",
     alias: ["RPAWinAutomationWinElementInput-color"],
     componentName: "IconRPAWebAutomationElementInputColor",
@@ -3749,7 +3763,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T06:13:56.000Z",
   },
   {
-    id: 264,
+    id: 265,
     name: "RPAWebAutomationExecJsScript-color",
     alias: [],
     componentName: "IconRPAWebAutomationExecJsScriptColor",
@@ -3763,7 +3777,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T06:14:28.000Z",
   },
   {
-    id: 265,
+    id: 266,
     name: "RPAWebAutomationForwardNewWeb-color",
     alias: [],
     componentName: "IconRPAWebAutomationForwardNewWebColor",
@@ -3777,7 +3791,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T06:14:28.000Z",
   },
   {
-    id: 266,
+    id: 267,
     name: "RPAWebAutomationGetAllElements-color",
     alias: [
       "RPAWinAutomationWinGetAllElements-color",
@@ -3797,7 +3811,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-17T03:24:17.483Z",
   },
   {
-    id: 267,
+    id: 268,
     name: "RPAWebAutomationGetAssnElement-color",
     alias: ["RPAWinAutomationWinGetAssnElement-color"],
     componentName: "IconRPAWebAutomationGetAssnElementColor",
@@ -3811,7 +3825,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-17T02:56:39.045Z",
   },
   {
-    id: 268,
+    id: 269,
     name: "RPAWebAutomationGetElementInfo-color",
     alias: ["RPAWinAutomationGetWinElementInfo-color"],
     componentName: "IconRPAWebAutomationGetElementInfoColor",
@@ -3825,7 +3839,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-17T12:29:52.879Z",
   },
   {
-    id: 269,
+    id: 270,
     name: "RPAWebAutomationGetElementObj-color",
     alias: ["RPAWinAutomationWinGetElementObj-color"],
     componentName: "IconRPAWebAutomationGetElementObjColor",
@@ -3839,7 +3853,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-17T02:38:48.901Z",
   },
   {
-    id: 270,
+    id: 271,
     name: "RPAWebAutomationGetWebBoxContent-color",
     alias: ["RPAWebAutomationHandleWebBox-color"],
     componentName: "IconRPAWebAutomationGetWebBoxContentColor",
@@ -3853,7 +3867,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-17T13:00:35.327Z",
   },
   {
-    id: 271,
+    id: 272,
     name: "RPAWebAutomationGetWebInfo-color",
     alias: [],
     componentName: "IconRPAWebAutomationGetWebInfoColor",
@@ -3867,7 +3881,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-17T12:42:44.717Z",
   },
   {
-    id: 272,
+    id: 273,
     name: "RPAWebAutomationGetWebListenRest-color",
     alias: [],
     componentName: "IconRPAWebAutomationGetWebListenRestColor",
@@ -3881,7 +3895,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-17T13:27:50.234Z",
   },
   {
-    id: 273,
+    id: 274,
     name: "RPAWebAutomationGetWebObj-color",
     alias: ["RPAWebAutomationGetWebObjList-color"],
     componentName: "IconRPAWebAutomationGetWebObjColor",
@@ -3895,7 +3909,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T06:13:56.000Z",
   },
   {
-    id: 274,
+    id: 275,
     name: "RPAWebAutomationHandleDownLoadBox-color",
     alias: [],
     componentName: "IconRPAWebAutomationHandleDownLoadBoxColor",
@@ -3909,7 +3923,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-18T07:19:49.280Z",
   },
   {
-    id: 275,
+    id: 276,
     name: "RPAWebAutomationHandleUpLoadBox-color",
     alias: [],
     componentName: "IconRPAWebAutomationHandleUpLoadBoxColor",
@@ -3923,7 +3937,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-18T07:19:51.332Z",
   },
   {
-    id: 276,
+    id: 277,
     name: "RPAWebAutomationHoverElement-color",
     alias: ["RPAWinAutomationWinHoverElement-color"],
     componentName: "IconRPAWebAutomationHoverElementColor",
@@ -3937,7 +3951,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T06:13:56.000Z",
   },
   {
-    id: 277,
+    id: 278,
     name: "RPAWebAutomationListenWebRequest-color",
     alias: [],
     componentName: "IconRPAWebAutomationListenWebRequestColor",
@@ -3951,7 +3965,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-17T13:27:48.349Z",
   },
   {
-    id: 278,
+    id: 279,
     name: "RPAWebAutomationMouseRollWeb-color",
     alias: [
       "RPAWebAutomationDragToElement-color",
@@ -3975,7 +3989,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T06:14:28.000Z",
   },
   {
-    id: 279,
+    id: 280,
     name: "RPAWebAutomationSetCheckBox-color",
     alias: ["RPAWinAutomationWinSetCheckBox-color"],
     componentName: "IconRPAWebAutomationSetCheckBoxColor",
@@ -3989,7 +4003,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T10:20:29.744Z",
   },
   {
-    id: 280,
+    id: 281,
     name: "RPAWebAutomationSetElementAtt-color",
     alias: [],
     componentName: "IconRPAWebAutomationSetElementAttColor",
@@ -4003,7 +4017,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-17T02:38:44.396Z",
   },
   {
-    id: 281,
+    id: 282,
     name: "RPAWebAutomationSetElementValue-color",
     alias: ["RPAWinAutomationWinSetElementValue-color"],
     componentName: "IconRPAWebAutomationSetElementValueColor",
@@ -4017,7 +4031,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-17T09:27:45.647Z",
   },
   {
-    id: 282,
+    id: 283,
     name: "RPAWebAutomationSetSelectInput-color",
     alias: [
       "RPAWebAutomationGetSelectOption-color",
@@ -4039,7 +4053,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T07:05:32.000Z",
   },
   {
-    id: 283,
+    id: 284,
     name: "RPAWebAutomationStopWebListen-color",
     alias: [],
     componentName: "IconRPAWebAutomationStopWebListenColor",
@@ -4053,7 +4067,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-17T13:27:52.493Z",
   },
   {
-    id: 284,
+    id: 285,
     name: "RPAWebAutomationStopWebLoad-color",
     alias: [],
     componentName: "IconRPAWebAutomationStopWebLoadColor",
@@ -4067,7 +4081,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T06:14:28.000Z",
   },
   {
-    id: 285,
+    id: 286,
     name: "RPAWebAutomationUpLoadFile-color",
     alias: [],
     componentName: "IconRPAWebAutomationUpLoadFileColor",
@@ -4081,7 +4095,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-18T07:21:32.183Z",
   },
   {
-    id: 286,
+    id: 287,
     name: "RPAWebAutomationWaitLoadCompleted-color",
     alias: [
       "RPAWebAutomationWaitElement-color",
@@ -4101,7 +4115,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T06:14:28.000Z",
   },
   {
-    id: 287,
+    id: 288,
     name: "RPAWebAutomationWebOpen-color",
     alias: [],
     componentName: "IconRPAWebAutomationWebOpenColor",
@@ -4115,7 +4129,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-19T08:14:14.256Z",
   },
   {
-    id: 288,
+    id: 289,
     name: "RPAWebAutomationWebScrnShot-color",
     alias: ["RPAWinAutomationElementScreenshot-color"],
     componentName: "IconRPAWebAutomationWebScrnShotColor",
@@ -4129,7 +4143,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-17T10:09:45.762Z",
   },
   {
-    id: 289,
+    id: 290,
     name: "RPAWebAutomationWritePassInput-color",
     alias: ["RPAWinAutomationWinWritePassInput-color"],
     componentName: "IconRPAWebAutomationWritePassInputColor",
@@ -4143,7 +4157,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T07:05:32.000Z",
   },
   {
-    id: 290,
+    id: 291,
     name: "RPAWinAutomation-color",
     alias: [],
     componentName: "IconRPAWinAutomationColor",
@@ -4157,7 +4171,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-18T07:51:11.671Z",
   },
   {
-    id: 291,
+    id: 292,
     name: "RPAWinAutomationActivateWindow-color",
     alias: [],
     componentName: "IconRPAWinAutomationActivateWindowColor",
@@ -4171,7 +4185,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-18T09:05:11.629Z",
   },
   {
-    id: 292,
+    id: 293,
     name: "RPAWinAutomationGetDetails-color",
     alias: [],
     componentName: "IconRPAWinAutomationGetDetailsColor",
@@ -4185,7 +4199,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-18T08:52:45.753Z",
   },
   {
-    id: 293,
+    id: 294,
     name: "RPAWinAutomationGetSelectedText-color",
     alias: [],
     componentName: "IconRPAWinAutomationGetSelectedTextColor",
@@ -4199,7 +4213,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2025-01-12T09:44:07.104Z",
   },
   {
-    id: 294,
+    id: 295,
     name: "RPAWinAutomationGetWinObject-color",
     alias: [],
     componentName: "IconRPAWinAutomationGetWinObjectColor",
@@ -4213,7 +4227,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-18T08:48:55.154Z",
   },
   {
-    id: 295,
+    id: 296,
     name: "RPAWinAutomationGetWinObjList-color",
     alias: [],
     componentName: "IconRPAWinAutomationGetWinObjListColor",
@@ -4227,7 +4241,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-18T12:42:38.535Z",
   },
   {
-    id: 296,
+    id: 297,
     name: "RPAWinAutomationResizeWindow-color",
     alias: [],
     componentName: "IconRPAWinAutomationResizeWindowColor",
@@ -4241,7 +4255,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-18T12:08:30.219Z",
   },
   {
-    id: 297,
+    id: 298,
     name: "RPAWinAutomationSap-color",
     alias: [
       "RPAWinAutomationSapStart-color",
@@ -4281,7 +4295,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2025-01-12T09:46:43.581Z",
   },
   {
-    id: 298,
+    id: 299,
     name: "RPAWinAutomationSetVisibility-color",
     alias: [],
     componentName: "IconRPAWinAutomationSetVisibilityColor",
@@ -4295,7 +4309,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-18T09:53:04.453Z",
   },
   {
-    id: 299,
+    id: 300,
     name: "RPAWinAutomationSetWinState-color",
     alias: [],
     componentName: "IconRPAWinAutomationSetWinStateColor",
@@ -4309,7 +4323,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-18T08:49:02.661Z",
   },
   {
-    id: 300,
+    id: 301,
     name: "RPAWorkflowBreak-color",
     alias: [],
     componentName: "IconRPAWorkflowBreakColor",
@@ -4323,7 +4337,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T06:13:36.000Z",
   },
   {
-    id: 301,
+    id: 302,
     name: "RPAWorkflowContinue-color",
     alias: [],
     componentName: "IconRPAWorkflowContinueColor",
@@ -4337,7 +4351,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T06:13:36.000Z",
   },
   {
-    id: 302,
+    id: 303,
     name: "RPAWorkflowElse-color",
     alias: [],
     componentName: "IconRPAWorkflowElseColor",
@@ -4351,7 +4365,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T10:28:47.750Z",
   },
   {
-    id: 303,
+    id: 304,
     name: "RPAWorkflowElseIf-color",
     alias: ["RPAWorkflowElseIfTest-color"],
     componentName: "IconRPAWorkflowElseIfColor",
@@ -4365,7 +4379,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T09:47:40.549Z",
   },
   {
-    id: 304,
+    id: 305,
     name: "RPAWorkflowEndIf-color",
     alias: [],
     componentName: "IconRPAWorkflowEndIfColor",
@@ -4379,7 +4393,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T10:28:49.862Z",
   },
   {
-    id: 305,
+    id: 306,
     name: "RPAWorkflowEndLoop-color",
     alias: [],
     componentName: "IconRPAWorkflowEndLoopColor",
@@ -4393,7 +4407,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T06:13:36.000Z",
   },
   {
-    id: 306,
+    id: 307,
     name: "RPAWorkflowFor-color",
     alias: [],
     componentName: "IconRPAWorkflowForColor",
@@ -4407,7 +4421,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T06:13:36.000Z",
   },
   {
-    id: 307,
+    id: 308,
     name: "RPAWorkflowForEachIterator-color",
     alias: [],
     componentName: "IconRPAWorkflowForEachIteratorColor",
@@ -4421,7 +4435,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T06:13:36.000Z",
   },
   {
-    id: 308,
+    id: 309,
     name: "RPAWorkflowForIterator-color",
     alias: [],
     componentName: "IconRPAWorkflowForIteratorColor",
@@ -4435,7 +4449,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T07:03:58.079Z",
   },
   {
-    id: 309,
+    id: 310,
     name: "RPAWorkflowIf-color",
     alias: ["RPAWorkflowTest-color"],
     componentName: "IconRPAWorkflowIfColor",
@@ -4449,7 +4463,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T06:12:30.000Z",
   },
   {
-    id: 310,
+    id: 311,
     name: "RPAWorkflowIfFileExists-color",
     alias: [],
     componentName: "IconRPAWorkflowIfFileExistsColor",
@@ -4463,7 +4477,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T06:12:30.000Z",
   },
   {
-    id: 311,
+    id: 312,
     name: "RPAWorkflowIfFolderExists-color",
     alias: [],
     componentName: "IconRPAWorkflowIfFolderExistsColor",
@@ -4477,7 +4491,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T06:12:30.000Z",
   },
   {
-    id: 312,
+    id: 313,
     name: "RPAWorkflowIfHTMLContain-color",
     alias: [
       "RPAWorkflowIfHTMLVisible-color",
@@ -4499,7 +4513,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2025-01-12T09:01:39.543Z",
   },
   {
-    id: 313,
+    id: 314,
     name: "RPAWorkflowIfTextExists-color",
     alias: [],
     componentName: "IconRPAWorkflowIfTextExistsColor",
@@ -4513,7 +4527,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2025-01-12T09:29:11.871Z",
   },
   {
-    id: 314,
+    id: 315,
     name: "RPAWorkflowWhile-color",
     alias: [],
     componentName: "IconRPAWorkflowWhileColor",
@@ -4527,7 +4541,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T06:13:36.000Z",
   },
   {
-    id: 315,
+    id: 316,
     name: "RPAWorkflowWhileTrue-color",
     alias: [],
     componentName: "IconRPAWorkflowWhileTrueColor",
@@ -4541,7 +4555,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-12-13T06:13:36.000Z",
   },
   {
-    id: 316,
+    id: 317,
     name: "send",
     alias: [],
     componentName: "IconSend",
@@ -4555,7 +4569,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-11-15T12:23:43.032Z",
   },
   {
-    id: 317,
+    id: 318,
     name: "setting-box",
     alias: [],
     componentName: "IconSettingBox",
@@ -4569,7 +4583,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-11-15T12:23:43.032Z",
   },
   {
-    id: 318,
+    id: 319,
     name: "template-color",
     alias: [],
     componentName: "IconTemplateColor",
@@ -4583,7 +4597,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-11-15T12:23:43.032Z",
   },
   {
-    id: 319,
+    id: 320,
     name: "turn-to-left",
     alias: [],
     componentName: "IconTurnToLeft",
@@ -4597,7 +4611,7 @@ export const iconsDataKingAutometa = [
     modifiedTime: "2024-11-15T12:23:43.032Z",
   },
   {
-    id: 320,
+    id: 321,
     name: "turn-to-right",
     alias: [],
     componentName: "IconTurnToRight",

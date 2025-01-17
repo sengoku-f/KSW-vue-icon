@@ -2397,6 +2397,15 @@
     "tag": []
   },
   {
+    "name": "RPAWebAutomation-color",
+    "alias": [],
+    "title": "网页自动化",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPAWebAutomationAutoHandleBox-color",
     "alias": [],
     "title": "自动处理弹框",
