@@ -13,6 +13,24 @@
     ]
   },
   {
+    "name": "alarm-clock",
+    "alias": [],
+    "title": "闹钟",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "alarm-clock-color",
+    "alias": [],
+    "title": "闹钟-颜色",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "aom-menu-AOMRZ-color",
     "alias": [],
     "title": "AOM日志",
@@ -1811,6 +1829,24 @@
     ]
   },
   {
+    "name": "enter-key",
+    "alias": [],
+    "title": "回车键",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "enter-key-color",
+    "alias": [],
+    "title": "回车键-颜色",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "fall",
     "alias": [],
     "title": "秋天",
@@ -2206,6 +2242,24 @@
     ]
   },
   {
+    "name": "folder-flash",
+    "alias": [],
+    "title": "文件夹闪存",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "folder-flash-color",
+    "alias": [],
+    "title": "文件夹闪存-颜色",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "folder-open",
     "alias": [],
     "title": "打开文件夹",
@@ -2517,6 +2571,24 @@
       "注销",
       "离开"
     ]
+  },
+  {
+    "name": "mail",
+    "alias": [],
+    "title": "邮件",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "mail-color",
+    "alias": [],
+    "title": "邮件颜色",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "medal-1",
@@ -3823,6 +3895,24 @@
     "name": "version-color",
     "alias": [],
     "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "video",
+    "alias": [],
+    "title": "视频",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "video-color",
+    "alias": [],
+    "title": "视频-颜色",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
