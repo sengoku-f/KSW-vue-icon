@@ -22,6 +22,15 @@
     "tag": []
   },
   {
+    "name": "alarm-clock-2-color",
+    "alias": [],
+    "title": "闹钟2",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "alarm-clock-color",
     "alias": [],
     "title": "闹钟-颜色",
@@ -1888,6 +1897,15 @@
     ]
   },
   {
+    "name": "file-flash-color",
+    "alias": [],
+    "title": "文件闪存-彩色",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "file-starred-color",
     "alias": [],
     "title": "星标文件",
@@ -2253,7 +2271,7 @@
   {
     "name": "folder-flash-color",
     "alias": [],
-    "title": "文件夹闪存-颜色",
+    "title": "文件夹闪存-彩色",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
@@ -2453,6 +2471,24 @@
     "tag": []
   },
   {
+    "name": "keyboard",
+    "alias": [],
+    "title": "键盘",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "keyboard-color",
+    "alias": [],
+    "title": "键盘-彩色",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "left-menu-display",
     "alias": [],
     "title": "左侧菜单显示",
@@ -2582,9 +2618,18 @@
     "tag": []
   },
   {
+    "name": "mail-2-color",
+    "alias": [],
+    "title": "邮件2-彩色",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "mail-color",
     "alias": [],
-    "title": "邮件颜色",
+    "title": "邮件-彩色",
     "category": "Other",
     "categoryCN": "其他",
     "author": "KSW",
