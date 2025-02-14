@@ -2768,6 +2768,18 @@
     ]
   },
   {
+    "name": "paper-airplane",
+    "alias": [],
+    "title": "纸飞机",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": [
+      "纸飞机",
+      "发送"
+    ]
+  },
+  {
     "name": "patch-color",
     "alias": [],
     "title": "补丁颜色",
