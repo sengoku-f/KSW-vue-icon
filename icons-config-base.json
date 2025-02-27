@@ -1824,6 +1824,24 @@
     ]
   },
   {
+    "name": "ellipsis-horizontal",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "ellipsis-vertical",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "EmptyBox",
     "alias": [],
     "title": "空盒子",
@@ -2335,6 +2353,24 @@
       "国际",
       "服务"
     ]
+  },
+  {
+    "name": "grip-horizontal",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "grip-vertical",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "hard-drive-color",
