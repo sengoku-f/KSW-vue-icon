@@ -1204,6 +1204,15 @@
     ]
   },
   {
+    "name": "arrow-down",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "arrow-forward-up",
     "alias": [],
     "title": "",
@@ -1277,6 +1286,15 @@
       "向上",
       "方向"
     ]
+  },
+  {
+    "name": "arrow-up",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "arrow-up-right",
@@ -1774,6 +1792,15 @@
       "颜色",
       "工具"
     ]
+  },
+  {
+    "name": "down",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "down-c",
@@ -2525,6 +2552,15 @@
     "tag": []
   },
   {
+    "name": "left",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "left-menu-display",
     "alias": [],
     "title": "左侧菜单显示",
@@ -3077,6 +3113,15 @@
     ]
   },
   {
+    "name": "pointer",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "portfolio",
     "alias": [],
     "title": "投资组合",
@@ -3089,6 +3134,15 @@
       "金融",
       "管理"
     ]
+  },
+  {
+    "name": "progress-bolt",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "project-logo-gf-color",
@@ -3197,6 +3251,15 @@
       "恢复",
       "初始化"
     ]
+  },
+  {
+    "name": "right",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "rise",
@@ -3932,6 +3995,15 @@
       "箭头",
       "方向"
     ]
+  },
+  {
+    "name": "up",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "upload",
