@@ -3403,6 +3403,15 @@
     ]
   },
   {
+    "name": "sitemap",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "size-controls",
     "alias": [],
     "title": "大小控制",
