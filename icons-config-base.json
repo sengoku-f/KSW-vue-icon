@@ -1731,6 +1731,15 @@
     ]
   },
   {
+    "name": "cursor",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "cursor-pointer",
     "alias": [],
     "title": "光标指针",
@@ -2400,6 +2409,15 @@
     "tag": []
   },
   {
+    "name": "hand-stop",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "hard-drive-color",
     "alias": [],
     "title": "彩色硬盘",
@@ -2805,6 +2823,15 @@
       "通知",
       "提醒"
     ]
+  },
+  {
+    "name": "minus",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "mode-expression",
@@ -3993,6 +4020,24 @@
     ]
   },
   {
+    "name": "turn-to-left",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "turn-to-right",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "unfold",
     "alias": [],
     "title": "展开",
@@ -4171,5 +4216,23 @@
       "注意",
       "危险"
     ]
+  },
+  {
+    "name": "zoom-in",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "zoom-out",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
   }
 ]

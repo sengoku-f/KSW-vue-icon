@@ -3042,32 +3042,5 @@
       "颜色",
       "设计"
     ]
-  },
-  {
-    "name": "turn-to-left",
-    "alias": [],
-    "title": "左转",
-    "category": "Other",
-    "categoryCN": "其他",
-    "author": "KSW",
-    "tag": [
-      "方向",
-      "箭头",
-      "导航",
-      "左转"
-    ]
-  },
-  {
-    "name": "turn-to-right",
-    "alias": [],
-    "title": "右转",
-    "category": "Other",
-    "categoryCN": "其他",
-    "author": "KSW",
-    "tag": [
-      "方向",
-      "箭头",
-      "右转"
-    ]
   }
 ]
