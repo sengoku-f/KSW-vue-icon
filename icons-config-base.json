@@ -3,8 +3,8 @@
     "name": "add",
     "alias": [],
     "title": "添加",
-    "category": "Character",
-    "categoryCN": "符号标识",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "新建",
@@ -16,8 +16,8 @@
     "name": "alarm-clock",
     "alias": [],
     "title": "闹钟",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -25,8 +25,8 @@
     "name": "alarm-clock-2-color",
     "alias": [],
     "title": "闹钟2",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -34,8 +34,8 @@
     "name": "alarm-clock-color",
     "alias": [],
     "title": "闹钟-颜色",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -43,8 +43,8 @@
     "name": "aom-menu-AOMRZ-color",
     "alias": [],
     "title": "AOM日志",
-    "category": "AOM Menu",
-    "categoryCN": "AOM 菜单",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "AOM",
@@ -55,8 +55,8 @@
     "name": "aom-menu-BBCX-color",
     "alias": [],
     "title": "报表查询",
-    "category": "AOM Menu",
-    "categoryCN": "AOM 菜单",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "AOM",
@@ -67,8 +67,8 @@
     "name": "aom-menu-BBSH-color",
     "alias": [],
     "title": "菜单按钮颜色",
-    "category": "UI",
-    "categoryCN": "用户界面元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -81,8 +81,8 @@
     "name": "aom-menu-BBSJ-color",
     "alias": [],
     "title": "菜单",
-    "category": "Menu",
-    "categoryCN": "菜单",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -94,8 +94,8 @@
     "name": "aom-menu-BBYL-color",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -103,8 +103,8 @@
     "name": "aom-menu-BCLLPZ-color",
     "alias": [],
     "title": "菜单图标",
-    "category": "UI",
-    "categoryCN": "用户界面元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -116,8 +116,8 @@
     "name": "aom-menu-BCZXKanban-color",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -125,8 +125,8 @@
     "name": "aom-menu-BDCK-color",
     "alias": [],
     "title": "菜单工具颜色",
-    "category": "Tools",
-    "categoryCN": "工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -138,8 +138,8 @@
     "name": "aom-menu-BDGL-color",
     "alias": [],
     "title": "菜单选项颜色",
-    "category": "UI",
-    "categoryCN": "用户界面元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -152,8 +152,8 @@
     "name": "aom-menu-BDKanban-color",
     "alias": [],
     "title": "自动化菜单",
-    "category": "Automation",
-    "categoryCN": "自动化工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "自动化",
@@ -166,8 +166,8 @@
     "name": "aom-menu-CJCL-color",
     "alias": [],
     "title": "菜单颜色选择器",
-    "category": "UI",
-    "categoryCN": "用户界面元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -179,8 +179,8 @@
     "name": "aom-menu-CKGL-color",
     "alias": [],
     "title": "代码菜单",
-    "category": "Development",
-    "categoryCN": "开发工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "代码",
@@ -194,8 +194,8 @@
     "name": "aom-menu-CLJL-color",
     "alias": [],
     "title": "菜单列表颜色",
-    "category": "UI",
-    "categoryCN": "用户界面元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -208,8 +208,8 @@
     "name": "aom-menu-CZRZ-color",
     "alias": [],
     "title": "菜单颜色设置",
-    "category": "User",
-    "categoryCN": "用户界面",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -222,8 +222,8 @@
     "name": "aom-menu-default-color",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -231,8 +231,8 @@
     "name": "aom-menu-DLDGL-color",
     "alias": [],
     "title": "菜单选项颜色",
-    "category": "UI",
-    "categoryCN": "用户界面元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -244,8 +244,8 @@
     "name": "aom-menu-DLDSJ-color",
     "alias": [],
     "title": "自动化菜单",
-    "category": "Automation",
-    "categoryCN": "自动化工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "自动化",
@@ -258,8 +258,8 @@
     "name": "aom-menu-DLDXC-color",
     "alias": [],
     "title": "菜单选项颜色",
-    "category": "User",
-    "categoryCN": "用户界面",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -272,8 +272,8 @@
     "name": "aom-menu-DLDXX-color",
     "alias": [],
     "title": "奥姆菜单",
-    "category": "Menu",
-    "categoryCN": "菜单图标",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -285,8 +285,8 @@
     "name": "aom-menu-DLDXZ-color",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -294,8 +294,8 @@
     "name": "aom-menu-DPGL-color",
     "alias": [],
     "title": "大屏管理",
-    "category": "AOM Menu",
-    "categoryCN": "AOM 菜单",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "AOM",
@@ -307,8 +307,8 @@
     "name": "aom-menu-DPYL-color",
     "alias": [],
     "title": "大屏预览",
-    "category": "AOM Menu",
-    "categoryCN": "AOM 菜单",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "AOM",
@@ -321,8 +321,8 @@
     "name": "aom-menu-DXSZ-color",
     "alias": [],
     "title": "菜单设置颜色",
-    "category": "Menu",
-    "categoryCN": "菜单配置",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -334,8 +334,8 @@
     "name": "aom-menu-DYGX-color",
     "alias": [],
     "title": "菜单选项",
-    "category": "Navigation",
-    "categoryCN": "导航",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -348,8 +348,8 @@
     "name": "aom-menu-FFQDJ-color",
     "alias": [],
     "title": "奥姆菜单",
-    "category": "Menu",
-    "categoryCN": "菜单图标",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -361,8 +361,8 @@
     "name": "aom-menu-FFQSL-color",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -370,8 +370,8 @@
     "name": "aom-menu-FPGL-color",
     "alias": [],
     "title": "分屏管理",
-    "category": "AOM Menu",
-    "categoryCN": "AOM 菜单",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "AOM",
@@ -384,8 +384,8 @@
     "name": "aom-menu-FWQPZ-color",
     "alias": [],
     "title": "自动化菜单配置",
-    "category": "Automation",
-    "categoryCN": "自动化工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "自动化",
@@ -398,8 +398,8 @@
     "name": "aom-menu-FWQXX-color",
     "alias": [],
     "title": "服务器菜单",
-    "category": "Server",
-    "categoryCN": "服务器管理",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "服务器",
@@ -412,8 +412,8 @@
     "name": "aom-menu-GLST-color",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -421,8 +421,8 @@
     "name": "aom-menu-GNHS-color",
     "alias": [],
     "title": "奥姆菜单",
-    "category": "Menu",
-    "categoryCN": "菜单图标",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -435,8 +435,8 @@
     "name": "aom-menu-GRBL-color",
     "alias": [],
     "title": "奥姆菜单GRBL颜色",
-    "category": "Software",
-    "categoryCN": "软件工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "奥姆",
@@ -449,8 +449,8 @@
     "name": "aom-menu-HSZ-color",
     "alias": [],
     "title": "菜单选项",
-    "category": "Menu",
-    "categoryCN": "菜单选项",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -462,8 +462,8 @@
     "name": "aom-menu-JBGL-color",
     "alias": [],
     "title": "菜单管理",
-    "category": "Menu",
-    "categoryCN": "菜单管理",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -475,8 +475,8 @@
     "name": "aom-menu-JBKanban-color",
     "alias": [],
     "title": "AOM菜单",
-    "category": "UI",
-    "categoryCN": "用户界面元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -488,8 +488,8 @@
     "name": "aom-menu-JBRZ-color",
     "alias": [],
     "title": "菜单选项",
-    "category": "User",
-    "categoryCN": "用户界面",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -501,8 +501,8 @@
     "name": "aom-menu-JBSM-color",
     "alias": [],
     "title": "菜单栏颜色",
-    "category": "UI",
-    "categoryCN": "用户界面元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -514,8 +514,8 @@
     "name": "aom-menu-JCYWPTKanban-color",
     "alias": [],
     "title": "菜单",
-    "category": "UI",
-    "categoryCN": "用户界面元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -527,8 +527,8 @@
     "name": "aom-menu-JGCL-color",
     "alias": [],
     "title": "菜单颜色选择器",
-    "category": "UI",
-    "categoryCN": "用户界面元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -540,8 +540,8 @@
     "name": "aom-menu-JQFA-color",
     "alias": [],
     "title": "菜单颜色",
-    "category": "UI",
-    "categoryCN": "用户界面元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -553,8 +553,8 @@
     "name": "aom-menu-JRLC-color",
     "alias": [],
     "title": "菜单选项颜色",
-    "category": "User",
-    "categoryCN": "用户界面",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -566,8 +566,8 @@
     "name": "aom-menu-JXCX-color",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -575,8 +575,8 @@
     "name": "aom-menu-JXLL-color",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -584,8 +584,8 @@
     "name": "aom-menu-JXPZ-color",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -593,8 +593,8 @@
     "name": "aom-menu-JXSH-color",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -602,8 +602,8 @@
     "name": "aom-menu-JZGL-color",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -611,8 +611,8 @@
     "name": "aom-menu-JZJK-color",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -620,8 +620,8 @@
     "name": "aom-menu-KZTGL-color",
     "alias": [],
     "title": "奥姆菜单",
-    "category": "Menu",
-    "categoryCN": "菜单工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -634,8 +634,8 @@
     "name": "aom-menu-LCCK-color",
     "alias": [],
     "title": "菜单选项颜色",
-    "category": "User",
-    "categoryCN": "用户界面",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -647,8 +647,8 @@
     "name": "aom-menu-LCJG-color",
     "alias": [],
     "title": "菜单图标",
-    "category": "UI",
-    "categoryCN": "用户界面元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -660,8 +660,8 @@
     "name": "aom-menu-LCKanban-color",
     "alias": [],
     "title": "菜单",
-    "category": "UI",
-    "categoryCN": "用户界面元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -673,8 +673,8 @@
     "name": "aom-menu-LCMB-color",
     "alias": [],
     "title": "菜单图标",
-    "category": "UI",
-    "categoryCN": "用户界面元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -686,8 +686,8 @@
     "name": "aom-menu-LCSH-color",
     "alias": [],
     "title": "菜单选项",
-    "category": "Navigation",
-    "categoryCN": "导航",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -699,8 +699,8 @@
     "name": "aom-menu-LCST-color",
     "alias": [],
     "title": "菜单图标",
-    "category": "Menu",
-    "categoryCN": "菜单",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -712,8 +712,8 @@
     "name": "aom-menu-LYCDL-color",
     "alias": [],
     "title": "菜单图标",
-    "category": "UI",
-    "categoryCN": "用户界面元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -725,8 +725,8 @@
     "name": "aom-menu-MBCS-color",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -734,8 +734,8 @@
     "name": "aom-menu-MBGL-color",
     "alias": [],
     "title": "菜单MBGL颜色",
-    "category": "Menu",
-    "categoryCN": "菜单",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -747,8 +747,8 @@
     "name": "aom-menu-MJRW-color",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -756,8 +756,8 @@
     "name": "aom-menu-QDGL-color",
     "alias": [],
     "title": "质量管理菜单",
-    "category": "Quality",
-    "categoryCN": "质量管理",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "质量管理",
@@ -769,8 +769,8 @@
     "name": "aom-menu-QJBL-color",
     "alias": [],
     "title": "菜单图标",
-    "category": "UI",
-    "categoryCN": "用户界面元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -783,8 +783,8 @@
     "name": "aom-menu-QXGL-color",
     "alias": [],
     "title": "菜单",
-    "category": "Menu",
-    "categoryCN": "菜单管理",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -796,8 +796,8 @@
     "name": "aom-menu-RJBS-color",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -805,8 +805,8 @@
     "name": "aom-menu-RJGL-color",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -814,8 +814,8 @@
     "name": "aom-menu-RLPZ-color",
     "alias": [],
     "title": "奥姆菜单",
-    "category": "Menu",
-    "categoryCN": "菜单图标",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -827,8 +827,8 @@
     "name": "aom-menu-RWCX-color",
     "alias": [],
     "title": "菜单列表颜色",
-    "category": "UI",
-    "categoryCN": "用户界面元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -841,8 +841,8 @@
     "name": "aom-menu-RWGL-color",
     "alias": [],
     "title": "菜单列表",
-    "category": "UI",
-    "categoryCN": "用户界面元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -855,8 +855,8 @@
     "name": "aom-menu-RWXQ-color",
     "alias": [],
     "title": "菜单选项颜色",
-    "category": "UI",
-    "categoryCN": "用户界面元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -869,8 +869,8 @@
     "name": "aom-menu-RYFA-color",
     "alias": [],
     "title": "菜单选项",
-    "category": "User",
-    "categoryCN": "用户界面",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -882,8 +882,8 @@
     "name": "aom-menu-RZLC-color",
     "alias": [],
     "title": "菜单选项颜色",
-    "category": "UI",
-    "categoryCN": "用户界面元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -896,8 +896,8 @@
     "name": "aom-menu-SBST-color",
     "alias": [],
     "title": "菜单选项颜色",
-    "category": "User",
-    "categoryCN": "用户界面",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -910,8 +910,8 @@
     "name": "aom-menu-SJCX-color",
     "alias": [],
     "title": "自动化菜单",
-    "category": "Automation",
-    "categoryCN": "自动化工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "自动化",
@@ -924,8 +924,8 @@
     "name": "aom-menu-SJGL-color",
     "alias": [],
     "title": "菜单设置颜色",
-    "category": "Menu",
-    "categoryCN": "菜单设置",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -937,8 +937,8 @@
     "name": "aom-menu-SJHB-color",
     "alias": [],
     "title": "奥姆菜单SJHB颜色",
-    "category": "Software",
-    "categoryCN": "软件工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -951,8 +951,8 @@
     "name": "aom-menu-SJKLJ-color",
     "alias": [],
     "title": "菜单选项颜色",
-    "category": "UI",
-    "categoryCN": "用户界面元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -965,8 +965,8 @@
     "name": "aom-menu-SSSJ-color",
     "alias": [],
     "title": "菜单信息颜色",
-    "category": "UI",
-    "categoryCN": "用户界面元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -978,8 +978,8 @@
     "name": "aom-menu-TZJL-color",
     "alias": [],
     "title": "菜单项颜色",
-    "category": "UI",
-    "categoryCN": "用户界面元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -992,8 +992,8 @@
     "name": "aom-menu-WHQGL-color",
     "alias": [],
     "title": "奥姆菜单",
-    "category": "Menu",
-    "categoryCN": "菜单图标",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -1006,8 +1006,8 @@
     "name": "aom-menu-WWGL-color",
     "alias": [],
     "title": "奥姆菜单",
-    "category": "Menu",
-    "categoryCN": "菜单",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -1019,8 +1019,8 @@
     "name": "aom-menu-XTSZ-color",
     "alias": [],
     "title": "菜单选项",
-    "category": "UI",
-    "categoryCN": "用户界面元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -1033,8 +1033,8 @@
     "name": "aom-menu-YHGL-color",
     "alias": [],
     "title": "奥姆菜单",
-    "category": "Menu",
-    "categoryCN": "菜单",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -1046,8 +1046,8 @@
     "name": "aom-menu-YWBCZL-color",
     "alias": [],
     "title": "菜单工具箱",
-    "category": "Tools",
-    "categoryCN": "工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -1059,8 +1059,8 @@
     "name": "aom-menu-YYST-color",
     "alias": [],
     "title": "菜单颜色",
-    "category": "UI",
-    "categoryCN": "用户界面元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -1072,8 +1072,8 @@
     "name": "aom-menu-ZBGL-color",
     "alias": [],
     "title": "自动化管理菜单",
-    "category": "Automation",
-    "categoryCN": "自动化管理",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "自动化",
@@ -1087,8 +1087,8 @@
     "name": "aom-menu-ZBZXSZ-color",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -1096,8 +1096,8 @@
     "name": "aom-menu-ZHCL-color",
     "alias": [],
     "title": "菜单图标",
-    "category": "UI",
-    "categoryCN": "用户界面元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -1109,8 +1109,8 @@
     "name": "aom-menu-ZHJG-color",
     "alias": [],
     "title": "菜单",
-    "category": "Menu",
-    "categoryCN": "菜单",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -1122,8 +1122,8 @@
     "name": "aom-menu-ZXLS-color",
     "alias": [],
     "title": "奥姆菜单",
-    "category": "Menu",
-    "categoryCN": "菜单",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -1136,8 +1136,8 @@
     "name": "aom-menu-ZYSJ-color",
     "alias": [],
     "title": "菜单",
-    "category": "Menu",
-    "categoryCN": "菜单",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -1149,8 +1149,8 @@
     "name": "aom-menu-ZZFWQ-color",
     "alias": [],
     "title": "自动化菜单配置",
-    "category": "System",
-    "categoryCN": "系统配置",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "自动化",
@@ -1163,8 +1163,8 @@
     "name": "application-color",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -1172,8 +1172,8 @@
     "name": "argument",
     "alias": [],
     "title": "参数",
-    "category": "Programming",
-    "categoryCN": "编程",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "参数",
@@ -1185,8 +1185,8 @@
     "name": "arrow-back-up",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -1194,8 +1194,8 @@
     "name": "arrow-bottom",
     "alias": [],
     "title": "向下箭头",
-    "category": "Navigation",
-    "categoryCN": "导航",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "箭头",
@@ -1207,8 +1207,8 @@
     "name": "arrow-down",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -1216,8 +1216,8 @@
     "name": "arrow-forward-up",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -1225,8 +1225,8 @@
     "name": "arrow-left",
     "alias": [],
     "title": "左箭头",
-    "category": "Navigation",
-    "categoryCN": "导航",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "箭头",
@@ -1239,8 +1239,8 @@
     "name": "arrow-right",
     "alias": [],
     "title": "右箭头",
-    "category": "Navigation",
-    "categoryCN": "导航",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "箭头",
@@ -1252,8 +1252,8 @@
     "name": "arrow-to-left",
     "alias": [],
     "title": "向左箭头",
-    "category": "Navigation",
-    "categoryCN": "导航",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "箭头",
@@ -1265,8 +1265,8 @@
     "name": "arrow-to-right",
     "alias": [],
     "title": "向右箭头",
-    "category": "Navigation",
-    "categoryCN": "导航",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "箭头",
@@ -1278,8 +1278,8 @@
     "name": "arrow-top",
     "alias": [],
     "title": "向上箭头",
-    "category": "Directional",
-    "categoryCN": "方向图标",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "箭头",
@@ -1291,8 +1291,8 @@
     "name": "arrow-up",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -1300,8 +1300,8 @@
     "name": "arrow-up-right",
     "alias": [],
     "title": "向上右箭头",
-    "category": "Navigation",
-    "categoryCN": "导航",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "箭头",
@@ -1315,8 +1315,8 @@
     "name": "arrows-exchange",
     "alias": [],
     "title": "箭头交换",
-    "category": "Arrow direction",
-    "categoryCN": "箭头方向",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "交换",
@@ -1324,11 +1324,65 @@
     ]
   },
   {
+    "name": "automate-exp-data-capture-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "automate-exp-data-entry-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "automate-exp-file-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "automate-exp-mail-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "automate-exp-wechat-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "automate-exp-word-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "backspace",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -1336,8 +1390,8 @@
     "name": "bot",
     "alias": [],
     "title": "机器人",
-    "category": "Artificial",
-    "categoryCN": "人工智能",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "自动化",
@@ -1349,8 +1403,8 @@
     "name": "c-type-autoit-color",
     "alias": [],
     "title": "C型自动色彩",
-    "category": "Color",
-    "categoryCN": "色彩工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "色彩",
@@ -1362,8 +1416,8 @@
     "name": "c-type-bat-color",
     "alias": [],
     "title": "C型蝙蝠颜色",
-    "category": "Animal",
-    "categoryCN": "动物",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "蝙蝠",
@@ -1375,8 +1429,8 @@
     "name": "c-type-c-sharp-color",
     "alias": [],
     "title": "C型C尖锐颜色",
-    "category": "Technology",
-    "categoryCN": "科技",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "科技",
@@ -1388,8 +1442,8 @@
     "name": "c-type-cn-color",
     "alias": [],
     "title": "中文类型颜色",
-    "category": "Color",
-    "categoryCN": "颜色",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "中文",
@@ -1401,8 +1455,8 @@
     "name": "c-type-en-color",
     "alias": [],
     "title": "英文类型颜色",
-    "category": "Color",
-    "categoryCN": "颜色",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "颜色",
@@ -1414,8 +1468,8 @@
     "name": "c-type-fn-color",
     "alias": [],
     "title": "函数颜色类型",
-    "category": "Function",
-    "categoryCN": "函数颜色类型",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "函数",
@@ -1427,8 +1481,8 @@
     "name": "c-type-JS-color",
     "alias": [],
     "title": "JavaScript颜色类型",
-    "category": "Programming",
-    "categoryCN": "编程",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "JavaScript",
@@ -1440,8 +1494,8 @@
     "name": "c-type-lego-color",
     "alias": [],
     "title": "C型乐高颜色",
-    "category": "Building",
-    "categoryCN": "积木",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "乐高",
@@ -1454,8 +1508,8 @@
     "name": "c-type-linuxshell-color",
     "alias": [],
     "title": "C类型Linux",
-    "category": "Programming",
-    "categoryCN": "编程工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "编程",
@@ -1468,8 +1522,8 @@
     "name": "c-type-perl-color",
     "alias": [],
     "title": "C型Perl颜色",
-    "category": "Programming",
-    "categoryCN": "编程工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "编程",
@@ -1482,8 +1536,8 @@
     "name": "c-type-powershell-color",
     "alias": [],
     "title": "C型PowerShell颜色",
-    "category": "Development",
-    "categoryCN": "开发工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "编程",
@@ -1496,8 +1550,8 @@
     "name": "c-type-python-color",
     "alias": [],
     "title": "C型Python颜色",
-    "category": "Programming",
-    "categoryCN": "编程工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "Python",
@@ -1510,8 +1564,8 @@
     "name": "c-type-vbs-color",
     "alias": [],
     "title": "VBS颜色类型",
-    "category": "Programming",
-    "categoryCN": "编程",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "VBS",
@@ -1523,8 +1577,8 @@
     "name": "c-type-yaml-color",
     "alias": [],
     "title": "C型YAML颜色",
-    "category": "Programming",
-    "categoryCN": "编程工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "编程",
@@ -1537,8 +1591,8 @@
     "name": "calendar-color",
     "alias": [],
     "title": "日历颜色",
-    "category": "Calendar",
-    "categoryCN": "日历",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "日历",
@@ -1551,8 +1605,8 @@
     "name": "card",
     "alias": [],
     "title": "卡片",
-    "category": "Finance",
-    "categoryCN": "金融",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "信用卡",
@@ -1565,8 +1619,8 @@
     "name": "chart-pie",
     "alias": [],
     "title": "饼图",
-    "category": "Data",
-    "categoryCN": "数据可视化",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "图表",
@@ -1579,8 +1633,8 @@
     "name": "chart-pie-color",
     "alias": [],
     "title": "彩色饼图",
-    "category": "Data",
-    "categoryCN": "数据可视化",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "图表",
@@ -1592,8 +1646,8 @@
     "name": "check",
     "alias": [],
     "title": "勾选",
-    "category": "Icons",
-    "categoryCN": "图标",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "勾选",
@@ -1606,8 +1660,8 @@
     "name": "check-ed-color",
     "alias": [],
     "title": "已选中颜色",
-    "category": "Status",
-    "categoryCN": "状态指示器",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "选中",
@@ -1620,8 +1674,8 @@
     "name": "check-normal-color",
     "alias": [],
     "title": "正常颜色检查",
-    "category": "Verification",
-    "categoryCN": "验证",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "检查",
@@ -1633,8 +1687,8 @@
     "name": "check-or-color",
     "alias": [],
     "title": "检查或颜色",
-    "category": "Tools",
-    "categoryCN": "工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "检查",
@@ -1646,8 +1700,8 @@
     "name": "clear",
     "alias": [],
     "title": "清除",
-    "category": "Action",
-    "categoryCN": "动作",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "清除",
@@ -1659,8 +1713,8 @@
     "name": "clear2",
     "alias": [],
     "title": "清除2",
-    "category": "Cleaning",
-    "categoryCN": "清洁工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "清洁",
@@ -1672,8 +1726,8 @@
     "name": "clearDate",
     "alias": [],
     "title": "清除日期",
-    "category": "Date",
-    "categoryCN": "日期操作",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "日期",
@@ -1685,8 +1739,8 @@
     "name": "clipboard",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -1694,8 +1748,8 @@
     "name": "close",
     "alias": [],
     "title": "关闭",
-    "category": "Interface",
-    "categoryCN": "界面",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "关闭",
@@ -1707,8 +1761,8 @@
     "name": "Collect",
     "alias": [],
     "title": "收藏",
-    "category": "User",
-    "categoryCN": "用户界面",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "收藏",
@@ -1721,8 +1775,8 @@
     "name": "copy",
     "alias": [],
     "title": "复制",
-    "category": "Editing",
-    "categoryCN": "编辑工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "复制",
@@ -1734,8 +1788,8 @@
     "name": "cursor",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -1743,8 +1797,8 @@
     "name": "cursor-pointer",
     "alias": [],
     "title": "光标指针",
-    "category": "Cursor",
-    "categoryCN": "光标",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "鼠标",
@@ -1756,8 +1810,8 @@
     "name": "cut",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -1765,8 +1819,8 @@
     "name": "date",
     "alias": [],
     "title": "日期",
-    "category": "Calendar",
-    "categoryCN": "日历",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "时间",
@@ -1777,11 +1831,24 @@
     ]
   },
   {
+    "name": "debug",
+    "alias": [],
+    "title": "调试工具",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": [
+      "调试",
+      "开发",
+      "编程"
+    ]
+  },
+  {
     "name": "delete",
     "alias": [],
     "title": "删除",
-    "category": "Action",
-    "categoryCN": "动作",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "删除",
@@ -1793,8 +1860,8 @@
     "name": "dev-color",
     "alias": [],
     "title": "开发颜色",
-    "category": "Development",
-    "categoryCN": "开发工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "开发",
@@ -1806,8 +1873,8 @@
     "name": "down",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -1815,8 +1882,8 @@
     "name": "down-c",
     "alias": [],
     "title": "向下箭头",
-    "category": "Direction",
-    "categoryCN": "方向",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "箭头",
@@ -1828,8 +1895,8 @@
     "name": "download",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -1837,8 +1904,8 @@
     "name": "Drag",
     "alias": [],
     "title": "拖动",
-    "category": "Interaction",
-    "categoryCN": "交互",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "拖拽",
@@ -1850,8 +1917,8 @@
     "name": "Edit",
     "alias": [],
     "title": "编辑",
-    "category": "Editing",
-    "categoryCN": "编辑工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "编辑",
@@ -1863,8 +1930,8 @@
     "name": "ellipsis-horizontal",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -1872,8 +1939,8 @@
     "name": "ellipsis-vertical",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -1881,8 +1948,8 @@
     "name": "EmptyBox",
     "alias": [],
     "title": "空盒子",
-    "category": "Containers",
-    "categoryCN": "容器",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "空",
@@ -1895,8 +1962,8 @@
     "name": "enter-key",
     "alias": [],
     "title": "回车键",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -1904,8 +1971,8 @@
     "name": "enter-key-color",
     "alias": [],
     "title": "回车键-颜色",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -1913,8 +1980,8 @@
     "name": "fall",
     "alias": [],
     "title": "秋天",
-    "category": "Season",
-    "categoryCN": "季节",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "秋天",
@@ -1927,8 +1994,8 @@
     "name": "file",
     "alias": [],
     "title": "文件",
-    "category": "Document",
-    "categoryCN": "文档",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "文件",
@@ -1940,8 +2007,8 @@
     "name": "file-add",
     "alias": [],
     "title": "文件添加",
-    "category": "Document",
-    "categoryCN": "文档",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "文件",
@@ -1954,8 +2021,8 @@
     "name": "file-flash-color",
     "alias": [],
     "title": "文件闪存-彩色",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -1963,8 +2030,8 @@
     "name": "file-starred-color",
     "alias": [],
     "title": "星标文件",
-    "category": "Documents",
-    "categoryCN": "文档",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "文件",
@@ -1977,8 +2044,8 @@
     "name": "filter",
     "alias": [],
     "title": "过滤器",
-    "category": "Data",
-    "categoryCN": "数据处理",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "过滤",
@@ -1990,8 +2057,8 @@
     "name": "filter-fill",
     "alias": [],
     "title": "填充过滤器",
-    "category": "Tools",
-    "categoryCN": "工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "过滤器",
@@ -2003,8 +2070,8 @@
     "name": "flow",
     "alias": [],
     "title": "流程",
-    "category": "Process",
-    "categoryCN": "流程图",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "流程",
@@ -2016,8 +2083,8 @@
     "name": "flow-add",
     "alias": [],
     "title": "流程添加",
-    "category": "Process",
-    "categoryCN": "流程管理",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "流程",
@@ -2030,8 +2097,8 @@
     "name": "flow-back",
     "alias": [],
     "title": "回流",
-    "category": "Navigation",
-    "categoryCN": "导航",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "返回",
@@ -2044,8 +2111,8 @@
     "name": "flow-batch-processing-color",
     "alias": [],
     "title": "批量处理流程",
-    "category": "Data",
-    "categoryCN": "数据处理",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "批量处理",
@@ -2059,8 +2126,8 @@
     "name": "flow-check-color",
     "alias": [],
     "title": "流程检查颜色",
-    "category": "Process",
-    "categoryCN": "流程管理",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "流程",
@@ -2072,8 +2139,8 @@
     "name": "flow-component-color",
     "alias": [],
     "title": "流动组件颜色",
-    "category": "UI",
-    "categoryCN": "用户界面组件",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "颜色",
@@ -2086,8 +2153,8 @@
     "name": "flow-controls-color",
     "alias": [],
     "title": "流程控制颜色",
-    "category": "Flow",
-    "categoryCN": "流程控制",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "流程",
@@ -2099,8 +2166,8 @@
     "name": "flow-end",
     "alias": [],
     "title": "流程结束",
-    "category": "Process",
-    "categoryCN": "流程",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "流程",
@@ -2112,8 +2179,8 @@
     "name": "flow-end-color",
     "alias": [],
     "title": "流程结束颜色",
-    "category": "Flow",
-    "categoryCN": "流程",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "流程",
@@ -2125,8 +2192,8 @@
     "name": "flow-if-color",
     "alias": [],
     "title": "流程判断颜色",
-    "category": "Flow",
-    "categoryCN": "流程控制",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "流程",
@@ -2138,8 +2205,8 @@
     "name": "flow-nested",
     "alias": [],
     "title": "流动嵌套",
-    "category": "Design",
-    "categoryCN": "设计元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "流动",
@@ -2151,8 +2218,8 @@
     "name": "flow-nested-color",
     "alias": [],
     "title": "流动嵌套颜色",
-    "category": "Design",
-    "categoryCN": "设计元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "流动",
@@ -2165,8 +2232,8 @@
     "name": "flow-quote-color",
     "alias": [],
     "title": "流动引文颜色",
-    "category": "Design",
-    "categoryCN": "设计元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "流动",
@@ -2179,8 +2246,8 @@
     "name": "flow-start",
     "alias": [],
     "title": "流程开始",
-    "category": "Process",
-    "categoryCN": "流程",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "流程",
@@ -2192,8 +2259,8 @@
     "name": "flow-start-color",
     "alias": [],
     "title": "流动开始颜色",
-    "category": "Color",
-    "categoryCN": "颜色",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "流动",
@@ -2205,8 +2272,8 @@
     "name": "flow-tips-color",
     "alias": [],
     "title": "流动提示颜色",
-    "category": "Design",
-    "categoryCN": "设计元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "流动",
@@ -2219,8 +2286,8 @@
     "name": "flow-toolBox",
     "alias": [],
     "title": "流程工具箱",
-    "category": "Development",
-    "categoryCN": "开发工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "流程",
@@ -2232,8 +2299,8 @@
     "name": "fn",
     "alias": [],
     "title": "函数",
-    "category": "Mathematics",
-    "categoryCN": "数学",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "函数",
@@ -2245,8 +2312,8 @@
     "name": "fn-add",
     "alias": [],
     "title": "添加功能",
-    "category": "Function",
-    "categoryCN": "功能",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "添加",
@@ -2258,8 +2325,8 @@
     "name": "fold",
     "alias": [],
     "title": "折叠",
-    "category": "Navigation",
-    "categoryCN": "导航",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "折叠",
@@ -2272,8 +2339,8 @@
     "name": "fold-down",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -2281,8 +2348,8 @@
     "name": "fold-up",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -2290,8 +2357,8 @@
     "name": "folder-add",
     "alias": [],
     "title": "添加文件夹",
-    "category": "File",
-    "categoryCN": "文件管理",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "文件夹",
@@ -2303,8 +2370,8 @@
     "name": "folder-close",
     "alias": [],
     "title": "关闭文件夹",
-    "category": "File",
-    "categoryCN": "文件管理",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "文件夹",
@@ -2317,8 +2384,8 @@
     "name": "folder-flash",
     "alias": [],
     "title": "文件夹闪存",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -2326,8 +2393,8 @@
     "name": "folder-flash-color",
     "alias": [],
     "title": "文件夹闪存-彩色",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -2335,8 +2402,8 @@
     "name": "folder-open",
     "alias": [],
     "title": "打开文件夹",
-    "category": "File",
-    "categoryCN": "文件管理",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "文件夹",
@@ -2349,8 +2416,8 @@
     "name": "forbid",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -2358,8 +2425,8 @@
     "name": "full-screen",
     "alias": [],
     "title": "全屏",
-    "category": "Display",
-    "categoryCN": "显示",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "全屏",
@@ -2371,17 +2438,215 @@
     "name": "function",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
+  },
+  {
+    "name": "gfaom-BGDW",
+    "alias": [],
+    "title": "高分辨率海洋生物地理数据",
+    "category": "gfaom",
+    "categoryCN": "广发",
+    "author": "KSW",
+    "tag": [
+      "海洋生物",
+      "地理数据",
+      "高分辨率"
+    ]
+  },
+  {
+    "name": "gfaom-BGFX",
+    "alias": [],
+    "title": "高分辨率图形渲染框架",
+    "category": "gfaom",
+    "categoryCN": "广发",
+    "author": "KSW",
+    "tag": [
+      "高分辨率",
+      "图形渲染",
+      "框架"
+    ]
+  },
+  {
+    "name": "gfaom-BGFY",
+    "alias": [],
+    "title": "高分辨率海洋生物地球化学模型",
+    "category": "gfaom",
+    "categoryCN": "广发",
+    "author": "KSW",
+    "tag": [
+      "海洋生物地球化学",
+      "高分辨率模型",
+      "海洋生态系统"
+    ]
+  },
+  {
+    "name": "gfaom-BGGK",
+    "alias": [],
+    "title": "广发 变更管控",
+    "category": "gfaom",
+    "categoryCN": "广发",
+    "author": "KSW",
+    "tag": [
+      "广发",
+      "AOM",
+      "变更"
+    ]
+  },
+  {
+    "name": "gfaom-BGGL",
+    "alias": [],
+    "title": "广发 变更管理",
+    "category": "gfaom",
+    "categoryCN": "广发",
+    "author": "KSW",
+    "tag": [
+      "广发",
+      "AOM",
+      "变更"
+    ]
+  },
+  {
+    "name": "gfaom-BGSJ",
+    "alias": [],
+    "title": "全球海洋观测系统",
+    "category": "gfaom",
+    "categoryCN": "广发",
+    "author": "KSW",
+    "tag": [
+      "海洋观测",
+      "全球系统",
+      "背景调查",
+      "环境监测"
+    ]
+  },
+  {
+    "name": "gfaom-BSGZ",
+    "alias": [],
+    "title": "高分辨率海洋生物地理信息系统",
+    "category": "gfaom",
+    "categoryCN": "广发",
+    "author": "KSW",
+    "tag": [
+      "海洋生物",
+      "地理信息系统",
+      "高分辨率",
+      "数据处理"
+    ]
+  },
+  {
+    "name": "gfaom-CJDDGL",
+    "alias": [],
+    "title": "广发 采集调度管理",
+    "category": "gfaom",
+    "categoryCN": "广发",
+    "author": "KSW",
+    "tag": [
+      "广发",
+      "AOM",
+      "采集",
+      "调度"
+    ]
+  },
+  {
+    "name": "gfaom-GJGL",
+    "alias": [],
+    "title": "广发 工具管理",
+    "category": "gfaom",
+    "categoryCN": "广发",
+    "author": "KSW",
+    "tag": [
+      "广发",
+      "AOM",
+      "工具",
+      "管理"
+    ]
+  },
+  {
+    "name": "gfaom-parameter-configuration",
+    "alias": [],
+    "title": "",
+    "category": "gfaom",
+    "categoryCN": "广发",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "gfaom-permissions",
+    "alias": [],
+    "title": "",
+    "category": "gfaom",
+    "categoryCN": "广发",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "gfaom-QXGL",
+    "alias": [],
+    "title": "广发 权限管理",
+    "category": "gfaom",
+    "categoryCN": "广发",
+    "author": "KSW",
+    "tag": [
+      "广发",
+      "AOM",
+      "权限",
+      "管理"
+    ]
+  },
+  {
+    "name": "gfaom-setting-config",
+    "alias": [],
+    "title": "",
+    "category": "gfaom",
+    "categoryCN": "广发",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "gfaom-SYKB",
+    "alias": [],
+    "title": "广发 首页看板",
+    "category": "gfaom",
+    "categoryCN": "广发",
+    "author": "KSW",
+    "tag": [
+      "广发",
+      "AOM",
+      "看板"
+    ]
+  },
+  {
+    "name": "gfaom-task-list",
+    "alias": [],
+    "title": "",
+    "category": "gfaom",
+    "categoryCN": "广发",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "gfaom-YHGL",
+    "alias": [],
+    "title": "广发 用户管理",
+    "category": "gfaom",
+    "categoryCN": "广发",
+    "author": "KSW",
+    "tag": [
+      "广发",
+      "AOM",
+      "用户",
+      "管理"
+    ]
   },
   {
     "name": "GlobalOperation",
     "alias": [],
     "title": "全球操作",
-    "category": "International",
-    "categoryCN": "国际服务",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "全球",
@@ -2394,8 +2659,8 @@
     "name": "grip-horizontal",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -2403,8 +2668,8 @@
     "name": "grip-vertical",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -2412,8 +2677,8 @@
     "name": "hand-stop",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -2421,8 +2686,8 @@
     "name": "hard-drive-color",
     "alias": [],
     "title": "彩色硬盘",
-    "category": "Storage",
-    "categoryCN": "存储设备",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "硬盘",
@@ -2434,8 +2699,8 @@
     "name": "hide",
     "alias": [],
     "title": "隐藏",
-    "category": "Visibility",
-    "categoryCN": "可见性",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "隐藏",
@@ -2447,8 +2712,8 @@
     "name": "icon-def",
     "alias": [],
     "title": "图标定义",
-    "category": "Design",
-    "categoryCN": "设计元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "图标",
@@ -2458,11 +2723,54 @@
     ]
   },
   {
+    "name": "ide-digital-asset",
+    "alias": [],
+    "title": "数字资产图标",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": [
+      "数字",
+      "资产",
+      "图标",
+      "金融",
+      "银行"
+    ]
+  },
+  {
+    "name": "ide-document",
+    "alias": [],
+    "title": "代码文档",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": [
+      "编程",
+      "文档",
+      "IDE",
+      "开发"
+    ]
+  },
+  {
+    "name": "ide-options",
+    "alias": [],
+    "title": "集成开发环境选项",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": [
+      "开发",
+      "IDE",
+      "选项",
+      "配置"
+    ]
+  },
+  {
     "name": "ide-pause",
     "alias": [],
     "title": "IDE暂停",
-    "category": "Development",
-    "categoryCN": "开发工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "编程",
@@ -2476,8 +2784,8 @@
     "name": "ide-play",
     "alias": [],
     "title": "IDE播放",
-    "category": "Development",
-    "categoryCN": "开发工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "编程",
@@ -2490,8 +2798,8 @@
     "name": "ide-refresh",
     "alias": [],
     "title": "IDE刷新",
-    "category": "Development",
-    "categoryCN": "开发工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "IDE",
@@ -2504,8 +2812,8 @@
     "name": "ide-stop",
     "alias": [],
     "title": "IDE停止",
-    "category": "Development",
-    "categoryCN": "开发工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "IDE",
@@ -2518,8 +2826,8 @@
     "name": "IP",
     "alias": [],
     "title": "IP地址",
-    "category": "Network",
-    "categoryCN": "网络",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "互联网",
@@ -2532,8 +2840,8 @@
     "name": "item-def-color",
     "alias": [],
     "title": "默认颜色项",
-    "category": "Color",
-    "categoryCN": "颜色管理",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "颜色",
@@ -2546,8 +2854,8 @@
     "name": "item-remove",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -2555,8 +2863,8 @@
     "name": "keyboard",
     "alias": [],
     "title": "键盘",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -2564,8 +2872,8 @@
     "name": "keyboard-color",
     "alias": [],
     "title": "键盘-彩色",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -2573,8 +2881,8 @@
     "name": "left",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -2582,8 +2890,8 @@
     "name": "left-menu-display",
     "alias": [],
     "title": "左侧菜单显示",
-    "category": "Navigation",
-    "categoryCN": "导航",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -2595,8 +2903,8 @@
     "name": "line",
     "alias": [],
     "title": "线条",
-    "category": "Design",
-    "categoryCN": "设计",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "线条",
@@ -2608,8 +2916,8 @@
     "name": "link",
     "alias": [],
     "title": "链接",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "链接"
@@ -2619,8 +2927,8 @@
     "name": "list-close",
     "alias": [],
     "title": "列表关闭",
-    "category": "List",
-    "categoryCN": "列表管理",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "列表",
@@ -2632,8 +2940,8 @@
     "name": "list-open",
     "alias": [],
     "title": "列表打开",
-    "category": "Navigation",
-    "categoryCN": "导航",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "列表",
@@ -2646,8 +2954,8 @@
     "name": "list-search",
     "alias": [],
     "title": "列表搜索",
-    "category": "Edit",
-    "categoryCN": "编辑",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "列表",
@@ -2659,8 +2967,8 @@
     "name": "loading",
     "alias": [],
     "title": "加载中",
-    "category": "Progress",
-    "categoryCN": "进度",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "加载",
@@ -2673,8 +2981,8 @@
     "name": "lock",
     "alias": [],
     "title": "锁",
-    "category": "Security",
-    "categoryCN": "安全",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "安全",
@@ -2686,8 +2994,8 @@
     "name": "locked",
     "alias": [],
     "title": "锁定",
-    "category": "Security",
-    "categoryCN": "安全",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "锁定",
@@ -2700,8 +3008,8 @@
     "name": "logout",
     "alias": [],
     "title": "登出",
-    "category": "User",
-    "categoryCN": "用户界面",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "退出",
@@ -2713,8 +3021,8 @@
     "name": "mail",
     "alias": [],
     "title": "邮件",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -2722,8 +3030,8 @@
     "name": "mail-2-color",
     "alias": [],
     "title": "邮件2-彩色",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -2731,8 +3039,8 @@
     "name": "mail-color",
     "alias": [],
     "title": "邮件-彩色",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -2740,8 +3048,8 @@
     "name": "medal-1",
     "alias": [],
     "title": "奖章1",
-    "category": "Awards",
-    "categoryCN": "奖项",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "奖章",
@@ -2753,8 +3061,8 @@
     "name": "medal-2",
     "alias": [],
     "title": "奖章",
-    "category": "Awards",
-    "categoryCN": "奖项",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "奖章",
@@ -2766,8 +3074,8 @@
     "name": "medal-3",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -2775,8 +3083,8 @@
     "name": "menu-collect",
     "alias": [],
     "title": "菜单收藏",
-    "category": "Navigation",
-    "categoryCN": "导航",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -2788,8 +3096,8 @@
     "name": "menu-collected",
     "alias": [],
     "title": "菜单收藏",
-    "category": "Navigation",
-    "categoryCN": "导航",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -2801,8 +3109,8 @@
     "name": "menu-def-color",
     "alias": [],
     "title": "菜单默认颜色",
-    "category": "UI",
-    "categoryCN": "用户界面元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -2814,8 +3122,8 @@
     "name": "Message",
     "alias": [],
     "title": "消息",
-    "category": "Communication",
-    "categoryCN": "通信",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "消息",
@@ -2828,8 +3136,8 @@
     "name": "minus",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -2837,8 +3145,8 @@
     "name": "mode-expression",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -2846,8 +3154,8 @@
     "name": "mode-expression-color",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -2855,8 +3163,8 @@
     "name": "more",
     "alias": [],
     "title": "更多",
-    "category": "Navigation",
-    "categoryCN": "导航",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "更多选项",
@@ -2868,8 +3176,8 @@
     "name": "organization",
     "alias": [],
     "title": "组织",
-    "category": "Business",
-    "categoryCN": "商业",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "公司",
@@ -2881,8 +3189,8 @@
     "name": "paper-airplane",
     "alias": [],
     "title": "纸飞机",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "纸飞机",
@@ -2893,8 +3201,8 @@
     "name": "patch-color",
     "alias": [],
     "title": "补丁颜色",
-    "category": "Design",
-    "categoryCN": "设计工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "补丁",
@@ -2906,8 +3214,8 @@
     "name": "patch-set-color",
     "alias": [],
     "title": "补丁设置颜色",
-    "category": "Development",
-    "categoryCN": "开发工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "补丁",
@@ -2919,8 +3227,8 @@
     "name": "personnel",
     "alias": [],
     "title": "人员",
-    "category": "Human",
-    "categoryCN": "人力资源",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "员工",
@@ -2933,8 +3241,8 @@
     "name": "play",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -2942,8 +3250,8 @@
     "name": "plug-in-360-color",
     "alias": [],
     "title": "360度彩色插件",
-    "category": "Software",
-    "categoryCN": "软件工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "插件",
@@ -2956,8 +3264,8 @@
     "name": "plug-in-Chrome-color",
     "alias": [],
     "title": "插件",
-    "category": "Browser",
-    "categoryCN": "浏览器插件",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "插件",
@@ -2969,8 +3277,8 @@
     "name": "plug-in-Edge-color",
     "alias": [],
     "title": "插件边缘颜色",
-    "category": "Software",
-    "categoryCN": "软件工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "插件",
@@ -2984,8 +3292,8 @@
     "name": "plug-in-excel-color",
     "alias": [],
     "title": "Excel插件颜色",
-    "category": "Software",
-    "categoryCN": "软件工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "Excel",
@@ -2997,8 +3305,8 @@
     "name": "plug-in-Firefox-color",
     "alias": [],
     "title": "火狐插件颜色",
-    "category": "Browser",
-    "categoryCN": "浏览器插件",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "火狐",
@@ -3010,8 +3318,8 @@
     "name": "plug-in-image-color",
     "alias": [],
     "title": "插件图像颜色",
-    "category": "Image",
-    "categoryCN": "图像处理",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "插件",
@@ -3023,8 +3331,8 @@
     "name": "plug-in-java-color",
     "alias": [],
     "title": "插件Java颜色",
-    "category": "Development",
-    "categoryCN": "开发工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "插件",
@@ -3037,8 +3345,8 @@
     "name": "plug-in-Mail-color",
     "alias": [],
     "title": "插件邮件颜色",
-    "category": "Email",
-    "categoryCN": "电子邮件插件",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "邮件",
@@ -3050,8 +3358,8 @@
     "name": "plug-in-Net-color",
     "alias": [],
     "title": "插件",
-    "category": "Software",
-    "categoryCN": "软件开发",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "插件",
@@ -3063,8 +3371,8 @@
     "name": "plug-in-Net-color-2",
     "alias": [],
     "title": "插件网络颜色2",
-    "category": "Software",
-    "categoryCN": "软件工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "插件",
@@ -3077,8 +3385,8 @@
     "name": "plug-in-OCR-color",
     "alias": [],
     "title": "插件OCR颜色识别",
-    "category": "Image",
-    "categoryCN": "图像处理",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "OCR",
@@ -3090,8 +3398,8 @@
     "name": "plug-in-pdf-color",
     "alias": [],
     "title": "插件PDF颜色",
-    "category": "Software",
-    "categoryCN": "软件工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "插件",
@@ -3103,8 +3411,8 @@
     "name": "plug-in-sogou-color",
     "alias": [],
     "title": "搜狗插件颜色",
-    "category": "Software",
-    "categoryCN": "软件工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "插件",
@@ -3116,8 +3424,8 @@
     "name": "plug-in-SSL-color",
     "alias": [],
     "title": "插件SSL颜色",
-    "category": "Security",
-    "categoryCN": "安全",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "插件",
@@ -3129,8 +3437,8 @@
     "name": "plug-in-text-color",
     "alias": [],
     "title": "插件文本颜色",
-    "category": "Text",
-    "categoryCN": "文本编辑",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "插件",
@@ -3143,8 +3451,8 @@
     "name": "pointer",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -3152,8 +3460,8 @@
     "name": "portfolio",
     "alias": [],
     "title": "投资组合",
-    "category": "Finance",
-    "categoryCN": "金融",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "投资",
@@ -3166,8 +3474,8 @@
     "name": "progress-bolt",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -3175,8 +3483,8 @@
     "name": "project-logo-gf-color",
     "alias": [],
     "title": "项目标志GF彩色",
-    "category": "Logo",
-    "categoryCN": "标志",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "项目",
@@ -3189,8 +3497,8 @@
     "name": "question",
     "alias": [],
     "title": "问题",
-    "category": "Help",
-    "categoryCN": "帮助",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "问题",
@@ -3202,8 +3510,8 @@
     "name": "Question-line",
     "alias": [],
     "title": "问号",
-    "category": "Symbols",
-    "categoryCN": "符号",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "问题",
@@ -3216,8 +3524,8 @@
     "name": "ranking",
     "alias": [],
     "title": "排名",
-    "category": "Data",
-    "categoryCN": "数据分析",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "排名",
@@ -3230,8 +3538,8 @@
     "name": "ranking-color",
     "alias": [],
     "title": "排名颜色",
-    "category": "Color",
-    "categoryCN": "颜色",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "排名",
@@ -3243,8 +3551,8 @@
     "name": "re-screen",
     "alias": [],
     "title": "重新筛选",
-    "category": "Data",
-    "categoryCN": "数据处理",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "筛选",
@@ -3257,8 +3565,8 @@
     "name": "refresh",
     "alias": [],
     "title": "刷新",
-    "category": "Action",
-    "categoryCN": "动作",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "刷新",
@@ -3270,8 +3578,8 @@
     "name": "reset",
     "alias": [],
     "title": "重置",
-    "category": "System",
-    "categoryCN": "系统",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "重置",
@@ -3283,8 +3591,8 @@
     "name": "right",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -3292,8 +3600,2888 @@
     "name": "rise",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAI-color",
+    "alias": [],
+    "title": "人工智能",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAIB_TextCensor-color",
+    "alias": [
+      "RPAAIB_ImageCensor-color"
+    ],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAIBillIdentify-color",
+    "alias": [
+      "RPAAITableIdentify-color",
+      "RPAAITextIdentify-color",
+      "RPAAIIdCardIdentify-color",
+      "RPAAIBankReceiptIdentify-color",
+      "RPAAICardCertificateIdentify-color",
+      "RPAAIOcrIdentify-color"
+    ],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAIBodyPointIdentify-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAICaptcha_ChaoJiYing-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAICaptcha_Fateadm-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAIDetectAction-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAIFaceIdentify-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAIKRPA_BaiduChat-color",
+    "alias": [
+      "RPAAIKRPA_BaiduChatPrompt-color"
+    ],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAIKRPA_Detect-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAIKRPA_Emotion-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAIKRPA_ImgVerify-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAIKRPA_PosTag-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAIKRPA_Semantic-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAIKRPA_Trans-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAIKRPA_VerificationCode-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAIKRPA_WordSeg-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAIKRPAChatCompletions-color",
+    "alias": [
+      "RPAAIKRPAImgCompletions-color",
+      "RPAAIKRPAAudioCompletions-color"
+    ],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAIVideoToText-color",
+    "alias": [],
+    "title": "语音转文字",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegration-color",
+    "alias": [],
+    "title": "应用程序集成",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationAddValidation-color",
+    "alias": [],
+    "title": "新增数据验证",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationAtiveSheet-color",
+    "alias": [],
+    "title": "激活Sheet页",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationClearFomat-color",
+    "alias": [],
+    "title": "清空格式",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationClearRange-color",
+    "alias": [],
+    "title": "清空Excel内容",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationCloseExcel-color",
+    "alias": [],
+    "title": "关闭Excel",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationCloseWord-color",
+    "alias": [],
+    "title": "关闭Word",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationCopyRange-color",
+    "alias": [],
+    "title": "拷贝Excel内容",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationCopySheet-color",
+    "alias": [],
+    "title": "拷贝Sheet页",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationCreateJsonObject-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationCreatePivotTable-color",
+    "alias": [
+      "RPAProgrammingCreatePivotTable-color"
+    ],
+    "title": "新建数据透视表",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationCreateSheet-color",
+    "alias": [],
+    "title": "添加Sheet页",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationCustomSort-color",
+    "alias": [],
+    "title": "Excel排序",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationCycleExcel-color",
+    "alias": [],
+    "title": "循环Excel内容",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationDatabaseClose-color",
+    "alias": [],
+    "title": "关闭数据库",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationDatabaseConnect-color",
+    "alias": [],
+    "title": "连接数据库",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationDeleteJsonNode-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationDeleteSheet-color",
+    "alias": [],
+    "title": "删除Sheet页",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationExcelLaunch-color",
+    "alias": [],
+    "title": "打开/新建Excel",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationExecSql-color",
+    "alias": [],
+    "title": "执行SQL语句",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationExecuteMacro-color",
+    "alias": [],
+    "title": "运行Excel宏",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationExportNewPDF-color",
+    "alias": [],
+    "title": "导出新PDF文档",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationExportToPDF-color",
+    "alias": [],
+    "title": "导出为PDF",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationFilterPivotTable-color",
+    "alias": [],
+    "title": "筛选数据透视表",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationFreeJsonNode-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationGetActiveExcel-color",
+    "alias": [],
+    "title": "获取当前激活的Excel对象",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationGetFirstCol-color",
+    "alias": [],
+    "title": "获取第一个可用列",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationGetFirstColOnRow-color",
+    "alias": [],
+    "title": "获取行上第一个可用列",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationGetFirstRow-color",
+    "alias": [],
+    "title": "获取第一个可用行",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationGetFirstRowOnCol-color",
+    "alias": [],
+    "title": "获取列上第一个可用行",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationGetJsonArrayLength-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationGetJsonDataType-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationGetJsonValue-color",
+    "alias": [
+      "RPAAppIntegrationGetJsonArray-color",
+      "RPAAppIntegrationGetJsonObject-color",
+      "RPAAppIntegrationGetJsonAllKey-color"
+    ],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationGetLastCol-color",
+    "alias": [],
+    "title": "获取最后一列",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationGetSelectRange-color",
+    "alias": [],
+    "title": "获取选中区域",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationGetSheetName-color",
+    "alias": [],
+    "title": "获取Sheet页名称",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationInsertBlankColumn-color",
+    "alias": [],
+    "title": "插入空列",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationInsertBlankRow-color",
+    "alias": [],
+    "title": "插入空行",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationInsertHyperlink-color",
+    "alias": [],
+    "title": "Word插入超链接",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationInsertImage-color",
+    "alias": [],
+    "title": "Word插入图片",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationInsertWordTable-color",
+    "alias": [],
+    "title": "插入Word表格",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationJsonToString-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationMergePDF-color",
+    "alias": [],
+    "title": "合并PDF文档",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationMoveWordCursor-color",
+    "alias": [],
+    "title": "移动Word光标",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationOpenSQL-color",
+    "alias": [],
+    "title": "查询SQL语句",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationParseJson-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationPasteRange-color",
+    "alias": [],
+    "title": "粘贴Excel内容",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationPDFExtractImage-color",
+    "alias": [
+      "RPAAppIntegrationSavePDFAsImage-color"
+    ],
+    "title": "PDF提取图片",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationPDFExtractText-color",
+    "alias": [],
+    "title": "PDF提取文本",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationPositionWordCursor-color",
+    "alias": [],
+    "title": "定位Word光标",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationReadExcel-color",
+    "alias": [],
+    "title": "读取Excel内容",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationReadExcelRow-color",
+    "alias": [],
+    "title": "读取Excel总行数",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationReadWordTable-color",
+    "alias": [],
+    "title": "读取Word表格",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationReadWordText-color",
+    "alias": [],
+    "title": "读取Word文本",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationRefreshData-color",
+    "alias": [],
+    "title": "刷新Excel数据",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationRefreshPivotTable-color",
+    "alias": [],
+    "title": "刷新数据透视表",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationRemoveAllRows-color",
+    "alias": [],
+    "title": "删除所有行",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationRemoveColumn-color",
+    "alias": [],
+    "title": "删除Excel列",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationRemoveRepeatRow-color",
+    "alias": [],
+    "title": "删除重复行",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationRemoveRow-color",
+    "alias": [],
+    "title": "删除Excel行",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationRenameSheet-color",
+    "alias": [],
+    "title": "重命名Sheet页",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationRplaceWordText-color",
+    "alias": [],
+    "title": "替换Word文本",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationSaveExcel-color",
+    "alias": [],
+    "title": "保存/另存Excel",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationSaveJson-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationSaveWord-color",
+    "alias": [],
+    "title": "保存Word",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationSearchJsonNode-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationSelectRange-color",
+    "alias": [],
+    "title": "选中区域",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationSetColumnWidth-color",
+    "alias": [],
+    "title": "设置列宽",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationSetFormat-color",
+    "alias": [],
+    "title": "设置格式",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationSetHidden-color",
+    "alias": [],
+    "title": "设置行列隐藏",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationSetJsonValue-color",
+    "alias": [
+      "RPAAppIntegrationSetJsonArray-color",
+      "RPAAppIntegrationSetJsonObject-color"
+    ],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationSetRowHeight-color",
+    "alias": [],
+    "title": "设置行高",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationWordExportPDF-color",
+    "alias": [],
+    "title": "Word导出PDF",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationWordLaunch-color",
+    "alias": [],
+    "title": "打开/新建Word",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationWordSetParagraphFormat-color",
+    "alias": [],
+    "title": "设置段落",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationWordSetSelection-color",
+    "alias": [
+      "RPAAIKRPA_Entity-color"
+    ],
+    "title": "选中内容",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationWriteExcelCell-color",
+    "alias": [],
+    "title": "写入单元格",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationWriteToExcel-color",
+    "alias": [],
+    "title": "写入内容至Excel工作表",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAAppIntegrationWriteWordText-color",
+    "alias": [],
+    "title": "写入文本至Word中",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAData-color",
+    "alias": [],
+    "title": "数据处理",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataAppendText-color",
+    "alias": [],
+    "title": "追加新文本",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataBase64Encode-color",
+    "alias": [
+      "RPADataBase64Decode-color"
+    ],
+    "title": "Base64编码",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataChangeDateTime-color",
+    "alias": [],
+    "title": "增加/减少时间",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataChangeTextCase-color",
+    "alias": [],
+    "title": "改变文本的大小写",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataClearList-color",
+    "alias": [
+      "RPADataRemoveItem-color"
+    ],
+    "title": "清空列表",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataCopy-color",
+    "alias": [],
+    "title": "拷贝",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataCreateDictionary-color",
+    "alias": [],
+    "title": "新建字典",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataCreateList-color",
+    "alias": [],
+    "title": "新建列表",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataDateToTimeStamp-color",
+    "alias": [],
+    "title": "日期时间转化为时间戳",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataDeleteDictionaryKey-color",
+    "alias": [],
+    "title": "删除字典键值对",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataExtractContentFromText-color",
+    "alias": [],
+    "title": "从文本中提取内容",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataExtractText-color",
+    "alias": [],
+    "title": "截取一段文本",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataFilterList-color",
+    "alias": [],
+    "title": "过滤列表中的多项",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataForEachDictionary-color",
+    "alias": [],
+    "title": "ForEach字典循环",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataGetCurrentDateTime-color",
+    "alias": [
+      "RPADataTextToDateTime-color"
+    ],
+    "title": "获取当前日期时间",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataGetDateTimeDetail-color",
+    "alias": [],
+    "title": "获取时间详细信息",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataGetDateTimeInterval-color",
+    "alias": [],
+    "title": "获取时间间隔",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataGetDictValByKey-color",
+    "alias": [
+      "RPADataGetDictionaryKeys-color",
+      "RPADataGetDictionaryValues-color"
+    ],
+    "title": "获取键值",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataGetDuplicate-color",
+    "alias": [],
+    "title": "获取两个列表的相同项",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataGetIndex-color",
+    "alias": [],
+    "title": "获取列表指定项的位置",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataGetItem-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataGetListLength-color",
+    "alias": [],
+    "title": "获取列表长度",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataGetTextLength-color",
+    "alias": [],
+    "title": "获取文本长度",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataInsertItemToList-color",
+    "alias": [
+      "RPADataSetItem-color"
+    ],
+    "title": "列表插入一项",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataJoinListToText-color",
+    "alias": [],
+    "title": "列表聚合成文本",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataJsonToText-color",
+    "alias": [],
+    "title": "Json转换成文本",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataMergeList-color",
+    "alias": [],
+    "title": "合并列表",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataPadTextToLen-color",
+    "alias": [],
+    "title": "补充文本至指定长度",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataRandomInt-color",
+    "alias": [],
+    "title": "产生随机数",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataRandomSortList-color",
+    "alias": [],
+    "title": "列表随机排序",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataReadCSVData-color",
+    "alias": [],
+    "title": "读取CSV数据",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataRemoveDuplicate-color",
+    "alias": [],
+    "title": "列表去重",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataReplaceContent-color",
+    "alias": [],
+    "title": "文本替换",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataReverseList-color",
+    "alias": [],
+    "title": "反转列表",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataSetDictionary-color",
+    "alias": [],
+    "title": "设置键值对",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataSetVariable-color",
+    "alias": [],
+    "title": "设置变量",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataSortList-color",
+    "alias": [],
+    "title": "列表排序",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataSplitTextToList-color",
+    "alias": [],
+    "title": "文本分割成列表",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataTextToJson-color",
+    "alias": [],
+    "title": "转换成Json对象",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataTimeStampToDate-color",
+    "alias": [],
+    "title": "时间戳转化为日期时间",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADataWriteDataToCSV-color",
+    "alias": [],
+    "title": "数据写入CSV",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPADialogs-color",
+    "alias": [
+      "RPAProgrammingShowMessageDialog-color"
+    ],
+    "title": "对话框",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAFlow-color",
+    "alias": [],
+    "title": "流程/应用",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAMouseKeyboard-color",
+    "alias": [],
+    "title": "鼠标键盘",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetwork-color",
+    "alias": [],
+    "title": "网络",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkChangeFtpPath-color",
+    "alias": [],
+    "title": "切换FTP工作路径",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkCreateFtpFolder-color",
+    "alias": [],
+    "title": "FTP创建文件夹",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkDelFtpFile-color",
+    "alias": [
+      "RPANetworkDelFtpFolder-color"
+    ],
+    "title": "FTP文件删除",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkDisFtpConn-color",
+    "alias": [],
+    "title": "断开FTP连接",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkDownFtpFile-color",
+    "alias": [
+      "RPANetworkDownFtpFolder-color"
+    ],
+    "title": "FTP文件下载",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkFeiShuSendMessages-color",
+    "alias": [],
+    "title": "飞书群通知",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkGetFtpConn-color",
+    "alias": [],
+    "title": "建立FTP连接",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkGetFtpFile-color",
+    "alias": [],
+    "title": "获取FTP文件",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkGetHttpDownLoad-color",
+    "alias": [],
+    "title": "Http下载",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkGetHttpPostOpt-color",
+    "alias": [],
+    "title": "Http请求",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkRenameFtpFile-color",
+    "alias": [],
+    "title": "FTP文件重命名",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkRetrieveEmail-color",
+    "alias": [],
+    "title": "获取邮件",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkSendCorGroupMsgByDD-color",
+    "alias": [],
+    "title": "钉钉群通知",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkSendEmail-color",
+    "alias": [],
+    "title": "发送邮件",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkSendEnterpriseWeChatMsg-color",
+    "alias": [],
+    "title": "企业微信群通知",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPANetworkUpLoadFtpFile-color",
+    "alias": [
+      "RPANetworkUpLoadFtpFolder-color"
+    ],
+    "title": "FTP文件上传",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgramming_Exit-color",
+    "alias": [],
+    "title": "退出当前流程",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgramming_Finally-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgramming_Raise-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgramming_Sleep-color",
+    "alias": [],
+    "title": "等待",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgramming_Try-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgramming-color",
+    "alias": [],
+    "title": "编程",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingAddRemark-color",
+    "alias": [],
+    "title": "添加备注说明",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingCatch-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingConvertDataType-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingCreateDataTable-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingDeleteDuplicateRow-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingDeleteRowAndColData-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingEndTry-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingForEachRow-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingFreeDataTable-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingGetBusinessData-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingGetRowAndColCount-color",
+    "alias": [
+      "RPAProgrammingGetRowAndColNames-color"
+    ],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingHandleMissValue-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingInsertDataToTable-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingInvokeSubScript-color",
+    "alias": [],
+    "title": "调用流程",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingMergeDataTable-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingOutputDataRow-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingOutputDataTable-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingPrintLog-color",
+    "alias": [],
+    "title": "打印日志",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingReadDataFromTable-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingSetBusinessData-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingShowCustomDialog-color",
+    "alias": [],
+    "title": "打开自定义对话框",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingShowDataTableDialog-color",
+    "alias": [],
+    "title": "打开数据表格对话框",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingShowDatetimeDialog-color",
+    "alias": [],
+    "title": "打开日期时间对话框",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingShowInputDialog-color",
+    "alias": [],
+    "title": "打开输入对话框",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingShowNotifycation-color",
+    "alias": [],
+    "title": "消息通知",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingShowSelectDialog-color",
+    "alias": [],
+    "title": "打开选择对话框",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingShowSelectFileDialog-color",
+    "alias": [],
+    "title": "打开选择文件对话框",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingSpliceColData-color",
+    "alias": [
+      "RPAProgrammingSortDataTable-color",
+      "RPAProgrammingColumnsOperation-color"
+    ],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingSummaryCalColumn-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingTerminateApp-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingWriteDataToTable-color",
+    "alias": [
+      "RPAProgrammingModiyRowAndColName-color"
+    ],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystem-color",
+    "alias": [],
+    "title": "操作系统",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemAddFileToClipboard-color",
+    "alias": [
+      "RPASystemSetContentForClipboard-color"
+    ],
+    "title": "将文件添加到剪切板",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemAwakeScreenSaver-color",
+    "alias": [],
+    "title": "唤起屏幕保护",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemClearClipboard-color",
+    "alias": [],
+    "title": "清空剪切板",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemClearDir-color",
+    "alias": [],
+    "title": "清空文件夹",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemClearScreenSaverTip-color",
+    "alias": [],
+    "title": "清空屏保提示",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemClickImg-color",
+    "alias": [],
+    "title": "点击图像",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemClickMouse-color",
+    "alias": [],
+    "title": "鼠标点击",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemClickText-color",
+    "alias": [],
+    "title": "单击文本(OCR)",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemCloseAwakenScreenSaver-color",
+    "alias": [],
+    "title": "关闭屏幕保护",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemCopyDir-color",
+    "alias": [],
+    "title": "拷贝文件夹",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemFileCopy-color",
+    "alias": [],
+    "title": "拷贝文件",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemFileMove-color",
+    "alias": [
+      "RPAProgrammingExportLog-color"
+    ],
+    "title": "移动文件",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemFileRead-color",
+    "alias": [],
+    "title": "读取文件",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemFileRemove-color",
+    "alias": [],
+    "title": "删除文件",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemFileRename-color",
+    "alias": [],
+    "title": "文件重命名",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemFileWrite-color",
+    "alias": [
+      "RPAProgrammingWriteDataToFile-color"
+    ],
+    "title": "写入文件",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemFindDirList-color",
+    "alias": [],
+    "title": "获取文件夹列表",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemFindFileList-color",
+    "alias": [],
+    "title": "获取文件列表",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemGetContentFromClipboard-color",
+    "alias": [],
+    "title": "获取剪切板文本",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemGetFilePathInfo-color",
+    "alias": [],
+    "title": "获取文件路径信息",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemGetInputTool-color",
+    "alias": [],
+    "title": "获取输入法",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemGetMousePosition-color",
+    "alias": [],
+    "title": "获取鼠标当前位置",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemGetSystemDirPath-color",
+    "alias": [],
+    "title": "获取系统文件夹路径",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemHoverImg-color",
+    "alias": [],
+    "title": "鼠标悬停在图像上",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemHoverOnText-color",
+    "alias": [],
+    "title": "鼠标悬停在文本上(OCR)",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemLockScreen-color",
+    "alias": [],
+    "title": "屏幕锁屏",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemManualMotionOff-color",
+    "alias": [],
+    "title": "结束模拟真人操作",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemManualMotionOn-color",
+    "alias": [],
+    "title": "开启模拟真人操作",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemMkDir-color",
+    "alias": [],
+    "title": "创建文件夹",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemMoveDir-color",
+    "alias": [],
+    "title": "移动文件夹",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemMoveMouse-color",
+    "alias": [],
+    "title": "移动鼠标",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemOpenDir-color",
+    "alias": [],
+    "title": "打开文件夹",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemRemoveDir-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemRenameDir-color",
+    "alias": [],
+    "title": "文件夹重命名",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemRunDosCommand-color",
+    "alias": [],
+    "title": "运行DOS命令",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemRunOrOpen-color",
+    "alias": [],
+    "title": "运行或打开",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemSendKeys-color",
+    "alias": [],
+    "title": "键盘输入",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemSetInputTool-color",
+    "alias": [],
+    "title": "设置输入法",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemSetScreenSaverTip-color",
+    "alias": [],
+    "title": "设置屏保提示",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemTakeScreenShot-color",
+    "alias": [],
+    "title": "截屏",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemTerminalProcess-color",
+    "alias": [],
+    "title": "终止程序",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemUnlockScreen-color",
+    "alias": [],
+    "title": "屏幕解锁",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemUnZip-color",
+    "alias": [],
+    "title": "解压文件/文件夹",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemWaitFile-color",
+    "alias": [],
+    "title": "等待文件",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemWaitImg-color",
+    "alias": [],
+    "title": "等待图像",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemWaitText-color",
+    "alias": [],
+    "title": "等待文本(OCR)",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemWheelMouse-color",
+    "alias": [],
+    "title": "滚动鼠标滚轮",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemZip-color",
+    "alias": [],
+    "title": "压缩文件/文件夹",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomation-color",
+    "alias": [],
+    "title": "网页自动化",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationAutoHandleBox-color",
+    "alias": [],
+    "title": "自动处理弹框",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationBatchDataScraping-color",
+    "alias": [],
+    "title": "批量数据抓取",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationCloseWeb-color",
+    "alias": [
+      "RPAWinAutomationCloseeWindow-color"
+    ],
+    "title": "关闭网页",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationCookie-color",
+    "alias": [
+      "RPAWebAutomationSetCookie-color",
+      "RPAWebAutomationRemoveCookie-color",
+      "RPAWebAutomationGetFilterCookie-color",
+      "RPAWebAutomationGetAppointCookie-color"
+    ],
+    "title": "设置Cookie",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationDownLoadFile-color",
+    "alias": [],
+    "title": "下载文件",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationElementClick-color",
+    "alias": [
+      "RPAWinAutomationWinClickElement-color"
+    ],
+    "title": "点击元素",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationElementInput-color",
+    "alias": [
+      "RPAWinAutomationWinElementInput-color"
+    ],
+    "title": "填写输入框",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationExecJsScript-color",
+    "alias": [],
+    "title": "执行JS脚本",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationForwardNewWeb-color",
+    "alias": [],
+    "title": "跳转至新网页",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationGetAllElements-color",
+    "alias": [
+      "RPAWinAutomationWinGetAllElements-color",
+      "RPAWinAutomationCycleWinSimilarElements-color"
+    ],
+    "title": "获取相似元素列表",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationGetAssnElement-color",
+    "alias": [
+      "RPAWinAutomationWinGetAssnElement-color"
+    ],
+    "title": "获取关联元素",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationGetElementInfo-color",
+    "alias": [
+      "RPAWinAutomationGetWinElementInfo-color"
+    ],
+    "title": "获取元素信息",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationGetElementObj-color",
+    "alias": [
+      "RPAWinAutomationWinGetElementObj-color"
+    ],
+    "title": "获取元素对象",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationGetWebBoxContent-color",
+    "alias": [
+      "RPAWebAutomationHandleWebBox-color"
+    ],
+    "title": "获取网页对话框内容",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationGetWebInfo-color",
+    "alias": [],
+    "title": "获取网页信息",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationGetWebListenRest-color",
+    "alias": [],
+    "title": "获取网页监听结果",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationGetWebObj-color",
+    "alias": [
+      "RPAWebAutomationGetWebObjList-color"
+    ],
+    "title": "获取已打开的网页对象",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationHandleDownLoadBox-color",
+    "alias": [],
+    "title": "处理下载对话框",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationHandleUpLoadBox-color",
+    "alias": [],
+    "title": "处理上传对话框",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationHoverElement-color",
+    "alias": [
+      "RPAWinAutomationWinHoverElement-color"
+    ],
+    "title": "鼠标悬停在元素上",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationListenWebRequest-color",
+    "alias": [],
+    "title": "开始监听网页请求",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationMouseRollWeb-color",
+    "alias": [
+      "RPAWebAutomationDragToElement-color",
+      "RPAWebAutomationGetScrollPosition-color",
+      "RPAWinAutomationMoveWindow-color",
+      "RPAWinAutomationWinDragToElement-color"
+    ],
+    "title": "鼠标滚动页面",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationSetCheckBox-color",
+    "alias": [
+      "RPAWinAutomationWinSetCheckBox-color"
+    ],
+    "title": "设置复选框",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationSetElementAtt-color",
+    "alias": [],
+    "title": "设置元素属性",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationSetElementValue-color",
+    "alias": [
+      "RPAWinAutomationWinSetElementValue-color"
+    ],
+    "title": "设置元素值",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationSetSelectInput-color",
+    "alias": [
+      "RPAWebAutomationGetSelectOption-color",
+      "RPAWinAutomationWinSetSelectInput-color",
+      "RPAWinAutomationGetWinSelectOption-color"
+    ],
+    "title": "设置下拉框",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationStopWebListen-color",
+    "alias": [],
+    "title": "停止监听网页请求",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationStopWebLoad-color",
+    "alias": [],
+    "title": "停止网页加载",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationUpLoadFile-color",
+    "alias": [],
+    "title": "上传文件",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationWaitLoadCompleted-color",
+    "alias": [
+      "RPAWebAutomationWaitElement-color",
+      "RPAWinAutomationWinWaitElement-color"
+    ],
+    "title": "等待网页加载完成",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationWebOpen-color",
+    "alias": [],
+    "title": "打开网页",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationWebScrnShot-color",
+    "alias": [
+      "RPAWinAutomationElementScreenshot-color"
+    ],
+    "title": "网页截图",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWebAutomationWritePassInput-color",
+    "alias": [
+      "RPAWinAutomationWinWritePassInput-color"
+    ],
+    "title": "填写密码框",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWinAutomation-color",
+    "alias": [],
+    "title": "获取窗口对象",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWinAutomationActivateWindow-color",
+    "alias": [],
+    "title": "激活软件窗口",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWinAutomationGetDetails-color",
+    "alias": [],
+    "title": "获取窗口信息",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWinAutomationGetSelectedText-color",
+    "alias": [],
+    "title": "获取选中文本",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWinAutomationGetWinObject-color",
+    "alias": [],
+    "title": "获取窗口对象",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWinAutomationGetWinObjList-color",
+    "alias": [],
+    "title": "获取窗口对象列表",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWinAutomationResizeWindow-color",
+    "alias": [],
+    "title": "调整窗口大小",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWinAutomationSap-color",
+    "alias": [
+      "RPAWinAutomationSapStart-color",
+      "RPAWinAutomationSapLogin-color",
+      "RPAWinAutomationExpandSelectNode-color",
+      "RPAWinAutomationClickToolbarButton-color",
+      "RPAWinAutomationGetTableRowCount-color",
+      "RPAWinAutomationGetTableColumnCount-color",
+      "RPAWinAutomationWaitSAPLoadCompleted-color",
+      "RPAWinAutomationCallTransaction-color",
+      "RPAWinAutomationReadStatusBar-color",
+      "RPAWinAutomationSelectMenuItem-color",
+      "RPAWinAutomationSelectDate-color",
+      "RPAWinAutomationGetTableCells-color"
+    ],
+    "title": "SAP",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWinAutomationSetVisibility-color",
+    "alias": [],
+    "title": "设置窗口是否提示",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWinAutomationSetWinState-color",
+    "alias": [],
+    "title": "设置窗口状态",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWorkflowBreak-color",
+    "alias": [],
+    "title": "退出循环",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWorkflowContinue-color",
+    "alias": [],
+    "title": "继续下一次循环",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWorkflowElse-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWorkflowElseIf-color",
+    "alias": [
+      "RPAWorkflowElseIfTest-color"
+    ],
+    "title": "Else",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWorkflowEndIf-color",
+    "alias": [],
+    "title": "End If",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWorkflowEndLoop-color",
+    "alias": [],
+    "title": "循环结束标记",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWorkflowFor-color",
+    "alias": [],
+    "title": "For次数循环",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWorkflowForEachIterator-color",
+    "alias": [],
+    "title": "ForEach列表循环",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWorkflowForIterator-color",
+    "alias": [],
+    "title": "For次数循环",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWorkflowIf-color",
+    "alias": [
+      "RPAWorkflowTest-color"
+    ],
+    "title": "IF条件",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWorkflowIfFileExists-color",
+    "alias": [],
+    "title": "IF 文件存在",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWorkflowIfFolderExists-color",
+    "alias": [],
+    "title": "IF 文件夹存在",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWorkflowIfHTMLContain-color",
+    "alias": [
+      "RPAWorkflowIfHTMLVisible-color",
+      "RPAWorkflowIfWinObjecExists-color",
+      "RPAWorkflowIfWinObjecContain-color"
+    ],
+    "title": "if 网页包含",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWorkflowIfTextExists-color",
+    "alias": [],
+    "title": "IF 屏幕上出现文本",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWorkflowWhile-color",
+    "alias": [],
+    "title": "While条件循环",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAWorkflowWhileTrue-color",
+    "alias": [],
+    "title": "无限循环",
+    "category": "RPA",
+    "categoryCN": "RPA",
     "author": "KSW",
     "tag": []
   },
@@ -3301,8 +6489,8 @@
     "name": "save",
     "alias": [],
     "title": "保存",
-    "category": "File",
-    "categoryCN": "文件管理",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "保存",
@@ -3314,8 +6502,8 @@
     "name": "scan",
     "alias": [],
     "title": "扫描",
-    "category": "Technology",
-    "categoryCN": "科技",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "扫描仪",
@@ -3327,8 +6515,8 @@
     "name": "scrip",
     "alias": [],
     "title": "脚本",
-    "category": "Programming",
-    "categoryCN": "编程",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "脚本",
@@ -3340,8 +6528,8 @@
     "name": "scrip-color",
     "alias": [],
     "title": "脚本颜色",
-    "category": "Development",
-    "categoryCN": "开发工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "编程",
@@ -3353,8 +6541,8 @@
     "name": "seal",
     "alias": [],
     "title": "印章",
-    "category": "Stationery",
-    "categoryCN": "文具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "印章",
@@ -3366,8 +6554,8 @@
     "name": "search",
     "alias": [],
     "title": "搜索",
-    "category": "Navigation",
-    "categoryCN": "导航",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "搜索",
@@ -3376,11 +6564,25 @@
     ]
   },
   {
+    "name": "send",
+    "alias": [],
+    "title": "发送图标",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": [
+      "发送",
+      "箭头",
+      "上传",
+      "传输"
+    ]
+  },
+  {
     "name": "setting",
     "alias": [],
     "title": "设置",
-    "category": "System",
-    "categoryCN": "系统工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "设置",
@@ -3392,8 +6594,8 @@
     "name": "setting-animation",
     "alias": [],
     "title": "设置动画",
-    "category": "Design",
-    "categoryCN": "设计工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "设置",
@@ -3403,11 +6605,24 @@
     ]
   },
   {
+    "name": "setting-box",
+    "alias": [],
+    "title": "设置框",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": [
+      "设置",
+      "工具",
+      "图标"
+    ]
+  },
+  {
     "name": "setting-fill",
     "alias": [],
     "title": "设置填充",
-    "category": "Tools",
-    "categoryCN": "工具",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "设置",
@@ -3420,8 +6635,8 @@
     "name": "show",
     "alias": [],
     "title": "显示",
-    "category": "Visibility",
-    "categoryCN": "可见性",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "显示",
@@ -3433,8 +6648,8 @@
     "name": "sitemap",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -3442,8 +6657,8 @@
     "name": "size-controls",
     "alias": [],
     "title": "大小控制",
-    "category": "Edit",
-    "categoryCN": "编辑",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "控制"
@@ -3453,8 +6668,8 @@
     "name": "sort-bottom",
     "alias": [],
     "title": "底部排序",
-    "category": "Sorting",
-    "categoryCN": "排序",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "排序",
@@ -3466,8 +6681,8 @@
     "name": "sort-down",
     "alias": [],
     "title": "向下排序",
-    "category": "Sorting",
-    "categoryCN": "排序",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "排序",
@@ -3479,8 +6694,8 @@
     "name": "sort-top",
     "alias": [],
     "title": "顶部排序",
-    "category": "Sorting",
-    "categoryCN": "排序",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "排序",
@@ -3492,8 +6707,8 @@
     "name": "sort-up",
     "alias": [],
     "title": "排序上升",
-    "category": "Sorting",
-    "categoryCN": "排序",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "排序",
@@ -3505,8 +6720,8 @@
     "name": "status-403",
     "alias": [],
     "title": "状态",
-    "category": "HTTP",
-    "categoryCN": "HTTP状态",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "错误",
@@ -3518,8 +6733,8 @@
     "name": "status-404",
     "alias": [],
     "title": "状态",
-    "category": "Error",
-    "categoryCN": "错误页面",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "错误",
@@ -3531,8 +6746,8 @@
     "name": "status-500",
     "alias": [],
     "title": "状态500",
-    "category": "Error",
-    "categoryCN": "错误",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "错误",
@@ -3544,8 +6759,8 @@
     "name": "status-danger",
     "alias": [],
     "title": "危险状态",
-    "category": "Status",
-    "categoryCN": "状态指示器",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "警告",
@@ -3558,8 +6773,8 @@
     "name": "status-def",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -3567,8 +6782,8 @@
     "name": "status-empty",
     "alias": [],
     "title": "状态空",
-    "category": "Status",
-    "categoryCN": "状态",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "状态",
@@ -3580,8 +6795,8 @@
     "name": "status-empty-color",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -3589,8 +6804,8 @@
     "name": "status-info",
     "alias": [],
     "title": "状态信息",
-    "category": "Information",
-    "categoryCN": "信息",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "状态",
@@ -3602,8 +6817,8 @@
     "name": "status-success",
     "alias": [],
     "title": "状态成功",
-    "category": "Status",
-    "categoryCN": "状态指示器",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "成功",
@@ -3616,8 +6831,8 @@
     "name": "status-warning",
     "alias": [],
     "title": "状态警告",
-    "category": "Alerts",
-    "categoryCN": "警告",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "警告",
@@ -3630,8 +6845,8 @@
     "name": "Step-Status-Failure",
     "alias": [],
     "title": "步骤状态失败",
-    "category": "Process",
-    "categoryCN": "流程状态",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "步骤",
@@ -3645,8 +6860,8 @@
     "name": "Step-Status-Success",
     "alias": [],
     "title": "步骤状态成功",
-    "category": "Progress",
-    "categoryCN": "进度指示器",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "步骤",
@@ -3660,8 +6875,8 @@
     "name": "store-color",
     "alias": [],
     "title": "商店颜色",
-    "category": "Shopping",
-    "categoryCN": "购物",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "商店",
@@ -3673,8 +6888,8 @@
     "name": "subtask",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -3682,8 +6897,8 @@
     "name": "SupportCenter",
     "alias": [],
     "title": "支持中心",
-    "category": "Customer",
-    "categoryCN": "客户服务",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "帮助",
@@ -3696,8 +6911,8 @@
     "name": "SystemType-aix-color",
     "alias": [],
     "title": "系统类型",
-    "category": "Operating",
-    "categoryCN": "操作系统",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "AIX",
@@ -3710,8 +6925,8 @@
     "name": "SystemType-android-color",
     "alias": [],
     "title": "系统类型",
-    "category": "System",
-    "categoryCN": "系统",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "系统",
@@ -3723,8 +6938,8 @@
     "name": "SystemType-arm-color",
     "alias": [],
     "title": "系统类型",
-    "category": "System",
-    "categoryCN": "系统",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "系统",
@@ -3736,8 +6951,8 @@
     "name": "SystemType-AS-color",
     "alias": [],
     "title": "系统类型",
-    "category": "System",
-    "categoryCN": "系统组件",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "系统",
@@ -3749,8 +6964,8 @@
     "name": "SystemType-firewall-color",
     "alias": [],
     "title": "系统类型",
-    "category": "System",
-    "categoryCN": "系统组件",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "系统",
@@ -3762,8 +6977,8 @@
     "name": "SystemType-interchanger-color",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -3771,8 +6986,8 @@
     "name": "SystemType-ios-color",
     "alias": [],
     "title": "系统类型",
-    "category": "Operating",
-    "categoryCN": "操作系统",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "系统",
@@ -3784,8 +6999,8 @@
     "name": "SystemType-LB-color",
     "alias": [],
     "title": "系统类型",
-    "category": "System",
-    "categoryCN": "系统组件",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "系统",
@@ -3797,8 +7012,8 @@
     "name": "SystemType-linux-color",
     "alias": [],
     "title": "Linux系统类型",
-    "category": "Operating",
-    "categoryCN": "操作系统",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "Linux",
@@ -3810,8 +7025,8 @@
     "name": "SystemType-router-color",
     "alias": [],
     "title": "系统类型",
-    "category": "Networking",
-    "categoryCN": "网络",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "路由器",
@@ -3824,8 +7039,8 @@
     "name": "SystemType-Unix-color",
     "alias": [],
     "title": "Unix系统类型",
-    "category": "Operating",
-    "categoryCN": "操作系统",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "Unix",
@@ -3837,8 +7052,8 @@
     "name": "SystemType-windows-color",
     "alias": [],
     "title": "系统类型",
-    "category": "Operating",
-    "categoryCN": "操作系统",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "系统",
@@ -3850,8 +7065,8 @@
     "name": "table-control-more",
     "alias": [],
     "title": "表格控制更多",
-    "category": "Table",
-    "categoryCN": "表格控件",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "表格",
@@ -3863,8 +7078,8 @@
     "name": "table-sort-down-color",
     "alias": [],
     "title": "表格排序向下颜色",
-    "category": "Data",
-    "categoryCN": "数据管理",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "表格",
@@ -3877,8 +7092,8 @@
     "name": "table-sort-normal-color",
     "alias": [],
     "title": "表格排序",
-    "category": "Data",
-    "categoryCN": "数据管理",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "表格",
@@ -3890,8 +7105,8 @@
     "name": "table-sort-up-color",
     "alias": [],
     "title": "表格排序上升颜色",
-    "category": "Data",
-    "categoryCN": "数据管理",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "表格",
@@ -3904,8 +7119,8 @@
     "name": "task",
     "alias": [],
     "title": "任务",
-    "category": "Productivity",
-    "categoryCN": "生产力",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "任务管理",
@@ -3914,11 +7129,24 @@
     ]
   },
   {
+    "name": "template-color",
+    "alias": [],
+    "title": "模板颜色",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": [
+      "模板",
+      "颜色",
+      "设计"
+    ]
+  },
+  {
     "name": "test-color",
     "alias": [],
     "title": "测试颜色",
-    "category": "Color",
-    "categoryCN": "颜色",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "颜色",
@@ -3930,8 +7158,8 @@
     "name": "time",
     "alias": [],
     "title": "时间",
-    "category": "Clock",
-    "categoryCN": "时钟",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "时间",
@@ -3943,8 +7171,8 @@
     "name": "tips",
     "alias": [],
     "title": "提示",
-    "category": "Helpful",
-    "categoryCN": "帮助资源",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "建议",
@@ -3957,8 +7185,8 @@
     "name": "top1-color",
     "alias": [],
     "title": "第一名颜色",
-    "category": "Achievement",
-    "categoryCN": "成就",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "第一名",
@@ -3970,8 +7198,8 @@
     "name": "top2-color",
     "alias": [],
     "title": "顶部2号彩色",
-    "category": "Icons",
-    "categoryCN": "图标",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "顶部",
@@ -3984,8 +7212,8 @@
     "name": "top3-color",
     "alias": [],
     "title": "前三名颜色",
-    "category": "Achievement",
-    "categoryCN": "成就",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "排名",
@@ -3997,8 +7225,8 @@
     "name": "triangle-bottom",
     "alias": [],
     "title": "底部三角形",
-    "category": "Shapes",
-    "categoryCN": "形状",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "三角形",
@@ -4010,8 +7238,8 @@
     "name": "triangle-top",
     "alias": [],
     "title": "三角形顶部",
-    "category": "Shapes",
-    "categoryCN": "形状",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "几何",
@@ -4023,8 +7251,8 @@
     "name": "turn-to-left",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -4032,8 +7260,8 @@
     "name": "turn-to-right",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -4041,8 +7269,8 @@
     "name": "unfold",
     "alias": [],
     "title": "展开",
-    "category": "Navigation",
-    "categoryCN": "导航",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "展开",
@@ -4054,8 +7282,8 @@
     "name": "up",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -4063,8 +7291,8 @@
     "name": "upload",
     "alias": [],
     "title": "上传",
-    "category": "File",
-    "categoryCN": "文件管理",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "上传",
@@ -4076,8 +7304,8 @@
     "name": "user-filled",
     "alias": [],
     "title": "用户-填充",
-    "category": "User",
-    "categoryCN": "用户",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "用户",
@@ -4088,8 +7316,8 @@
     "name": "users",
     "alias": [],
     "title": "用户们",
-    "category": "User",
-    "categoryCN": "用户",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "用户们",
@@ -4100,8 +7328,8 @@
     "name": "users-filled",
     "alias": [],
     "title": "用户们-填充",
-    "category": "User",
-    "categoryCN": "用户",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "用户们",
@@ -4112,8 +7340,8 @@
     "name": "variable",
     "alias": [],
     "title": "变量",
-    "category": "Programming",
-    "categoryCN": "编程",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "变量",
@@ -4125,8 +7353,8 @@
     "name": "version-color",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -4134,8 +7362,8 @@
     "name": "video",
     "alias": [],
     "title": "视频",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -4143,8 +7371,8 @@
     "name": "video-color",
     "alias": [],
     "title": "视频-颜色",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -4152,8 +7380,8 @@
     "name": "view-switch-card",
     "alias": [],
     "title": "视图切换卡",
-    "category": "UI",
-    "categoryCN": "用户界面组件",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "视图",
@@ -4166,8 +7394,8 @@
     "name": "view-switch-color",
     "alias": [],
     "title": "视图切换颜色",
-    "category": "UI",
-    "categoryCN": "用户界面元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "视图",
@@ -4179,8 +7407,8 @@
     "name": "view-toggle-details",
     "alias": [],
     "title": "视图切换详情",
-    "category": "UI",
-    "categoryCN": "用户界面元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "视图",
@@ -4193,8 +7421,8 @@
     "name": "view-toggle-table",
     "alias": [],
     "title": "视图切换表格",
-    "category": "UI",
-    "categoryCN": "用户界面元素",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "视图",
@@ -4208,8 +7436,8 @@
     "name": "warning",
     "alias": [],
     "title": "警告",
-    "category": "Safety",
-    "categoryCN": "安全",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": [
       "警告",
@@ -4221,8 +7449,8 @@
     "name": "zoom-in",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -4230,8 +7458,8 @@
     "name": "zoom-out",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   }
