@@ -1191,19 +1191,6 @@
     "tag": []
   },
   {
-    "name": "arrow-bottom",
-    "alias": [],
-    "title": "向下箭头",
-    "category": "base",
-    "categoryCN": "基础",
-    "author": "KSW",
-    "tag": [
-      "箭头",
-      "底部",
-      "方向"
-    ]
-  },
-  {
     "name": "arrow-down",
     "alias": [],
     "title": "",
@@ -1272,19 +1259,6 @@
       "箭头",
       "方向",
       "右"
-    ]
-  },
-  {
-    "name": "arrow-top",
-    "alias": [],
-    "title": "向上箭头",
-    "category": "base",
-    "categoryCN": "基础",
-    "author": "KSW",
-    "tag": [
-      "箭头",
-      "向上",
-      "方向"
     ]
   },
   {
@@ -1616,6 +1590,17 @@
     ]
   },
   {
+    "name": "caret-down",
+    "alias": [
+      "table-control-more"
+    ],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "chart-pie",
     "alias": [],
     "title": "饼图",
@@ -1697,6 +1682,15 @@
     ]
   },
   {
+    "name": "chevrons-down",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "clear",
     "alias": [],
     "title": "清除",
@@ -1756,6 +1750,15 @@
       "退出",
       "终止"
     ]
+  },
+  {
+    "name": "cloud-up",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "Collect",
@@ -1871,7 +1874,9 @@
   },
   {
     "name": "down",
-    "alias": [],
+    "alias": [
+      "arrow-bottom"
+    ],
     "title": "",
     "category": "base",
     "categoryCN": "基础",
@@ -1914,6 +1919,15 @@
     ]
   },
   {
+    "name": "earth",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "Edit",
     "alias": [],
     "title": "编辑",
@@ -1928,7 +1942,9 @@
   },
   {
     "name": "ellipsis-horizontal",
-    "alias": [],
+    "alias": [
+      "more"
+    ],
     "title": "",
     "category": "base",
     "categoryCN": "基础",
@@ -2991,18 +3007,15 @@
     ]
   },
   {
-    "name": "locked",
-    "alias": [],
-    "title": "锁定",
-    "category": "base",
-    "categoryCN": "基础",
+    "name": "lock-open",
+    "alias": [
+      "locked"
+    ],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
     "author": "KSW",
-    "tag": [
-      "锁定",
-      "安全",
-      "保护",
-      "隐私"
-    ]
+    "tag": []
   },
   {
     "name": "logout",
@@ -3158,19 +3171,6 @@
     "categoryCN": "基础",
     "author": "KSW",
     "tag": []
-  },
-  {
-    "name": "more",
-    "alias": [],
-    "title": "更多",
-    "category": "base",
-    "categoryCN": "基础",
-    "author": "KSW",
-    "tag": [
-      "更多选项",
-      "菜单",
-      "扩展"
-    ]
   },
   {
     "name": "organization",
@@ -3562,17 +3562,15 @@
     ]
   },
   {
-    "name": "refresh",
-    "alias": [],
-    "title": "刷新",
-    "category": "base",
-    "categoryCN": "基础",
+    "name": "reload",
+    "alias": [
+      "refresh"
+    ],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
     "author": "KSW",
-    "tag": [
-      "刷新",
-      "更新",
-      "重新加载"
-    ]
+    "tag": []
   },
   {
     "name": "reset",
@@ -6632,6 +6630,15 @@
     ]
   },
   {
+    "name": "shield",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "show",
     "alias": [],
     "title": "显示",
@@ -6715,6 +6722,24 @@
       "上升",
       "箭头"
     ]
+  },
+  {
+    "name": "star",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "star-fill",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "status-403",
@@ -7062,19 +7087,6 @@
     ]
   },
   {
-    "name": "table-control-more",
-    "alias": [],
-    "title": "表格控制更多",
-    "category": "base",
-    "categoryCN": "基础",
-    "author": "KSW",
-    "tag": [
-      "表格",
-      "控制",
-      "更多选项"
-    ]
-  },
-  {
     "name": "table-sort-down-color",
     "alias": [],
     "title": "表格排序向下颜色",
@@ -7114,6 +7126,15 @@
       "上升",
       "颜色"
     ]
+  },
+  {
+    "name": "tag",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "task",
@@ -7280,7 +7301,9 @@
   },
   {
     "name": "up",
-    "alias": [],
+    "alias": [
+      "arrow-top"
+    ],
     "title": "",
     "category": "base",
     "categoryCN": "基础",
@@ -7299,6 +7322,15 @@
       "文件",
       "数据传输"
     ]
+  },
+  {
+    "name": "user",
+    "alias": [],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "user-filled",
