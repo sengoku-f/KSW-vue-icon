@@ -1993,6 +1993,28 @@
     "tag": []
   },
   {
+    "name": "eye",
+    "alias": [
+      "show"
+    ],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "eye-off",
+    "alias": [
+      "hide"
+    ],
+    "title": "",
+    "category": "Other",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "fall",
     "alias": [],
     "title": "秋天",
@@ -2712,19 +2734,6 @@
     ]
   },
   {
-    "name": "hide",
-    "alias": [],
-    "title": "隐藏",
-    "category": "base",
-    "categoryCN": "基础",
-    "author": "KSW",
-    "tag": [
-      "隐藏",
-      "不可见",
-      "遮挡"
-    ]
-  },
-  {
     "name": "icon-def",
     "alias": [],
     "title": "图标定义",
@@ -2995,7 +3004,9 @@
   },
   {
     "name": "lock",
-    "alias": [],
+    "alias": [
+      "locked"
+    ],
     "title": "锁",
     "category": "base",
     "categoryCN": "基础",
@@ -3008,9 +3019,7 @@
   },
   {
     "name": "lock-open",
-    "alias": [
-      "locked"
-    ],
+    "alias": [],
     "title": "",
     "category": "Other",
     "categoryCN": "其他",
@@ -6637,19 +6646,6 @@
     "categoryCN": "其他",
     "author": "KSW",
     "tag": []
-  },
-  {
-    "name": "show",
-    "alias": [],
-    "title": "显示",
-    "category": "base",
-    "categoryCN": "基础",
-    "author": "KSW",
-    "tag": [
-      "显示",
-      "可见",
-      "视觉"
-    ]
   },
   {
     "name": "sitemap",
