@@ -1856,6 +1856,15 @@
     ]
   },
   {
+    "name": "debug-fill",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "delete",
     "alias": [],
     "title": "删除",
@@ -3275,6 +3284,24 @@
   },
   {
     "name": "play",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "player-skip-forward-fill",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "player-track-next-color",
     "alias": [],
     "title": "",
     "category": "base",
