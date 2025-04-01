@@ -1595,8 +1595,8 @@
       "table-control-more"
     ],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -1685,8 +1685,8 @@
     "name": "chevrons-down",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -1752,11 +1752,20 @@
     ]
   },
   {
+    "name": "cloud",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "cloud-up",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -1873,6 +1882,15 @@
     ]
   },
   {
+    "name": "device-mobile",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "down",
     "alias": [
       "arrow-bottom"
@@ -1922,8 +1940,8 @@
     "name": "earth",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -1998,8 +2016,8 @@
       "show"
     ],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -2009,8 +2027,8 @@
       "hide"
     ],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -2885,6 +2903,15 @@
     "tag": []
   },
   {
+    "name": "key",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "keyboard",
     "alias": [],
     "title": "键盘",
@@ -3021,8 +3048,8 @@
     "name": "lock-open",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -3576,8 +3603,8 @@
       "refresh"
     ],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -6642,8 +6669,8 @@
     "name": "shield",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -6723,8 +6750,8 @@
     "name": "star",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -6732,8 +6759,8 @@
     "name": "star-fill",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -7127,8 +7154,8 @@
     "name": "tag",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
@@ -7323,8 +7350,8 @@
     "name": "user",
     "alias": [],
     "title": "",
-    "category": "Other",
-    "categoryCN": "其他",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
