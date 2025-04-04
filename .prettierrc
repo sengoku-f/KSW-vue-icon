@@ -1,0 +1,5 @@
+{
+  "printWidth": 150,
+  "formatOnSave": true,
+  "plugins": ["prettier-plugin-tailwindcss"]
+}
