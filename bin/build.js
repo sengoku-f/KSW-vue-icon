@@ -16,6 +16,7 @@ const rootDir = path.join(__dirname, "..");
 // 定义源代码和图标代码的目录
 const srcDir = path.join(rootDir, "src");
 const iconsDir = path.join(rootDir, "src/icons");
+const vueComponentsDir = path.join(rootDir, "src/components");
 
 // 创建目录的辅助函数
 const createDirIfNotExists = async (dir) => {
@@ -38,20 +39,25 @@ const createIconData = (config, id, componentName, componentAlias, name, project
   modifiedTime: stats.mtime,
 });
 
-// 递归获取所有 SVG 文件
-const getAllSvgFiles = async (dir) => {
+// 新增：通用文件获取函数
+const getAllFilesByExt = async (dir, ext) => {
   const entries = await fs.readdir(dir, { withFileTypes: true });
-  const files = await Promise.all(entries.map(async (entry) => {
-    const fullPath = path.join(dir, entry.name);
-    return entry.isDirectory() ? await getAllSvgFiles(fullPath) : fullPath;
-  }));
-  return files.flat().filter(file => path.extname(file) === ".svg");
+  const files = await Promise.all(
+    entries.map(async (entry) => {
+      const fullPath = path.join(dir, entry.name);
+      return entry.isDirectory() ? await getAllFilesByExt(fullPath, ext) : fullPath;
+    }),
+  );
+  return files.flat().filter((file) => path.extname(file) === ext);
 };
 
 // 分别生成图标代码
 const generateIconCode = async (filePath, svgDir) => {
   const name = path.basename(filePath, ".svg");
   const names = parseName(name);
+  // svg 的 exportsPath 路径使用 iconsDir
+  const basePath = path.relative(svgDir, path.dirname(filePath));
+  const exportsPath = path.join("icons", basePath);
   const relativePath = path.relative(svgDir, path.dirname(filePath));
   const destinationDir = path.join(iconsDir, relativePath);
   await createDirIfNotExists(destinationDir);
@@ -75,17 +81,44 @@ const generateIconCode = async (filePath, svgDir) => {
   } catch (err) {
     console.warn(`未找到配置文件: ${configFilePath}`);
   }
-  const config = iconsConfig.find(icon => icon.name.trim() === names.name.trim());
+  const config = iconsConfig.find((icon) => icon.name.trim() === names.name.trim());
   // 别名转为驼峰
-  const componentAlias = config?.alias?.map(alias => `Icon${toCamelCase(alias)}`);
+  const componentAlias = config?.alias?.map((alias) => `Icon${toCamelCase(alias)}`);
 
   console.log("成功构建:", componentName, "修改日期:", stats.mtime);
-  return { componentName, componentAlias, config, stats, relativePath };
+  return { componentName, componentAlias, config, stats, relativePath, exportsPath };
+};
+
+// 新增：Vue 文件处理逻辑
+const generateVue = async (filePath, vueComponentsDir) => {
+  const name = path.basename(filePath, ".vue");
+  const fullName = path.basename(filePath);
+  const names = parseName(name);
+  const exportsPath = path.relative(srcDir, path.dirname(filePath));
+  const relativePath = path.relative(vueComponentsDir, path.dirname(filePath));
+  const stats = await fs.stat(filePath);
+
+  // 读取配置（复用 SVG 的配置体系）
+  const configFilePath = path.join(rootDir, `icons-config-${relativePath}.json`);
+  let iconsConfig = [];
+  try {
+    iconsConfig = JSON.parse(await fs.readFile(configFilePath, "utf8"));
+  } catch (err) {
+    console.warn(`未找到配置文件: ${configFilePath}`);
+  }
+
+  // vue 使用 fullName
+  const config = iconsConfig.find((icon) => icon.name.trim() === fullName.trim());
+  const componentName = `Icon${names.componentName}`;
+  const componentAlias = config?.alias?.map((alias) => `Icon${toCamelCase(alias)}`);
+
+  console.log("成功处理 Vue 文件:", componentName, "修改日期:", stats.mtime);
+  return { componentName, componentAlias, config, stats, relativePath, exportsPath };
 };
 
 // 生成每个子目录的 index.js
-const generateMapForDirectory = async (relativePath, exports) => {
-  const mapFilePath = path.join(iconsDir, relativePath, "index.js");
+const generateMapForDirectory = async (exportsPath, exports) => {
+  const mapFilePath = path.join(srcDir, exportsPath, "index.js");
   const exportStrings = exports
     .map(({ componentName, componentAlias, name }) => {
       // 主导出
@@ -98,7 +131,7 @@ const generateMapForDirectory = async (relativePath, exports) => {
     })
     .join("");
   await fs.writeFile(mapFilePath, exportStrings, "utf-8");
-  console.log(`成功生成 ${relativePath} index.js 文件: ${mapFilePath}`);
+  console.log(`成功生成 ${exportsPath} index.js 文件: ${mapFilePath}`);
 };
 
 // 生成 map.js 文件
@@ -107,9 +140,10 @@ const generateMainMapFile = async (exportsByDir) => {
   let importStrings = "";
   let mapEntries = "";
 
-  exportsByDir.forEach((exports, relativePath) => {
-    const camelCasePath = toCamelCase(relativePath);
-    importStrings += `import * as ${camelCasePath} from "./icons/${relativePath}";\r\n`;
+  exportsByDir.forEach((exports, exportsPath) => {
+    const base = exportsPath.split("/")[1];
+    const camelCasePath = toCamelCase(base);
+    importStrings += `import * as ${camelCasePath} from "./${exportsPath}";\r\n`;
     mapEntries += `${camelCasePath},\r\n`;
   });
 
@@ -125,11 +159,10 @@ const generateMainMapFile = async (exportsByDir) => {
 };
 
 async function processFiles() {
-  // 从 src/svg 目录读取 SVG 文件
-  const svgDir = path.join(rootDir, "src/svg");
   try {
-    // 过滤出所有的 SVG 文件
-    const svgFiles = await getAllSvgFiles(svgDir);
+    // 处理 SVG 文件
+    const svgDir = path.join(rootDir, "src/svg");
+    const svgFiles = await getAllFilesByExt(svgDir, ".svg");
     // 对文件名进行排序
     svgFiles.sort((a, b) => a.localeCompare(b));
 
@@ -137,31 +170,44 @@ async function processFiles() {
     const indexCounters = new Map();
 
     // 使用 Promise.all 处理所有 SVG 文件
-    const results = await Promise.all(
+    const svgResults = await Promise.all(
       svgFiles.map((file) => {
         const relativePath = path.relative(svgDir, path.dirname(file));
         const currentIndex = indexCounters.get(relativePath) || 0;
         indexCounters.set(relativePath, currentIndex + 1);
-        return processFile(file, currentIndex, svgDir);
-      })
+        return processSvgFile(file, currentIndex, svgDir);
+      }),
     );
+
+    // 处理 Vue 文件
+    const vueFiles = await getAllFilesByExt(vueComponentsDir, ".vue");
+    const vueResults = await Promise.all(
+      vueFiles.map(async (file) => {
+        const relativePath = path.relative(vueComponentsDir, path.dirname(file));
+        const currentIndex = indexCounters.get(relativePath) || 0;
+        indexCounters.set(relativePath, currentIndex + 1);
+        return processVueFile(file, currentIndex, vueComponentsDir);
+      }),
+    );
+    const results = [...svgResults, ...vueResults];
 
     const iconDataByProject = new Map();
     const exportsByDir = new Map();
-    
-    //遍历 results 来同时构建 iconDataByProject 和 exportsByDir
-    results.forEach(({ iconData, relativePath }) => {
-      if (!iconData) return;
 
+    //遍历 results 来同时构建 iconDataByProject 和 exportsByDir
+    results.forEach(({ iconData, relativePath, exportsPath }) => {
+      if (!iconData) return;
       if (!iconDataByProject.has(relativePath)) {
         iconDataByProject.set(relativePath, []);
       }
       iconDataByProject.get(relativePath).push(iconData);
 
-      if (!exportsByDir.has(relativePath)) {
-        exportsByDir.set(relativePath, []);
+      if (!exportsByDir.has(exportsPath)) {
+        exportsByDir.set(exportsPath, []);
       }
-      exportsByDir.get(relativePath).push({ componentName: iconData.componentName, componentAlias: iconData.componentAlias, name: iconData.name });
+      exportsByDir
+        .get(exportsPath)
+        .push({ componentName: iconData.componentName, componentAlias: iconData.componentAlias, name: iconData.name, exportsPath: exportsPath });
     });
 
     await Promise.all([
@@ -170,31 +216,40 @@ async function processFiles() {
         await fs.writeFile(
           jsonOutputFile,
           await prettier.format(`export const iconsData${toCamelCase(relativePath)} = ${JSON.stringify(iconDataList, null, 2)}`, { parser: "babel" }),
-          "utf-8"
+          "utf-8",
         );
         console.log(`成功生成 JSON 文件: ${jsonOutputFile}`);
       }),
-      ...Array.from(exportsByDir.entries()).map(([relativePath, exports]) =>
-        generateMapForDirectory(relativePath, exports)
-      )
+      ...Array.from(exportsByDir.entries()).map(([exportsPath, exports]) => generateMapForDirectory(exportsPath, exports)),
     ]);
 
     // 生成 map.js 文件
     await generateMainMapFile(exportsByDir);
-
   } catch (err) {
     console.error("生成图标代码时出错:", err);
   }
 }
 
-async function processFile(filePath, index, svgDir) {
+async function processSvgFile(filePath, index, svgDir) {
   try {
-    const { componentName, componentAlias, config, stats, relativePath } = await generateIconCode(filePath, svgDir);
+    const { componentName, componentAlias, config, stats, relativePath, exportsPath } = await generateIconCode(filePath, svgDir);
     const iconData = createIconData(config, index, componentName, componentAlias, path.basename(filePath, ".svg"), relativePath, stats);
-    return { index, iconData, relativePath };
+    return { index, iconData, relativePath, exportsPath };
   } catch (err) {
     console.error(`处理SVG文件时出错: ${filePath}, 错误信息: ${err.message}`);
     return { index, iconData: null, relativePath: path.relative(svgDir, path.dirname(filePath)) };
+  }
+}
+
+async function processVueFile(filePath, index, vueComponentsDir) {
+  try {
+    const { componentName, componentAlias, config, stats, relativePath, exportsPath } = await generateVue(filePath, vueComponentsDir);
+    // vue 需要保留后缀名
+    const iconData = createIconData(config, index, componentName, componentAlias, path.basename(filePath), relativePath, stats);
+    return { index, iconData, relativePath, exportsPath };
+  } catch (err) {
+    console.error(`处理VUE文件时出错: ${filePath}, 错误信息: ${err.message}`);
+    return null;
   }
 }
 
