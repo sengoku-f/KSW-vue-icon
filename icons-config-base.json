@@ -2101,6 +2101,24 @@
     ]
   },
   {
+    "name": "file-download",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "file-export",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "file-flash-color",
     "alias": [],
     "title": "文件闪存-彩色",
