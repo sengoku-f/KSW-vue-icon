@@ -1,13 +1,17 @@
 import { fileURLToPath, URL } from "node:url";
+import fs from "fs";
 import { globSync } from "glob";
 import path from "node:path";
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import dts from "vite-plugin-dts";
+import { libInjectCss } from "vite-plugin-lib-inject-css";
+import { viteStaticCopy } from "vite-plugin-static-copy";
+import generatePackageJson from "./plugins/rollup-plugin-generate-package-json";
+import del from "rollup-plugin-delete";
 
 // https://vitejs.dev/config/
 const baseConfig = {
-  plugins: [vue()],
   base: "./",
   resolve: {
     alias: {
@@ -35,6 +39,7 @@ function getGroupedIconChunks() {
 
 const siteConfig = {
   ...baseConfig,
+  plugins: [vue()],
   build: {
     outDir: "dist",
     emptyOutDir: true,
@@ -49,14 +54,7 @@ const siteConfig = {
           //   // 将 node_modules 中打包的库拆分成单独的 chunk
           //   return id.toString().split('node_modules/')[1].split('/')[0].toString();
           // }
-          const utilsKeywords = [
-            "runtime",
-            "overlayscrollbars",
-            "icons-base",
-            "icons-guangfa",
-            "package",
-            "vue-clipboard3",
-          ];
+          const utilsKeywords = ["runtime", "overlayscrollbars", "icons-base", "icons-guangfa", "package", "vue-clipboard3"];
 
           if (utilsKeywords.some((keyword) => id.includes(keyword))) {
             return `utils`;
@@ -92,6 +90,7 @@ function getFileInput() {
     "src/map.js",
     "src/runtime/*.js",
     "src/icons/*/*.js",
+    "src/components/*/*.{js,vue}",
   ]);
   return Object.fromEntries(
     files.map((file) => {
@@ -102,22 +101,18 @@ function getFileInput() {
         : path.relative(
             // 相对于 `src` 文件夹生成相对路径
             "src",
-            file.slice(0, file.length - path.extname(file).length)
+            path.join(path.parse(file).dir, path.parse(file).name),
           );
 
-      return [
-        relativePath,
-        // 使用 `fileURLToPath` 将文件路径转换为 URL 文件路径
-        fileURLToPath(new URL(file, import.meta.url)),
-      ];
-    })
+      return [relativePath, path.resolve(file)];
+    }),
   );
 }
 
 // 获取/icons文件夹下的所有图标名称
 function getIconExternals() {
   // 同时匹配文件和目录
-  const allIcons = globSync(["src/icons/*", "src/icons/*/*.js"], {
+  const allIcons = globSync(["src/icons/*", "src/icons/*/*.js", "src/components/*", "src/components/*/*"], {
     ignore: {
       ignored: (p) => /index\.js$/.test(p.name),
     },
@@ -125,21 +120,28 @@ function getIconExternals() {
   // 统一格式化路径
   return allIcons.map((file) => {
     // 如果是文件，使用 path.parse 取文件名；如果是目录，用相对路径
-    return file.endsWith(".js")
-      ? `./${path.parse(file).name}`
-      : `./${path.relative("src", file)}`;
+    return /\.(js|vue)$/.test(file) ? `./${path.parse(file).name}` : `./${path.relative("src", file)}`;
   });
 }
 
 // 默认参数
 const baseOutputConfig = {
+  assetFileNames: "assets/[name][extname]",
   entryFileNames: "[name].js",
   chunkFileNames: "[name].js",
+  hoistTransitiveImports: false,
   globals: {
     vue: "Vue",
   },
-  manualChunks: {
-    gsap: ["gsap"],
+  // preserveModules: true,
+  // preserveModulesRoot: "src",
+  manualChunks: (id) => {
+    // if (/\.(css|less|scss)/.test(id)) {
+    //   return "style";
+    // }
+    if (/gsap/.test(id)) {
+      return "gsap";
+    }
   },
 };
 
@@ -151,10 +153,22 @@ const packagesConfig = {
   //   minifyIdentifiers: false,
   // },
   build: {
+    lib: {
+      entry: "src/index.js",
+    },
     outDir: "packages",
     emptyOutDir: true,
-    // minify: true,
+    minify: "esbuild",
+    cssCodeSplit: true,
     rollupOptions: {
+      plugins: [
+        del({
+          targets: "packages",
+        }),
+        generatePackageJson({
+          output: "packages",
+        }),
+      ],
       input: getFileInput(),
       external: ["vue", "./map", "../../runtime", ...getIconExternals()],
       preserveEntrySignatures: "allow-extension",
@@ -166,7 +180,7 @@ const packagesConfig = {
         },
         {
           format: "cjs",
-          dir: "packages/cjs",
+          dir: "packages/lib",
           ...baseOutputConfig,
         },
       ],
@@ -174,17 +188,22 @@ const packagesConfig = {
   },
   publicDir: false,
   plugins: [
+    vue(),
+    libInjectCss(),
     // 使用插件生成 dts
     // 处理 src 目录
     dts({
       entryRoot: "src",
-      outDir: ["packages/es", "packages/cjs"],
+      outDir: ["packages/es", "packages/lib"],
     }),
     // 处理根目录文件
     dts({
       include: ["icons-*.js"],
       entryRoot: ".",
       outDir: ".",
+    }),
+    viteStaticCopy({
+      targets: [{ src: ["README.md", "icons-*.js", "icons-*.d.ts"], dest: "./" }],
     }),
   ],
 };

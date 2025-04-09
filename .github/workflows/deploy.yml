@@ -55,7 +55,9 @@ jobs:
       # 发布到 NPM
       - name: Publish the package to NPM
         if: steps.check.outputs.changed == 'true'
-        run: yarn clean-publish
+        run: |
+          cd packages
+          yarn publish
         env:
           NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
 

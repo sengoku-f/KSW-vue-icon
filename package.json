@@ -2,23 +2,9 @@
   "name": "ksw-vue-icon",
   "version": "2.6.1",
   "license": "ISC",
-  "description": "KSW ICON",
+  "description": "Vue3 Icons for KSW",
   "type": "module",
-  "main": "packages/cjs/index.js",
-  "module": "packages/es/index.js",
-  "types": "packages/es/index.d.ts",
-  "style": "styles/icon.css",
-  "files": [
-    "styles",
-    "icons-*.js",
-    "icons-*.d.ts",
-    "packages/*/*.js",
-    "packages/*/*/*.js",
-    "packages/*/*/*/*.js",
-    "packages/*/*.d.ts",
-    "packages/*/*/*.d.ts",
-    "packages/*/*/*/*.d.ts"
-  ],
+  "homepage": "https://sengoku-f.github.io/KSW-vue-icon",
   "repository": "https://github.com/sengoku-f/KSW-vue-icon",
   "scripts": {
     "dev": "vite",
@@ -30,12 +16,13 @@
     "build:r-code": "rollup -c rollup.config.js",
     "build:types": "tsc --emitDeclarationOnly",
     "preview": "vite preview",
+    "publish:packages": "cd packages && npm publish",
     "lint": "vite lint",
-    "clean-publish": "clean-publish",
     "upv": "node ./gitHooks/updateVersion.js",
     "watch:icons": "chokidar 'src/svg/**/*' -c 'yarn build:icons:all'"
   },
-  "peerDependencies": {
+  "dependencies": {
+    "gsap": "^3.12.5",
     "vue": "^3.4.21"
   },
   "devDependencies": {
@@ -46,11 +33,9 @@
     "camelcase": "^8.0.0",
     "cheerio": "^1.0.0-rc.12",
     "chokidar-cli": "^3.0.0",
-    "clean-publish": "^4.4.0",
     "dotenv": "^16.4.5",
     "esbuild": "^0.23.1",
     "glob": "^10.4.1",
-    "gsap": "^3.12.5",
     "npm-run-all": "^4.1.5",
     "overlayscrollbars": "^2.10.0",
     "overlayscrollbars-vue": "^0.5.9",
@@ -59,7 +44,7 @@
     "prettier-plugin-tailwindcss": "^0.6.11",
     "rollup": "^4.21.2",
     "rollup-plugin-cleanup": "^3.2.1",
-    "rollup-plugin-delete": "^2.1.0",
+    "rollup-plugin-delete": "^3.0.1",
     "rollup-plugin-dts": "^6.1.1",
     "rollup-plugin-empty-dir": "^1.0.5",
     "rollup-plugin-esbuild": "^6.1.1",
@@ -69,38 +54,11 @@
     "typescript": "^5.5.3",
     "vite": "^5.2.8",
     "vite-plugin-dts": "^3.9.1",
+    "vite-plugin-lib-inject-css": "^2.2.1",
+    "vite-plugin-static-copy": "^2.3.0",
     "vue": "^3.4.21",
     "vue-clipboard3": "^2.0.0",
     "vue-m-message": "^4.0.2"
-  },
-  "exports": {
-    ".": {
-      "import": "./packages/es/index.js",
-      "require": "./packages/cjs/index.js"
-    },
-    "./Guangfa": {
-      "import": "./packages/es/icons/guangfa/index.js",
-      "require": "./packages/cjs/icons/guangfa/index.js"
-    },
-    "./KingAutometa": {
-      "import": "./packages/es/icons/KingAutometa/index.js",
-      "require": "./packages/cjs/icons/KingAutometa/index.js"
-    },
-    "./icons-*.js": {
-      "import": "./icons-*.js",
-      "require": "./icons-*.js"
-    },
-    "./styles/*.css": {
-      "import": "./styles/*.css",
-      "require": "./styles/*.css"
-    }
-  },
-  "clean-publish": {
-    "fields": [
-      "config",
-      "author"
-    ],
-    "packageManager": "yarn"
   },
   "config": {
     "style": "fill",

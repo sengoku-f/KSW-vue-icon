@@ -24,7 +24,11 @@ npm install ksw-vue-icon --save-dev
 yarn add ksw-vue-icon -D
 ```
 
-### 引入样式
+### 引入样式 (`3.0.0` 版本以下)
+
+::: danger ⚠️ 注意
+`3.0.0` 版本会自动注入 `CSS` 不再需要导入样式, 并且不再提供 `CSS` 的导出
+:::
 
 导入图标样式（整个项目只需1次）:
 
@@ -79,15 +83,14 @@ Vue.use(KswIcon, { projectName: "Guangfa" });
 按需引用项目图标只需要在 `ksw-vue-icon` 后添加上 `projectName`，例如:
 
 ```js
-import { IconName } from 'ksw-vue-icon/Guangfa'
+import { IconName } from "ksw-vue-icon/Guangfa";
 ```
 
-| projectName  | 介绍                     | 
-| --------- | -------------------------- |
-| Base      |  基本图标库       |
-| Guangfa     | 广发图标库 |
-| KingAutometa     | 新RPA |
-
+| projectName  | 介绍       |
+| ------------ | ---------- |
+| Base         | 基本图标库 |
+| Guangfa      | 广发图标库 |
+| KingAutometa | 新RPA      |
 
 ## 别名图标
 
@@ -95,13 +98,13 @@ import { IconName } from 'ksw-vue-icon/Guangfa'
 
 ```json
 {
-  "alias": [
-    "alias-1",
-    "alias-2",
-    "alias-3"
-  ],
+  "alias": ["alias-1", "alias-2", "alias-3"]
 }
 ```
+
+## 支持 VUE 组件
+
+支持使用 `vue` 组件制作复杂的`动画图标`、`插画`等设计资产, 请将组件放置于 `src/components` 中，同样支持配置 `icons-config.json`
 
 ## 展示页配置
 
