@@ -1865,6 +1865,15 @@
     "tag": []
   },
   {
+    "name": "deepin-browser-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "delete",
     "alias": [],
     "title": "删除",
@@ -3627,6 +3636,15 @@
       "彩色",
       "设计"
     ]
+  },
+  {
+    "name": "qianxin-browser-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "question",
@@ -6846,6 +6864,15 @@
     ]
   },
   {
+    "name": "sparkles-color-animation",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "star",
     "alias": [],
     "title": "",
@@ -7598,6 +7625,15 @@
       "注意",
       "危险"
     ]
+  },
+  {
+    "name": "XinChuang-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "zoom-in",
