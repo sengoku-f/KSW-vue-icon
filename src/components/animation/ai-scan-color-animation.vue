@@ -1,5 +1,5 @@
 <template>
-  <span class="ksw-icon ksw-icon-AiScanColorAnimation isAnimation" @mouseenter="mouseenter" @mouseleave="mouseleave">
+  <span class="ksw-icon ksw-icon-AiScanColorAnimation" @mouseenter="mouseenter" @mouseleave="mouseleave">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
