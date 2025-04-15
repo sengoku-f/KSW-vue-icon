@@ -7574,6 +7574,15 @@
     "tag": []
   },
   {
+    "name": "user-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "user-filled",
     "alias": [],
     "title": "用户-填充",

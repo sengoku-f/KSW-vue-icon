@@ -9820,6 +9820,20 @@ export const iconsDataBase = [
   },
   {
     id: 693,
+    name: "user-color",
+    alias: [],
+    componentName: "IconUserColor",
+    componentAlias: [],
+    title: "",
+    category: "base",
+    categoryCN: "基础",
+    author: "KSW",
+    tag: [],
+    projectName: "base",
+    modifiedTime: "2025-04-15T07:18:53.576Z",
+  },
+  {
+    id: 694,
     name: "user-filled",
     alias: [],
     componentName: "IconUserFilled",
@@ -9833,7 +9847,7 @@ export const iconsDataBase = [
     modifiedTime: "2024-11-07T03:44:01.990Z",
   },
   {
-    id: 694,
+    id: 695,
     name: "user",
     alias: [],
     componentName: "IconUser",
@@ -9847,7 +9861,7 @@ export const iconsDataBase = [
     modifiedTime: "2025-03-28T08:01:31.387Z",
   },
   {
-    id: 695,
+    id: 696,
     name: "users-filled",
     alias: [],
     componentName: "IconUsersFilled",
@@ -9861,7 +9875,7 @@ export const iconsDataBase = [
     modifiedTime: "2024-11-07T03:44:01.991Z",
   },
   {
-    id: 696,
+    id: 697,
     name: "users",
     alias: [],
     componentName: "IconUsers",
@@ -9875,7 +9889,7 @@ export const iconsDataBase = [
     modifiedTime: "2024-11-07T03:44:01.991Z",
   },
   {
-    id: 697,
+    id: 698,
     name: "variable",
     alias: [],
     componentName: "IconVariable",
@@ -9889,7 +9903,7 @@ export const iconsDataBase = [
     modifiedTime: "2024-11-29T03:39:52.274Z",
   },
   {
-    id: 698,
+    id: 699,
     name: "version-color",
     alias: [],
     componentName: "IconVersionColor",
@@ -9903,7 +9917,7 @@ export const iconsDataBase = [
     modifiedTime: "2024-12-03T06:25:36.000Z",
   },
   {
-    id: 699,
+    id: 700,
     name: "video-color",
     alias: [],
     componentName: "IconVideoColor",
@@ -9917,7 +9931,7 @@ export const iconsDataBase = [
     modifiedTime: "2025-02-10T09:37:50.000Z",
   },
   {
-    id: 700,
+    id: 701,
     name: "video",
     alias: [],
     componentName: "IconVideo",
@@ -9931,7 +9945,7 @@ export const iconsDataBase = [
     modifiedTime: "2025-02-10T09:37:50.000Z",
   },
   {
-    id: 701,
+    id: 702,
     name: "view-switch-card",
     alias: [],
     componentName: "IconViewSwitchCard",
@@ -9945,7 +9959,7 @@ export const iconsDataBase = [
     modifiedTime: "2024-11-07T03:44:01.991Z",
   },
   {
-    id: 702,
+    id: 703,
     name: "view-switch-color",
     alias: [],
     componentName: "IconViewSwitchColor",
@@ -9959,7 +9973,7 @@ export const iconsDataBase = [
     modifiedTime: "2024-11-07T03:44:01.991Z",
   },
   {
-    id: 703,
+    id: 704,
     name: "view-toggle-details",
     alias: [],
     componentName: "IconViewToggleDetails",
@@ -9973,7 +9987,7 @@ export const iconsDataBase = [
     modifiedTime: "2024-11-07T03:44:01.991Z",
   },
   {
-    id: 704,
+    id: 705,
     name: "view-toggle-table",
     alias: [],
     componentName: "IconViewToggleTable",
@@ -9987,7 +10001,7 @@ export const iconsDataBase = [
     modifiedTime: "2024-11-07T03:44:01.991Z",
   },
   {
-    id: 705,
+    id: 706,
     name: "warning",
     alias: [],
     componentName: "IconWarning",
@@ -10001,7 +10015,7 @@ export const iconsDataBase = [
     modifiedTime: "2025-04-09T09:14:30.841Z",
   },
   {
-    id: 706,
+    id: 707,
     name: "XinChuang-color",
     alias: [],
     componentName: "IconXinChuangColor",
@@ -10015,7 +10029,7 @@ export const iconsDataBase = [
     modifiedTime: "2025-04-11T01:24:52.030Z",
   },
   {
-    id: 707,
+    id: 708,
     name: "zoom-in",
     alias: [],
     componentName: "IconZoomIn",
@@ -10029,7 +10043,7 @@ export const iconsDataBase = [
     modifiedTime: "2025-03-20T08:12:23.077Z",
   },
   {
-    id: 708,
+    id: 709,
     name: "zoom-out",
     alias: [],
     componentName: "IconZoomOut",
