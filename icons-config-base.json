@@ -3353,6 +3353,15 @@
     "tag": []
   },
   {
+    "name": "message-chatbot-fill-color-animation",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "message-fill",
     "alias": [],
     "title": "",
