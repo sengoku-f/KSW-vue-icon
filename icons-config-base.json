@@ -3567,6 +3567,15 @@
     ]
   },
   {
+    "name": "plug-in-IE-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "plug-in-image-color",
     "alias": [],
     "title": "插件图像颜色",
@@ -3592,6 +3601,15 @@
       "颜色",
       "开发工具"
     ]
+  },
+  {
+    "name": "plug-in-KingSware-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "plug-in-Mail-color",
