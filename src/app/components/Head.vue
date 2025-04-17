@@ -1,11 +1,11 @@
 <script setup>
 import { ref } from "vue";
-import useClipboard from "vue-clipboard3";
+import { useClipboard } from "@vueuse/core";
 import IconCopy from "./icon/Copy.vue";
 import { iconsDataBase } from "~/icons-base.js";
 import packageData from "/package.json";
 
-const { toClipboard } = useClipboard();
+const { copy } = useClipboard();
 
 const iconNumber = iconsDataBase.at(-1).id;
 const version = packageData.version;
@@ -33,7 +33,7 @@ const copyCode = async () => {
   if (isThrottled.value) return;
   isThrottled.value = true;
   try {
-    await toClipboard(npmInstallCode);
+    await copy(npmInstallCode);
     displayCopiedMessage();
   } catch (error) {
     console.error("复制失败:", error);

@@ -99,6 +99,7 @@ const sortIcons = () => {
     sortedIcons = sortedIcons.filter((icon) => icon.categoryCN === selectedCategory.value);
   }
   icons.value = sortedIcons.map((icon) => ({
+    name: icon.name,
     componentName: icon.componentName,
     title: icon.title,
     projectName: icon.projectName,
@@ -142,7 +143,10 @@ const changeCategory = (category) => {
 
 // 计算属性用于根据搜索框输入过滤图标列表
 const filteredIcons = computed(() => {
-  return icons.value.filter((icon) => icon.componentName.toLowerCase().includes(searchQuery.value.toLowerCase()));
+  const query = searchQuery.value.toLowerCase();
+  return icons.value.filter(
+    (icon) => icon.componentName.toLowerCase().includes(query) || icon.name.toLowerCase().includes(query) || icon.title.toLowerCase().includes(query),
+  );
 });
 </script>
 

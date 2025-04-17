@@ -10,46 +10,34 @@
       @mouseenter="showElement(icon.componentName)"
       @mouseleave="hideElement(icon.componentName)"
     >
-    <div class="item">
-      <span v-if="icon.isAlias" class="alias-badge">Alias</span>
-      <div class="icon-text icon-title" v-if="hoverState.icon === icon.componentName">
-        {{ hoverState.text || icon.title }}
+      <div class="item">
+        <span v-if="icon.isAlias" class="alias-badge">Alias</span>
+        <div class="icon-text icon-title" v-if="hoverState.icon === icon.componentName">
+          {{ hoverState.text || icon.title }}
+        </div>
+        <component :is="iconComponents[icon.componentName]" />
+        <div class="icon-text">
+          {{ icon.componentName }}
+        </div>
+        <div class="icon-options" v-if="hoverState.icon === icon.componentName">
+          <button @click.stop="copyName(icon.componentName)" @mouseenter="handleHover('enter', '复制名称')" @mouseleave="handleHover('leave')">
+            <IconCopy />
+          </button>
+          <button @click.stop="copyVue(icon.componentName)" @mouseenter="handleHover('enter', '复制Vue')" @mouseleave="handleHover('leave')">
+            <IconCode />
+          </button>
+          <button @click.stop="downloadIcon(icon.componentName)" @mouseenter="handleHover('enter', '下载SVG')" @mouseleave="handleHover('leave')">
+            <IconSVG class="scale-125" />
+          </button>
+          <button
+            @click.stop="downloadIcon(icon.componentName, 'png')"
+            @mouseenter="handleHover('enter', '下载PNG')"
+            @mouseleave="handleHover('leave')"
+          >
+            <IconPNG class="scale-125" />
+          </button>
+        </div>
       </div>
-      <component :is="iconComponents[icon.componentName]" />
-      <div class="icon-text">
-        {{ icon.componentName }}
-      </div>
-      <div class="icon-options" v-if="hoverState.icon === icon.componentName">
-        <button
-        @click.stop="copyName(icon.componentName)"
-        @mouseenter="handleHover('enter', '复制名称')"
-        @mouseleave="handleHover('leave')"
-      >
-        <IconCopy />
-      </button>
-      <button
-        @click.stop="copyVue(icon.componentName)"
-        @mouseenter="handleHover('enter', '复制Vue')"
-        @mouseleave="handleHover('leave')"
-      >
-        <IconCode />
-      </button>
-      <button
-        @click.stop="downloadIcon(icon.componentName)"
-        @mouseenter="handleHover('enter', '下载SVG')"
-        @mouseleave="handleHover('leave')"
-      >
-        <IconSVG class="scale-125"/>
-      </button>
-      <button
-        @click.stop="downloadIcon(icon.componentName, 'png')"
-        @mouseenter="handleHover('enter', '下载PNG')"
-        @mouseleave="handleHover('leave')"
-      >
-        <IconPNG class="scale-125"/>
-      </button>
-      </div>
-    </div>
     </li>
   </ul>
   <!-- </div> -->
@@ -57,7 +45,7 @@
 
 <script setup>
 import { ref, computed, h, render } from "vue";
-import useClipboard from "vue-clipboard3";
+import { useClipboard } from "@vueuse/core";
 import "vue-m-message/dist/style.css";
 import Message from "vue-m-message";
 import IconCopy from "./icon/Copy.vue";
@@ -71,14 +59,16 @@ const props = defineProps({
   iconComponents: Object,
 });
 
+const { copy } = useClipboard();
+
 // 复制逻辑
 const copyName = async (name) => {
-  await useClipboard().toClipboard(name);
+  await copy(name);
   Message.success("已复制: " + name);
 };
 
 const copyVue = async (name) => {
-  await useClipboard().toClipboard(`<${name} />`);
+  await copy(`<${name} />`);
   Message.success(`已复制 Vue 代码: <${name} />`);
 };
 
@@ -252,11 +242,11 @@ const downloadIcon = async (componentName, format = "svg") => {
 }
 
 .icon-text {
-  @apply items-center justify-center text-xs antialiased text-center truncate text-slate-500 text-wrap w-full h-4 group-hover:overflow-visible group-hover:break-words;
+  @apply h-4 w-full items-center justify-center truncate text-wrap text-center text-xs text-slate-500 antialiased group-hover:overflow-visible group-hover:break-words;
 }
 
 .alias-badge {
-  @apply text-xs text-blue-600 bg-blue-50 flex items-center absolute top-0 right-0 px-2;
+  @apply absolute right-0 top-0 flex items-center bg-blue-50 px-2 text-xs text-blue-600;
   border-radius: 0 0.75rem 0 0.5rem;
 }
 
@@ -269,7 +259,7 @@ const downloadIcon = async (componentName, format = "svg") => {
 }
 
 .icon-options {
-  @apply flex text-base w-32 gap-[1px] rounded-full border border-slate-200 bg-slate-200 overflow-hidden;
+  @apply flex w-32 gap-[1px] overflow-hidden rounded-full border border-slate-200 bg-slate-200 text-base;
   position: absolute;
   opacity: 0;
   bottom: 0;
@@ -278,7 +268,7 @@ const downloadIcon = async (componentName, format = "svg") => {
 }
 
 .icon-options > button {
-  @apply flex flex-1 items-center justify-center px-2 py-[5px] bg-white text-xs hover:bg-slate-50 hover:text-blue-600;
+  @apply flex flex-1 items-center justify-center bg-white px-2 py-[5px] text-xs hover:bg-slate-50 hover:text-blue-600;
 }
 
 @keyframes iconOptions {

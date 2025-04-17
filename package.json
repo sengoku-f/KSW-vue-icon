@@ -22,6 +22,7 @@
     "watch:icons": "chokidar 'src/svg/**/*' -c 'yarn build:icons:all'"
   },
   "dependencies": {
+    "@vueuse/core": "^13.1.0",
     "gsap": "^3.12.5",
     "vue": "^3.4.21"
   },
@@ -57,7 +58,6 @@
     "vite-plugin-lib-inject-css": "^2.2.1",
     "vite-plugin-static-copy": "^2.3.0",
     "vue": "^3.4.21",
-    "vue-clipboard3": "^2.0.0",
     "vue-m-message": "^4.0.2"
   },
   "config": {

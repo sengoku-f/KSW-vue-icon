@@ -54,7 +54,7 @@ const siteConfig = {
           //   // 将 node_modules 中打包的库拆分成单独的 chunk
           //   return id.toString().split('node_modules/')[1].split('/')[0].toString();
           // }
-          const utilsKeywords = ["runtime", "overlayscrollbars", "icons-base", "icons-guangfa", "package", "vue-clipboard3"];
+          const utilsKeywords = ["runtime", "overlayscrollbars", "icons-base", "icons-guangfa", "package"];
 
           if (utilsKeywords.some((keyword) => id.includes(keyword))) {
             return `utils`;
