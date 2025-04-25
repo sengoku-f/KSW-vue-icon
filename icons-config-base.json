@@ -13,6 +13,24 @@
     ]
   },
   {
+    "name": "ai-scan",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "alarm",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "alarm-clock",
     "alias": [],
     "title": "闹钟",
@@ -34,6 +52,24 @@
     "name": "alarm-clock-color",
     "alias": [],
     "title": "闹钟-颜色",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "alarm-fill",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "all-application-fill",
+    "alias": [],
+    "title": "",
     "category": "base",
     "categoryCN": "基础",
     "author": "KSW",
@@ -1361,6 +1397,15 @@
     "tag": []
   },
   {
+    "name": "bell",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "bot",
     "alias": [],
     "title": "机器人",
@@ -1691,6 +1736,42 @@
     "tag": []
   },
   {
+    "name": "circle-check-fill",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "circle-chevrons-right-fill",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "circle-help-fill",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "circle-info-fill",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "clear",
     "alias": [],
     "title": "清除",
@@ -1828,6 +1909,15 @@
     "tag": []
   },
   {
+    "name": "database",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "date",
     "alias": [],
     "title": "日期",
@@ -1898,6 +1988,15 @@
       "颜色",
       "工具"
     ]
+  },
+  {
+    "name": "device-desktop-remote-desktop",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "device-mobile",
@@ -3180,6 +3279,15 @@
     "tag": []
   },
   {
+    "name": "lock-password",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "logout",
     "alias": [],
     "title": "登出",
@@ -3420,6 +3528,15 @@
     ]
   },
   {
+    "name": "palette",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "paper-airplane",
     "alias": [],
     "title": "纸飞机",
@@ -3491,6 +3608,15 @@
   },
   {
     "name": "player-track-next-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "plug-connected",
     "alias": [],
     "title": "",
     "category": "base",
@@ -3877,6 +4003,15 @@
   },
   {
     "name": "rise",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "robot",
     "alias": [],
     "title": "",
     "category": "base",
@@ -6791,6 +6926,15 @@
     ]
   },
   {
+    "name": "screenshot",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "scrip",
     "alias": [],
     "title": "脚本",
@@ -6990,6 +7134,15 @@
       "上升",
       "箭头"
     ]
+  },
+  {
+    "name": "stack-push",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "star",
@@ -7355,6 +7508,15 @@
     ]
   },
   {
+    "name": "table",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "table-sort-down-color",
     "alias": [],
     "title": "表格排序向下颜色",
@@ -7429,6 +7591,15 @@
       "颜色",
       "设计"
     ]
+  },
+  {
+    "name": "terminal-2",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "test-color",
@@ -7762,6 +7933,33 @@
       "注意",
       "危险"
     ]
+  },
+  {
+    "name": "warning-circle-file",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "warning-triangle-fill",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "windsock",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "XinChuang-color",
