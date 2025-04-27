@@ -4,7 +4,7 @@
     "alias": [],
     "title": "添加",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "新建",
@@ -17,7 +17,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -26,7 +26,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -35,7 +35,7 @@
     "alias": [],
     "title": "闹钟",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -44,7 +44,7 @@
     "alias": [],
     "title": "闹钟2",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -53,7 +53,7 @@
     "alias": [],
     "title": "闹钟-颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -62,7 +62,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -71,7 +71,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -80,7 +80,7 @@
     "alias": [],
     "title": "AOM日志",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "AOM",
@@ -92,7 +92,7 @@
     "alias": [],
     "title": "报表查询",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "AOM",
@@ -104,7 +104,7 @@
     "alias": [],
     "title": "菜单按钮颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -118,7 +118,7 @@
     "alias": [],
     "title": "菜单",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -131,7 +131,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -140,7 +140,7 @@
     "alias": [],
     "title": "菜单图标",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -153,7 +153,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -162,7 +162,7 @@
     "alias": [],
     "title": "菜单工具颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -175,7 +175,7 @@
     "alias": [],
     "title": "菜单选项颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -189,7 +189,7 @@
     "alias": [],
     "title": "自动化菜单",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "自动化",
@@ -203,7 +203,7 @@
     "alias": [],
     "title": "菜单颜色选择器",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -216,7 +216,7 @@
     "alias": [],
     "title": "代码菜单",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "代码",
@@ -231,7 +231,7 @@
     "alias": [],
     "title": "菜单列表颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -245,7 +245,7 @@
     "alias": [],
     "title": "菜单颜色设置",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -259,7 +259,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -268,7 +268,7 @@
     "alias": [],
     "title": "菜单选项颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -281,7 +281,7 @@
     "alias": [],
     "title": "自动化菜单",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "自动化",
@@ -295,7 +295,7 @@
     "alias": [],
     "title": "菜单选项颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -309,7 +309,7 @@
     "alias": [],
     "title": "奥姆菜单",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -322,7 +322,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -331,7 +331,7 @@
     "alias": [],
     "title": "大屏管理",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "AOM",
@@ -344,7 +344,7 @@
     "alias": [],
     "title": "大屏预览",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "AOM",
@@ -358,7 +358,7 @@
     "alias": [],
     "title": "菜单设置颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -371,7 +371,7 @@
     "alias": [],
     "title": "菜单选项",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -385,7 +385,7 @@
     "alias": [],
     "title": "奥姆菜单",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -398,7 +398,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -407,7 +407,7 @@
     "alias": [],
     "title": "分屏管理",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "AOM",
@@ -421,7 +421,7 @@
     "alias": [],
     "title": "自动化菜单配置",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "自动化",
@@ -435,7 +435,7 @@
     "alias": [],
     "title": "服务器菜单",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "服务器",
@@ -449,7 +449,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -458,7 +458,7 @@
     "alias": [],
     "title": "奥姆菜单",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -472,7 +472,7 @@
     "alias": [],
     "title": "奥姆菜单GRBL颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "奥姆",
@@ -486,7 +486,7 @@
     "alias": [],
     "title": "菜单选项",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -499,7 +499,7 @@
     "alias": [],
     "title": "菜单管理",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -512,7 +512,7 @@
     "alias": [],
     "title": "AOM菜单",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -525,7 +525,7 @@
     "alias": [],
     "title": "菜单选项",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -538,7 +538,7 @@
     "alias": [],
     "title": "菜单栏颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -551,7 +551,7 @@
     "alias": [],
     "title": "菜单",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -564,7 +564,7 @@
     "alias": [],
     "title": "菜单颜色选择器",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -577,7 +577,7 @@
     "alias": [],
     "title": "菜单颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -590,7 +590,7 @@
     "alias": [],
     "title": "菜单选项颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -603,7 +603,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -612,7 +612,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -621,7 +621,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -630,7 +630,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -639,7 +639,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -648,7 +648,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -657,7 +657,7 @@
     "alias": [],
     "title": "奥姆菜单",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -671,7 +671,7 @@
     "alias": [],
     "title": "菜单选项颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -684,7 +684,7 @@
     "alias": [],
     "title": "菜单图标",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -697,7 +697,7 @@
     "alias": [],
     "title": "菜单",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -710,7 +710,7 @@
     "alias": [],
     "title": "菜单图标",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -723,7 +723,7 @@
     "alias": [],
     "title": "菜单选项",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -736,7 +736,7 @@
     "alias": [],
     "title": "菜单图标",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -749,7 +749,7 @@
     "alias": [],
     "title": "菜单图标",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -762,7 +762,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -771,7 +771,7 @@
     "alias": [],
     "title": "菜单MBGL颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -784,7 +784,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -793,7 +793,7 @@
     "alias": [],
     "title": "质量管理菜单",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "质量管理",
@@ -806,7 +806,7 @@
     "alias": [],
     "title": "菜单图标",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -820,7 +820,7 @@
     "alias": [],
     "title": "菜单",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -833,7 +833,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -842,7 +842,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -851,7 +851,7 @@
     "alias": [],
     "title": "奥姆菜单",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -864,7 +864,7 @@
     "alias": [],
     "title": "菜单列表颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -878,7 +878,7 @@
     "alias": [],
     "title": "菜单列表",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -892,7 +892,7 @@
     "alias": [],
     "title": "菜单选项颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -906,7 +906,7 @@
     "alias": [],
     "title": "菜单选项",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -919,7 +919,7 @@
     "alias": [],
     "title": "菜单选项颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -933,7 +933,7 @@
     "alias": [],
     "title": "菜单选项颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -947,7 +947,7 @@
     "alias": [],
     "title": "自动化菜单",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "自动化",
@@ -961,7 +961,7 @@
     "alias": [],
     "title": "菜单设置颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -974,7 +974,7 @@
     "alias": [],
     "title": "奥姆菜单SJHB颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -988,7 +988,7 @@
     "alias": [],
     "title": "菜单选项颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -1002,7 +1002,7 @@
     "alias": [],
     "title": "菜单信息颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -1015,7 +1015,7 @@
     "alias": [],
     "title": "菜单项颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -1029,7 +1029,7 @@
     "alias": [],
     "title": "奥姆菜单",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -1043,7 +1043,7 @@
     "alias": [],
     "title": "奥姆菜单",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -1056,7 +1056,7 @@
     "alias": [],
     "title": "菜单选项",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -1070,7 +1070,7 @@
     "alias": [],
     "title": "奥姆菜单",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -1083,7 +1083,7 @@
     "alias": [],
     "title": "菜单工具箱",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -1096,7 +1096,7 @@
     "alias": [],
     "title": "菜单颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -1109,7 +1109,7 @@
     "alias": [],
     "title": "自动化管理菜单",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "自动化",
@@ -1124,7 +1124,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -1133,7 +1133,7 @@
     "alias": [],
     "title": "菜单图标",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -1146,7 +1146,7 @@
     "alias": [],
     "title": "菜单",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -1159,7 +1159,7 @@
     "alias": [],
     "title": "奥姆菜单",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -1173,7 +1173,7 @@
     "alias": [],
     "title": "菜单",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -1186,7 +1186,7 @@
     "alias": [],
     "title": "自动化菜单配置",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "自动化",
@@ -1200,7 +1200,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -1209,7 +1209,7 @@
     "alias": [],
     "title": "参数",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "参数",
@@ -1222,7 +1222,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -1231,7 +1231,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -1240,7 +1240,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -1249,7 +1249,7 @@
     "alias": [],
     "title": "左箭头",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "箭头",
@@ -1263,7 +1263,7 @@
     "alias": [],
     "title": "右箭头",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "箭头",
@@ -1276,7 +1276,7 @@
     "alias": [],
     "title": "向左箭头",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "箭头",
@@ -1289,7 +1289,7 @@
     "alias": [],
     "title": "向右箭头",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "箭头",
@@ -1302,7 +1302,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -1311,7 +1311,7 @@
     "alias": [],
     "title": "向上右箭头",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "箭头",
@@ -1326,7 +1326,7 @@
     "alias": [],
     "title": "箭头交换",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "交换",
@@ -1392,7 +1392,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -1401,7 +1401,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -1410,7 +1410,7 @@
     "alias": [],
     "title": "机器人",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "自动化",
@@ -1423,7 +1423,7 @@
     "alias": [],
     "title": "C型自动色彩",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "色彩",
@@ -1436,7 +1436,7 @@
     "alias": [],
     "title": "C型蝙蝠颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "蝙蝠",
@@ -1449,7 +1449,7 @@
     "alias": [],
     "title": "C型C尖锐颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "科技",
@@ -1462,7 +1462,7 @@
     "alias": [],
     "title": "中文类型颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "中文",
@@ -1475,7 +1475,7 @@
     "alias": [],
     "title": "英文类型颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "颜色",
@@ -1488,7 +1488,7 @@
     "alias": [],
     "title": "函数颜色类型",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "函数",
@@ -1501,7 +1501,7 @@
     "alias": [],
     "title": "JavaScript颜色类型",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "JavaScript",
@@ -1514,7 +1514,7 @@
     "alias": [],
     "title": "C型乐高颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "乐高",
@@ -1528,7 +1528,7 @@
     "alias": [],
     "title": "C类型Linux",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "编程",
@@ -1542,7 +1542,7 @@
     "alias": [],
     "title": "C型Perl颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "编程",
@@ -1556,7 +1556,7 @@
     "alias": [],
     "title": "C型PowerShell颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "编程",
@@ -1570,7 +1570,7 @@
     "alias": [],
     "title": "C型Python颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "Python",
@@ -1584,7 +1584,7 @@
     "alias": [],
     "title": "VBS颜色类型",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "VBS",
@@ -1597,7 +1597,7 @@
     "alias": [],
     "title": "C型YAML颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "编程",
@@ -1611,7 +1611,7 @@
     "alias": [],
     "title": "日历颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "日历",
@@ -1625,7 +1625,7 @@
     "alias": [],
     "title": "卡片",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "信用卡",
@@ -1641,7 +1641,7 @@
     ],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -1650,7 +1650,7 @@
     "alias": [],
     "title": "饼图",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "图表",
@@ -1664,7 +1664,7 @@
     "alias": [],
     "title": "彩色饼图",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "图表",
@@ -1677,7 +1677,7 @@
     "alias": [],
     "title": "勾选",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "勾选",
@@ -1691,7 +1691,7 @@
     "alias": [],
     "title": "已选中颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "选中",
@@ -1705,7 +1705,7 @@
     "alias": [],
     "title": "正常颜色检查",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "检查",
@@ -1718,7 +1718,7 @@
     "alias": [],
     "title": "检查或颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "检查",
@@ -1731,7 +1731,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -1740,7 +1740,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -1749,7 +1749,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -1758,7 +1758,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -1767,7 +1767,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -1776,7 +1776,7 @@
     "alias": [],
     "title": "清除",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "清除",
@@ -1789,7 +1789,7 @@
     "alias": [],
     "title": "清除2",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "清洁",
@@ -1802,7 +1802,7 @@
     "alias": [],
     "title": "清除日期",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "日期",
@@ -1815,7 +1815,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -1824,7 +1824,7 @@
     "alias": [],
     "title": "关闭",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "关闭",
@@ -1837,7 +1837,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -1846,7 +1846,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -1855,7 +1855,7 @@
     "alias": [],
     "title": "收藏",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "收藏",
@@ -1869,7 +1869,7 @@
     "alias": [],
     "title": "复制",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "复制",
@@ -1882,7 +1882,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -1891,7 +1891,7 @@
     "alias": [],
     "title": "光标指针",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "鼠标",
@@ -1904,7 +1904,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -1913,7 +1913,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -1922,7 +1922,7 @@
     "alias": [],
     "title": "日期",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "时间",
@@ -1959,7 +1959,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -1968,7 +1968,7 @@
     "alias": [],
     "title": "删除",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "删除",
@@ -1981,7 +1981,7 @@
     "alias": [],
     "title": "开发颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "开发",
@@ -1994,7 +1994,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2003,7 +2003,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2012,7 +2012,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2023,7 +2023,7 @@
     ],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2032,7 +2032,7 @@
     "alias": [],
     "title": "向下箭头",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "箭头",
@@ -2045,7 +2045,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2054,7 +2054,7 @@
     "alias": [],
     "title": "拖动",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "拖拽",
@@ -2067,7 +2067,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2076,7 +2076,7 @@
     "alias": [],
     "title": "编辑",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "编辑",
@@ -2091,7 +2091,7 @@
     ],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2100,7 +2100,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2109,7 +2109,7 @@
     "alias": [],
     "title": "空盒子",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "空",
@@ -2123,7 +2123,7 @@
     "alias": [],
     "title": "回车键",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2132,7 +2132,7 @@
     "alias": [],
     "title": "回车键-颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2141,7 +2141,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2150,7 +2150,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2161,7 +2161,7 @@
     ],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2172,7 +2172,7 @@
     ],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2181,7 +2181,7 @@
     "alias": [],
     "title": "秋天",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "秋天",
@@ -2195,7 +2195,7 @@
     "alias": [],
     "title": "文件",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "文件",
@@ -2208,7 +2208,7 @@
     "alias": [],
     "title": "文件添加",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "文件",
@@ -2222,7 +2222,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2231,7 +2231,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2240,7 +2240,7 @@
     "alias": [],
     "title": "文件闪存-彩色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2249,7 +2249,7 @@
     "alias": [],
     "title": "星标文件",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "文件",
@@ -2263,7 +2263,7 @@
     "alias": [],
     "title": "过滤器",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "过滤",
@@ -2276,7 +2276,7 @@
     "alias": [],
     "title": "填充过滤器",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "过滤器",
@@ -2289,7 +2289,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2298,7 +2298,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2307,7 +2307,7 @@
     "alias": [],
     "title": "流程",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "流程",
@@ -2320,7 +2320,7 @@
     "alias": [],
     "title": "流程添加",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "流程",
@@ -2334,7 +2334,7 @@
     "alias": [],
     "title": "回流",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "返回",
@@ -2348,7 +2348,7 @@
     "alias": [],
     "title": "批量处理流程",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "批量处理",
@@ -2363,7 +2363,7 @@
     "alias": [],
     "title": "流程检查颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "流程",
@@ -2376,7 +2376,7 @@
     "alias": [],
     "title": "流动组件颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "颜色",
@@ -2390,7 +2390,7 @@
     "alias": [],
     "title": "流程控制颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "流程",
@@ -2403,7 +2403,7 @@
     "alias": [],
     "title": "流程结束",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "流程",
@@ -2416,7 +2416,7 @@
     "alias": [],
     "title": "流程结束颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "流程",
@@ -2429,7 +2429,7 @@
     "alias": [],
     "title": "流程判断颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "流程",
@@ -2442,7 +2442,7 @@
     "alias": [],
     "title": "流动嵌套",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "流动",
@@ -2455,7 +2455,7 @@
     "alias": [],
     "title": "流动嵌套颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "流动",
@@ -2469,7 +2469,7 @@
     "alias": [],
     "title": "流动引文颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "流动",
@@ -2483,7 +2483,7 @@
     "alias": [],
     "title": "流程开始",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "流程",
@@ -2496,7 +2496,7 @@
     "alias": [],
     "title": "流动开始颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "流动",
@@ -2509,7 +2509,7 @@
     "alias": [],
     "title": "流动提示颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "流动",
@@ -2523,7 +2523,7 @@
     "alias": [],
     "title": "流程工具箱",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "流程",
@@ -2536,7 +2536,7 @@
     "alias": [],
     "title": "函数",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "函数",
@@ -2549,7 +2549,7 @@
     "alias": [],
     "title": "添加功能",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "添加",
@@ -2562,7 +2562,7 @@
     "alias": [],
     "title": "折叠",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "折叠",
@@ -2576,7 +2576,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2585,7 +2585,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2594,7 +2594,7 @@
     "alias": [],
     "title": "添加文件夹",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "文件夹",
@@ -2607,7 +2607,7 @@
     "alias": [],
     "title": "关闭文件夹",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "文件夹",
@@ -2621,7 +2621,7 @@
     "alias": [],
     "title": "文件夹闪存",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2630,7 +2630,7 @@
     "alias": [],
     "title": "文件夹闪存-彩色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2639,7 +2639,7 @@
     "alias": [],
     "title": "打开文件夹",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "文件夹",
@@ -2653,7 +2653,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2662,7 +2662,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2671,7 +2671,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2680,7 +2680,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2689,7 +2689,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2698,7 +2698,7 @@
     "alias": [],
     "title": "全屏",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "全屏",
@@ -2711,7 +2711,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2918,7 +2918,7 @@
     "alias": [],
     "title": "全球操作",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "全球",
@@ -2932,7 +2932,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2941,7 +2941,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2950,7 +2950,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -2959,7 +2959,7 @@
     "alias": [],
     "title": "彩色硬盘",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "硬盘",
@@ -2972,7 +2972,7 @@
     "alias": [],
     "title": "图标定义",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "图标",
@@ -3029,7 +3029,7 @@
     "alias": [],
     "title": "IDE暂停",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "编程",
@@ -3044,7 +3044,7 @@
     "alias": [],
     "title": "IDE播放",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "编程",
@@ -3058,7 +3058,7 @@
     "alias": [],
     "title": "IDE刷新",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "IDE",
@@ -3072,7 +3072,7 @@
     "alias": [],
     "title": "IDE停止",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "IDE",
@@ -3086,7 +3086,7 @@
     "alias": [],
     "title": "IP地址",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "互联网",
@@ -3100,7 +3100,7 @@
     "alias": [],
     "title": "默认颜色项",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "颜色",
@@ -3114,7 +3114,16 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "jinghua-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3123,7 +3132,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3132,7 +3141,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3141,7 +3150,7 @@
     "alias": [],
     "title": "键盘",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3150,7 +3159,7 @@
     "alias": [],
     "title": "键盘-彩色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3159,7 +3168,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3168,7 +3177,7 @@
     "alias": [],
     "title": "左侧菜单显示",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -3181,7 +3190,7 @@
     "alias": [],
     "title": "线条",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "线条",
@@ -3194,7 +3203,7 @@
     "alias": [],
     "title": "链接",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "链接"
@@ -3205,7 +3214,7 @@
     "alias": [],
     "title": "列表关闭",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "列表",
@@ -3218,7 +3227,7 @@
     "alias": [],
     "title": "列表打开",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "列表",
@@ -3232,7 +3241,7 @@
     "alias": [],
     "title": "列表搜索",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "列表",
@@ -3245,7 +3254,7 @@
     "alias": [],
     "title": "加载中",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "加载",
@@ -3261,7 +3270,7 @@
     ],
     "title": "锁",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "安全",
@@ -3274,7 +3283,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3283,7 +3292,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3292,7 +3301,7 @@
     "alias": [],
     "title": "登出",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "退出",
@@ -3305,7 +3314,7 @@
     "alias": [],
     "title": "邮件",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3314,7 +3323,7 @@
     "alias": [],
     "title": "邮件2-彩色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3323,7 +3332,7 @@
     "alias": [],
     "title": "邮件-彩色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3332,7 +3341,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3341,7 +3350,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3350,7 +3359,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3359,7 +3368,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3368,7 +3377,7 @@
     "alias": [],
     "title": "奖章1",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "奖章",
@@ -3381,7 +3390,7 @@
     "alias": [],
     "title": "奖章",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "奖章",
@@ -3394,7 +3403,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3403,7 +3412,7 @@
     "alias": [],
     "title": "菜单收藏",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -3416,7 +3425,7 @@
     "alias": [],
     "title": "菜单收藏",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -3429,7 +3438,7 @@
     "alias": [],
     "title": "菜单默认颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "菜单",
@@ -3442,7 +3451,7 @@
     "alias": [],
     "title": "消息",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "消息",
@@ -3456,7 +3465,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3465,7 +3474,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3474,7 +3483,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3483,7 +3492,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3492,7 +3501,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3501,7 +3510,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3510,7 +3519,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3519,7 +3528,7 @@
     "alias": [],
     "title": "组织",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "公司",
@@ -3532,7 +3541,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3541,7 +3550,7 @@
     "alias": [],
     "title": "纸飞机",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "纸飞机",
@@ -3553,7 +3562,7 @@
     "alias": [],
     "title": "补丁颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "补丁",
@@ -3566,7 +3575,7 @@
     "alias": [],
     "title": "补丁设置颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "补丁",
@@ -3579,7 +3588,7 @@
     "alias": [],
     "title": "人员",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "员工",
@@ -3593,7 +3602,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3602,7 +3611,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3611,7 +3620,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3620,7 +3629,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3629,7 +3638,7 @@
     "alias": [],
     "title": "360度彩色插件",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "插件",
@@ -3643,7 +3652,7 @@
     "alias": [],
     "title": "插件",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "插件",
@@ -3656,7 +3665,7 @@
     "alias": [],
     "title": "插件边缘颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "插件",
@@ -3671,7 +3680,7 @@
     "alias": [],
     "title": "Excel插件颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "Excel",
@@ -3684,7 +3693,7 @@
     "alias": [],
     "title": "火狐插件颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "火狐",
@@ -3697,7 +3706,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3706,7 +3715,7 @@
     "alias": [],
     "title": "插件图像颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "插件",
@@ -3719,7 +3728,7 @@
     "alias": [],
     "title": "插件Java颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "插件",
@@ -3733,7 +3742,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3742,7 +3751,7 @@
     "alias": [],
     "title": "插件邮件颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "邮件",
@@ -3755,7 +3764,7 @@
     "alias": [],
     "title": "插件",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "插件",
@@ -3768,7 +3777,7 @@
     "alias": [],
     "title": "插件网络颜色2",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "插件",
@@ -3782,7 +3791,7 @@
     "alias": [],
     "title": "插件OCR颜色识别",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "OCR",
@@ -3795,7 +3804,7 @@
     "alias": [],
     "title": "插件PDF颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "插件",
@@ -3808,7 +3817,7 @@
     "alias": [],
     "title": "搜狗插件颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "插件",
@@ -3821,7 +3830,7 @@
     "alias": [],
     "title": "插件SSL颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "插件",
@@ -3834,7 +3843,7 @@
     "alias": [],
     "title": "插件文本颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "插件",
@@ -3848,7 +3857,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3857,7 +3866,7 @@
     "alias": [],
     "title": "投资组合",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "投资",
@@ -3871,7 +3880,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3880,7 +3889,7 @@
     "alias": [],
     "title": "项目标志GF彩色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "项目",
@@ -3894,7 +3903,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3903,7 +3912,7 @@
     "alias": [],
     "title": "问题",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "问题",
@@ -3916,7 +3925,7 @@
     "alias": [],
     "title": "问号",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "问题",
@@ -3930,7 +3939,7 @@
     "alias": [],
     "title": "排名",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "排名",
@@ -3944,7 +3953,7 @@
     "alias": [],
     "title": "排名颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "排名",
@@ -3957,7 +3966,7 @@
     "alias": [],
     "title": "重新筛选",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "筛选",
@@ -3973,7 +3982,7 @@
     ],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -3982,7 +3991,7 @@
     "alias": [],
     "title": "重置",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "重置",
@@ -3997,7 +4006,7 @@
     ],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -4006,7 +4015,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -4015,7 +4024,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -6904,7 +6913,7 @@
     "alias": [],
     "title": "保存",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "保存",
@@ -6917,7 +6926,7 @@
     "alias": [],
     "title": "扫描",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "扫描仪",
@@ -6930,7 +6939,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -6939,7 +6948,7 @@
     "alias": [],
     "title": "脚本",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "脚本",
@@ -6952,7 +6961,7 @@
     "alias": [],
     "title": "脚本颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "编程",
@@ -6965,7 +6974,7 @@
     "alias": [],
     "title": "印章",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "印章",
@@ -6978,7 +6987,7 @@
     "alias": [],
     "title": "搜索",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "搜索",
@@ -7005,7 +7014,7 @@
     "alias": [],
     "title": "设置",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "设置",
@@ -7018,7 +7027,7 @@
     "alias": [],
     "title": "设置动画",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "设置",
@@ -7045,7 +7054,7 @@
     "alias": [],
     "title": "设置填充",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "设置",
@@ -7059,7 +7068,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -7068,7 +7077,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -7077,7 +7086,7 @@
     "alias": [],
     "title": "大小控制",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "控制"
@@ -7088,7 +7097,7 @@
     "alias": [],
     "title": "底部排序",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "排序",
@@ -7101,7 +7110,7 @@
     "alias": [],
     "title": "向下排序",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "排序",
@@ -7114,7 +7123,7 @@
     "alias": [],
     "title": "顶部排序",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "排序",
@@ -7127,7 +7136,7 @@
     "alias": [],
     "title": "排序上升",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "排序",
@@ -7140,7 +7149,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -7149,7 +7158,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -7158,7 +7167,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -7167,7 +7176,7 @@
     "alias": [],
     "title": "状态",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "错误",
@@ -7180,7 +7189,7 @@
     "alias": [],
     "title": "状态",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "错误",
@@ -7193,7 +7202,7 @@
     "alias": [],
     "title": "状态500",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "错误",
@@ -7206,7 +7215,7 @@
     "alias": [],
     "title": "危险状态",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "警告",
@@ -7220,7 +7229,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -7229,7 +7238,7 @@
     "alias": [],
     "title": "状态空",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "状态",
@@ -7242,7 +7251,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -7251,7 +7260,7 @@
     "alias": [],
     "title": "状态信息",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "状态",
@@ -7264,7 +7273,7 @@
     "alias": [],
     "title": "状态成功",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "成功",
@@ -7278,7 +7287,7 @@
     "alias": [],
     "title": "状态警告",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "警告",
@@ -7292,7 +7301,7 @@
     "alias": [],
     "title": "步骤状态失败",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "步骤",
@@ -7307,7 +7316,7 @@
     "alias": [],
     "title": "步骤状态成功",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "步骤",
@@ -7322,7 +7331,7 @@
     "alias": [],
     "title": "商店颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "商店",
@@ -7335,7 +7344,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -7344,7 +7353,7 @@
     "alias": [],
     "title": "支持中心",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "帮助",
@@ -7358,7 +7367,7 @@
     "alias": [],
     "title": "系统类型",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "AIX",
@@ -7372,7 +7381,7 @@
     "alias": [],
     "title": "系统类型",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "系统",
@@ -7385,7 +7394,7 @@
     "alias": [],
     "title": "系统类型",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "系统",
@@ -7398,7 +7407,7 @@
     "alias": [],
     "title": "系统类型",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "系统",
@@ -7411,7 +7420,7 @@
     "alias": [],
     "title": "系统类型",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "系统",
@@ -7424,7 +7433,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -7433,7 +7442,7 @@
     "alias": [],
     "title": "系统类型",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "系统",
@@ -7446,7 +7455,7 @@
     "alias": [],
     "title": "系统类型",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "系统",
@@ -7459,7 +7468,7 @@
     "alias": [],
     "title": "Linux系统类型",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "Linux",
@@ -7472,7 +7481,7 @@
     "alias": [],
     "title": "系统类型",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "路由器",
@@ -7486,7 +7495,7 @@
     "alias": [],
     "title": "Unix系统类型",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "Unix",
@@ -7499,7 +7508,7 @@
     "alias": [],
     "title": "系统类型",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "系统",
@@ -7512,7 +7521,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -7521,7 +7530,7 @@
     "alias": [],
     "title": "表格排序向下颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "表格",
@@ -7535,7 +7544,7 @@
     "alias": [],
     "title": "表格排序",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "表格",
@@ -7548,7 +7557,7 @@
     "alias": [],
     "title": "表格排序上升颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "表格",
@@ -7562,7 +7571,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -7571,7 +7580,7 @@
     "alias": [],
     "title": "任务",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "任务管理",
@@ -7597,7 +7606,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -7606,7 +7615,7 @@
     "alias": [],
     "title": "测试颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "颜色",
@@ -7619,7 +7628,7 @@
     "alias": [],
     "title": "时间",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "时间",
@@ -7632,7 +7641,7 @@
     "alias": [],
     "title": "提示",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "建议",
@@ -7642,11 +7651,29 @@
     ]
   },
   {
+    "name": "to-bottom",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "to-top",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "其他",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "TOP",
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -7655,7 +7682,7 @@
     "alias": [],
     "title": "第一名颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "第一名",
@@ -7668,7 +7695,7 @@
     "alias": [],
     "title": "顶部2号彩色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "顶部",
@@ -7682,7 +7709,7 @@
     "alias": [],
     "title": "前三名颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "排名",
@@ -7695,7 +7722,7 @@
     "alias": [],
     "title": "底部三角形",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "三角形",
@@ -7708,7 +7735,7 @@
     "alias": [],
     "title": "三角形顶部",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "几何",
@@ -7721,7 +7748,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -7730,7 +7757,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -7739,7 +7766,7 @@
     "alias": [],
     "title": "展开",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "展开",
@@ -7754,7 +7781,7 @@
     ],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -7763,7 +7790,7 @@
     "alias": [],
     "title": "上传",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "上传",
@@ -7776,7 +7803,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -7785,7 +7812,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -7794,7 +7821,7 @@
     "alias": [],
     "title": "用户-填充",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "用户",
@@ -7806,7 +7833,7 @@
     "alias": [],
     "title": "用户们",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "用户们",
@@ -7818,7 +7845,7 @@
     "alias": [],
     "title": "用户们-填充",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "用户们",
@@ -7830,7 +7857,7 @@
     "alias": [],
     "title": "变量",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "变量",
@@ -7843,7 +7870,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -7852,7 +7879,7 @@
     "alias": [],
     "title": "视频",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -7861,7 +7888,7 @@
     "alias": [],
     "title": "视频-颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -7870,7 +7897,7 @@
     "alias": [],
     "title": "视图切换卡",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "视图",
@@ -7884,7 +7911,7 @@
     "alias": [],
     "title": "视图切换颜色",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "视图",
@@ -7897,7 +7924,7 @@
     "alias": [],
     "title": "视图切换详情",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "视图",
@@ -7911,7 +7938,7 @@
     "alias": [],
     "title": "视图切换表格",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "视图",
@@ -7926,7 +7953,7 @@
     "alias": [],
     "title": "警告",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": [
       "警告",
@@ -7939,7 +7966,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -7948,7 +7975,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -7957,7 +7984,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -7966,7 +7993,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -7975,7 +8002,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   },
@@ -7984,7 +8011,7 @@
     "alias": [],
     "title": "",
     "category": "base",
-    "categoryCN": "基础",
+    "categoryCN": "其他",
     "author": "KSW",
     "tag": []
   }
