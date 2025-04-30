@@ -1196,6 +1196,15 @@
     ]
   },
   {
+    "name": "app-default-filled-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "application-color",
     "alias": [],
     "title": "",
@@ -1398,6 +1407,15 @@
   },
   {
     "name": "bell",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "bell-filled-color",
     "alias": [],
     "title": "",
     "category": "base",
@@ -1851,6 +1869,15 @@
     "tag": []
   },
   {
+    "name": "coding-test-filled-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "Collect",
     "alias": [],
     "title": "收藏",
@@ -2083,6 +2110,15 @@
       "修改",
       "调整"
     ]
+  },
+  {
+    "name": "efficiency-filled-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "ellipsis-horizontal",
@@ -2946,6 +2982,15 @@
     "tag": []
   },
   {
+    "name": "group-filled-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "hand-stop",
     "alias": [],
     "title": "",
@@ -2966,6 +3011,15 @@
       "存储",
       "彩色"
     ]
+  },
+  {
+    "name": "hub-filled-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "icon-def",
@@ -3524,6 +3578,15 @@
     "tag": []
   },
   {
+    "name": "note-filled-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "organization",
     "alias": [],
     "title": "组织",
@@ -3899,6 +3962,15 @@
     ]
   },
   {
+    "name": "proportion-filled-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "qianxin-browser-color",
     "alias": [],
     "title": "",
@@ -4000,6 +4072,15 @@
     ]
   },
   {
+    "name": "resolve-filled-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "right",
     "alias": [
       "arrow-right"
@@ -4021,6 +4102,24 @@
   },
   {
     "name": "robot",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "robot-filled-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "room-filled-color",
     "alias": [],
     "title": "",
     "category": "base",
@@ -6909,6 +7008,15 @@
     "tag": []
   },
   {
+    "name": "safe-filled-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "save",
     "alias": [],
     "title": "保存",
@@ -6933,6 +7041,15 @@
       "条形码",
       "二维码"
     ]
+  },
+  {
+    "name": "score-filled-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "screenshot",
@@ -7062,6 +7179,15 @@
       "选项",
       "工具"
     ]
+  },
+  {
+    "name": "setting-inter-filled-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "shield",
@@ -7281,6 +7407,15 @@
       "确认",
       "勾选"
     ]
+  },
+  {
+    "name": "status-trip-filled-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "status-warning",
@@ -7568,6 +7703,15 @@
   },
   {
     "name": "tag",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "tag-filled-color",
     "alias": [],
     "title": "",
     "category": "base",
