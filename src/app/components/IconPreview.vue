@@ -15,7 +15,7 @@
         <div class="icon-text icon-title" v-if="hoverState.icon === icon.componentName">
           {{ hoverState.text || icon.title }}
         </div>
-        <component :is="iconComponents[icon.componentName]" />
+        <component :class="shouldCheckeredBoardClass(icon.componentName)" :is="iconComponents[icon.componentName]" />
         <div class="icon-text">
           {{ icon.componentName }}
         </div>
@@ -196,6 +196,30 @@ const downloadIcon = async (componentName, format = "svg") => {
     }
   }
 };
+
+// 对于部分图标使用棋盘格
+const specialIcons = [
+  "IconTagFilledColor",
+  "IconStatusTripFilledColor",
+  "IconSettingInterFilledColor",
+  "IconScoreFilledColor",
+  "IconSafeFilledColor",
+  "IconRoomFilledColor",
+  "IconRobotFilledColor",
+  "IconResolveFilledColor",
+  "IconProportionFilledColor",
+  "IconNoteFilledColor",
+  "IconHubFilledColor",
+  "IconGroupFilledColor",
+  "IconEfficiencyFilledColor",
+  "IconCodingTestFilledColor",
+  "IconBellFilledColor",
+  "IconAppDefaultFilledColor",
+  "IconAppDefault2FilledColor",
+];
+const shouldCheckeredBoardClass = (componentName) => {
+  return specialIcons.includes(componentName) ? "icon-background rounded-lg bg-gray-200" : "";
+};
 </script>
 
 <style scoped>
@@ -282,5 +306,11 @@ const downloadIcon = async (componentName, format = "svg") => {
     opacity: 1;
     translate: 0 10px;
   }
+}
+
+.icon-background {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="rgba(0,0,0,0.05)" d="M0 0h16v16H0zm16 16h16v16H16z"/><path fill="rgba(255,255,255,0.05)" d="M0 16h16v16H0zM16 0h16v16H16z"/></svg>');
+  background-size: 8px;
+  background-position: center;
 }
 </style>
