@@ -1196,6 +1196,15 @@
     ]
   },
   {
+    "name": "app-default-2-filled-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "app-default-filled-color",
     "alias": [],
     "title": "",
@@ -3011,6 +3020,15 @@
       "存储",
       "彩色"
     ]
+  },
+  {
+    "name": "hash",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "hub-filled-color",
