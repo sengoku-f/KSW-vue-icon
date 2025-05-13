@@ -4102,6 +4102,15 @@
     ]
   },
   {
+    "name": "refresh-1",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "reload",
     "alias": [
       "refresh"
@@ -4177,6 +4186,15 @@
     "alias": [],
     "title": "",
     "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "rotate-clockwise",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
     "categoryCN": "基础",
     "author": "KSW",
     "tag": []
