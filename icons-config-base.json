@@ -31,6 +31,15 @@
     "tag": []
   },
   {
+    "name": "alarm-1-fill",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "alarm-clock",
     "alias": [],
     "title": "闹钟",
@@ -68,6 +77,15 @@
   },
   {
     "name": "all-application",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "all-application-1-fill",
     "alias": [],
     "title": "",
     "category": "base",
@@ -3673,6 +3691,15 @@
       "纸飞机",
       "发送"
     ]
+  },
+  {
+    "name": "paperclip",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "patch-color",
