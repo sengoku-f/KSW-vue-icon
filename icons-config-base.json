@@ -8051,6 +8051,24 @@
     "tag": []
   },
   {
+    "name": "user-2-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "user-2-gray-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "user-color",
     "alias": [],
     "title": "",
@@ -8070,6 +8088,15 @@
       "用户",
       "人们"
     ]
+  },
+  {
+    "name": "user-gray-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "user-group",
