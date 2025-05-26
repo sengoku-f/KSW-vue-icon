@@ -21,8 +21,8 @@ const createIconData = (config, name, tag) => ({
   name: config?.name || name,
   alias: config?.alias || [],
   title: config?.title || "",
-  category: config?.category || "Other",
-  categoryCN: config?.categoryCN || "其他",
+  category: config?.category || "base",
+  categoryCN: config?.categoryCN || "基础",
   author: config?.author || "KSW",
   tag: config?.tag || tag,
 });
