@@ -3336,6 +3336,15 @@
     ]
   },
   {
+    "name": "link-slash",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "list-close",
     "alias": [],
     "title": "列表关闭",
