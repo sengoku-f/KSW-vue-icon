@@ -1,7 +1,7 @@
-import { optimize as svgoOptimize } from 'svgo';
-import cheerio from 'cheerio';
+import { optimize as svgoOptimize } from "svgo";
+import cheerio from "cheerio";
 // 获取默认size大小，如果没有设置则为 '24'
-const defaultSize = parseFloat(process.env.npm_package_config_size) || 24
+const defaultSize = parseFloat(process.env.npm_package_config_size) || 24;
 
 // 生成唯一id
 function genID() {
@@ -21,7 +21,7 @@ function transformSize(node) {
   if (node.attributes["width"] && node.attributes["height"]) {
     maxNumber = Math.max(parseFloat(node.attributes["width"]), parseFloat(node.attributes["height"]));
   } else if (node.attributes["viewBox"]) {
-    const viewBoxValues = node.attributes["viewBox"].split(' ').map(Number);
+    const viewBoxValues = node.attributes["viewBox"].split(" ").map(Number);
     maxNumber = Math.max(viewBoxValues[2], viewBoxValues[3]);
   } else {
     // 如果都没有，设置 maxNumber 为默认尺寸
@@ -36,15 +36,15 @@ function transformSize(node) {
   if (node.name == "svg" && node.attributes["viewBox"] != `0 0 ${defaultSize} ${defaultSize}`) {
     traverse(node, result); // 调用递归函数遍历子节点
   }
-  
+
   // 定义递归函数来遍历节点及其子节点
   function traverse(node, result) {
     // 判断当前节点是否需要进行缩放操作
     if (namePattern.test(node.name)) {
-        // 尝试获取节点中的 transform 属性值。如果节点尚未有 transform 属性，currentTransform 将被设置为空字符串
-        const currentTransform = node.attributes["transform"] || "";
-        // 将原有的 transform 属性值（如果有的话）与新的缩放变换（scale(${result})）结合起来，并重新赋值给节点的 transform 属性
-        node.attributes["transform"] = `${currentTransform} scale(${result})`;
+      // 尝试获取节点中的 transform 属性值。如果节点尚未有 transform 属性，currentTransform 将被设置为空字符串
+      const currentTransform = node.attributes["transform"] || "";
+      // 将原有的 transform 属性值（如果有的话）与新的缩放变换（scale(${result})）结合起来，并重新赋值给节点的 transform 属性
+      node.attributes["transform"] = `${currentTransform} scale(${result})`;
     }
     // 如果当前节点有子节点，则继续遍历子节点
     if (node.children) {
@@ -62,14 +62,14 @@ function convertStroke(node, style) {
     // 如果当前节点名称匹配要查找的元素名称,并且存在stroke
     if (namePattern.test(node.name) && node.attributes["stroke"]) {
       // 填充有颜色删除 fill
-      if (new RegExp("#(?:[0-9a-fA-F]{3,4}){1,2}|(?:rgb|hsl)a?\([^\)]*\)").test(node.attributes["fill"])) {
-        delete node.attributes["fill"]
+      if (new RegExp("#(?:[0-9a-fA-F]{3,4}){1,2}|(?:rgb|hsl)a?([^)]*)").test(node.attributes["fill"])) {
+        delete node.attributes["fill"];
       }
       // 如果 style 为 color 则使得 stroke 为当前颜色 否则为 currentColor
       const strokeColor = style === "color" ? node.attributes["stroke"] : "props.color";
       // 对匹配到的节点执行处理逻辑
       Object.assign(node.attributes, {
-        "stroke": strokeColor,
+        stroke: strokeColor,
         "stroke-width": node.attributes["stroke-width"],
         "stroke-linecap": "round",
         "stroke-linejoin": "round",
@@ -94,9 +94,18 @@ function convertStroke(node, style) {
  */
 function optimize(svg, style) {
   // 如果 style 是 'color'，则不移除任何属性；
-  // 如果 style 是其他值，则移除 'fill' 和 'stroke.*'。
+  // 如果 style 是 'fill'，则移除 'fill' 和 'stroke.*', stroke先不移除因为 mastergo 使用了一些stroke。
+  // 如果 style 是 'stroke'，则移除 'stroke.*'；
   // 排除 rect|line|circle|ellipse 元素的 fill 和 stroke 属性, 排除 url 开头的值
-  const removeAttrs = style === "color" ? "" : "*:(fill):^(?!url).*";
+  let removeAttrs = "";
+
+  if (style === "fill") {
+    removeAttrs = "*:(fill):^(?!url).*";
+  } else if (style === "stroke") {
+    removeAttrs = "*:(stroke.*):^(?!url).*";
+  } else if (style === "color") {
+    removeAttrs = "";
+  }
 
   const config = {
     plugins: [
@@ -160,25 +169,27 @@ function optimize(svg, style) {
 // 定义一个处理属性的函数，将 data-ref 改为 ref，并且值不用双引号
 function processAttributes(attributes) {
   let processedAttrs = { ...attributes };
-  if (processedAttrs['data-ref']) {
-    processedAttrs['ref'] = processedAttrs['data-ref']; // 将 data-ref 改为 ref
-    delete processedAttrs['data-ref']; // 删除原有的 data-ref 属性
+  if (processedAttrs["data-ref"]) {
+    processedAttrs["ref"] = processedAttrs["data-ref"]; // 将 data-ref 改为 ref
+    delete processedAttrs["data-ref"]; // 删除原有的 data-ref 属性
   }
   return processedAttrs; // 返回处理后的属性对象
 }
 
 // 节点属性对象转换为字符串形式
 function attributesToString(attributes) {
-  const attrsString = Object.entries(attributes).map(([key, value]) => {
-    if (key === 'ref') {
-      return `${key}: ${value}`; // ref 属性值不用双引号
-    }
-    if (key === 'stroke' && typeof value === 'string' && value.startsWith('props.')) {
-      return `"${key}": ${value}`; // stroke 属性值以 props. 开头不用双引号
-    }
-    // 属性值添加引号
-    return `"${key}": "${value}"`;
-  }).join(", ");
+  const attrsString = Object.entries(attributes)
+    .map(([key, value]) => {
+      if (key === "ref") {
+        return `${key}: ${value}`; // ref 属性值不用双引号
+      }
+      if (key === "stroke" && typeof value === "string" && value.startsWith("props.")) {
+        return `"${key}": ${value}`; // stroke 属性值以 props. 开头不用双引号
+      }
+      // 属性值添加引号
+      return `"${key}": "${value}"`;
+    })
+    .join(", ");
   return `{${attrsString}}`; // 返回包含花括号的属性字符串
 }
 
@@ -200,30 +211,40 @@ function renderSVGElement(svg) {
     const attrsString = attributesToString(attrsObject);
 
     // 过滤出节点的文本内容节点（类型为 text 或 cdata），并且过滤多余的空白字符
-    const textContent = $(node).contents().filter(function() {
-      return this.type === 'text' || this.type === 'cdata';
-    }).text().trim();
+    const textContent = $(node)
+      .contents()
+      .filter(function () {
+        return this.type === "text" || this.type === "cdata";
+      })
+      .text()
+      .trim();
 
     // 递归处理子节点，生成子节点的 VNode 表示
-    const children = $(node).children().map((_, child) => processNode(child)).get();
+    const children = $(node)
+      .children()
+      .map((_, child) => processNode(child))
+      .get();
     // 如果有子节点，则将子节点数组转换为字符串，否则使用文本内容或 null
-    const childrenOrText = children.length ? `[${children.join(", ")}]` : (textContent ? JSON.stringify(textContent) : "null");
+    const childrenOrText = children.length ? `[${children.join(", ")}]` : textContent ? JSON.stringify(textContent) : "null";
 
     // 返回当前节点的 VNode 表示
     return `createVNode("${tagName}", ${attrsString}, ${childrenOrText})`;
   }
 
   // 获取 svg 标签的属性
-  const svgElement = $('svg').get(0);
+  const svgElement = $("svg").get(0);
   const svgAttributes = processAttributes(svgElement.attribs); // 获取 svg 标签的属性
 
   // 递归处理 svg 标签的子节点，生成子节点的 VNode 表示
-  const createVNodeCalls = $('svg').children().map((_, child) => processNode(child)).get();
+  const createVNodeCalls = $("svg")
+    .children()
+    .map((_, child) => processNode(child))
+    .get();
 
   // 返回包含 svg 属性和子节点 VNode 表示的对象
   return {
     svgAttributes: svgAttributes, // svg 标签的属性
-    svgChildren: createVNodeCalls.join(",\n") // 子节点的 VNode 表示
+    svgChildren: createVNodeCalls.join(",\n"), // 子节点的 VNode 表示
   };
 }
 

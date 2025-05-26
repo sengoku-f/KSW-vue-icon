@@ -28,7 +28,7 @@ const getAttrs = (style) => {
   const strokeAttrs = {
     stroke: "props.color",
     fill: "none",
-    "stroke-width": 2,
+    "stroke-width": 1.5,
     "stroke-linecap": "round",
     "stroke-linejoin": "round",
   };
@@ -52,10 +52,7 @@ const getAttrs = (style) => {
 const attrsToString = (attrs) => {
   // 判断 key 是否为变量
   const isVariableOrBoolean = (value) => {
-    return (
-      (typeof value === "string" && value.startsWith("props.")) ||
-      typeof value === "boolean"
-    );
+    return (typeof value === "string" && value.startsWith("props.")) || typeof value === "boolean";
   };
 
   return Object.entries(attrs)
@@ -79,9 +76,7 @@ const utilsCalendarPath = resolve(__dirname, "./utilsCalendar.js");
 const calendarCode = readFileSync(utilsCalendarPath, "utf-8");
 // 生成日历相关的代码，包括导入和获取日期信息
 const getCalendarCode = (svgChildren) => {
-  const modifiedSvgChildren = svgChildren
-    .replace(/"DD"/g, "DD")
-    .replace(/"MMM"/g, "MMM");
+  const modifiedSvgChildren = svgChildren.replace(/"DD"/g, "DD").replace(/"MMM"/g, "MMM");
   return {
     // calendarImport: `import { getCurrentDateInfo } from "../svg/calendarUtils";`,
     // calendarCode: `const { DD, MMM } = getCurrentDateInfo();`,
