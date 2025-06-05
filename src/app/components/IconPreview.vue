@@ -20,11 +20,14 @@
           {{ icon.componentName }}
         </div>
         <div class="icon-options" v-if="hoverState.icon === icon.componentName">
-          <button @click.stop="copyName(icon.componentName)" @mouseenter="handleHover('enter', '复制名称')" @mouseleave="handleHover('leave')">
+          <!-- <button @click.stop="copyName(icon.componentName)" @mouseenter="handleHover('enter', '复制名称')" @mouseleave="handleHover('leave')">
             <IconCopy />
-          </button>
-          <button @click.stop="copyVue(icon.componentName)" @mouseenter="handleHover('enter', '复制Vue')" @mouseleave="handleHover('leave')">
+          </button> -->
+          <button @click.stop="copyVue(icon.componentName)" @mouseenter="handleHover('enter', '复制 VUE')" @mouseleave="handleHover('leave')">
             <IconCode />
+          </button>
+          <button @click.stop="copySVG(icon.componentName)" @mouseenter="handleHover('enter', '复制 SVG')" @mouseleave="handleHover('leave')">
+            <IconCopy />
           </button>
           <button @click.stop="downloadIcon(icon.componentName)" @mouseenter="handleHover('enter', '下载SVG')" @mouseleave="handleHover('leave')">
             <IconSVG class="scale-125" />
@@ -95,29 +98,56 @@ const handleHover = (type, text = null) => {
   hoverState.value.text = type === "enter" ? text : null;
 };
 
-// 下载图标方法
+// 获取渲染后的SVG元素
+const getRenderedSVGElement = (componentName) => {
+  const Component = props.iconComponents[componentName];
+  if (!Component) {
+    throw new Error("未找到对应的图标组件");
+  }
+
+  const container = document.createElement("div");
+  render(h(Component), container);
+
+  const svgElement = container.querySelector("svg");
+  if (!svgElement) {
+    throw new Error("渲染的组件不是有效的 SVG");
+  }
+
+  return { svgElement, container };
+};
+
+// 复制SVG代码
+const copySVG = async (componentName) => {
+  let container = null;
+  try {
+    const { svgElement, container: tempContainer } = getRenderedSVGElement(componentName);
+    container = tempContainer;
+
+    // 优化SVG格式，去除额外属性
+    const svgHtml = svgElement.outerHTML
+      .replace(/(\n|\t)/g, "") // 移除换行和制表符
+      .replace(/\s{2,}/g, " ") // 压缩连续空格
+      .replace(/>\s+</g, "><"); // 移除标签间空格
+
+    await copy(svgHtml);
+    Message.success(`已复制 SVG 代码: ${componentName}`);
+  } catch (error) {
+    console.error("复制 SVG 失败", error);
+    Message.error(`复制 SVG 失败: ${error.message}`);
+  } finally {
+    if (container) {
+      render(null, container);
+      container.remove();
+    }
+  }
+};
+
+// 下载图标方法（优化版）
 const downloadIcon = async (componentName, format = "svg") => {
   let container = null;
   try {
-    // 获取组件对象
-    const Component = props.iconComponents[componentName];
-    if (!Component) {
-      Message.error("未找到对应的图标组件");
-      return;
-    }
-
-    // 创建一个临时容器
-    container = document.createElement("div");
-
-    // 使用 Vue 的 render 函数渲染组件
-    render(h(Component), container);
-
-    // 获取渲染结果（SVG 元素）
-    const svgElement = container.querySelector("svg");
-    if (!svgElement) {
-      Message.error("渲染的组件不是有效的 SVG");
-      return;
-    }
+    const { svgElement, container: tempContainer } = getRenderedSVGElement(componentName);
+    container = tempContainer;
 
     if (format === "svg") {
       // 获取 SVG 的外部 HTML
@@ -156,32 +186,27 @@ const downloadIcon = async (componentName, format = "svg") => {
 
       // 创建一个图像加载 SVG 数据
       const img = new Image();
-      img.onload = () => {
-        // 绘制到 Canvas 上
-        context.clearRect(0, 0, width, height);
-        context.drawImage(img, 0, 0, width, height);
+      await new Promise((resolve, reject) => {
+        img.onload = resolve;
+        img.onerror = reject;
+        img.src = url;
+      });
 
-        // 释放 URL
-        URL.revokeObjectURL(url);
+      context.clearRect(0, 0, width, height);
+      context.drawImage(img, 0, 0, width, height);
 
-        // 导出 PNG 文件
-        canvas.toBlob((blob) => {
-          const link = document.createElement("a");
-          link.href = URL.createObjectURL(blob);
-          link.download = `${componentName}.png`;
-          link.click();
-          URL.revokeObjectURL(link.href);
-          Message.success(`已下载 PNG: ${componentName}`);
-        }, "image/png");
-      };
+      // 释放 URL
+      URL.revokeObjectURL(url);
 
-      img.onerror = () => {
-        URL.revokeObjectURL(url);
-        Message.error("加载 SVG 时出错，无法生成 PNG");
-      };
-
-      // 加载 SVG 数据
-      img.src = url;
+      // 导出 PNG 文件
+      canvas.toBlob((blob) => {
+        const link = document.createElement("a");
+        link.href = URL.createObjectURL(blob);
+        link.download = `${componentName}.png`;
+        link.click();
+        URL.revokeObjectURL(link.href);
+        Message.success(`已下载 PNG: ${componentName}`);
+      }, "image/png");
     } else {
       Message.error("不支持的文件格式");
     }
