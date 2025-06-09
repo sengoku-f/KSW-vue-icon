@@ -109,6 +109,8 @@ const getRenderedSVGElement = (componentName) => {
   render(h(Component), container);
 
   const svgElement = container.querySelector("svg");
+  svgElement.setAttribute("width", "24px");
+  svgElement.setAttribute("height", "24px");
   if (!svgElement) {
     throw new Error("渲染的组件不是有效的 SVG");
   }
