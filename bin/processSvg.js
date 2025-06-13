@@ -150,6 +150,13 @@ function optimize(svg, style) {
           },
         },
       },
+      // 删除行内样式
+      {
+        name: "removeAttrs",
+        params: {
+          attrs: "*:(style):^(fill).*",
+        },
+      },
       // 添加前缀ID 解决 ID 冲突
       {
         name: "prefixIds",

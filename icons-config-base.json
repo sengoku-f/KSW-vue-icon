@@ -2245,6 +2245,15 @@
     "tag": []
   },
   {
+    "name": "error",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "eye",
     "alias": [
       "show"
@@ -2306,6 +2315,15 @@
       "文档",
       "新建"
     ]
+  },
+  {
+    "name": "file-description",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "file-download",
@@ -3077,6 +3095,33 @@
   },
   {
     "name": "hash",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "home",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "home-fill",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "hot",
     "alias": [],
     "title": "",
     "category": "base",
@@ -4231,6 +4276,42 @@
     "alias": [],
     "title": "",
     "category": "RPA",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "rpa-agent-dialogue",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "rpa-agent-history",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "rpa-agent-list",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "rpa-agent-search",
+    "alias": [],
+    "title": "",
+    "category": "base",
     "categoryCN": "基础",
     "author": "KSW",
     "tag": []
@@ -7235,6 +7316,15 @@
     ]
   },
   {
+    "name": "send-2",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "setting",
     "alias": [],
     "title": "设置",
@@ -7876,6 +7966,15 @@
     ]
   },
   {
+    "name": "thinking",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "time",
     "alias": [],
     "title": "时间",
@@ -8052,6 +8151,15 @@
   },
   {
     "name": "user",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "user-2",
     "alias": [],
     "title": "",
     "category": "base",
@@ -8244,6 +8352,15 @@
       "UI",
       "交互"
     ]
+  },
+  {
+    "name": "voice",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "warning",
