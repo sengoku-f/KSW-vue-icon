@@ -2734,6 +2734,15 @@
     ]
   },
   {
+    "name": "folder-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "folder-flash",
     "alias": [],
     "title": "文件夹闪存",
@@ -2746,6 +2755,17 @@
     "name": "folder-flash-color",
     "alias": [],
     "title": "文件夹闪存-彩色",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "folder-ftp-color",
+    "alias": [
+      "PlugInChilkatDelphiColor"
+    ],
+    "title": "",
     "category": "base",
     "categoryCN": "基础",
     "author": "KSW",
