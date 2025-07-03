@@ -1379,6 +1379,15 @@
     ]
   },
   {
+    "name": "attention",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "automate-exp-data-capture-color",
     "alias": [],
     "title": "",
@@ -2389,6 +2398,15 @@
     "tag": []
   },
   {
+    "name": "filter-2",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "filter-fill",
     "alias": [],
     "title": "填充过滤器",
@@ -2445,6 +2463,15 @@
       "管理",
       "工作流"
     ]
+  },
+  {
+    "name": "flow-add-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "flow-back",
@@ -3273,6 +3300,15 @@
     ]
   },
   {
+    "name": "ide-stop2",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "IP",
     "alias": [],
     "title": "IP地址",
@@ -3346,6 +3382,15 @@
     "tag": []
   },
   {
+    "name": "keyboard-2",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "keyboard-color",
     "alias": [],
     "title": "键盘-彩色",
@@ -3388,6 +3433,15 @@
       "设计元素",
       "图形"
     ]
+  },
+  {
+    "name": "line-2",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "link",
@@ -3489,6 +3543,15 @@
   },
   {
     "name": "lock-password",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "lock1",
     "alias": [],
     "title": "",
     "category": "base",
@@ -4094,6 +4157,15 @@
     ]
   },
   {
+    "name": "process",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "progress-bolt",
     "alias": [],
     "title": "",
@@ -4118,6 +4190,15 @@
   },
   {
     "name": "proportion-filled-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "python-add-color",
     "alias": [],
     "title": "",
     "category": "base",
@@ -4245,6 +4326,15 @@
     "tag": []
   },
   {
+    "name": "return",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "right",
     "alias": [
       "arrow-right"
@@ -4301,7 +4391,43 @@
     "tag": []
   },
   {
+    "name": "rpa-agent-collect",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "rpa-agent-collect-fill",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "rpa-agent-dialogue",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "rpa-agent-dialogue-fill",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "rpa-agent-exit",
     "alias": [],
     "title": "",
     "category": "base",
@@ -4319,6 +4445,33 @@
     "tag": []
   },
   {
+    "name": "rpa-agent-history-fill",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "rpa-agent-home",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "rpa-agent-home-fill",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "rpa-agent-list",
     "alias": [],
     "title": "",
@@ -4328,7 +4481,34 @@
     "tag": []
   },
   {
+    "name": "rpa-agent-list-fill",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "rpa-agent-port",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "rpa-agent-search",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "rpa-agent-setting",
     "alias": [],
     "title": "",
     "category": "base",
@@ -6431,7 +6611,9 @@
   },
   {
     "name": "RPASystemMkDir-color",
-    "alias": [],
+    "alias": [
+      "folder-add-color"
+    ],
     "title": "创建文件夹",
     "category": "RPA",
     "categoryCN": "RPA",
@@ -8198,6 +8380,15 @@
   },
   {
     "name": "user-2-gray-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "user-3",
     "alias": [],
     "title": "",
     "category": "base",
