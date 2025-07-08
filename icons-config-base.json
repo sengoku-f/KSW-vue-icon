@@ -3400,6 +3400,15 @@
     "tag": []
   },
   {
+    "name": "krpa-file-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "left",
     "alias": [],
     "title": "",
