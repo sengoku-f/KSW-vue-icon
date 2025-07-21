@@ -1182,6 +1182,33 @@
     ]
   },
   {
+    "name": "aom-menu-ZJBJ-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "aom-menu-ZJGL-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "aom-menu-ZJSH-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "aom-menu-ZXLS-color",
     "alias": [],
     "title": "奥姆菜单",
@@ -2811,6 +2838,15 @@
       "文档",
       "存储"
     ]
+  },
+  {
+    "name": "font-toggle",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "forbid",

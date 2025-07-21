@@ -137,6 +137,13 @@ function optimize(svg, style) {
           };
         },
       },
+      // 删除行内样式
+      {
+        name: "removeAttrs",
+        params: {
+          attrs: "*:(style):^(fill).*",
+        },
+      },
       //运行默认优化设置
       {
         name: "preset-default",
@@ -147,14 +154,41 @@ function optimize(svg, style) {
             // removeUnknownsAndDefaults: {
             //   unknownAttrs: false,
             // },
+            // 默认的配置项
+            // removeDoctype: false,
+            // removeXMLProcInst: false,
+            // removeComments: false,
+            // removeMetadata: false,
+            // removeEditorsNSData: false,
+            // cleanupAttrs: false,
+            // mergeStyles: false,
+            // inlineStyles: false,
+            // minifyStyles: false,
+            // cleanupIds: false,
+            // removeUselessDefs: false,
+            // cleanupNumericValues: false,
+            // convertColors: false,
+            // removeUnknownsAndDefaults: false,
+            // removeNonInheritableGroupAttrs: false,
+            // removeUselessStrokeAndFill: false,
+            // cleanupEnableBackground: false,
+            // removeHiddenElems: false,
+            // removeEmptyText: false,
+            // convertShapeToPath: false,
+            // convertEllipseToCircle: false,
+            // moveElemsAttrsToGroup: false,
+            // moveGroupAttrsToElems: false,
+            // collapseGroups: false,
+            // convertPathData: false,
+            // convertTransform: false,
+            // removeEmptyAttrs: false,
+            // removeEmptyContainers: false,
+            // removeUnusedNS: false,
+            // mergePaths: false,
+            // sortAttrs: false,
+            // sortDefsChildren: false,
+            // removeDesc: false,
           },
-        },
-      },
-      // 删除行内样式
-      {
-        name: "removeAttrs",
-        params: {
-          attrs: "*:(style):^(fill).*",
         },
       },
       // 添加前缀ID 解决 ID 冲突
