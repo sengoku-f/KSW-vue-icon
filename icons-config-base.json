@@ -1299,6 +1299,15 @@
     "tag": []
   },
   {
+    "name": "arrow-big-up-lines",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "arrow-down",
     "alias": [],
     "title": "",
@@ -1818,6 +1827,15 @@
   },
   {
     "name": "chevrons-down",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "circle-arrow-up",
     "alias": [],
     "title": "",
     "category": "base",
@@ -3186,6 +3204,17 @@
     "tag": []
   },
   {
+    "name": "help",
+    "alias": [
+      "question"
+    ],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "home",
     "alias": [],
     "title": "",
@@ -4259,19 +4288,6 @@
     "categoryCN": "基础",
     "author": "KSW",
     "tag": []
-  },
-  {
-    "name": "question",
-    "alias": [],
-    "title": "问题",
-    "category": "base",
-    "categoryCN": "基础",
-    "author": "KSW",
-    "tag": [
-      "问题",
-      "帮助",
-      "询问"
-    ]
   },
   {
     "name": "Question-line",
