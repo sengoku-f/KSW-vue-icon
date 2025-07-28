@@ -1,6 +1,6 @@
 import path from "path";
 import fs from "fs/promises";
-import { rmSync } from "fs";
+import { rmSync, existsSync } from "fs";
 import { fileURLToPath } from "url";
 import prettier from "prettier";
 import { processSvg } from "./processSvg.js";
@@ -257,7 +257,7 @@ async function processVueFile(filePath, index, vueComponentsDir) {
 
 async function removeIconsFile() {
   const removePath = path.join(process.cwd(), "src/icons"); 
-  return rmSync(removePath, { recursive: true });
+  existsSync(removePath) && rmSync(removePath, { recursive: true });
 }
 
 // 执行主函数
