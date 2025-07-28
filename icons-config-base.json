@@ -1250,6 +1250,33 @@
     ]
   },
   {
+    "name": "apa-component",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-process",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-tool",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "app-default-2-filled-color",
     "alias": [],
     "title": "",
@@ -1413,6 +1440,15 @@
       "交换",
       "转换"
     ]
+  },
+  {
+    "name": "at",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "attention",
@@ -2218,6 +2254,15 @@
       "修改",
       "调整"
     ]
+  },
+  {
+    "name": "efficiency",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "efficiency-filled-color",
@@ -3861,6 +3906,15 @@
     "tag": []
   },
   {
+    "name": "note",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "note-filled-color",
     "alias": [],
     "title": "",
@@ -3972,6 +4026,15 @@
   },
   {
     "name": "player-track-next-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "playlist",
     "alias": [],
     "title": "",
     "category": "base",
@@ -7921,6 +7984,15 @@
       "完成",
       "进度"
     ]
+  },
+  {
+    "name": "stop3",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "store-color",
