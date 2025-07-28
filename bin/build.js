@@ -1,5 +1,6 @@
 import path from "path";
 import fs from "fs/promises";
+import { rmSync } from "fs";
 import { fileURLToPath } from "url";
 import prettier from "prettier";
 import { processSvg } from "./processSvg.js";
@@ -141,9 +142,9 @@ const generateMainMapFile = async (exportsByDir) => {
   let mapEntries = "";
 
   exportsByDir.forEach((exports, exportsPath) => {
-    const base = exportsPath.split("/")[1];
+    const base = exportsPath.split(/\/|\\/)[1];
     const camelCasePath = toCamelCase(base);
-    importStrings += `import * as ${camelCasePath} from "./${exportsPath}";\r\n`;
+    importStrings += `import * as ${camelCasePath} from "./${exportsPath.replace(/\\/, '/')}";\r\n`;
     mapEntries += `${camelCasePath},\r\n`;
   });
 
@@ -160,6 +161,7 @@ const generateMainMapFile = async (exportsByDir) => {
 
 async function processFiles() {
   try {
+    await removeIconsFile();
     // 处理 SVG 文件
     const svgDir = path.join(rootDir, "src/svg");
     const svgFiles = await getAllFilesByExt(svgDir, ".svg");
@@ -251,6 +253,11 @@ async function processVueFile(filePath, index, vueComponentsDir) {
     console.error(`处理VUE文件时出错: ${filePath}, 错误信息: ${err.message}`);
     return null;
   }
+}
+
+async function removeIconsFile() {
+  const removePath = path.join(process.cwd(), "src/icons"); 
+  return rmSync(removePath, { recursive: true });
 }
 
 // 执行主函数

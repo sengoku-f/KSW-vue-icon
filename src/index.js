@@ -15,10 +15,18 @@ export const KswIcon = {
 
 // 动态加载图标集的函数
 function loadProjectIcons(projectName) {
-  const projectIcons = ProjectIconsMap[projectName] || {};
-  return { ...ProjectIconsMap["Base"], ...ProjectIconsMap["Animation"], ...projectIcons };
+  const names = (Array.isArray(projectName) ? projectName : [projectName]).filter(name => name && ProjectIconsMap[name]);
+  if (!names.length) {
+    names.push(...['Base', 'KAPA', 'Animation']);
+  }
+  let icons = {};
+  for (const name of names) {
+    icons = Object.assign(icons, ProjectIconsMap[name]);
+  }
+  return icons;
 }
 
 // 同时导出所有图标组件，以支持按需导入
 export * from "./icons/base";
 export * from "./components/animation";
+export default KswIcon;

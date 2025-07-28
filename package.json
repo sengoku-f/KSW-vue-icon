@@ -1,6 +1,6 @@
 {
   "name": "ksw-vue-icon",
-  "version": "3.0.39",
+  "version": "3.0.40",
   "license": "ISC",
   "description": "Vue3 Icons for KSW",
   "type": "module",
@@ -10,8 +10,10 @@
     "dev": "vite",
     "build": "vite build",
     "build:icons": "rm -rf src/icons && node bin/build.js",
+    "build:icons:win": "node bin/build.js",
     "build:icons:config": "node bin/buildConfig.js",
     "build:icons:all": "npm run build:icons:config && npm run build:icons",
+    "build:icons:all:win": "npm run build:icons:config && npm run build:icons:win",
     "build:code": "BUILD=packages vite build",
     "build:r-code": "rollup -c rollup.config.js",
     "build:types": "tsc --emitDeclarationOnly",

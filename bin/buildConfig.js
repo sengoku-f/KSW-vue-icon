@@ -1,4 +1,5 @@
 import { readdir, readFile, writeFile } from "fs/promises";
+import { existsSync } from "fs";
 import { join, dirname, basename, extname } from "path";
 import { fileURLToPath } from "url";
 import { convertSvgToBase64Png } from "./utils.js";
@@ -64,6 +65,8 @@ async function listSvgFilesInDirectories(rootDirectory, useAI = false) {
       // 查找项目特定的 icons-config-${relativePath}.json 中的配置
       const configFilePath = join(rootDir, `icons-config-${dirent.name}.json`);
       let iconsConfig = [];
+      const configPath = join(directoryPath, 'config.json');
+      const projectConfig = existsSync(configPath) ? JSON.parse(await readFile(configPath, 'utf-8')) : null;
       try {
         iconsConfig = JSON.parse(await readFile(configFilePath, "utf8"));
       } catch (err) {
@@ -128,11 +131,9 @@ async function listSvgFilesInDirectories(rootDirectory, useAI = false) {
           // 检查并更新空字段
           configEntry.title = configEntry.title || (Array.isArray(LLMIconData?.title) ? LLMIconData.title[0] : LLMIconData?.title) || "";
 
-          configEntry.category = Array.isArray(LLMIconData?.category) ? LLMIconData.category[0] : LLMIconData?.category || configEntry?.category;
+          configEntry.category = projectConfig?.category || configEntry?.category;
 
-          configEntry.categoryCN = Array.isArray(LLMIconData?.categoryCN)
-            ? LLMIconData.categoryCN[0]
-            : LLMIconData?.categoryCN || configEntry?.categoryCN;
+          configEntry.categoryCN = projectConfig?.categoryCN || configEntry?.categoryCN;
 
           configEntry.tag = configEntry.tag.length > 0 ? configEntry.tag : LLMIconData?.tag || [];
 

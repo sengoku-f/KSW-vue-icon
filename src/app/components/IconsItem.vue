@@ -37,10 +37,9 @@ import IconPreview from "./IconPreview.vue";
 import { ProjectIconsMap } from "@/map";
 import { iconsDataBase } from "~/icons-base.js";
 import { iconsDataAnimation } from "~/icons-animation.js";
-// import { iconsDataGuangfa } from "~/icons-guangfa.js";
-// import { iconsDataKingAutometa } from "~/icons-KingAutometa.js";
+import { iconsDataKAPA } from "~/icons-KAPA.js";
 
-const iconsData = [...iconsDataBase, ...iconsDataAnimation];
+const iconsData = [...iconsDataBase, ...iconsDataAnimation, ...iconsDataKAPA];
 
 // 基于 name 去重
 const uniqueIconsData = Array.from(new Map(iconsData.map((icon) => [icon.name, icon])).values());

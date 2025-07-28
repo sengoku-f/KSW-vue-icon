@@ -1250,33 +1250,6 @@
     ]
   },
   {
-    "name": "apa-component",
-    "alias": [],
-    "title": "",
-    "category": "base",
-    "categoryCN": "基础",
-    "author": "KSW",
-    "tag": []
-  },
-  {
-    "name": "apa-process",
-    "alias": [],
-    "title": "",
-    "category": "base",
-    "categoryCN": "基础",
-    "author": "KSW",
-    "tag": []
-  },
-  {
-    "name": "apa-tool",
-    "alias": [],
-    "title": "",
-    "category": "base",
-    "categoryCN": "基础",
-    "author": "KSW",
-    "tag": []
-  },
-  {
     "name": "app-default-2-filled-color",
     "alias": [],
     "title": "",
