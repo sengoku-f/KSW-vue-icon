@@ -28,5 +28,6 @@ function loadProjectIcons(projectName) {
 
 // 同时导出所有图标组件，以支持按需导入
 export * from "./icons/base";
+export * from "./icons/KAPA";
 export * from "./components/animation";
 export default KswIcon;
