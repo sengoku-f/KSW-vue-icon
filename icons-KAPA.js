@@ -11,7 +11,7 @@ export const iconsDataKAPA = [
     author: "KSW",
     tag: [],
     projectName: "KAPA",
-    modifiedTime: "2025-07-29T07:12:37.753Z",
+    modifiedTime: "2025-07-24T06:11:16.527Z",
   },
   {
     id: 1,
@@ -53,7 +53,7 @@ export const iconsDataKAPA = [
     author: "KSW",
     tag: [],
     projectName: "KAPA",
-    modifiedTime: "2025-06-18T02:13:22.820Z",
+    modifiedTime: "2025-07-30T02:27:29.076Z",
   },
   {
     id: 4,
@@ -70,7 +70,21 @@ export const iconsDataKAPA = [
     modifiedTime: "2025-07-24T06:11:16.528Z",
   },
   {
-    id: 4,
+    id: 5,
+    name: "apa-thinking-color",
+    alias: [],
+    componentName: "IconApaThinkingColor",
+    componentAlias: [],
+    title: "",
+    category: "KAPA",
+    categoryCN: "KAPA",
+    author: "KSW",
+    tag: [],
+    projectName: "KAPA",
+    modifiedTime: "2025-07-30T02:28:24.285Z",
+  },
+  {
+    id: 6,
     name: "apa-tool",
     alias: [],
     componentName: "IconApaTool",
@@ -81,6 +95,6 @@ export const iconsDataKAPA = [
     author: "KSW",
     tag: [],
     projectName: "KAPA",
-    modifiedTime: "2025-07-29T07:12:37.754Z",
+    modifiedTime: "2025-07-24T06:11:16.533Z",
   },
 ];

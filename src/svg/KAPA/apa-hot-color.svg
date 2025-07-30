@@ -3,10 +3,10 @@
   <defs>
     <style>
       .cls-1 {
-        fill: url(#_未命名的渐变_6);
+        fill: url(#ksw);
       }
     </style>
-    <linearGradient id="_未命名的渐变_6" data-name="未命名的渐变 6" x1="12" y1="22.97" x2="12" y2="1.03" gradientUnits="userSpaceOnUse">
+    <linearGradient id="ksw" data-name="未命名的渐变 6" x1="12" y1="22.97" x2="12" y2="1.03" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#fd5392"/>
       <stop offset="1" stop-color="#fa594c"/>
     </linearGradient>
