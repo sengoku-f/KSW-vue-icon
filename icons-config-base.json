@@ -268,6 +268,24 @@
     ]
   },
   {
+    "name": "aom-menu-CMDBPZ-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "aom-menu-CSGL-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "aom-menu-CZRZ-color",
     "alias": [],
     "title": "菜单颜色设置",
@@ -472,6 +490,24 @@
     ]
   },
   {
+    "name": "aom-menu-GJK-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "aom-menu-GJKGL-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "aom-menu-GLST-color",
     "alias": [],
     "title": "",
@@ -585,6 +621,15 @@
       "看板",
       "颜色"
     ]
+  },
+  {
+    "name": "aom-menu-JDGL-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "aom-menu-JGCL-color",
@@ -1025,6 +1070,15 @@
     ]
   },
   {
+    "name": "aom-menu-SJZD-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "aom-menu-SSSJ-color",
     "alias": [],
     "title": "菜单信息颜色",
@@ -1036,6 +1090,15 @@
       "信息",
       "颜色"
     ]
+  },
+  {
+    "name": "aom-menu-TPGL-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "aom-menu-TZJL-color",
