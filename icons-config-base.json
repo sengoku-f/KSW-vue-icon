@@ -1527,6 +1527,15 @@
     ]
   },
   {
+    "name": "brand-safari",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "c-type-autoit-color",
     "alias": [],
     "title": "C型自动色彩",

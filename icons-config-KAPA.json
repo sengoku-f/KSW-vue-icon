@@ -18,6 +18,15 @@
     "tag": []
   },
   {
+    "name": "apa-book",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-component",
     "alias": [],
     "title": "",
@@ -54,6 +63,24 @@
     "tag": []
   },
   {
+    "name": "apa-edit",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-eye",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-folder-open-color",
     "alias": [],
     "title": "",
@@ -72,6 +99,15 @@
     "tag": []
   },
   {
+    "name": "apa-hide",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-hot-color",
     "alias": [],
     "title": "",
@@ -82,6 +118,15 @@
   },
   {
     "name": "apa-knowledge-base",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-otz-prompt-w-color",
     "alias": [],
     "title": "",
     "category": "KAPA",
@@ -117,6 +162,24 @@
     "tag": []
   },
   {
+    "name": "apa-prompt",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-prompt-w",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-retract-operation",
     "alias": [],
     "title": "",
@@ -135,6 +198,33 @@
     "tag": []
   },
   {
+    "name": "apa-struct-form",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-sum-prompt-w",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-text",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-thinking-color",
     "alias": [],
     "title": "",
@@ -145,6 +235,24 @@
   },
   {
     "name": "apa-tool",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-voice-play",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-voice-to-text",
     "alias": [],
     "title": "",
     "category": "KAPA",
