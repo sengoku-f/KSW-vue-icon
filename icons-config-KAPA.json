@@ -117,7 +117,25 @@
     "tag": []
   },
   {
+    "name": "apa-increase",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-knowledge-base",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-model",
     "alias": [],
     "title": "",
     "category": "KAPA",
@@ -181,6 +199,15 @@
   },
   {
     "name": "apa-prompt-w",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-reduce",
     "alias": [],
     "title": "",
     "category": "KAPA",
