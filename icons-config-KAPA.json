@@ -18,7 +18,25 @@
     "tag": []
   },
   {
+    "name": "apa-assoc",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-book",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-clean",
     "alias": [],
     "title": "",
     "category": "KAPA",
@@ -117,7 +135,25 @@
     "tag": []
   },
   {
+    "name": "apa-HTTP",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-increase",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-invk",
     "alias": [],
     "title": "",
     "category": "KAPA",
@@ -136,6 +172,15 @@
   },
   {
     "name": "apa-model",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-more",
     "alias": [],
     "title": "",
     "category": "KAPA",
@@ -163,6 +208,15 @@
   },
   {
     "name": "apa-plan",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-port",
     "alias": [],
     "title": "",
     "category": "KAPA",
@@ -234,6 +288,24 @@
     "tag": []
   },
   {
+    "name": "apa-SSE",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-STDIO",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-struct-form",
     "alias": [],
     "title": "",
@@ -271,6 +343,24 @@
   },
   {
     "name": "apa-tool",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-tool-2-color",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-tool-color",
     "alias": [],
     "title": "",
     "category": "KAPA",

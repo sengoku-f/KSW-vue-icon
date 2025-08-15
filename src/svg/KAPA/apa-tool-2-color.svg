@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: url(#bnklcnjdk);
+      }
+    </style>
+    <linearGradient id="bnklcnjdk" data-name="未命名的渐变 10" x1="12" y1="24" x2="12" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4164eb"/>
+      <stop offset="1" stop-color="#617fff"/>
+    </linearGradient>
+  </defs>
+  <rect class="cls-2" x="0" y="0" width="24" height="24" rx="4" ry="4"/>
+  <path class="cls-1" d="M15.6,7.26c-.22-1.51-1.62-2.57-3.13-2.35-1.22,.17-2.18,1.13-2.35,2.35h-.82c-1.31,0-2.37,1.06-2.37,2.37v.82c-1.51,.22-2.57,1.62-2.35,3.13,.17,1.22,1.13,2.18,2.35,2.35v.82c0,1.31,1.06,2.37,2.37,2.37h2.37v-.4c0-.66,.53-1.19,1.19-1.19s1.19,.53,1.19,1.19v.4h2.37c1.31,0,2.37-1.06,2.37-2.37v-2.37h-.4c-.65,0-1.19-.53-1.19-1.19s.53-1.19,1.19-1.19h.4v-2.37c0-1.31-1.06-2.37-2.37-2.37h-.82Z"/>
+</svg>
