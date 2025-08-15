@@ -4106,6 +4106,15 @@
     "tag": []
   },
   {
+    "name": "player-circle-stop",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "player-skip-forward-fill",
     "alias": [],
     "title": "",
