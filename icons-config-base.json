@@ -1590,6 +1590,15 @@
     ]
   },
   {
+    "name": "brain",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "brand-safari",
     "alias": [],
     "title": "",
@@ -1826,6 +1835,15 @@
     "tag": []
   },
   {
+    "name": "certificate",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "chart-pie",
     "alias": [],
     "title": "饼图",
@@ -1944,6 +1962,15 @@
   },
   {
     "name": "circle-help-fill",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "circle-info",
     "alias": [],
     "title": "",
     "category": "base",
@@ -3546,6 +3573,15 @@
     "tag": []
   },
   {
+    "name": "keyboard-3",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "keyboard-color",
     "alias": [],
     "title": "键盘-彩色",
@@ -3584,6 +3620,15 @@
       "显示",
       "左侧"
     ]
+  },
+  {
+    "name": "license",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "line",
@@ -5930,6 +5975,15 @@
     "tag": []
   },
   {
+    "name": "RPADataSetVariable",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPADataSetVariable-color",
     "alias": [],
     "title": "设置变量",
@@ -6712,6 +6766,15 @@
     "title": "获取输入法",
     "category": "RPA",
     "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPASystemGetMousePosition",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
     "author": "KSW",
     "tag": []
   },
