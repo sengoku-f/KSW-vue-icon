@@ -42,9 +42,16 @@ function transformSize(node) {
     // 判断当前节点是否需要进行缩放操作
     if (namePattern.test(node.name)) {
       // 尝试获取节点中的 transform 属性值。如果节点尚未有 transform 属性，currentTransform 将被设置为空字符串
-      const currentTransform = node.attributes["transform"] || "";
+      let currentTransform = node.attributes["transform"] || "";
       // 将原有的 transform 属性值（如果有的话）与新的缩放变换（scale(${result})）结合起来，并重新赋值给节点的 transform 属性
-      node.attributes["transform"] = `${currentTransform} scale(${result})`;
+      const translateRegex = /translate\(([^)]+)\)/;
+      const match = currentTransform?.match(translateRegex);
+      if (match) {
+        const params = match ? match[1].split(' ').map(Number) : []
+        const newTranslate = `translate(${params[0] * result} ${params[1] ? params[1] * result : ''})`;
+        currentTransform = currentTransform.replace(match[0], newTranslate)
+      }
+      node.attributes["transform"] = `${currentTransform} scale(${result})`
     }
     // 如果当前节点有子节点，则继续遍历子节点
     if (node.children) {
