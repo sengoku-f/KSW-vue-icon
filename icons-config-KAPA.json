@@ -72,6 +72,15 @@
     "tag": []
   },
   {
+    "name": "apa-date",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-desc",
     "alias": [],
     "title": "",
@@ -145,6 +154,15 @@
   },
   {
     "name": "apa-HTTP",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-import",
     "alias": [],
     "title": "",
     "category": "KAPA",
@@ -325,6 +343,15 @@
   },
   {
     "name": "apa-scan",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-search",
     "alias": [],
     "title": "",
     "category": "KAPA",
