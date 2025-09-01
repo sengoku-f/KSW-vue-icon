@@ -63,6 +63,24 @@
     "tag": []
   },
   {
+    "name": "apa-config",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-copy",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-database",
     "alias": [],
     "title": "",
@@ -90,6 +108,24 @@
     "tag": []
   },
   {
+    "name": "apa-dislike",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-dislike-fill",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-down",
     "alias": [],
     "title": "",
@@ -100,6 +136,15 @@
   },
   {
     "name": "apa-edit",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-export",
     "alias": [],
     "title": "",
     "category": "KAPA",
@@ -189,6 +234,15 @@
     "tag": []
   },
   {
+    "name": "apa-IP",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-knowledge-base",
     "alias": [],
     "title": "",
@@ -199,6 +253,24 @@
   },
   {
     "name": "apa-label-color",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-like",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-like-fill",
     "alias": [],
     "title": "",
     "category": "KAPA",
@@ -316,6 +388,15 @@
   },
   {
     "name": "apa-reduce",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-regen",
     "alias": [],
     "title": "",
     "category": "KAPA",
