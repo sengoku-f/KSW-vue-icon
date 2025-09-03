@@ -1,6 +1,6 @@
 import { fileURLToPath, URL } from "node:url";
-import fs from "fs";
 import { globSync } from "glob";
+import fs from 'fs';
 import path from "node:path";
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
@@ -9,6 +9,7 @@ import { libInjectCss } from "vite-plugin-lib-inject-css";
 import { viteStaticCopy } from "vite-plugin-static-copy";
 import generatePackageJson from "./plugins/rollup-plugin-generate-package-json";
 import del from "rollup-plugin-delete";
+import { isWindows } from './bin/os';
 
 // https://vitejs.dev/config/
 const baseConfig = {
@@ -65,10 +66,8 @@ const siteConfig = {
           if (mainKeywords.some((keyword) => id.includes(keyword))) {
             return `main`;
           }
-          console.log("ID:", id);
           if (id.includes("src/icons")) {
             const groups = getGroupedIconChunks();
-            // console.log('Groups:', groups);
             for (const [group, files] of Object.entries(groups)) {
               if (files.includes(id)) {
                 return group;
@@ -95,7 +94,7 @@ function getFileInput() {
   return Object.fromEntries(
     files.map((file) => {
       // 判断是否是根目录的文件
-      const isRootFile = path.isAbsolute(file) || !file.startsWith("src/");
+      const isRootFile = path.isAbsolute(file) || (!file.startsWith("src/") && !file.startsWith("src\\"));
       const relativePath = isRootFile
         ? path.basename(file, path.extname(file)) // 根目录文件使用文件名作为键
         : path.relative(
@@ -103,7 +102,6 @@ function getFileInput() {
             "src",
             path.join(path.parse(file).dir, path.parse(file).name),
           );
-
       return [relativePath, path.resolve(file)];
     }),
   );
@@ -120,8 +118,21 @@ function getIconExternals() {
   // 统一格式化路径
   return allIcons.map((file) => {
     // 如果是文件，使用 path.parse 取文件名；如果是目录，用相对路径
-    return /\.(js|vue)$/.test(file) ? `./${path.parse(file).name}` : `./${path.relative("src", file)}`;
+    const relativePath = /\.(js|vue)$/.test(file) ? `./${path.parse(file).name}` : `./${path.relative("src", file)}`;
+    return isWindows() ? relativePath.replace(/\\/g, "/") : relativePath;
   });
+}
+
+function modifyPkg() {
+  return {
+    name: 'modify-pkg',
+    closeBundle() {
+      const pkgPath = path.join(__dirname, 'packages/package.json');
+      const pkg = JSON.parse(fs.readFileSync(pkgPath, 'utf-8'));
+      pkg.name = '@ksware/ksw-vue-icon';
+      fs.writeFileSync(pkgPath, JSON.stringify(pkg, null, 2));
+    }
+  }
 }
 
 // 默认参数
@@ -168,6 +179,7 @@ const packagesConfig = {
         generatePackageJson({
           output: "packages",
         }),
+        modifyPkg()
       ],
       input: getFileInput(),
       external: ["vue", "./map", "../../runtime", ...getIconExternals()],
