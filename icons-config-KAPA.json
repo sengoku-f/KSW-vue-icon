@@ -81,7 +81,25 @@
     "tag": []
   },
   {
+    "name": "apa-copy-2",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-copy-markdown",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-cue-word-color",
     "alias": [],
     "title": "",
     "category": "KAPA",
@@ -172,6 +190,15 @@
   },
   {
     "name": "apa-folder-open-color",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-go-agent",
     "alias": [],
     "title": "",
     "category": "KAPA",
@@ -432,6 +459,15 @@
     "tag": []
   },
   {
+    "name": "apa-role",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-scan",
     "alias": [],
     "title": "",
@@ -514,6 +550,15 @@
   },
   {
     "name": "apa-thinking-color",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-time",
     "alias": [],
     "title": "",
     "category": "KAPA",
