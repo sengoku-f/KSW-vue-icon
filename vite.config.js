@@ -127,6 +127,9 @@ function modifyPkg() {
   return {
     name: 'modify-pkg',
     closeBundle() {
+      if (process.env.MODE !== 'private') {
+        return;
+      }
       const pkgPath = path.join(__dirname, 'packages/package.json');
       const pkg = JSON.parse(fs.readFileSync(pkgPath, 'utf-8'));
       pkg.name = '@ksware/ksw-vue-icon';

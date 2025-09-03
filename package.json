@@ -1,6 +1,6 @@
 {
   "name": "ksw-vue-icon",
-  "version": "3.0.70",
+  "version": "3.0.71",
   "license": "ISC",
   "description": "Vue3 Icons for KSW",
   "type": "module",
@@ -18,7 +18,8 @@
     "build:r-code": "rollup -c rollup.config.js",
     "build:types": "tsc --emitDeclarationOnly",
     "preview": "vite preview",
-    "publish:private": "npm run build:code && cd packages && npm publish --registry=http://verdaccio.kingsware.cn/",
+    "build:code:private": "cross-env MODE=private npm run build:code",
+    "publish:private": "npm run build:code:private && cd packages && npm publish --registry=http://verdaccio.kingsware.cn/",
     "lint": "vite lint",
     "upv": "node ./gitHooks/updateVersion.js",
     "watch:icons": "chokidar 'src/svg/**/*' -c 'yarn build:icons:all'"
