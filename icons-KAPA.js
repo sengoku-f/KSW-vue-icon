@@ -965,4 +965,18 @@ export const iconsDataKAPA = [
     projectName: "KAPA",
     modifiedTime: "2025-08-07T01:11:28.027Z",
   },
+  {
+    id: 69,
+    name: "apa-workflow",
+    alias: [],
+    componentName: "IconApaWorkflow",
+    componentAlias: [],
+    title: "",
+    category: "KAPA",
+    categoryCN: "KAPA",
+    author: "KSW",
+    tag: [],
+    projectName: "KAPA",
+    modifiedTime: "2025-09-04T03:03:42.179Z",
+  },
 ];
