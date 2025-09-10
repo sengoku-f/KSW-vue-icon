@@ -112,6 +112,15 @@
     "tag": []
   },
   {
+    "name": "anchor-check-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "aom-menu-AOMRZ-color",
     "alias": [],
     "title": "AOM日志",
@@ -3291,6 +3300,15 @@
   },
   {
     "name": "group-filled-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "hand-finger",
     "alias": [],
     "title": "",
     "category": "base",
