@@ -189,6 +189,15 @@
     "tag": []
   },
   {
+    "name": "apa-failure",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-folder-open-color",
     "alias": [],
     "title": "",
@@ -522,6 +531,15 @@
     "tag": []
   },
   {
+    "name": "apa-running",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-scan",
     "alias": [],
     "title": "",
@@ -568,6 +586,15 @@
   },
   {
     "name": "apa-struct-form",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-success",
     "alias": [],
     "title": "",
     "category": "KAPA",
