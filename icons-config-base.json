@@ -1160,6 +1160,33 @@
     ]
   },
   {
+    "name": "aom-menu-XJBGGL-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "aom-menu-XJRW-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "aom-menu-XJXGL-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "aom-menu-XTSZ-color",
     "alias": [],
     "title": "菜单选项",
