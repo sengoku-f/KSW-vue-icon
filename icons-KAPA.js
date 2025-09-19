@@ -897,6 +897,20 @@ export const iconsDataKAPA = [
   },
   {
     id: 64,
+    name: "apa-scene",
+    alias: [],
+    componentName: "IconApaScene",
+    componentAlias: [],
+    title: "",
+    category: "KAPA",
+    categoryCN: "KAPA",
+    author: "KSW",
+    tag: [],
+    projectName: "KAPA",
+    modifiedTime: "2025-09-19T02:25:10.313Z",
+  },
+  {
+    id: 65,
     name: "apa-search",
     alias: [],
     componentName: "IconApaSearch",
@@ -910,7 +924,7 @@ export const iconsDataKAPA = [
     modifiedTime: "2025-08-22T10:04:19.529Z",
   },
   {
-    id: 65,
+    id: 66,
     name: "apa-spanner",
     alias: [],
     componentName: "IconApaSpanner",
@@ -924,7 +938,7 @@ export const iconsDataKAPA = [
     modifiedTime: "2025-09-02T09:09:59.623Z",
   },
   {
-    id: 66,
+    id: 67,
     name: "apa-SSE",
     alias: [],
     componentName: "IconApaSSE",
@@ -938,7 +952,7 @@ export const iconsDataKAPA = [
     modifiedTime: "2025-08-15T07:31:25.492Z",
   },
   {
-    id: 67,
+    id: 68,
     name: "apa-STDIO",
     alias: [],
     componentName: "IconApaSTDIO",
@@ -952,7 +966,7 @@ export const iconsDataKAPA = [
     modifiedTime: "2025-08-15T07:31:25.493Z",
   },
   {
-    id: 68,
+    id: 69,
     name: "apa-struct-form",
     alias: [],
     componentName: "IconApaStructForm",
@@ -966,7 +980,7 @@ export const iconsDataKAPA = [
     modifiedTime: "2025-08-07T01:11:28.024Z",
   },
   {
-    id: 69,
+    id: 70,
     name: "apa-success",
     alias: [],
     componentName: "IconApaSuccess",
@@ -980,7 +994,7 @@ export const iconsDataKAPA = [
     modifiedTime: "2025-09-11T01:00:36.223Z",
   },
   {
-    id: 70,
+    id: 71,
     name: "apa-sum-prompt-w",
     alias: [],
     componentName: "IconApaSumPromptW",
@@ -994,7 +1008,7 @@ export const iconsDataKAPA = [
     modifiedTime: "2025-08-07T01:11:28.025Z",
   },
   {
-    id: 71,
+    id: 72,
     name: "apa-test",
     alias: [],
     componentName: "IconApaTest",
@@ -1008,7 +1022,7 @@ export const iconsDataKAPA = [
     modifiedTime: "2025-08-25T02:23:15.916Z",
   },
   {
-    id: 72,
+    id: 73,
     name: "apa-text",
     alias: [],
     componentName: "IconApaText",
@@ -1022,7 +1036,7 @@ export const iconsDataKAPA = [
     modifiedTime: "2025-08-07T01:11:28.026Z",
   },
   {
-    id: 73,
+    id: 74,
     name: "apa-thinking-color",
     alias: [],
     componentName: "IconApaThinkingColor",
@@ -1036,7 +1050,7 @@ export const iconsDataKAPA = [
     modifiedTime: "2025-07-30T02:28:24.285Z",
   },
   {
-    id: 74,
+    id: 75,
     name: "apa-time",
     alias: [],
     componentName: "IconApaTime",
@@ -1050,7 +1064,7 @@ export const iconsDataKAPA = [
     modifiedTime: "2025-09-03T09:25:49.640Z",
   },
   {
-    id: 75,
+    id: 76,
     name: "apa-tool-2-color",
     alias: [],
     componentName: "IconApaTool2Color",
@@ -1064,7 +1078,7 @@ export const iconsDataKAPA = [
     modifiedTime: "2025-08-15T07:31:25.500Z",
   },
   {
-    id: 76,
+    id: 77,
     name: "apa-tool-color",
     alias: [],
     componentName: "IconApaToolColor",
@@ -1078,7 +1092,7 @@ export const iconsDataKAPA = [
     modifiedTime: "2025-08-15T07:31:25.501Z",
   },
   {
-    id: 77,
+    id: 78,
     name: "apa-tool",
     alias: [],
     componentName: "IconApaTool",
@@ -1092,7 +1106,7 @@ export const iconsDataKAPA = [
     modifiedTime: "2025-09-03T01:21:00.230Z",
   },
   {
-    id: 78,
+    id: 79,
     name: "apa-voice-play",
     alias: [],
     componentName: "IconApaVoicePlay",
@@ -1106,7 +1120,7 @@ export const iconsDataKAPA = [
     modifiedTime: "2025-08-07T01:11:28.027Z",
   },
   {
-    id: 79,
+    id: 80,
     name: "apa-voice-to-text",
     alias: [],
     componentName: "IconApaVoiceToText",
@@ -1120,7 +1134,7 @@ export const iconsDataKAPA = [
     modifiedTime: "2025-08-07T01:11:28.027Z",
   },
   {
-    id: 80,
+    id: 81,
     name: "apa-workflow",
     alias: [],
     componentName: "IconApaWorkflow",
