@@ -66,7 +66,7 @@ const generateIconCode = async (filePath, svgDir) => {
   // 读取 SVG 文件
   const code = await fs.readFile(filePath, "utf-8");
   // 处理 SVG 文件
-  const svgCode = await processSvg(code, names.style); // 将样式传递给 processSvg
+  const svgCode = await processSvg(code, names); // 将样式传递给 processSvg
   const componentName = `Icon${names.componentName}`;
   // 获取组件代码
   const component = await getElementCode(names, svgCode, filePath);

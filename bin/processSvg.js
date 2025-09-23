@@ -1,5 +1,8 @@
 import { optimize as svgoOptimize } from "svgo";
 import cheerio from "cheerio";
+
+const ICON_TYPES = new Set(['color', 'fill', 'stroke']);
+const FILL_REG = /\b(fill)\s*:\s*([^;]+)(;|$)/gi;
 // 获取默认size大小，如果没有设置则为 '24'
 const defaultSize = parseFloat(process.env.npm_package_config_size) || 24;
 
@@ -247,7 +250,7 @@ function attributesToString(attributes) {
  * @returns {string} - 遍历 SVG 元素后的字符串
  */
 // 定义 renderSVGElement 函数，接收一个 SVG 字符串作为参数
-function renderSVGElement(svg) {
+function renderSVGElement(svg, name = '') {
   // 使用 cheerio 加载 SVG 字符串，启用 xmlMode 以便正确处理 SVG
   const $ = cheerio.load(svg, { xmlMode: true });
 
@@ -256,6 +259,15 @@ function renderSVGElement(svg) {
     const tagName = node.tagName; // 获取节点的标签名
     // 使用 processAttributes 函数处理节点的属性
     const attrsObject = processAttributes(node.attribs);
+    const svgStyle = attrsObject['style'];
+    // 处理黑白图标中的fill属性
+    const isNormalSvg = !ICON_TYPES.has(name.split('-').pop());
+    if (isNormalSvg && typeof svgStyle === "string" && FILL_REG.test(svgStyle)) {
+      attrsObject['style'] = svgStyle.replace(
+        FILL_REG,
+        (_, prop, value) => value.trim().startsWith('url(') ? `${prop}:${value}` : ''
+      );
+    }
     const attrsString = attributesToString(attrsObject);
 
     // 过滤出节点的文本内容节点（类型为 text 或 cdata），并且过滤多余的空白字符
@@ -302,9 +314,9 @@ function renderSVGElement(svg) {
  * @param {string} style - 图标的样式
  * @returns {Promise<string>} - 处理后的 SVG 字符串
  */
-async function processSvg(svg, style) {
-  const optimizedSvg = optimize(svg, style);
-  const result = renderSVGElement(optimizedSvg);
+async function processSvg(svg, iconInfo) {
+  const optimizedSvg = optimize(svg, iconInfo.style);
+  const result = renderSVGElement(optimizedSvg, iconInfo.name);
   return result;
 }
 

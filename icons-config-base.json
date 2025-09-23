@@ -2470,6 +2470,15 @@
     "tag": []
   },
   {
+    "name": "error-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "eye",
     "alias": [
       "show"
