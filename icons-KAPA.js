@@ -921,7 +921,7 @@ export const iconsDataKAPA = [
     author: "KSW",
     tag: [],
     projectName: "KAPA",
-    modifiedTime: "2025-09-19T06:02:23.678Z",
+    modifiedTime: "2025-09-23T03:08:33.363Z",
   },
   {
     id: 66,
