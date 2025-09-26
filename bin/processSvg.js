@@ -2,7 +2,7 @@ import { optimize as svgoOptimize } from "svgo";
 import cheerio from "cheerio";
 
 const ICON_TYPES = new Set(['color', 'fill', 'stroke']);
-const FILL_REG = /\b(fill)\s*:\s*([^;]+)(;|$)/gi;
+const FILL_REG = /\bfill:\s*(?!url\(['"]?)[^;}]+;?/gi;
 // 获取默认size大小，如果没有设置则为 '24'
 const defaultSize = parseFloat(process.env.npm_package_config_size) || 24;
 
@@ -261,12 +261,8 @@ function renderSVGElement(svg, name = '') {
     const attrsObject = processAttributes(node.attribs);
     const svgStyle = attrsObject['style'];
     // 处理黑白图标中的fill属性
-    const isNormalSvg = !ICON_TYPES.has(name.split('-').pop());
-    if (isNormalSvg && typeof svgStyle === "string" && FILL_REG.test(svgStyle)) {
-      attrsObject['style'] = svgStyle.replace(
-        FILL_REG,
-        (_, prop, value) => value.trim().startsWith('url(') ? `${prop}:${value}` : ''
-      );
+    if (attrsObject['style']) {
+      attrsObject['style'] = removeTargetAttrs(name, attrsObject['style'])
     }
     const attrsString = attributesToString(attrsObject);
 
@@ -288,7 +284,7 @@ function renderSVGElement(svg, name = '') {
     const childrenOrText = children.length ? `[${children.join(", ")}]` : textContent ? JSON.stringify(textContent) : "null";
 
     // 返回当前节点的 VNode 表示
-    return `createVNode("${tagName}", ${attrsString}, ${childrenOrText})`;
+    return `createVNode("${tagName}", ${attrsString}, ${removeTargetAttrs(name, childrenOrText)})`;
   }
 
   // 获取 svg 标签的属性
@@ -306,6 +302,14 @@ function renderSVGElement(svg, name = '') {
     svgAttributes: svgAttributes, // svg 标签的属性
     svgChildren: createVNodeCalls.join(",\n"), // 子节点的 VNode 表示
   };
+}
+
+function removeTargetAttrs(iconName, attrsStr) {
+  const isNormalSvg = !ICON_TYPES.has(iconName.split('-').pop());
+  if (isNormalSvg && typeof attrsStr === "string" && FILL_REG.test(attrsStr)) {
+    return attrsStr.replace(FILL_REG, '');
+  }
+  return attrsStr;
 }
 
 /**
