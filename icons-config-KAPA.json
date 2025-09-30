@@ -27,6 +27,24 @@
     "tag": []
   },
   {
+    "name": "apa-attachment",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-audio-color",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-book",
     "alias": [],
     "title": "",
@@ -73,6 +91,15 @@
   },
   {
     "name": "apa-config",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-control",
     "alias": [],
     "title": "",
     "category": "KAPA",
@@ -189,6 +216,33 @@
     "tag": []
   },
   {
+    "name": "apa-erase",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-excel-color",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-exit-FS",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-export",
     "alias": [],
     "title": "",
@@ -217,6 +271,15 @@
   },
   {
     "name": "apa-folder-open-color",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-full-screen",
     "alias": [],
     "title": "",
     "category": "KAPA",
@@ -262,6 +325,15 @@
   },
   {
     "name": "apa-HTTP",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-image-color",
     "alias": [],
     "title": "",
     "category": "KAPA",
@@ -441,7 +513,25 @@
     "tag": []
   },
   {
+    "name": "apa-normal-win",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-otz-prompt-w-color",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-pdf-color",
     "alias": [],
     "title": "",
     "category": "KAPA",
@@ -469,6 +559,15 @@
   },
   {
     "name": "apa-port",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-ppt-color",
     "alias": [],
     "title": "",
     "category": "KAPA",
@@ -531,7 +630,25 @@
     "tag": []
   },
   {
+    "name": "apa-refresh",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-regen",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-remote-desk",
     "alias": [],
     "title": "",
     "category": "KAPA",
@@ -631,6 +748,15 @@
   },
   {
     "name": "apa-search",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-small-win",
     "alias": [],
     "title": "",
     "category": "KAPA",
@@ -756,6 +882,24 @@
     "tag": []
   },
   {
+    "name": "apa-txt-color",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-video-color",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-voice-play",
     "alias": [],
     "title": "",
@@ -774,7 +918,25 @@
     "tag": []
   },
   {
+    "name": "apa-word-color",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-workflow",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-zoom",
     "alias": [],
     "title": "",
     "category": "KAPA",
