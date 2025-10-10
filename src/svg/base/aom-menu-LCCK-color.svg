@@ -1,18 +1,18 @@
 <svg id="图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
   <defs>
     <style>
-      .kjdcd {
+      .bcujhiooo90-1 {
         fill: #854bfa;
       }
 
-      .liikdhbnc {
+      .bcujhiooo90-2 {
         fill: #fff;
       }
     </style>
   </defs>
   <g id="IconAomMenuGJKColor">
-    <rect class="kjdcd" width="18" height="18" rx="4" />
+    <rect class="bcujhiooo90-1" width="18" height="18" rx="4" />
   </g>
-  <path class="liikdhbnc"
+  <path class="bcujhiooo90-2"
     d="M13.8,6.57a.66.66,0,0,0,0-1L12.38,4.2a.66.66,0,0,0-1,0L10,5.61H7.35V5.09a.67.67,0,0,0-.67-.67h-2A.67.67,0,0,0,4,5.09v2a.67.67,0,0,0,.67.67h2a.67.67,0,0,0,.67-.67V6.57H10L11.43,8v2.66H10.9a.67.67,0,0,0-.67.67v.52H7.28a1.68,1.68,0,1,0,0,1h3v.53a.67.67,0,0,0,.67.67h2a.67.67,0,0,0,.67-.67v-2a.67.67,0,0,0-.67-.67h-.52V8Z" />
 </svg>

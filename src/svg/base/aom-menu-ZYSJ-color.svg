@@ -1,23 +1,23 @@
 <svg id="图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
   <defs>
     <style>
-      .ghbvc33 {
+      .zwjguycvq52-1 {
         fill: #3b82f6;
       }
 
-      .iuud8hjd {
+      .zwjguycvq52-2 {
         fill: #fff;
       }
     </style>
   </defs>
-  <rect class="ghbvc33" width="18" height="18" rx="4" />
-  <path class="iuud8hjd"
+  <rect class="zwjguycvq52-1" width="18" height="18" rx="4" />
+  <path class="zwjguycvq52-2"
     d="M9,6.37l-.85.85a.37.37,0,0,1-.07.41L6.54,9.17,7,9.58H7L8.49,8A.37.37,0,0,1,9,8.57L7.48,10.11l.41.41h0L9.43,9a.37.37,0,0,1,.53.53L8.42,11.05l.41.41h0l1.54-1.54a.37.37,0,0,1,.41-.07L11.63,9Z" />
-  <path class="iuud8hjd"
+  <path class="zwjguycvq52-2"
     d="M4.13,6.76h0L5.67,5.22a.37.37,0,1,1,.53.53L4.66,7.29l.41.41h0L6.61,6.16a.37.37,0,0,1,.53.53L5.6,8.23l.25.24L8.47,5.85,6.7,4.07a.93.93,0,0,0-1.31,0L4.07,5.39a.93.93,0,0,0,0,1.31Z" />
-  <path class="iuud8hjd"
+  <path class="zwjguycvq52-2"
     d="M13.93,11.3,12.15,9.53,9.53,12.15l.24.25h0l1.54-1.54a.37.37,0,0,1,.53.53L10.3,12.93l.41.41h0l1.54-1.54a.37.37,0,0,1,.53.53l-1.54,1.54.06.06a.93.93,0,0,0,1.31,0l1.32-1.32A.93.93,0,0,0,13.93,11.3Z" />
-  <rect class="iuud8hjd" x="5.41" y="7.36" width="6.75" height="3.72" transform="translate(-3.95 8.91) rotate(-45)" />
-  <path class="iuud8hjd" d="M4.56,10.82l-.31,2.82a.11.11,0,0,0,.11.11l2.82-.31Z" />
-  <path class="iuud8hjd" d="M13,7.62l.47-.47a.94.94,0,0,0,0-1.32L12.17,4.52a.94.94,0,0,0-1.32,0L10.38,5Z" />
+  <rect class="zwjguycvq52-2" x="5.41" y="7.36" width="6.75" height="3.72" transform="translate(-3.95 8.91) rotate(-45)" />
+  <path class="zwjguycvq52-2" d="M4.56,10.82l-.31,2.82a.11.11,0,0,0,.11.11l2.82-.31Z" />
+  <path class="zwjguycvq52-2" d="M13,7.62l.47-.47a.94.94,0,0,0,0-1.32L12.17,4.52a.94.94,0,0,0-1.32,0L10.38,5Z" />
 </svg>

@@ -1,19 +1,19 @@
 <svg id="图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
   <defs>
     <style>
-      .mhtydjvfx {
+      .gggjxoiuq72-1 {
         fill: #f0953a;
       }
 
-      .mhjvfx {
+      .gggjxoiuq72-2 {
         fill: #fff;
       }
     </style>
   </defs>
   <g id="IconAomMenuMJRWColor">
-    <rect class="mhtydjvfx" width="18" height="18" rx="4" />
+    <rect class="gggjxoiuq72-1" width="18" height="18" rx="4" />
   </g>
-  <circle class="mhjvfx" cx="11.98" cy="12.06" r="1.94" />
-  <path class="mhjvfx"
+  <circle class="gggjxoiuq72-2" cx="11.98" cy="12.06" r="1.94" />
+  <path class="gggjxoiuq72-2"
     d="M8.3,10.39a.48.48,0,0,0-.68,0,.49.49,0,0,0,0,.69l.5.5H7.3A1.23,1.23,0,0,1,6,10.41,1.23,1.23,0,0,1,7.3,9.24h3.55A2.2,2.2,0,0,0,13.1,7.11,2.2,2.2,0,0,0,10.85,5H6.9a1.46,1.46,0,1,0,0,1h3.95a1.23,1.23,0,0,1,1.29,1.17,1.23,1.23,0,0,1-1.29,1.16H7.3a2.2,2.2,0,0,0-2.25,2.14A2.2,2.2,0,0,0,7.3,12.55h.82l-.5.5a.48.48,0,0,0,0,.68.48.48,0,0,0,.68,0L9.63,12.4a.48.48,0,0,0,0-.68Z" />
 </svg>

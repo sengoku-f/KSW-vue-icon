@@ -1,21 +1,21 @@
 <svg id="图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
   <defs>
     <style>
-      .kjdcdfgre {
+      .hcqjuqq88-1 {
         fill: #34c765;
       }
 
-      .akjdfddcd {
+      .hcqjuqq88-2 {
         fill: #fff;
       }
     </style>
   </defs>
   <g id="IconAomMenuCSGLColor">
-    <rect class="kjdcdfgre" width="18" height="18" rx="4" />
+    <rect class="hcqjuqq88-1" width="18" height="18" rx="4" />
   </g>
-  <rect class="akjdfddcd" x="4" y="4.36" width="10" height="3.5" rx="1" />
-  <path class="akjdfddcd"
+  <rect class="hcqjuqq88-2" x="4" y="4.36" width="10" height="3.5" rx="1" />
+  <path class="hcqjuqq88-2"
     d="M11.1,10.71a.51.51,0,0,0-.36-.15.5.5,0,0,0-.35.15L8.67,12.43l-1.06-1a.5.5,0,0,0-.35-.15.51.51,0,0,0-.36.15.5.5,0,0,0,0,.7l1.41,1.41a.51.51,0,0,0,.36.15A.5.5,0,0,0,9,13.49l2.08-2.07A.51.51,0,0,0,11.1,10.71Z" />
-  <path class="akjdfddcd"
+  <path class="hcqjuqq88-2"
     d="M13,8.93H5a1,1,0,0,0-1,1v1.5a1,1,0,0,0,1,1H6.16a1.32,1.32,0,0,1-.2-.7,1.28,1.28,0,0,1,.38-.92,1.29,1.29,0,0,1,1.83,0l.5.49,1.15-1.16a1.34,1.34,0,0,1,.92-.38,1.3,1.3,0,0,1,.92.38,1.28,1.28,0,0,1,.38.92,1.26,1.26,0,0,1-.38.92l-.45.45H13a1,1,0,0,0,1-1V9.93A1,1,0,0,0,13,8.93Z" />
 </svg>
