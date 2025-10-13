@@ -1523,6 +1523,24 @@
     ]
   },
   {
+    "name": "arrows-maximize",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "arrows-minimize",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "at",
     "alias": [],
     "title": "",
@@ -2070,6 +2088,15 @@
       "清除",
       "时间管理"
     ]
+  },
+  {
+    "name": "click-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "clipboard",
@@ -3344,6 +3371,15 @@
     "tag": []
   },
   {
+    "name": "hand-click-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "hand-finger",
     "alias": [],
     "title": "",
@@ -3655,6 +3691,15 @@
   },
   {
     "name": "krpa-file-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "layers-intersect-color",
     "alias": [],
     "title": "",
     "category": "base",
