@@ -63,7 +63,25 @@
     "tag": []
   },
   {
+    "name": "apa-capsule-app",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-clean",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-clean-app",
     "alias": [],
     "title": "",
     "category": "KAPA",
@@ -91,6 +109,15 @@
   },
   {
     "name": "apa-config",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-config-app",
     "alias": [],
     "title": "",
     "category": "KAPA",
@@ -828,6 +855,15 @@
     "tag": []
   },
   {
+    "name": "apa-task",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-test",
     "alias": [],
     "title": "",
@@ -937,6 +973,15 @@
   },
   {
     "name": "apa-workflow",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-workflow2",
     "alias": [],
     "title": "",
     "category": "KAPA",
