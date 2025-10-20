@@ -102,7 +102,7 @@ function convertStroke(node, style) {
  * @param {string} style - 图标的样式
  * @returns {Promise<string>} - 优化后的 SVG 字符串
  */
-function optimize(svg, style) {
+function optimize(svg, { style, name }) {
   // 如果 style 是 'color'，则不移除任何属性；
   // 如果 style 是 'fill'，则移除 'fill' 和 'stroke.*', stroke先不移除因为 mastergo 使用了一些stroke。
   // 如果 style 是 'stroke'，则移除 'stroke.*'；
@@ -146,6 +146,43 @@ function optimize(svg, style) {
             },
           };
         },
+      },
+      {
+        name: "rename-class",
+        fn: (ast) => {
+          let seq = 1;
+          const classMapping = new Map();
+          
+          function traverse(node) {
+            if (node.name === 'style' && node.children?.[0]?.value) {
+              let css = node.children[0].value;
+              css = css.replace(/\.([a-zA-Z0-9_-]+)/g, (_match, className) => {
+                if (!classMapping.has(className)) {
+                  classMapping.set(className, `${name}-${seq++}`);
+                }
+                return `.${classMapping.get(className)}`;
+              });
+              node.children[0].value = css;
+            }
+            if (node.attributes?.class) {
+              const classes = node.attributes.class.split(' ').filter(Boolean);
+              const newClasses = classes.map(cls => {
+                if (!classMapping.has(cls)) {
+                  classMapping.set(cls, `${name}-${seq++}`);
+                }
+                return classMapping.get(cls);
+              });
+              // 递归处理所有节点
+              node.attributes.class = newClasses.join(' ');
+            }
+            
+            if (node.children) {
+              node.children.forEach(child => traverse(child));
+            }
+          }
+
+          ast.children.forEach(node => traverse(node));
+        }
       },
       // 删除行内样式
       {
@@ -319,7 +356,7 @@ function removeTargetAttrs(iconName, attrsStr) {
  * @returns {Promise<string>} - 处理后的 SVG 字符串
  */
 async function processSvg(svg, iconInfo) {
-  const optimizedSvg = optimize(svg, iconInfo.style);
+  const optimizedSvg = optimize(svg, iconInfo);
   const result = renderSVGElement(optimizedSvg, iconInfo.name);
   return result;
 }
