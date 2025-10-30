@@ -1243,7 +1243,7 @@ export const iconsDataKAPA = [
     author: "KSW",
     tag: [],
     projectName: "KAPA",
-    modifiedTime: "2025-10-28T07:34:54.566Z",
+    modifiedTime: "2025-10-30T02:29:59.067Z",
   },
   {
     id: 89,

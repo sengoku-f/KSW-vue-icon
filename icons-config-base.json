@@ -121,6 +121,15 @@
     "tag": []
   },
   {
+    "name": "aom-alarm-normal",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "aom-alarm-prompt",
     "alias": [],
     "title": "",
