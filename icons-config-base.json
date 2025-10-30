@@ -130,6 +130,15 @@
     "tag": []
   },
   {
+    "name": "aom-alarm-offline",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "aom-alarm-prompt",
     "alias": [],
     "title": "",
