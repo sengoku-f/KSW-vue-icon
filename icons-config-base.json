@@ -9071,6 +9071,15 @@
     ]
   },
   {
+    "name": "warning-circle",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "warning-circle-file",
     "alias": [],
     "title": "",
