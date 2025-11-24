@@ -18,6 +18,15 @@
     "tag": []
   },
   {
+    "name": "apa-android",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-argument-fill",
     "alias": [],
     "title": "",
@@ -1098,6 +1107,15 @@
     "tag": []
   },
   {
+    "name": "apa-window",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-word-color",
     "alias": [],
     "title": "",
@@ -1126,6 +1144,15 @@
   },
   {
     "name": "apa-write",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-xinchuang",
     "alias": [],
     "title": "",
     "category": "KAPA",
