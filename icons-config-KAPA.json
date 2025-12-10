@@ -1,5 +1,14 @@
 [
   {
+    "name": "apa-add-sub",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-agent-manage",
     "alias": [],
     "title": "",
@@ -702,6 +711,15 @@
     "tag": []
   },
   {
+    "name": "apa-pause",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-pdf-color",
     "alias": [],
     "title": "",
@@ -792,6 +810,15 @@
     "tag": []
   },
   {
+    "name": "apa-quote",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-reduce",
     "alias": [],
     "title": "",
@@ -802,6 +829,15 @@
   },
   {
     "name": "apa-refresh",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-refresh2",
     "alias": [],
     "title": "",
     "category": "KAPA",
@@ -874,6 +910,15 @@
   },
   {
     "name": "apa-role",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-run",
     "alias": [],
     "title": "",
     "category": "KAPA",
