@@ -59,7 +59,7 @@ jobs:
         if: steps.check.outputs.changed == 'true'
         run: |
           cd packages
-          yarn publish
+          npm publish
         # env:
         #   NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
 
