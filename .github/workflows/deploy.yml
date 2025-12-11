@@ -59,9 +59,9 @@ jobs:
         if: steps.check.outputs.changed == 'true'
         run: |
           cd packages
-          npm publish
-        # env:
-        #   NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+          yarn publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
 
       # 部署 GitHub Pages
       - name: Deploy GitHub Pages
