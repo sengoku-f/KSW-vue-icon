@@ -11,6 +11,7 @@ on:
 
 # 设置 GITHUB_TOKEN 的权限，以允许部署到 GitHub Pages
 permissions:
+  id-token: write
   contents: write
 
 jobs:
@@ -59,8 +60,8 @@ jobs:
         run: |
           cd packages
           yarn publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+        # env:
+        #   NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
 
       # 部署 GitHub Pages
       - name: Deploy GitHub Pages
