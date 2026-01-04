@@ -234,6 +234,15 @@
     "tag": []
   },
   {
+    "name": "apa-data-src",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-database",
     "alias": [],
     "title": "",
@@ -262,6 +271,15 @@
   },
   {
     "name": "apa-desc",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-disable",
     "alias": [],
     "title": "",
     "category": "KAPA",
@@ -306,7 +324,25 @@
     "tag": []
   },
   {
+    "name": "apa-edit2",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-empower",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-enable",
     "alias": [],
     "title": "",
     "category": "KAPA",
@@ -343,6 +379,15 @@
   },
   {
     "name": "apa-exit-FS",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-exp-para",
     "alias": [],
     "title": "",
     "category": "KAPA",
@@ -396,6 +441,33 @@
     "tag": []
   },
   {
+    "name": "apa-father-seg-color",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-file",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-file-fill",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-fold",
     "alias": [],
     "title": "",
@@ -415,6 +487,24 @@
   },
   {
     "name": "apa-full-screen",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-full-txt-color",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-general-color",
     "alias": [],
     "title": "",
     "category": "KAPA",
@@ -657,6 +747,15 @@
     "tag": []
   },
   {
+    "name": "apa-mix-color",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-model",
     "alias": [],
     "title": "",
@@ -712,6 +811,15 @@
   },
   {
     "name": "apa-otz-prompt-w-color",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-para-set",
     "alias": [],
     "title": "",
     "category": "KAPA",
@@ -828,6 +936,24 @@
     "tag": []
   },
   {
+    "name": "apa-recall-t",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-recall-t-fill",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-reduce",
     "alias": [],
     "title": "",
@@ -874,6 +1000,15 @@
   },
   {
     "name": "apa-remote-desk2",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-ret-para",
     "alias": [],
     "title": "",
     "category": "KAPA",
@@ -1000,6 +1135,33 @@
   },
   {
     "name": "apa-search",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-sel-search",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-setting-fill2",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-setting2",
     "alias": [],
     "title": "",
     "category": "KAPA",
@@ -1279,6 +1441,15 @@
   },
   {
     "name": "apa-variable",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-vector-color",
     "alias": [],
     "title": "",
     "category": "KAPA",
