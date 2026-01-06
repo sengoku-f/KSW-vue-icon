@@ -630,6 +630,15 @@
     "tag": []
   },
   {
+    "name": "apa-k-base",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-knowledge-base",
     "alias": [],
     "title": "",
@@ -676,6 +685,15 @@
   },
   {
     "name": "apa-like-fill",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-link-ext",
     "alias": [],
     "title": "",
     "category": "KAPA",
