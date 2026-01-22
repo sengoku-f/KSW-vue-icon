@@ -11,7 +11,7 @@ export const iconsDataAnimation = [
     author: "KSW",
     tag: [],
     projectName: "animation",
-    modifiedTime: "2025-06-18T02:13:22.403Z",
+    modifiedTime: "2025-04-11T12:53:16.229Z",
   },
   {
     id: 1,
@@ -25,6 +25,6 @@ export const iconsDataAnimation = [
     author: "KSW",
     tag: [],
     projectName: "animation",
-    modifiedTime: "2025-06-18T02:13:22.405Z",
+    modifiedTime: "2025-04-14T02:59:39.022Z",
   },
 ];

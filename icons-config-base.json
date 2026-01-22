@@ -3689,6 +3689,15 @@
     "tag": []
   },
   {
+    "name": "input",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "IP",
     "alias": [],
     "title": "IP地址",
@@ -3880,6 +3889,24 @@
     "tag": []
   },
   {
+    "name": "list",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "list-check",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "list-close",
     "alias": [],
     "title": "列表关闭",
@@ -3891,6 +3918,15 @@
       "关闭",
       "管理"
     ]
+  },
+  {
+    "name": "list-details",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "list-open",
@@ -4213,6 +4249,15 @@
   },
   {
     "name": "note-filled-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "number-123",
     "alias": [],
     "title": "",
     "category": "base",
@@ -7988,6 +8033,15 @@
     ]
   },
   {
+    "name": "select",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "send",
     "alias": [],
     "title": "发送图标",
@@ -8153,6 +8207,24 @@
       "上升",
       "箭头"
     ]
+  },
+  {
+    "name": "square-check",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "square-rounded-letter-b",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "stack-push",
@@ -8554,6 +8626,15 @@
     "tag": []
   },
   {
+    "name": "table-1",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "table-sort-down-color",
     "alias": [],
     "title": "表格排序向下颜色",
@@ -8659,6 +8740,24 @@
       "测试",
       "图标"
     ]
+  },
+  {
+    "name": "text",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "text-area",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
   },
   {
     "name": "thinking",
