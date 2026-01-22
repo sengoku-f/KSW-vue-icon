@@ -6596,7 +6596,9 @@
   },
   {
     "name": "RPAProgrammingConvertDataType-color",
-    "alias": [],
+    "alias": [
+      "RPAProgrammingConvertDataTypeFromTable"
+    ],
     "title": "",
     "category": "RPA",
     "categoryCN": "RPA",
@@ -6614,7 +6616,9 @@
   },
   {
     "name": "RPAProgrammingDeleteDuplicateRow-color",
-    "alias": [],
+    "alias": [
+      "RPAProgrammingDeleteDuplicateRowOfTable-color"
+    ],
     "title": "",
     "category": "RPA",
     "categoryCN": "RPA",
@@ -6623,7 +6627,9 @@
   },
   {
     "name": "RPAProgrammingDeleteRowAndColData-color",
-    "alias": [],
+    "alias": [
+      "RPAProgrammingDelRowOrColFromDataTable-color"
+    ],
     "title": "",
     "category": "RPA",
     "categoryCN": "RPA",
@@ -6640,7 +6646,7 @@
     "tag": []
   },
   {
-    "name": "RPAProgrammingForEachRow-color",
+    "name": "RPAProgrammingFilterDataTable-color",
     "alias": [],
     "title": "",
     "category": "RPA",
@@ -6649,7 +6655,27 @@
     "tag": []
   },
   {
+    "name": "RPAProgrammingForEachRow-color",
+    "alias": [
+      "RPAProgrammingForEachDataTable-color"
+    ],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "RPAProgrammingFreeDataTable-color",
+    "alias": [],
+    "title": "",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingGetAllColNames-color",
     "alias": [],
     "title": "",
     "category": "RPA",
@@ -6679,7 +6705,9 @@
   },
   {
     "name": "RPAProgrammingHandleMissValue-color",
-    "alias": [],
+    "alias": [
+      "RPAProgrammingHandleMissValueFromTable-color"
+    ],
     "title": "",
     "category": "RPA",
     "categoryCN": "RPA",
@@ -6699,6 +6727,15 @@
     "name": "RPAProgrammingInvokeSubScript-color",
     "alias": [],
     "title": "调用流程",
+    "category": "RPA",
+    "categoryCN": "RPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "RPAProgrammingKeepRepeatRows-color",
+    "alias": [],
+    "title": "",
     "category": "RPA",
     "categoryCN": "RPA",
     "author": "KSW",
@@ -6825,7 +6862,10 @@
     "name": "RPAProgrammingSpliceColData-color",
     "alias": [
       "RPAProgrammingSortDataTable-color",
-      "RPAProgrammingColumnsOperation-color"
+      "RPAProgrammingColumnsOperation-color",
+      "RPAProgrammingSpliceTwoColData-color",
+      "RPAProgrammingNewSortDataTable-color",
+      "RPAProgrammingTwoColumnsOperation-color"
     ],
     "title": "",
     "category": "RPA",
@@ -6835,7 +6875,9 @@
   },
   {
     "name": "RPAProgrammingSummaryCalColumn-color",
-    "alias": [],
+    "alias": [
+      "RPAProgrammingCalculateByColumn-color"
+    ],
     "title": "",
     "category": "RPA",
     "categoryCN": "RPA",
@@ -6854,7 +6896,9 @@
   {
     "name": "RPAProgrammingWriteDataToTable-color",
     "alias": [
-      "RPAProgrammingModiyRowAndColName-color"
+      "RPAProgrammingModiyRowAndColName-color",
+      "RPAProgrammingWriteDataToDataTable-color",
+      "RPAProgrammingModiyColNames-color"
     ],
     "title": "",
     "category": "RPA",
