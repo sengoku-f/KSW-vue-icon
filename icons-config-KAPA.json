@@ -756,6 +756,24 @@
     "tag": []
   },
   {
+    "name": "apa-login-captcha",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "apa-login-lock",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "apa-logo-color",
     "alias": [],
     "title": "",
@@ -1648,6 +1666,15 @@
   },
   {
     "name": "apa-zoom",
+    "alias": [],
+    "title": "",
+    "category": "KAPA",
+    "categoryCN": "KAPA",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "login-user",
     "alias": [],
     "title": "",
     "category": "KAPA",
