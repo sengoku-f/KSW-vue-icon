@@ -4649,6 +4649,15 @@
     ]
   },
   {
+    "name": "plugin-curl-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "pointer",
     "alias": [],
     "title": "",
