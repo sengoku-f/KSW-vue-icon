@@ -4149,6 +4149,15 @@
     ]
   },
   {
+    "name": "menu-deep",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "menu-def-color",
     "alias": [],
     "title": "菜单默认颜色",
