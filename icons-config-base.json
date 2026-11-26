@@ -920,6 +920,15 @@
     ]
   },
   {
+    "name": "aom-menu-LZFGL-color",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
     "name": "aom-menu-MBCS-color",
     "alias": [],
     "title": "",
@@ -1498,6 +1507,15 @@
   },
   {
     "name": "arrow-back-up",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "arrow-bar-to-left-right-dashed",
     "alias": [],
     "title": "",
     "category": "base",
@@ -2097,6 +2115,15 @@
   },
   {
     "name": "circle-arrow-up",
+    "alias": [],
+    "title": "",
+    "category": "base",
+    "categoryCN": "基础",
+    "author": "KSW",
+    "tag": []
+  },
+  {
+    "name": "circle-arrow-up-fill",
     "alias": [],
     "title": "",
     "category": "base",
